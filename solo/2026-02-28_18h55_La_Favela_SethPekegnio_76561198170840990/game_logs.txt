@@ -1,0 +1,1786 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ LA FAVELA GAME - SESSION DE DEBUG AAA                                       ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ Session ID: 20260228_185404_3020                                            ║
+║ Démarré le: 2026-02-28 18:54:04                                             ║
+║ Godot: 4.5.1-stable (official)                                              ║
+║ OS: Windows                                                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+[28/02 18:54:04.539] [TRACE] [LogSystem] 📋 Synchronisation log Godot activée: C:/Users/niko9/AppData/Roaming/Godot/app_userdata/LaFavelaGame/logs/godot.log
+[28/02 18:54:04.541] [INFO] [LogSystem] === SESSION DE LOG AAA DÉMARRÉE ===
+[28/02 18:54:04.541] [INFO] [LogSystem] ID Session: 20260228_185404_3020
+[28/02 18:54:04.541] [INFO] [LogSystem] Chemin: C:/Users/niko9/Documents/LaFavelaGame/logs/game_logs.txt
+[28/02 18:54:04.541] [INFO] [LogSystem] Godot: 4.5.1-stable (official)
+[28/02 18:54:04.541] [INFO] [LogSystem] OS: Windows
+[28/02 18:54:04.541] [DEBUG] [LogSystem] Mémoire au démarrage: 181.43 MB
+[28/02 18:54:04.549] [INFO] [NodeGroupCache] Systeme de cache de groupes initialise
+[28/02 18:54:04.733] [DEBUG] [VoiceChat] 🎤 [Peer:1] [INIT] === VOICE CHAT MANAGER READY ===
+[28/02 18:54:04.733] [DEBUG] [VoiceChat] 🎤 [Peer:1] [INIT] Mode: PTT, Distance max: 10.0m
+[28/02 18:54:05.231] [INFO] [Weather] Système météo initialisé - CLEAR, 20.0°C
+[28/02 18:54:05.232] [INFO] [Achievements] Steam détecté - synchronisation activée
+[28/02 18:54:05.232] [INFO] [Achievements] Système initialisé - 3/56 débloqués
+[28/02 18:54:09.830] [INFO] [Godot] NodeHelper ready - Fonctions de recherche centralisees
+[28/02 18:54:09.831] [INFO] [Godot] ✓ UIFactory ready - Composants UI centralisés
+[28/02 18:54:09.831] [INFO] [Godot] MultiplayerHelper ready - Fonctions multijoueur centralisees
+[28/02 18:54:09.831] [INFO] [Resource] 🗂️ ResourceCache initialisé (avec support async)
+[28/02 18:54:09.831] [INFO] [Godot] [Statistics] Statistiques initialisees - Mode session (stats fraiches)
+[28/02 18:54:09.831] [INFO] [Godot] === INVENTORY SYSTEM (CLOTHING-BASED) INITIALIZED ===
+[28/02 18:54:09.831] [INFO] [Godot] ✓ Structure d'inventaire créée: 8 slots (4 vêtements + 4 poches)
+[28/02 18:54:09.831] [INFO] [Godot] ✓ Inventaire chargé depuis Global (0 items)
+[28/02 18:54:09.831] [INFO] [Godot] ⏱️ TimeSystem ready: Jour 1 — 06:00
+[28/02 18:54:09.831] [INFO] [Godot] 🌅 Connecté à TimeSystem - Heure: 06:00 - Phase: dawn
+[28/02 18:54:09.831] [INFO] [Godot] 🌅 GlobalDayNightCycle initialisé (AAA Quality)
+[28/02 18:54:09.831] [INFO] [Godot] === EVENT SYSTEM INITIALIZED ===
+[28/02 18:54:09.831] [INFO] [Godot] === CLUE SYSTEM INITIALIZED ===
+[28/02 18:54:09.831] [INFO] [Godot] ℹ️ No clues file found
+[28/02 18:54:09.831] [INFO] [Godot] [BodyPartSystem] Initialisé
+[28/02 18:54:09.831] [INFO] [Godot] [SkillSystem] Systeme de competences initialise
+[28/02 18:54:09.831] [INFO] [Godot] [SkillSystem] 12 competences chargees
+[28/02 18:54:09.831] [INFO] [Godot] [SkillSystem] Donnees chargees: 0 competences
+[28/02 18:54:09.831] [INFO] [Godot] [CombatMasterySystem] Initialisé
+[28/02 18:54:09.831] [INFO] [Godot] AdressesDatabase: Eden City system ready - 23 districts, 45 streets
+[28/02 18:54:09.831] [INFO] [Godot] 🎨 CharacterCustomizer: 82 textures preloadées (cache vidé)
+[28/02 18:54:09.831] [INFO] [Godot] === CITIZEN DATABASE INITIALIZED ===
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: idle (depuis Root|Idle)
+[28/02 18:54:09.832] [INFO] [Godot]     🔧 Root motion supprimé: run
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: run (depuis Root|Run)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: jump (depuis Root|Jump)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: Typing (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]     🔧 Root motion supprimé: Walking
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: Walking (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: Dying (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: Death From Right (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: DeathFromTheFront (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: InjuredIdle (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]     🔧 Root motion supprimé: InjuredWalkjambe
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: InjuredWalkjambe (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]     🔧 Root motion supprimé: InjuredWalkingbras
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: InjuredWalkingbras (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]     🔧 Root motion supprimé: InjuredRunjambe
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: InjuredRunjambe (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: Injured Hurting Idle (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: SittingMale (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: SittingFemale (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: Giveobject (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ Animation chargée: Openingdoor1 (depuis mixamo_com)
+[28/02 18:54:09.832] [INFO] [Godot] 🏊 PNJPool ready (call initialize_async() to pre-populate)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ DialogueUI
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ DoorContextMenu
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ PNJContextMenu
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ BedContextMenu
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ DateDisplayUI (hidden by default)
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ EvidenceContextMenu
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ InvestigationProgressUI
+[28/02 18:54:09.832] [INFO] [Godot]   ✓ GameModeIndicator (hidden by default)
+[28/02 18:54:09.832] [INFO] [Godot] ✅ UIManager initialisé - Tous les UIs prêts
+[28/02 18:54:09.832] [INFO] [Godot] ============================================================
+[28/02 18:54:09.832] [INFO] [Godot] [MULTIPLAYER] Protocol Version: 1.1.0
+[28/02 18:54:09.832] [INFO] [Godot] [MULTIPLAYER] Features: base64_position, steam_p2p_voice, bandwidth_optimizer, name_sanitize
+[28/02 18:54:09.832] [INFO] [Godot] ============================================================
+[28/02 18:54:09.832] [INFO] [Godot] 🚀 [AAA] BandwidthOptimizer activé (-70% bandwidth sur positions)
+[28/02 18:54:09.832] [INFO] [Godot] [TickRate] Preset applied: MEDIUM
+[28/02 18:54:09.832] [INFO] [Physics] [TickRate] Physics: 60 Hz, Network: 20 Hz, Validation: 10 Hz
+[28/02 18:54:09.832] [INFO] [Godot] ✅ [AAA FIX BUG001] RemotePlayers container PERSISTANT créé dans MultiplayerManager
+[28/02 18:54:09.832] [INFO] [Godot] ✅ Steam Lobbies initialisé
+[28/02 18:54:09.832] [INFO] [Godot] ✅ ApproachDialogueSystem: Templates chargés (4 catégories)
+[28/02 18:54:09.832] [INFO] [Godot] ✅ ApproachDialogueSystem: Templates contextuels chargés (7 catégories)
+[28/02 18:54:09.832] [INFO] [Godot] [DossierManager] Système de dossiers initialisé
+[28/02 18:54:09.832] [INFO] [Godot] [QuestSystem] Systeme de quetes initialise
+[28/02 18:54:09.832] [INFO] [Godot] [QuestSystem] 0 templates de quetes charges
+[28/02 18:54:09.832] [INFO] [Godot] [QuestSystem] Donnees chargees: 1 actives, 0 completees
+[28/02 18:54:09.832] [INFO] [Godot] 📱 PhoneManager initialisé (Multiplayer)
+[28/02 18:54:09.832] [INFO] [Godot] 📱 0 téléphones chargés
+[28/02 18:54:09.832] [INFO] [Godot] 📱 Signaux multiplayer connectés
+[28/02 18:54:09.832] [INFO] [Godot]   Bus 'Microphone' créé avec AudioEffectCapture
+[28/02 18:54:09.832] [INFO] [Godot]   Bus 'VoiceChat' créé (send → Master)
+[28/02 18:54:09.832] [INFO] [Godot]   Microphone configuré
+[28/02 18:54:09.832] [INFO] [Godot]   Signaux PhoneManager connectés pour vocal
+[28/02 18:54:09.832] [INFO] [Godot]   Action 'voice_chat' (touche V) enregistrée
+[28/02 18:54:09.833] [INFO] [Godot]   VoiceIndicatorUI créée
+[28/02 18:54:09.833] [INFO] [Godot] 🎤 [Peer:1] [INIT] === VOICE CHAT MANAGER READY ===
+[28/02 18:54:09.833] [INFO] [Godot] 🎤 [Peer:1] [INIT] Mode: PTT, Distance max: 10.0m
+[28/02 18:54:09.833] [INFO] [Godot] 🧹 CleaningService initialisé
+[28/02 18:54:09.833] [INFO] [Godot] 💋 EscortService initialisé
+[28/02 18:54:09.833] [INFO] [Godot] === POLICE SERVICE INITIALISÉ (v5.0 - Architecture Modulaire AAA) ===
+[28/02 18:54:09.833] [INFO] [Godot]   Numéro d'urgence: 911 / 17
+[28/02 18:54:09.833] [INFO] [Godot]   Escalade: INFINIE (1 mort = 2 renforts)
+[28/02 18:54:09.833] [INFO] [Godot] [PoliceDialogueManager] Dialogues chargés (4 contextes)
+[28/02 18:54:09.833] [INFO] [Godot]   ✓ Modules AAA initialisés (Dialogue, Spawning, Confrontation)
+[28/02 18:54:09.833] [INFO] [Godot]   ✅ Dialogues police chargés (4 contextes)
+[28/02 18:54:09.833] [INFO] [Godot]   ✅ Signaux multiplayer connectés
+[28/02 18:54:09.833] [INFO] [Godot] ApartmentVariationSystem: Initialized with 8 themes
+[28/02 18:54:09.833] [INFO] [Godot] [FurnitureCatalog] Catalogue initialisé avec 59 items
+[28/02 18:54:09.833] [INFO] [Godot] [FloorStateManager] Système de gestion par étage AAA initialisé
+[28/02 18:54:09.833] [INFO] [Godot] === CRIME SCENE SYSTEM INITIALISÉ ===
+[28/02 18:54:09.833] [INFO] [Godot] ✓ Scène de crime préchargée: CrimeSceneApartment
+[28/02 18:54:09.833] [INFO] [Godot] === TIMELINE SYSTEM INITIALISÉ ===
+[28/02 18:54:09.833] [INFO] [Godot] 🌍 LanguageManager initialisé - Langue: fr
+[28/02 18:54:09.833] [INFO] [Godot] [CaseAssignmentSystem] Système d'assignation initialisé
+[28/02 18:54:09.833] [INFO] [Godot] [GameLoopManager] Systeme de boucle de jeu initialise
+[28/02 18:54:09.833] [INFO] [Godot] [GameLoopManager] Donnees chargees: phase=0, cas actifs=0
+[28/02 18:54:09.833] [INFO] [Godot] [BriefingSystem] Systeme de briefing initialise
+[28/02 18:54:09.833] [INFO] [Godot] [DebriefingSystem] Systeme de debriefing initialise
+[28/02 18:54:09.833] [INFO] [Godot] [TutorialManager] Systeme de tutoriel initialise
+[28/02 18:54:09.833] [INFO] [Godot] [TutorialManager] Donnees chargees: 0 tutoriels completes
+[28/02 18:54:09.833] [INFO] [Godot] [TutorialTracker] Systeme de tracking tutoriel initialise
+[28/02 18:54:09.833] [INFO] [Godot] [InvestigationResolver] Systeme de resolution initialise
+[28/02 18:54:09.833] [INFO] [Godot] [DialogueConsequenceSystem] Systeme de consequences initialise
+[28/02 18:54:09.833] [INFO] [Godot] [DialogueConsequenceSystem] Donnees chargees
+[28/02 18:54:09.833] [INFO] [Godot] ╔══════════════════════════════════════════════════════════════╗
+[28/02 18:54:09.833] [INFO] [Godot] ║        LA FAVELA - GANG SYSTEM MANAGER v2.0                  ║
+[28/02 18:54:09.833] [INFO] [Godot] ║              AUTO-INITIALIZATION MODE                        ║
+[28/02 18:54:09.833] [INFO] [Godot] ╚══════════════════════════════════════════════════════════════╝
+[28/02 18:54:09.833] [INFO] [Godot] [NarrativeFramework] Framework narratif initialise
+[28/02 18:54:09.833] [INFO] [Godot] [NarrativeFramework] Donnees chargees - Chapitre: premiers_pas
+[28/02 18:54:09.833] [INFO] [Godot] [InputRemapper] Bindings charges
+[28/02 18:54:09.833] [INFO] [Godot] [InputRemapper] Systeme de remappage initialise
+[28/02 18:54:09.833] [INFO] [Godot] [ReputationSystem] Systeme de reputation initialise (6 factions)
+[28/02 18:54:09.833] [INFO] [Godot] [PlayerNotesSystem] Carnet d'investigation initialise (5 notes) - Input DÉSACTIVÉ par défaut
+[28/02 18:54:09.833] [INFO] [Godot] === JOB SYSTEM INITIALIZED ===
+[28/02 18:54:09.833] [INFO] [Godot] UIAnimations ready - Animations UI standardisees
+[28/02 18:54:09.833] [INFO] [Godot] === DEALER SYSTEM INITIALIZED ===
+[28/02 18:54:09.833] [INFO] [Godot] 🏦 Nouveau heist disponible: Épicerie
+[28/02 18:54:09.833] [INFO] [Godot] 🏦 Nouveau heist disponible: Station essence
+[28/02 18:54:09.833] [INFO] [Godot] === HEIST SYSTEM INITIALIZED ===
+[28/02 18:54:09.833] [INFO] [Godot] === GANG AFFILIATION SYSTEM INITIALIZED ===
+[28/02 18:54:09.833] [INFO] [Godot] MapOverlaySystem initialise (M pour ouvrir)
+[28/02 18:54:09.833] [INFO] [Godot] StrategicMapManager: Initializing...
+[28/02 18:54:09.833] [INFO] [Godot] StrategicMapManager: Ready with 4 subsystems
+[28/02 18:54:09.833] [INFO] [Godot] RealEstateUIManager: Connected to BuildingSystemManager
+[28/02 18:54:09.834] [INFO] [Godot] RealEstateUIManager: Connected to ApartmentVariationSystem
+[28/02 18:54:09.834] [INFO] [Godot] RealEstateUIManager: Initialized (H pour ouvrir Dynasty 8 Real Estate)
+[28/02 18:54:09.834] [INFO] [Godot] [FinanceManager] Initialized - Debts: 0, Investments: 0
+[28/02 18:54:09.834] [INFO] [Godot] [SkillSystem] Passifs recalcules: 0 types actifs
+[28/02 18:54:09.834] [INFO] [Godot] [BusinessManager] Daily market refreshed: 44/69 brands, 97 lots (day 1)
+[28/02 18:54:09.834] [INFO] [Godot] [BusinessManager] Initialized - Drugs: 0 types, Dealers: 0, Spots: 0, Suppliers: 2, Brands: 44/69 avail
+[28/02 18:54:09.834] [INFO] [Godot] [ArmsManager] Initialized - Weapons: 0 types, Runners: 0, Points: 0
+[28/02 18:54:09.834] [INFO] [Godot] [VehicleManager] Initialized - Vehicles: 0/2
+[28/02 18:54:09.834] [INFO] [Godot] [CareerManager] Initialized - Criminal career:  (Rank 0)
+[28/02 18:54:09.834] [INFO] [Godot] [PlayerLifeManager v2.0.0] Initialized
+[28/02 18:54:09.834] [INFO] [Godot]   - Net Worth: $1000.00
+[28/02 18:54:09.834] [INFO] [Godot]   - Milestones: 0/19
+[28/02 18:54:09.834] [INFO] [Godot]   - Financial Health: POOR
+[28/02 18:54:09.834] [INFO] [Godot] 📦 DroppedItemsManager initialisé
+[28/02 18:54:09.834] [INFO] [Godot] 💬 [ChatboxManager] Historique chargé
+[28/02 18:54:09.834] [INFO] [Godot] 💬 [ChatboxManager] Initialisé avec 6 canaux
+[28/02 18:54:09.834] [INFO] [Godot] DamageSystem ready
+[28/02 18:54:09.834] [INFO] [Godot] 🩸 BloodEffects ready (pool: 20 decals)
+[28/02 18:54:09.834] [INFO] [Godot] WantedSystem ready
+[28/02 18:54:09.834] [INFO] [Godot] AmmoSystem ready (rechargement 3 etapes)
+[28/02 18:54:09.834] [INFO] [Godot]   🔊 Sons charges: mag_out=true, mag_insert=true, chamber=true, empty=true, holster=true
+[28/02 18:54:09.834] [INFO] [Godot]   🔫 Sons shotgun: pump=true, shell_load=true
+[28/02 18:54:09.834] [INFO] [Godot] IntimidationSystem ready
+[28/02 18:54:09.834] [INFO] [Godot] NPCReactionSystem ready
+[28/02 18:54:09.834] [INFO] [Godot] === GANG BRIDGE INITIALIZED ===
+[28/02 18:54:09.834] [INFO] [Godot] === APARTMENT MANAGER INITIALISÉ ===
+[28/02 18:54:09.834] [INFO] [Godot] ✓ Scène appartement préchargée
+[28/02 18:54:09.834] [INFO] [Resource] 🔊 Son d'urination chargé: res://systems/assets/audio/pisseU.ogg
+[28/02 18:54:09.834] [INFO] [Godot] EmbeddedBulletSystem ready
+[28/02 18:54:09.834] [INFO] [Godot] 🎨 DrawingMenuManager initialisé (settings intégrés)
+[28/02 18:54:09.834] [INFO] [Godot] 📝 PetitBacMenuManager initialisé (settings intégrés)
+[28/02 18:54:09.834] [INFO] [Godot] ✅ CodenamesMenuManager initialisé (settings intégrés) - 711 mots
+[28/02 18:54:09.834] [INFO] [Godot] ✅ QuiplashMenuManager initialisé
+[28/02 18:54:09.834] [INFO] [Godot] PacmanMenuManager ready
+[28/02 18:54:09.834] [INFO] [Godot] === HI-FI MANAGER PRÊT (PERSISTANT) ===
+[28/02 18:54:09.834] [INFO] [Godot]   Albums trouvés: 2
+[28/02 18:54:09.834] [INFO] [Godot] [CardManager] Initialise: 28 types de sons
+[28/02 18:54:09.834] [INFO] [Godot] [PoliticsSystem] Système politique initialisé - 9 contacts VIP
+[28/02 18:54:09.834] [INFO] [Godot] [DealSpotNPCManager] Initialized (vivant mode)
+[28/02 18:54:09.834] [INFO] [Godot] [FlashbackSystem] Systeme de flashbacks initialise (16 flashbacks)
+[28/02 18:54:09.834] [INFO] [Godot] 🎙️ [VoiceLineManager] Catalogue chargé: 326 voix, 164 IDs
+[28/02 18:54:09.834] [INFO] [Godot] 🎙️ VoiceLineManager ready — 326 entries, pool=12, lang=fr
+[28/02 18:54:09.834] [INFO] [Godot] 🎮 Steam Rich Presence: Au menu principal
+[28/02 18:54:09.834] [INFO] [Godot] 💬 Discord Rich Presence: Au menu principal
+[28/02 18:54:09.834] [INFO] [Godot] [MenuPrincipal] Slideshow configure: 4 images, intervalle 10.0s
+[28/02 18:54:09.834] [INFO] [Godot] [MenuPrincipal] Connection des signaux... (has_saves=true)
+[28/02 18:54:09.834] [INFO] [Godot]   ✓ button_play connecté
+[28/02 18:54:09.834] [INFO] [Godot]   ✓ button_load connecté (disabled=false)
+[28/02 18:54:09.834] [INFO] [Godot]   ✓ button_join_friend connecté
+[28/02 18:54:09.834] [INFO] [Godot]   ✓ button_options connecté
+[28/02 18:54:09.834] [INFO] [Godot]   ✓ button_quit connecté
+[28/02 18:54:09.834] [INFO] [Godot]   ✓ Signal connection_success connecté pour Steam
+[28/02 18:54:09.834] [INFO] [Godot]   ✓ Signal connection_failed connecté
+[28/02 18:54:09.834] [INFO] [Godot]   ✓ Signal lobby_join_failed connecté
+[28/02 18:54:09.834] [INFO] [Godot]   ✓ Signal lobby_creation_failed connecté
+[28/02 18:54:09.834] [INFO] [Godot]   ✓ Signal p2p_connection_timeout connecté
+[28/02 18:54:09.834] [INFO] [Godot] ✓ Traits du joueur initialisés
+[28/02 18:54:09.835] [INFO] [Godot] [BodyPartSystem] Body parts initialisés pour player (base force=76.8, endurance=32.5)
+[28/02 18:54:09.835] [INFO] [Godot] [CombatMasterySystem] Données initialisées (11 types)
+[28/02 18:54:09.835] [INFO] [Godot] 🔄 PNJManager: Initializing pools async...
+[28/02 18:54:09.835] [INFO] [Godot] 🏊 PNJPool: Starting async initialization (20 PNJs)
+[28/02 18:54:09.835] [INFO] [Godot] InvestigationProgressUI initialise
+[28/02 18:54:09.835] [INFO] [Godot] 📱 Pas de téléphone existant à broadcaster
+[28/02 18:54:09.835] [INFO] [Godot] 🎤 VoiceIndicatorUI connecté au VoiceChatManager
+[28/02 18:54:09.835] [INFO] [Godot] [TutorialManager] Timer onboarding demarre
+[28/02 18:54:09.835] [INFO] [Godot] 🔄 Auto-initializing gang systems...
+[28/02 18:54:09.835] [INFO] [Godot] ⏸️ [GangSystem] In main menu - systems will initialize but NOT start
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ TerritorySystem
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ GangAI
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ StoreSystemManager connected to GangEconomy
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ WeatherSystem connected to GangEconomy
+[28/02 18:54:09.835] [INFO] [Godot] ✓ GangEconomy connected - 37 businesses, 13 markets
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ GangEconomy
+[28/02 18:54:09.835] [INFO] [Godot] ✓ PlayerGangSystem connected to other systems
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ PlayerGangSystem
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ GangMemberSpawner
+[28/02 18:54:09.835] [INFO] [Godot]   GangEventSystem ready (Weather: OK, Time: OK)
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ GangEventSystem
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ GangWarManager
+[28/02 18:54:09.835] [INFO] [Godot]   GangReputationSystem ready
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ GangReputationSystem
+[28/02 18:54:09.835] [INFO] [Godot] ContrabandMarketSystem connected to other systems
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ ContrabandMarketSystem
+[28/02 18:54:09.835] [INFO] [Godot] AllianceSystem connected to other systems
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ AllianceSystem
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ LogSystem connected for live logs
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ GangSystem connected (direct)
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ DevMagicBook (Press O)
+[28/02 18:54:09.835] [INFO] [Godot] ╔══════════════════════════════════════════════════════════════╗
+[28/02 18:54:09.835] [INFO] [Godot] ║              ✓ GANG SYSTEM FULLY OPERATIONAL                 ║
+[28/02 18:54:09.835] [INFO] [Godot] ╠══════════════════════════════════════════════════════════════╣
+[28/02 18:54:09.835] [INFO] [Godot] ║  Press O     - Open Dev Console                              ║
+[28/02 18:54:09.835] [INFO] [Godot] ║  Press F5    - Print full status                             ║
+[28/02 18:54:09.835] [INFO] [Godot] ║  Press F6    - Force economy tick                            ║
+[28/02 18:54:09.835] [INFO] [Godot] ║  Press F7    - Trigger random event                          ║
+[28/02 18:54:09.835] [INFO] [Godot] ╚══════════════════════════════════════════════════════════════╝
+[28/02 18:54:09.835] [INFO] [Godot] 💬 [ChatboxUI] Interface créée
+[28/02 18:54:09.835] [INFO] [Godot] 💬 [ChatboxManager] UI créée et ajoutée à la scène
+[28/02 18:54:09.835] [INFO] [Godot] === GANG BRIDGE: World -> Player signals connected ===
+[28/02 18:54:09.835] [INFO] [Godot] ✓ GangMemberSpawner connected - 206 spawn points generated
+[28/02 18:54:09.835] [INFO] [Godot] 🔊 133 boutons connectés au feedback audio
+[28/02 18:54:09.835] [INFO] [Godot] 🔊 UIAudioFeedback initialisé (visual=true)
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ WeatherSystem connected
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ TimeSystem connected
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ GameLoopManager connected
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ QuestSystem connected
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ EventSystem connected
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ TraitSystem connected
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ SkillSystem connected
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ Inventory connected
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ ReputationSystem connected
+[28/02 18:54:09.835] [INFO] [Godot]   ✓ BankingSystem connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ PNJManager connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ PNJGenerator connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ CrimeSceneSystem connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ InvestigationResolver connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ CaseAssignmentSystem connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ ClueSystem connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ DossierManager connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ DamageSystem connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ WantedSystem connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ PoliceService connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ UIManager connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ FinanceManager connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ BusinessManager connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ VehicleManager connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ CareerManager connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ PlayerLifeManager connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ GangWarManager connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ GangReputationSystem connected
+[28/02 18:54:09.836] [INFO] [Godot]   ✓ GangEventSystem connected
+[28/02 18:54:09.836] [INFO] [Godot] 🌍 [AutonomousWorld] Initialisation de l'univers autonome...
+[28/02 18:54:09.836] [INFO] [Godot] 🌍 [AutonomousWorld] ⚠️ Signaux autonomes DÉSACTIVÉS (fix memory spike)
+[28/02 18:54:09.836] [INFO] [Godot] 🌍 [AutonomousWorld] ⚠️ Tick autonome DÉSACTIVÉ (debug freeze) - GangAI gère déjà le monde
+[28/02 18:54:09.836] [INFO] [Godot] 👮 [INIT] Aucun policier dans la scène au démarrage
+[28/02 18:54:09.836] [INFO] [Godot] 💧 0 taches chargées
+[28/02 18:54:09.836] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 158ms! (expected ~16ms)
+[28/02 18:54:09.836] [INFO] [Godot] 🎵 [AUTO-START] Démarrage automatique de la musique: album 1
+[28/02 18:54:09.836] [INFO] [Godot] 🎵 [AUTO-START] Lecture: HowHighInstrumental.mp3
+[28/02 18:54:09.836] [INFO] [Godot] 🎵 Lecture album 1 / HowHighInstrumental.mp3
+[28/02 18:54:09.836] [INFO] [Godot] ✅ PNJManager: Pools ready
+[28/02 18:54:10.372] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:10.372] [INFO] [Godot] !!! MEMORY SPIKE #1 DETECTED at 6.0s !!!
+[28/02 18:54:10.372] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:10.372] [INFO] [Godot]   >>> PROCESS (Task Manager): 300 MB (delta: +300 MB) <<<
+[28/02 18:54:10.372] [INFO] [Godot]   Static: 300 MB (delta: +118.9 MB)
+[28/02 18:54:10.372] [INFO] [Godot]   VRAM: 440 MB
+[28/02 18:54:10.372] [INFO] [Resource]   Objects: 12104 (+9791) | Nodes: 923 (+779) | Resources: 2189 (+1566)
+[28/02 18:54:10.372] [INFO] [Godot] ═══ SYSTEM STATE DUMP ═══
+[28/02 18:54:10.372] [INFO] [Godot] MaterialPool: cached=0, max=40, total_uses=0
+[28/02 18:54:10.372] [INFO] [Shader]   shader_cache: 0 entries
+[28/02 18:54:10.372] [INFO] [Godot] ModelPool: available=5, in_use=0, total=5
+[28/02 18:54:10.372] [INFO] [Godot] AnimPlayerPool: available=10, in_use=0, anims=17
+[28/02 18:54:10.372] [INFO] [Godot] PNJManager: active_pnjs=0
+[28/02 18:54:10.372] [INFO] [Godot] PNJCache: entries=0
+[28/02 18:54:10.372] [INFO] [Godot] BloodEffects: decals=0, floor=0, by_id=0
+[28/02 18:54:10.372] [INFO] [Godot] CorpseSystem: active=0
+[28/02 18:54:10.372] [INFO] [Resource] ResourceCache: scenes=0, textures=1, materials=0, models=0
+[28/02 18:54:10.372] [INFO] [Godot] CardManager: textures=0
+[28/02 18:54:10.372] [INFO] [Godot] DroppedItemsManager: scene_items=0, live_items=0
+[28/02 18:54:10.372] [INFO] [Godot] CitizenDatabase: citizens=0, vip_index=0
+[28/02 18:54:10.372] [INFO] [Shader] CharacterCustomizer: mat=0, tex=0, combined=0, shader=0, base=0, pnj_mat=0, pnj_shader=0, converted=0, lru=0
+[28/02 18:54:10.372] [INFO] [Godot] UIAudioFeedback: connected_buttons=133
+[28/02 18:54:10.372] [INFO] [Godot] MapOverlaySystem: open=false, city_instance=no
+[28/02 18:54:10.372] [INFO] [Godot] StainSystem: stains=0
+[28/02 18:54:10.372] [INFO] [Godot] GangAI: organizations=6
+[28/02 18:54:10.372] [INFO] [Godot] LogSystem: buffer=32, json_entries=282, error_dedup=0
+[28/02 18:54:10.372] [INFO] [Resource] Current scene: res://systems/scenes/locations/MainMenu.tscn
+[28/02 18:54:10.372] [INFO] [Godot] Scene children: 12
+[28/02 18:54:10.372] [INFO] [Godot] --- TOP NODE TYPES ---
+[28/02 18:54:10.372] [INFO] [Godot]   Node: 163
+[28/02 18:54:10.372] [INFO] [Godot]   Label: 147
+[28/02 18:54:10.372] [INFO] [Godot]   Button: 133
+[28/02 18:54:10.372] [INFO] [Godot]   Timer: 55
+[28/02 18:54:10.372] [INFO] [Godot]   VBoxContainer: 50
+[28/02 18:54:10.372] [INFO] [Godot]   HBoxContainer: 45
+[28/02 18:54:10.372] [INFO] [Godot]   PanelContainer: 33
+[28/02 18:54:10.372] [INFO] [Godot]   AudioStreamPlayer: 31
+[28/02 18:54:10.372] [INFO] [Godot]   AudioStreamPlayer3D: 20
+[28/02 18:54:10.372] [INFO] [Godot]   Decal: 20
+[28/02 18:54:10.372] [INFO] [Godot]   Label3D: 20
+[28/02 18:54:10.372] [INFO] [Godot]   CollisionShape3D: 20
+[28/02 18:54:10.372] [INFO] [Godot]   CharacterBody3D: 20
+[28/02 18:54:10.372] [INFO] [Godot]   Control: 17
+[28/02 18:54:10.372] [INFO] [Godot]   CanvasLayer: 13
+[28/02 18:54:10.372] [INFO] [Godot] Orphan nodes: 1424
+[28/02 18:54:10.372] [INFO] [Godot] VRAM: textures=426 MB, buffers=14 MB, TOTAL=440 MB
+[28/02 18:54:10.372] [INFO] [Godot] >>> PROCESS REAL (Task Manager): 0 MB <<<
+[28/02 18:54:10.372] [INFO] [Godot] OS Static (Godot only): current=300 MB, peak=325 MB
+[28/02 18:54:10.372] [INFO] [Godot] HIDDEN MEMORY (Vulkan/driver): -300 MB
+[28/02 18:54:10.372] [INFO] [Godot] FPS: 59
+[28/02 18:54:10.372] [INFO] [Godot] Process time: 35.0 ms
+[28/02 18:54:10.372] [INFO] [Physics] Physics time: 0.1 ms
+[28/02 18:54:10.372] [INFO] [Godot] --- ACTIVE TIMERS (42) ---
+[28/02 18:54:10.372] [INFO] [Godot]   /root/MemoryDebugMonitor/@Timer@2 (wait=1.0s, left=1.0s, oneshot=false)
+[28/02 18:54:10.372] [INFO] [Godot]   /root/LogSystem/@Timer@4 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/LogSystem/@Timer@5 (wait=300.0s, left=299.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/LogSystem/@Timer@6 (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/TimeSystem/@Timer@7 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/GlobalDayNightCycle/StreetLightsCleanupTimer (wait=5.0s, left=4.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/SkillSystem/@Timer@8 (wait=0.1s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/PNJManager/@Timer@28 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/UIManager/GameModeIndicator/@Timer@35 (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/ApartmentStateManager/@Timer@41 (wait=30.0s, left=29.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/FloorStateManager/@Timer@42 (wait=60.0s, left=59.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/TutorialManager/@Timer@44 (wait=10.0s, left=9.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/TutorialManager/@Timer@159 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/GangSystem/@Timer@45 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/GangSystem/GangEconomy/EconomyTickTimer (wait=30.0s, left=29.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/GangSystem/PlayerGangSystem/GangUpdateTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/GangSystem/GangReputationSystem/ReputationUpdateTimer (wait=5.0s, left=4.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/GangSystem/ContrabandMarketSystem/UpdateTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TributeCheckTimer (wait=60.0s, left=59.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TrustDecayTimer (wait=300.0s, left=299.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/GangSystem/AllianceSystem/OperationsTimer (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/WeatherSystem/@Timer@46 (wait=447.6s, left=446.6s, oneshot=true)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/WeatherSystem/@Timer@48 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/CorpseSystem/@Timer@79 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/UIAnimations/@Timer@80 (wait=10.0s, left=9.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/DealerSystem/HeatDecayTimer (wait=60.0s, left=59.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/HeistSystem/HeistGenerationTimer (wait=300.0s, left=299.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/JobMissionSystem/MissionGenerationTimer (wait=300.0s, left=299.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/JobMissionSystem/ExpiryCheckTimer (wait=60.0s, left=59.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@81 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@82 (wait=60.0s, left=59.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/DroppedItemsManager/SceneCheckTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/DroppedItemsManager/AutoSaveTimer (wait=30.0s, left=29.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/ChatboxManager/AutoSaveTimer (wait=60.0s, left=59.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/BloodEffects/@Timer@103 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/IntimidationSystem/AimCheckTimer (wait=0.1s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/IntimidationSystem/NPCCacheTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/StainSystem/@Timer@104 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/SurvivalHUD/@Timer@1499 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/ApartmentValueSystem/@Timer@125 (wait=86400.0s, left=86399.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/MainMenu/SlideshowTimer (wait=10.0s, left=9.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot]   /root/InvestigationProgressUI/@Timer@158 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:10.373] [INFO] [Godot] --- AUTOLOAD COLLECTION SIZES ---
+[28/02 18:54:10.373] [INFO] [Godot]   Global.armes_enregistrees: 59 entries
+[28/02 18:54:10.373] [INFO] [Godot]   LogSystem._json_entries: 282 entries
+[28/02 18:54:10.373] [INFO] [Godot]   NodeGroupCache._cache: 12 entries
+[28/02 18:54:10.373] [INFO] [Godot]   GameStatistics.investigation_stats: 46 entries
+[28/02 18:54:10.373] [INFO] [Godot]   SkillSystem.ALL_SKILLS: 12 entries
+[28/02 18:54:10.373] [INFO] [Godot]   AdressesDatabase._zone_codes: 23 entries
+[28/02 18:54:10.373] [INFO] [Godot]   CharacterCustomizer.PRELOADED_TEXTURES: 82 entries
+[28/02 18:54:10.373] [INFO] [Godot]   UIAudioFeedback.connected_buttons: 133 entries
+[28/02 18:54:10.373] [INFO] [Godot]   BuildingSystemManager.buildings: 157 entries
+[28/02 18:54:10.373] [INFO] [Godot]   BuildingSystemManager._apt_to_building: 1827 entries
+[28/02 18:54:10.373] [INFO] [Godot]   FurnitureCatalog._catalog: 59 entries
+[28/02 18:54:10.373] [INFO] [Godot]   AchievementSystem.stats: 33 entries
+[28/02 18:54:10.373] [INFO] [Godot]   DealerSystem.drug_base_prices: 29 entries
+[28/02 18:54:10.373] [INFO] [Godot]   BusinessManager._daily_market: 44 entries
+[28/02 18:54:10.374] [INFO] [Godot]   CareerManager.career_stats: 17 entries
+[28/02 18:54:10.374] [INFO] [Godot]   PlayerLifeManager.player_profile: 21 entries
+[28/02 18:54:10.374] [INFO] [Godot]   BloodEffects._decal_pool: 20 entries
+[28/02 18:54:10.374] [INFO] [Godot]   GangBridge._district_to_territory: 13 entries
+[28/02 18:54:10.374] [INFO] [Godot]   DrawingMenuManager.available_colors: 12 entries
+[28/02 18:54:10.374] [INFO] [Godot]   CodenamesMenuManager.settings: 12 entries
+[28/02 18:54:10.374] [INFO] [Godot]   CardManager._loaded_sounds: 28 entries
+[28/02 18:54:10.374] [INFO] [Godot]   CardManager._audio_players: 12 entries
+[28/02 18:54:10.374] [INFO] [Godot]   FlashbackSystem.flashbacks: 16 entries
+[28/02 18:54:10.374] [INFO] [Godot]   FlashbackSystem._trigger_rules: 12 entries
+[28/02 18:54:10.374] [INFO] [Godot]   VoiceLineManager._catalog: 326 entries
+[28/02 18:54:10.374] [INFO] [Godot]   VoiceLineManager._id_catalog: 164 entries
+[28/02 18:54:10.374] [INFO] [Godot]   VoiceLineManager._audio_pool: 12 entries
+[28/02 18:54:10.374] [INFO] [Godot] --- HIGH SIGNAL CONNECTION COUNTS ---
+[28/02 18:54:10.374] [INFO] [Godot]   Global.save_loaded: 30 connections
+[28/02 18:54:10.374] [INFO] [Godot]   TimeSystem.hour_changed: 16 connections
+[28/02 18:54:10.374] [INFO] [Godot]   TimeSystem.day_changed: 20 connections
+[28/02 18:54:10.374] [INFO] [Godot]   MultiplayerManager.player_connected: 12 connections
+[28/02 18:54:10.374] [INFO] [Godot]   MultiplayerManager.player_disconnected: 10 connections
+[28/02 18:54:10.374] [INFO] [Godot]   JobSystem.job_changed: 6 connections
+[28/02 18:54:10.374] [INFO] [Godot] Draw calls: 18
+[28/02 18:54:10.374] [INFO] [Godot] Objects drawn: 168
+[28/02 18:54:10.374] [INFO] [Godot] --- HISTORIQUE 10 dernières secondes ---
+[28/02 18:54:10.374] [INFO] [Godot]   t=6.0s | PROCESS: 300 MB (+300) | Static: 300 MB (+118.9) | VRAM: 440 MB | Obj: 12104 (+9791) | Nodes: 923 (+779)
+[28/02 18:54:10.374] [INFO] [Godot] [MEM] 6s | MainMenu | FPS:59 | REAL: 300 MB (+300) | Static: 300 MB (+118.9) | VRAM: 440 MB | Obj: 12104 (+9791) | Nodes: 923 (+779) | Res: 2189 (+1566) | Draw:18 | DEV:CLOSED(tab0,n0)
+[28/02 18:54:10.845] [INFO] [Godot] 📋 Nouvelle mission: Collecte
+[28/02 18:54:10.845] [INFO] [Godot] 📋 Nouvelle mission: Petit boulot
+[28/02 18:54:10.845] [INFO] [Godot] === JOB MISSION SYSTEM INITIALIZED ===
+[28/02 18:54:11.834] [INFO] [Godot] [MenuPrincipal] CHARGER cliqué!
+[28/02 18:54:13.373] [INFO] [Godot] 📂 DroppedItems chargés: slot 0, 8 scènes
+[28/02 18:54:13.373] [INFO] [Godot] 📦 [DroppedItemsManager] Slot 0 activé
+[28/02 18:54:13.373] [INFO] [Godot] ✓ Sauvegarde slot 0 chargée : Run 1, 11760s de jeu
+[28/02 18:54:13.373] [INFO] [Godot] ✓ CharacterCustomizer: Customisation chargée depuis sauvegarde: { "gender": "Male", "couleur_peau": 1.0, "visage": 6.0, "cheveux": 1.0, "couleur_cheveux": 2.0, "yeux": 4.0, "bouche": 0.0, "veste": 1.0, "pantalon": 4.0, "chaussures": 3.0 }
+[28/02 18:54:13.373] [INFO] [Godot] [TutorialTracker] Données chargées depuis slot: 3 objectifs complétés
+[28/02 18:54:13.373] [INFO] [Godot] [NarrativeFramework] Données chargées depuis slot - Chapitre: premiers_pas
+[28/02 18:54:13.373] [INFO] [Godot] [QuestSystem] Données chargées depuis slot: 1 actives, 0 complétées
+[28/02 18:54:13.374] [INFO] [Godot] ✓ QuestSystem chargé: 1 actives, 0 complétées
+[28/02 18:54:13.374] [INFO] [Godot] [TutorialManager] Données chargées depuis slot: 0 tutoriels complétés
+[28/02 18:54:13.374] [INFO] [Godot] ✓ TutorialManager chargé: 0 tutoriels complétés
+[28/02 18:54:13.374] [INFO] [Godot] ✓ WeatherSystem chargé: météo 'CLOUDY', 24.0°C
+[28/02 18:54:13.374] [INFO] [Godot] ✓ HeistSystem chargé: 0 braquages complétés
+[28/02 18:54:13.374] [INFO] [Godot] === INVENTORY: Rechargement après chargement sauvegarde ===
+[28/02 18:54:13.374] [INFO] [Godot] ✓ Structure d'inventaire créée: 8 slots (4 vêtements + 4 poches)
+[28/02 18:54:13.374] [INFO] [Godot] ✓ Inventaire chargé depuis Global (3 items)
+[28/02 18:54:13.374] [INFO] [Godot] ✓ Slot équipé restauré: 2
+[28/02 18:54:13.374] [INFO] [Godot] ⏱️ Temps restauré: 8576 secondes (= Jour 3 — 15:01)
+[28/02 18:54:13.374] [INFO] [Godot] ⏱️ TimeSystem rechargé après load: Jour 3 — 15:01
+[28/02 18:54:13.374] [INFO] [Godot] 🌅 Changement de phase: dawn → day (15:00)
+[28/02 18:54:13.374] [INFO] [Godot] 🔄 ApproachDialogueSystem: Reset salutation réceptionniste (nouveau jour 3)
+[28/02 18:54:13.374] [INFO] [Godot] [QuestSystem] Quetes quotidiennes non generees (tutoriel)
+[28/02 18:54:13.374] [INFO] [Godot] [Global] auto_sauvegarder() BLOCKED — save_loaded chain still running
+[28/02 18:54:13.374] [INFO] [Godot] [GameLoopManager] Stats jour 3 archivees: 0/0 cas (0%)
+[28/02 18:54:13.374] [INFO] [Godot] [GameLoopManager] Nouveau jour: 3
+[28/02 18:54:13.374] [INFO] [Godot] [Global] auto_sauvegarder() BLOCKED — save_loaded chain still running
+[28/02 18:54:13.374] [INFO] [Godot] [BusinessManager] === DAILY SUMMARY: Revenue $0 | Expenses $0 | Net $0 | Dealers: 0 active ===
+[28/02 18:54:13.374] [INFO] [Godot] [SkillSystem] Passifs recalcules: 0 types actifs
+[28/02 18:54:13.374] [INFO] [Godot] [BusinessManager] Daily market refreshed: 40/69 brands, 103 lots (day 3)
+[28/02 18:54:13.374] [INFO] [Godot] [Global] auto_sauvegarder() BLOCKED — save_loaded chain still running
+[28/02 18:54:13.374] [INFO] [Godot] [SkillSystem] Competence debloquee: persuasion
+[28/02 18:54:13.374] [INFO] [Godot] [SkillSystem] +103 XP persuasion (milestone_net_worth_1k) - Total: 103
+[28/02 18:54:13.374] [INFO] [Godot] [SkillSystem] LEVEL UP! persuasion -> Niveau 2
+[28/02 18:54:13.374] [INFO] [Godot] [SkillSystem] Capacite debloquee: charm
+[28/02 18:54:13.374] [INFO] [Godot] [PlayerLifeManager] MILESTONE: Premier millier - Atteindre $1,000 de valeur nette
+[28/02 18:54:13.374] [INFO] [Godot] [DealSpotSystem] _save_data() BLOCKED — data not yet loaded
+[28/02 18:54:13.374] [INFO] [Godot] [SkillSystem] Donnees chargees: 1 competences
+[28/02 18:54:13.374] [INFO] [Godot] [BankingSystem] Reloaded after save - Cash: $2208.01, Account: $0.00
+[28/02 18:54:13.374] [INFO] [Godot] [EmailSystem] Reloaded after save - 1 emails
+[28/02 18:54:13.374] [INFO] [Godot] [QuestSystem] Données chargées depuis slot: 1 actives, 0 complétées
+[28/02 18:54:13.374] [INFO] [Godot] [QuestSystem] Donnees rechargees depuis Global.donnees_joueur[quest_system_v1]
+[28/02 18:54:13.374] [INFO] [Godot] [PoliceService] Investigation loaded — case strength: 0.0 (none), 0 evidence pieces
+[28/02 18:54:13.374] [INFO] [Godot] [GameLoopManager] Donnees chargees: phase=0, cas actifs=0
+[28/02 18:54:13.374] [INFO] [Godot] [TutorialManager] Donnees chargees: 0 tutoriels completes
+[28/02 18:54:13.374] [INFO] [Godot] 👑 [GangSystem] VIPs charges depuis sauvegarde: 24
+[28/02 18:54:13.374] [INFO] [Godot] [NarrativeFramework] Donnees chargees - Chapitre: premiers_pas
+[28/02 18:54:13.374] [INFO] [Godot] [JobSystem] Reloaded after save - Job: sans_emploi, absent: 0
+[28/02 18:54:13.374] [INFO] [Godot] [GangAffiliationSystem] Reloaded after save - Affiliations: 0
+[28/02 18:54:13.374] [INFO] [Godot] [FinanceManager] Reloaded after save - Debts: 0, Investments: 0
+[28/02 18:54:13.374] [INFO] [Godot] [BusinessManager] Reloaded after save - Drugs: 1, Dealers: 0, Spots: 0, Suppliers: 0
+[28/02 18:54:13.375] [INFO] [Godot] [ArmsManager] Reloaded after save - Weapons: 0, Runners: 0, Points: 0
+[28/02 18:54:13.375] [INFO] [Godot] [VehicleManager] Reloaded after save - Vehicles: 0/2
+[28/02 18:54:13.375] [INFO] [Godot] [CareerManager] Reloaded after save - Criminal career:  (Rank 0)
+[28/02 18:54:13.375] [INFO] [Godot] [PlayerLifeManager] Reloaded after save - Net Worth: $2158.01, Milestones: 1
+[28/02 18:54:13.375] [INFO] [Godot] [DealSpotSystem] _on_save_loaded() — reloading data from Global.donnees_joueur
+[28/02 18:54:13.375] [INFO] [Godot] [DealSpotSystem] _load_data() — OK: 1 spots loaded (counter=1)
+[28/02 18:54:13.375] [INFO] [Godot]   [dspot_1] Hall, Immeuble #40 — active=true, stock=10 products, revenue_today=$539
+[28/02 18:54:13.375] [INFO] [Godot] [PlayerTradeSystem] Reset for new game
+[28/02 18:54:13.375] [INFO] [Godot] [PoliticsSystem] Law effects applied — cache keys: []
+[28/02 18:54:13.375] [INFO] [Godot] [PoliticsSystem] Reloaded after save - 0 contacts VIP
+[28/02 18:54:13.375] [INFO] [Godot] ✓ Save loaded — all systems notified, auto-save re-enabled
+[28/02 18:54:13.375] [INFO] [Godot] [MenuPrincipal] BSM restauré: building=auto_bldg_039 floor=-1
+[28/02 18:54:13.375] [INFO] [Godot] [LoadingScreen] load_scene('BuildingLobby.tscn') called — current_scene=MainMenu, is_loading=false
+[28/02 18:54:13.375] [INFO] [Godot] 💿 [RESTORE] État trouvé: { "current_album": "album 1", "current_track_index": 2.0, "is_playing": true, "is_powered_on": true, "playback_position": 445.23681640625, "volume_db": -12.0 }
+[28/02 18:54:13.375] [INFO] [Godot] 💿 [RESTORE] HiFi allumée
+[28/02 18:54:13.375] [INFO] [Godot] 💿 [RESTORE] Restauration album: album 1, piste: 2
+[28/02 18:54:13.375] [INFO] [Godot] 💿 [RESTORE] Lecture lancée: Z Dark Techno  Industrial Beat  Backround Music  EBM [Copyright Free].mp3 @ 445.2s
+[28/02 18:54:13.375] [INFO] [Godot] ✓ Objet en main restauré: Pantalon Homme 5
+[28/02 18:54:13.375] [INFO] [Godot] 🎵 Lecture album 1 / Z Dark Techno  Industrial Beat  Backround Music  EBM [Copyright Free].mp3
+[28/02 18:54:13.375] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:13.375] [INFO] [Godot] !!! MEMORY SPIKE #2 DETECTED at 9.0s !!!
+[28/02 18:54:13.375] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:13.375] [INFO] [Godot]   >>> PROCESS (Task Manager): 368 MB (delta: +68 MB) <<<
+[28/02 18:54:13.375] [INFO] [Godot]   Static: 368 MB (delta: +67.6 MB)
+[28/02 18:54:13.375] [INFO] [Godot]   VRAM: 440 MB
+[28/02 18:54:13.375] [INFO] [Resource]   Objects: 12137 (-17) | Nodes: 923 (-17) | Resources: 2191 (+2)
+[28/02 18:54:13.375] [INFO] [Godot] ═══ SYSTEM STATE DUMP ═══
+[28/02 18:54:13.375] [INFO] [Godot] MaterialPool: cached=0, max=40, total_uses=0
+[28/02 18:54:13.375] [INFO] [Shader]   shader_cache: 0 entries
+[28/02 18:54:13.375] [INFO] [Godot] ModelPool: available=5, in_use=0, total=5
+[28/02 18:54:13.375] [INFO] [Godot] AnimPlayerPool: available=10, in_use=0, anims=17
+[28/02 18:54:13.381] [INFO] [Godot] PNJManager: active_pnjs=0
+[28/02 18:54:13.381] [INFO] [Godot] PNJCache: entries=0
+[28/02 18:54:13.381] [INFO] [Godot] BloodEffects: decals=0, floor=0, by_id=0
+[28/02 18:54:13.381] [INFO] [Godot] CorpseSystem: active=0
+[28/02 18:54:13.381] [INFO] [Resource] ResourceCache: scenes=0, textures=1, materials=0, models=0
+[28/02 18:54:13.381] [INFO] [Godot] CardManager: textures=0
+[28/02 18:54:13.381] [INFO] [Godot] DroppedItemsManager: scene_items=8, live_items=0
+[28/02 18:54:13.381] [INFO] [Godot] CitizenDatabase: citizens=0, vip_index=0
+[28/02 18:54:13.381] [INFO] [Shader] CharacterCustomizer: mat=0, tex=0, combined=0, shader=0, base=0, pnj_mat=0, pnj_shader=0, converted=0, lru=0
+[28/02 18:54:13.381] [INFO] [Godot] UIAudioFeedback: connected_buttons=133
+[28/02 18:54:13.381] [INFO] [Godot] MapOverlaySystem: open=false, city_instance=no
+[28/02 18:54:13.381] [INFO] [Godot] StainSystem: stains=0
+[28/02 18:54:13.381] [INFO] [Godot] GangAI: organizations=6
+[28/02 18:54:13.381] [INFO] [Godot] LogSystem: buffer=0, json_entries=421, error_dedup=0
+[28/02 18:54:13.381] [INFO] [Resource] Current scene: res://systems/scenes/locations/MainMenu.tscn
+[28/02 18:54:13.381] [INFO] [Godot] Scene children: 11
+[28/02 18:54:13.381] [INFO] [Godot] --- TOP NODE TYPES ---
+[28/02 18:54:13.381] [INFO] [Godot]   Node: 163
+[28/02 18:54:13.381] [INFO] [Godot]   Label: 147
+[28/02 18:54:13.381] [INFO] [Godot]   Button: 133
+[28/02 18:54:13.381] [INFO] [Godot]   Timer: 55
+[28/02 18:54:13.381] [INFO] [Godot]   VBoxContainer: 50
+[28/02 18:54:13.381] [INFO] [Godot]   HBoxContainer: 45
+[28/02 18:54:13.381] [INFO] [Godot]   PanelContainer: 33
+[28/02 18:54:13.381] [INFO] [Godot]   AudioStreamPlayer: 31
+[28/02 18:54:13.381] [INFO] [Godot]   AudioStreamPlayer3D: 20
+[28/02 18:54:13.381] [INFO] [Godot]   Decal: 20
+[28/02 18:54:13.381] [INFO] [Godot]   Label3D: 20
+[28/02 18:54:13.381] [INFO] [Godot]   CollisionShape3D: 20
+[28/02 18:54:13.381] [INFO] [Godot]   CharacterBody3D: 20
+[28/02 18:54:13.381] [INFO] [Godot]   Control: 17
+[28/02 18:54:13.381] [INFO] [Godot]   CanvasLayer: 13
+[28/02 18:54:13.381] [INFO] [Godot] Orphan nodes: 1424
+[28/02 18:54:13.381] [INFO] [Godot] VRAM: textures=426 MB, buffers=14 MB, TOTAL=440 MB
+[28/02 18:54:13.382] [INFO] [Godot] >>> PROCESS REAL (Task Manager): 0 MB <<<
+[28/02 18:54:13.382] [INFO] [Godot] OS Static (Godot only): current=369 MB, peak=390 MB
+[28/02 18:54:13.382] [INFO] [Godot] HIDDEN MEMORY (Vulkan/driver): -369 MB
+[28/02 18:54:13.382] [INFO] [Godot] FPS: 144
+[28/02 18:54:13.382] [INFO] [Godot] Process time: 7.1 ms
+[28/02 18:54:13.382] [INFO] [Physics] Physics time: 0.2 ms
+[28/02 18:54:13.382] [INFO] [Godot] --- ACTIVE TIMERS (42) ---
+[28/02 18:54:13.382] [INFO] [Godot]   /root/MemoryDebugMonitor/@Timer@2 (wait=1.0s, left=1.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/LogSystem/@Timer@4 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/LogSystem/@Timer@5 (wait=300.0s, left=296.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/LogSystem/@Timer@6 (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/TimeSystem/@Timer@7 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/GlobalDayNightCycle/StreetLightsCleanupTimer (wait=5.0s, left=1.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/SkillSystem/@Timer@8 (wait=0.1s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/PNJManager/@Timer@28 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/UIManager/GameModeIndicator/@Timer@35 (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/ApartmentStateManager/@Timer@41 (wait=30.0s, left=26.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/FloorStateManager/@Timer@42 (wait=60.0s, left=56.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/TutorialManager/@Timer@44 (wait=10.0s, left=6.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/TutorialManager/@Timer@159 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/GangSystem/@Timer@45 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/GangSystem/GangEconomy/EconomyTickTimer (wait=30.0s, left=26.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/GangSystem/PlayerGangSystem/GangUpdateTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/GangSystem/GangReputationSystem/ReputationUpdateTimer (wait=5.0s, left=1.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/GangSystem/ContrabandMarketSystem/UpdateTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TributeCheckTimer (wait=60.0s, left=56.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TrustDecayTimer (wait=300.0s, left=296.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/GangSystem/AllianceSystem/OperationsTimer (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/WeatherSystem/@Timer@46 (wait=822.1s, left=822.0s, oneshot=true)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/WeatherSystem/@Timer@48 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/CorpseSystem/@Timer@79 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/UIAnimations/@Timer@80 (wait=10.0s, left=6.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/DealerSystem/HeatDecayTimer (wait=60.0s, left=56.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/HeistSystem/HeistGenerationTimer (wait=300.0s, left=296.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/JobMissionSystem/MissionGenerationTimer (wait=300.0s, left=296.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/JobMissionSystem/ExpiryCheckTimer (wait=60.0s, left=56.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@81 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@82 (wait=60.0s, left=56.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/DroppedItemsManager/SceneCheckTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/DroppedItemsManager/AutoSaveTimer (wait=30.0s, left=26.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/ChatboxManager/AutoSaveTimer (wait=60.0s, left=56.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/BloodEffects/@Timer@103 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/IntimidationSystem/AimCheckTimer (wait=0.1s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/IntimidationSystem/NPCCacheTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/StainSystem/@Timer@104 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/SurvivalHUD/@Timer@1499 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/ApartmentValueSystem/@Timer@125 (wait=86400.0s, left=86396.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/MainMenu/SlideshowTimer (wait=10.0s, left=6.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot]   /root/InvestigationProgressUI/@Timer@158 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:13.382] [INFO] [Godot] --- AUTOLOAD COLLECTION SIZES ---
+[28/02 18:54:13.382] [INFO] [Godot]   Global.armes_enregistrees: 59 entries
+[28/02 18:54:13.382] [INFO] [Godot]   LogSystem._json_entries: 421 entries
+[28/02 18:54:13.383] [INFO] [Godot]   NodeGroupCache._cache: 12 entries
+[28/02 18:54:13.383] [INFO] [Godot]   GameStatistics.investigation_stats: 46 entries
+[28/02 18:54:13.383] [INFO] [Godot]   SkillSystem.ALL_SKILLS: 12 entries
+[28/02 18:54:13.383] [INFO] [Godot]   AdressesDatabase._zone_codes: 23 entries
+[28/02 18:54:13.383] [INFO] [Godot]   CharacterCustomizer.PRELOADED_TEXTURES: 82 entries
+[28/02 18:54:13.383] [INFO] [Godot]   UIAudioFeedback.connected_buttons: 133 entries
+[28/02 18:54:13.383] [INFO] [Godot]   PoliceService._pnj_group_cache: 20 entries
+[28/02 18:54:13.383] [INFO] [Godot]   BuildingSystemManager.buildings: 157 entries
+[28/02 18:54:13.383] [INFO] [Godot]   BuildingSystemManager._apt_to_building: 1827 entries
+[28/02 18:54:13.383] [INFO] [Godot]   FurnitureCatalog._catalog: 59 entries
+[28/02 18:54:13.383] [INFO] [Godot]   AchievementSystem.stats: 33 entries
+[28/02 18:54:13.383] [INFO] [Godot]   DealerSystem.drug_base_prices: 29 entries
+[28/02 18:54:13.383] [INFO] [Godot]   BusinessManager._daily_market: 41 entries
+[28/02 18:54:13.383] [INFO] [Godot]   CareerManager.career_stats: 17 entries
+[28/02 18:54:13.383] [INFO] [Godot]   PlayerLifeManager.player_profile: 21 entries
+[28/02 18:54:13.383] [INFO] [Godot]   VIPRegistry.vips: 24 entries
+[28/02 18:54:13.383] [INFO] [Godot]   BloodEffects._decal_pool: 20 entries
+[28/02 18:54:13.383] [INFO] [Godot]   NPCReactionSystem._cached_npcs: 20 entries
+[28/02 18:54:13.383] [INFO] [Godot]   GangBridge._district_to_territory: 13 entries
+[28/02 18:54:13.383] [INFO] [Godot]   DrawingMenuManager.available_colors: 12 entries
+[28/02 18:54:13.383] [INFO] [Godot]   CodenamesMenuManager.settings: 12 entries
+[28/02 18:54:13.383] [INFO] [Godot]   CardManager._loaded_sounds: 28 entries
+[28/02 18:54:13.383] [INFO] [Godot]   CardManager._audio_players: 12 entries
+[28/02 18:54:13.383] [INFO] [Godot]   CityEconomySystem.district_economies: 13 entries
+[28/02 18:54:13.383] [INFO] [Godot]   FlashbackSystem.flashbacks: 16 entries
+[28/02 18:54:13.383] [INFO] [Godot]   FlashbackSystem._trigger_rules: 12 entries
+[28/02 18:54:13.383] [INFO] [Godot]   VoiceLineManager._catalog: 326 entries
+[28/02 18:54:13.383] [INFO] [Godot]   VoiceLineManager._id_catalog: 164 entries
+[28/02 18:54:13.383] [INFO] [Godot]   VoiceLineManager._audio_pool: 12 entries
+[28/02 18:54:13.383] [INFO] [Godot] --- HIGH SIGNAL CONNECTION COUNTS ---
+[28/02 18:54:13.383] [INFO] [Godot]   Global.save_loaded: 30 connections
+[28/02 18:54:13.383] [INFO] [Godot]   TimeSystem.hour_changed: 16 connections
+[28/02 18:54:13.383] [INFO] [Godot]   TimeSystem.day_changed: 20 connections
+[28/02 18:54:13.383] [INFO] [Godot]   MultiplayerManager.player_connected: 12 connections
+[28/02 18:54:13.383] [INFO] [Godot]   MultiplayerManager.player_disconnected: 10 connections
+[28/02 18:54:13.383] [INFO] [Godot]   JobSystem.job_changed: 6 connections
+[28/02 18:54:13.383] [INFO] [Godot] Draw calls: 24
+[28/02 18:54:13.383] [INFO] [Godot] Objects drawn: 328
+[28/02 18:54:13.383] [INFO] [Godot] --- HISTORIQUE 10 dernières secondes ---
+[28/02 18:54:13.383] [INFO] [Godot]   t=6.0s | PROCESS: 300 MB (+300) | Static: 300 MB (+118.9) | VRAM: 440 MB | Obj: 12104 (+9791) | Nodes: 923 (+779)
+[28/02 18:54:13.383] [INFO] [Godot]   t=7.0s | PROCESS: 300 MB (+0) | Static: 300 MB (+0.2) | VRAM: 440 MB | Obj: 12080 (-24) | Nodes: 923 (+0)
+[28/02 18:54:13.383] [INFO] [Godot]   t=8.0s | PROCESS: 301 MB (+1) | Static: 301 MB (+0.6) | VRAM: 440 MB | Obj: 12154 (+74) | Nodes: 940 (+17)
+[28/02 18:54:13.383] [INFO] [Godot]   t=9.0s | PROCESS: 368 MB (+68) | Static: 368 MB (+67.6) | VRAM: 440 MB | Obj: 12137 (-17) | Nodes: 923 (-17)
+[28/02 18:54:21.802] [INFO] [Godot] ⏳ Auto-save slot 0 [collecte: 10ms — écriture async...]
+[28/02 18:54:21.802] [INFO] [Godot] 📱 Téléphone enregistré: 06-77-64-41-14 (3d43d913-5c7a-ccb3-911c-e99d5fbd841e)
+[28/02 18:54:21.802] [INFO] [Godot] 📱 Numéro broadcasté: 06-77-64-41-14 (Joueur 1)
+[28/02 18:54:21.802] [INFO] [Godot] 📱 === AAA: Téléphone auto-créé: 06-77-64-41-14 ===
+[28/02 18:54:21.802] [INFO] [Godot] 📱 === AAA: Widget téléphone permanent créé ===
+[28/02 18:54:21.802] [INFO] [Godot] ✓ Auto-save slot 0 [async: 21ms]
+[28/02 18:54:21.802] [INFO] [Godot] 📱 PhoneUI initialisé
+[28/02 18:54:21.802] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 197ms! (expected ~16ms)
+[28/02 18:54:21.802] [INFO] [Resource] 🗑️ ResourceCache vidé
+[28/02 18:54:21.802] [INFO] [Godot] [CardManager] Cache textures vide
+[28/02 18:54:21.802] [INFO] [Shader] 🧹 CharacterCustomizer: Cache nettoyé (incluant shader et PNJ)
+[28/02 18:54:21.802] [INFO] [Godot] [MEM] Scene change cleanup: freed 0.0 MB
+[28/02 18:54:21.802] [INFO] [Shader] 🧹 CharacterCustomizer: Cache nettoyé (incluant shader et PNJ)
+[28/02 18:54:21.802] [INFO] [Godot] ✓ AnimationModule: 50 animations cachées
+[28/02 18:54:21.802] [INFO] [Godot] [SYNC TX] Module réseau configuré: peer_id=1, local=true
+[28/02 18:54:21.802] [INFO] [Godot] SoundModule: Audio players configurés
+[28/02 18:54:21.802] [INFO] [Godot] ✓ HandAnchor créé: pos=(-0.2, 0.4, -0.1), rot=(0.0, 0.0, 90.0)°
+[28/02 18:54:21.802] [INFO] [Godot] ✓ Hitboxes de dégâts ajoutées au joueur
+[28/02 18:54:21.802] [INFO] [Godot] ❤️ HealthComponent joueur configuré
+[28/02 18:54:21.802] [INFO] [Godot]     ✓ InjurySystem connecté à HealthComponent
+[28/02 18:54:21.803] [INFO] [Godot]   🩹 InjurySystem configuré pour Player
+[28/02 18:54:21.803] [INFO] [Godot] 🩹 InjurySystem joueur configuré
+[28/02 18:54:21.803] [INFO] [Godot]   Lecture (cached): Root|Idle
+[28/02 18:54:21.803] [INFO] [Godot] 🎮 Session mode solo (en attente du bouton Partager)
+[28/02 18:54:21.803] [INFO] [Godot] ✓ PauseMenu prêt
+[28/02 18:54:21.803] [INFO] [Godot] === INVENTORY UI READY (CLOTHING-BASED) ===
+[28/02 18:54:21.803] [INFO] [Godot] ✓ 8 slots dynamiques créés - Style AAA minimaliste
+[28/02 18:54:21.803] [INFO] [Godot] ✗ Mode solo
+[28/02 18:54:21.803] [INFO] [Godot] [MapOverlaySystem] City.tscn pre-chargement en arrière-plan...
+[28/02 18:54:21.803] [INFO] [Godot] 🎮 Steam Rich Presence: lobby
+[28/02 18:54:21.803] [INFO] [Godot] 💬 Discord Rich Presence: lobby
+[28/02 18:54:21.803] [INFO] [Godot] 🎱 EffectsPool initializing...
+[28/02 18:54:21.803] [INFO] [Godot] 🔫 Weapon serial: P9-47969-56944
+[28/02 18:54:21.803] [INFO] [Godot] 🔫 ShootingSystem setup - Player: Player, Camera: true
+[28/02 18:54:21.803] [INFO] [Godot] 🔫 ShootingSystem initialisé (BuildingLobby)
+[28/02 18:54:21.803] [INFO] [Godot] 🤝 NPCInteractionSystem initialisé (BuildingLobby)
+[28/02 18:54:21.803] [INFO] [Godot] 🔍 InspectionSystem setup - Player: Player, CameraManager: yes
+[28/02 18:54:21.803] [INFO] [Godot] 🔍 InspectionSystem initialisé (BuildingLobby)
+[28/02 18:54:21.803] [INFO] [Godot] 🎯 GroundContextMenuSystem setup - Player: Player
+[28/02 18:54:21.803] [INFO] [Godot] 🎯 GroundContextMenuSystem initialisé (BuildingLobby)
+[28/02 18:54:21.803] [INFO] [Godot] 🎮 KeyboardMovementSystem setup - Player: Player, CameraManager: yes
+[28/02 18:54:21.803] [INFO] [Godot] 🎮 KeyboardMovementSystem initialisé (BuildingLobby)
+[28/02 18:54:21.803] [INFO] [Godot] 🚪 DoorSystem setup - Scene: BuildingLobby
+[28/02 18:54:21.803] [INFO] [Godot] 🔊 DoorSystem audio configured
+[28/02 18:54:21.803] [INFO] [Godot] ✓ Porte initialisée: GlassDoor (charnière: right)
+[28/02 18:54:21.803] [INFO] [Godot] [TutorialTracker] Tracking joueur configure: Player
+[28/02 18:54:21.803] [INFO] [Godot] 🩸 Joueur blessé!
+[28/02 18:54:21.803] [INFO] [Godot] ❤️ HealthComponent synchro depuis TraitSystem: 57.3 HP
+[28/02 18:54:21.803] [INFO] [Godot]   + PlayerMenuUI initialise (Touches D/P/J/K/G/B/T/O/M/V)
+[28/02 18:54:21.803] [INFO] [Godot] MENU JOUEUR: Instance creee
+[28/02 18:54:21.803] [INFO] [Godot] [DealSpotNPCManager] Discovered 28 spawn points: ["DealSpot_Dealer_1", "DealSpot_Dealer_2", "DealSpot_Guetteur_1", "DealSpot_Guetteur_2", "DealSpot_Protection_1", "DealSpot_Protection_2", "DealSpot_ClientSpawn_1", "DealSpot_ClientSpawn_2", "DealSpot_ClientSpawn_3", "DealSpot_ClientSpawn_4", "DealSpot_ClientSpawn_5", "DealSpot_ClientDoor1", "DealSpot_ClientDoor2", "DealSpot_ClientDoor3", "DealSpot_ClientDoor4", "DealSpot_ClientDoor5", "DealSpot_ClientDoor6", "DealSpot_ClientDoor7", "DealSpot_ClientDoor8", "DealSpot_ClientDoor9", "DealSpot_ClientDoor10", "DealSpot_ClientDoor11", "DealSpot_ClientDoor12", "DealSpot_ClientDoor13", "DealSpot_ClientDoor14", "DealSpot_ClientDoor15", "DealSpot_ClientExit", "DealSpot_ClientWaypoint"]
+[28/02 18:54:21.803] [INFO] [Godot] [DealSpotNPCManager] Client waypoints: 5 spawns, 15 queue positions, exit=(-1.746834, 0.0, 9.992229), waypoint=(2.401129, 0.0, 28.74047)
+[28/02 18:54:21.803] [INFO] [Godot] [DealSpotNPCManager] Found 1 deal spots for lobby (building=auto_bldg_039)
+[28/02 18:54:21.803] [INFO] [Godot] 📹 CameraZoneSystem setup - Player: Player, Default camera: LobbyCamera
+[28/02 18:54:21.803] [INFO] [Godot] ✓ Zone caméra enregistrée: Lobby
+[28/02 18:54:21.803] [INFO] [Godot] ✓ Zone caméra enregistrée: Exterieur
+[28/02 18:54:21.803] [INFO] [Godot] ✓ Zone caméra enregistrée: Ascenseur
+[28/02 18:54:21.803] [INFO] [Godot] 📹 CameraZoneSystem initialisé (BuildingLobby)
+[28/02 18:54:21.803] [INFO] [Godot] 📹 Ascenseur Camera - Transition fluide
+[28/02 18:54:21.803] [INFO] [Godot] 🎥 Transition: → AscensorCamera (0.6s)
+[28/02 18:54:21.803] [INFO] [Godot] ⚠️ Slot 4 était équipé mais l'item n'existe pas
+[28/02 18:54:21.803] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 5801ms! (expected ~16ms)
+[28/02 18:54:21.803] [INFO] [Godot] ⚠️ Transition already in progress, queueing new target
+[28/02 18:54:21.803] [INFO] [Godot] 🎥 Transition: → LobbyCamera (0.0s)
+[28/02 18:54:21.803] [INFO] [Godot] 👤 PNJ spawné : Alexandra Song (Role: client, Genre: Female)
+[28/02 18:54:21.803] [INFO] [Godot] ✓ Transition complete: LobbyCamera
+[28/02 18:54:21.803] [INFO] [Godot] 🔫 ShootingSystem: pools GPU prêts (8 lights, 16 particles)
+[28/02 18:54:21.803] [INFO] [Godot] [PNJ PERF] Alexandra Song P1→P2 frame: 693ms
+[28/02 18:54:21.803] [INFO] [Godot]   🎮 Instanciation modèle Kenney (pré-chargé)
+[28/02 18:54:21.803] [INFO] [Godot]   🎨 Application matériau
+[28/02 18:54:21.803] [INFO] [Godot]   [PERF] MaterialPool MISS — creer_materiau_pnj() appelé: 757ms
+[28/02 18:54:21.803] [INFO] [Godot]   ✅ Matériau appliqué
+[28/02 18:54:23.407] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 1477ms! (expected ~16ms)
+[28/02 18:54:23.407] [INFO] [Godot] 🔄 [DroppedItems] Changement détecté: MainMenu.tscn → BuildingLobby.tscn (contexte: none → auto_bldg_039_lobby)
+[28/02 18:54:23.407] [INFO] [Godot] 🔄 [DroppedItems] Sauvegarde avant changement: 0 items en mémoire
+[28/02 18:54:23.407] [INFO] [Resource] 💾 Sauvegardé 0 items pour: res://systems/scenes/locations/MainMenu.tscn
+[28/02 18:54:23.407] [INFO] [Godot] 💾 DroppedItems sauvegardés: slot 0 (8 scènes)
+[28/02 18:54:23.407] [INFO] [Godot] LoadingScreen: Fin du chargement (3185 ms)
+[28/02 18:54:23.407] [INFO] [Godot] [PNJ PERF] Alexandra Song P2→P3 frame: 793ms
+[28/02 18:54:23.407] [INFO] [Godot]   🎬 AnimationPlayer prêt pour Alexandra
+[28/02 18:54:23.407] [INFO] [Godot] [DealSpotNPCManager] ✅ Phase 0b: PSO animé pré-compilé → setup_anim ~0ms par staff
+[28/02 18:54:23.407] [INFO] [Godot]   [PERF] setup_anim internal await: 947ms
+[28/02 18:54:23.407] [INFO] [Godot]   📋 Animations disponibles: ["Death From Right", "DeathFromTheFront", "Dying", "Giveobject", "Injured Hurting Idle", "InjuredIdle", "InjuredRunjambe", "InjuredWalkingbras", "InjuredWalkjambe", "Openingdoor1", "SittingFemale", "SittingMale", "Typing", "Walking", "idle", "jump", "run"]
+[28/02 18:54:23.407] [INFO] [Godot]   ✓ Animation lancée : idle
+[28/02 18:54:23.407] [INFO] [Godot] [PNJ PERF] Alexandra Song P3→P4 frame: 947ms
+[28/02 18:54:23.408] [INFO] [Godot]   ❤️ HealthComponent configuré
+[28/02 18:54:23.408] [INFO] [Godot]     ✓ InjurySystem connecté à HealthComponent
+[28/02 18:54:23.408] [INFO] [Godot]   🩹 InjurySystem configuré pour PooledPNJ_19
+[28/02 18:54:23.408] [INFO] [Godot]   🩹 InjurySystem PNJ configuré
+[28/02 18:54:23.408] [INFO] [Godot] [PNJ PERF] Alexandra Song P4→P5 frame: 587ms
+[28/02 18:54:23.408] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 586ms! (expected ~16ms)
+[28/02 18:54:23.408] [INFO] [Godot] [DealSpotNPCManager] Queued spawn: Hannah Bernard [Dealer] at (2.5, 0.0, -2.0)
+[28/02 18:54:23.408] [INFO] [Godot]   [PNJMovementSystem] Lancement animation walk (vitesse: 1.60 m/s, distance: 31.00 m, durée: 19.38 sec)
+[28/02 18:54:23.408] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:23.408] [INFO] [Godot] !!! MEMORY SPIKE #3 DETECTED at 19.0s !!!
+[28/02 18:54:23.408] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:23.408] [INFO] [Godot]   >>> PROCESS (Task Manager): 639 MB (delta: +271 MB) <<<
+[28/02 18:54:23.408] [INFO] [Godot]   Static: 639 MB (delta: +270.5 MB)
+[28/02 18:54:23.408] [INFO] [Godot]   VRAM: 688 MB
+[28/02 18:54:23.408] [INFO] [Resource]   Objects: 14381 (+2244) | Nodes: 1639 (+716) | Resources: 2742 (+551)
+[28/02 18:54:23.408] [INFO] [Godot] ═══ SYSTEM STATE DUMP ═══
+[28/02 18:54:23.408] [INFO] [Godot] MaterialPool: cached=7, max=40, total_uses=7
+[28/02 18:54:23.408] [INFO] [Shader]   shader_cache: 0 entries
+[28/02 18:54:23.408] [INFO] [Godot] ModelPool: available=5, in_use=0, total=5
+[28/02 18:54:23.408] [INFO] [Godot] AnimPlayerPool: available=10, in_use=0, anims=17
+[28/02 18:54:23.408] [INFO] [Godot] PNJManager: active_pnjs=1
+[28/02 18:54:23.408] [INFO] [Godot] PNJCache: entries=0
+[28/02 18:54:23.408] [INFO] [Godot] BloodEffects: decals=0, floor=0, by_id=0
+[28/02 18:54:23.408] [INFO] [Godot] CorpseSystem: active=0
+[28/02 18:54:23.408] [INFO] [Resource] ResourceCache: scenes=0, textures=0, materials=0, models=0
+[28/02 18:54:23.408] [INFO] [Godot] CardManager: textures=0
+[28/02 18:54:23.408] [INFO] [Godot] DroppedItemsManager: scene_items=8, live_items=0
+[28/02 18:54:23.408] [INFO] [Godot] CitizenDatabase: citizens=0, vip_index=0
+[28/02 18:54:23.408] [INFO] [Shader] CharacterCustomizer: mat=1, tex=37, combined=56, shader=0, base=0, pnj_mat=7, pnj_shader=0, converted=0, lru=0
+[28/02 18:54:23.408] [INFO] [Godot] UIAudioFeedback: connected_buttons=33
+[28/02 18:54:23.408] [INFO] [Godot] MapOverlaySystem: open=false, city_instance=no
+[28/02 18:54:23.408] [INFO] [Godot] StainSystem: stains=0
+[28/02 18:54:23.408] [INFO] [Godot] GangAI: organizations=6
+[28/02 18:54:23.408] [INFO] [Godot] LogSystem: buffer=31, json_entries=302, error_dedup=0
+[28/02 18:54:23.408] [INFO] [Resource] Current scene: res://systems/scenes/buildings/BuildingLobby.tscn
+[28/02 18:54:23.408] [INFO] [Godot] Scene children: 494
+[28/02 18:54:23.408] [INFO] [Godot] --- TOP NODE TYPES ---
+[28/02 18:54:23.408] [INFO] [Godot]   Label: 236
+[28/02 18:54:23.408] [INFO] [Godot]   Button: 218
+[28/02 18:54:23.408] [INFO] [Godot]   Node: 175
+[28/02 18:54:23.408] [INFO] [Godot]   AudioStreamPlayer3D: 101
+[28/02 18:54:23.408] [INFO] [Godot]   VBoxContainer: 83
+[28/02 18:54:23.408] [INFO] [Godot]   MeshInstance3D: 66
+[28/02 18:54:23.408] [INFO] [Godot]   HBoxContainer: 63
+[28/02 18:54:23.408] [INFO] [Godot]   Timer: 58
+[28/02 18:54:23.408] [INFO] [Godot]   CollisionShape3D: 54
+[28/02 18:54:23.408] [INFO] [Godot]   Node3D: 52
+[28/02 18:54:23.408] [INFO] [Godot]   PanelContainer: 48
+[28/02 18:54:23.408] [INFO] [Godot]   RigidBody3D: 40
+[28/02 18:54:23.408] [INFO] [Godot]   AudioStreamPlayer: 38
+[28/02 18:54:23.408] [INFO] [Godot]   Control: 37
+[28/02 18:54:23.408] [INFO] [Godot]   Marker3D: 29
+[28/02 18:54:23.408] [INFO] [Godot] Orphan nodes: 1424
+[28/02 18:54:23.408] [INFO] [Godot] VRAM: textures=648 MB, buffers=40 MB, TOTAL=688 MB
+[28/02 18:54:23.409] [INFO] [Godot] >>> PROCESS REAL (Task Manager): 0 MB <<<
+[28/02 18:54:23.409] [INFO] [Godot] OS Static (Godot only): current=639 MB, peak=643 MB
+[28/02 18:54:23.409] [INFO] [Godot] HIDDEN MEMORY (Vulkan/driver): -639 MB
+[28/02 18:54:23.409] [INFO] [Godot] FPS: 2
+[28/02 18:54:23.409] [INFO] [Godot] Process time: 926.5 ms
+[28/02 18:54:23.409] [INFO] [Physics] Physics time: 0.2 ms
+[28/02 18:54:23.409] [INFO] [Godot] --- ACTIVE TIMERS (43) ---
+[28/02 18:54:23.409] [INFO] [Godot]   /root/MemoryDebugMonitor/@Timer@2 (wait=1.0s, left=0.9s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/LogSystem/@Timer@4 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/LogSystem/@Timer@5 (wait=300.0s, left=295.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/LogSystem/@Timer@6 (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/TimeSystem/@Timer@7 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/GlobalDayNightCycle/StreetLightsCleanupTimer (wait=5.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/PNJManager/@Timer@28 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/UIManager/GameModeIndicator/@Timer@35 (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/PhoneManager/PhoneWidgetLayer/PhoneUI/@Timer@1584 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/ApartmentStateManager/@Timer@41 (wait=30.0s, left=25.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/FloorStateManager/@Timer@42 (wait=60.0s, left=55.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/TutorialManager/@Timer@44 (wait=10.0s, left=5.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/TutorialManager/@Timer@159 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/GangSystem/@Timer@45 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/GangSystem/GangEconomy/EconomyTickTimer (wait=30.0s, left=25.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/GangSystem/PlayerGangSystem/GangUpdateTimer (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/GangSystem/GangReputationSystem/ReputationUpdateTimer (wait=5.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/GangSystem/ContrabandMarketSystem/UpdateTimer (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TributeCheckTimer (wait=60.0s, left=55.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TrustDecayTimer (wait=300.0s, left=295.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/GangSystem/AllianceSystem/OperationsTimer (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/WeatherSystem/@Timer@46 (wait=822.1s, left=821.0s, oneshot=true)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/WeatherSystem/@Timer@48 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/CorpseSystem/@Timer@79 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/UIAnimations/@Timer@80 (wait=10.0s, left=5.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/DealerSystem/HeatDecayTimer (wait=60.0s, left=55.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/HeistSystem/HeistGenerationTimer (wait=300.0s, left=295.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/JobMissionSystem/MissionGenerationTimer (wait=300.0s, left=295.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/JobMissionSystem/ExpiryCheckTimer (wait=60.0s, left=55.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@81 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@82 (wait=60.0s, left=55.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/DroppedItemsManager/SceneCheckTimer (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/DroppedItemsManager/AutoSaveTimer (wait=30.0s, left=25.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/ChatboxManager/AutoSaveTimer (wait=60.0s, left=55.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/BloodEffects/@Timer@103 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.409] [INFO] [Godot]   /root/IntimidationSystem/NPCCacheTimer (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:23.410] [INFO] [Godot]   /root/StainSystem/@Timer@104 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.410] [INFO] [Godot]   /root/SurvivalHUD/@Timer@1499 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.410] [INFO] [Godot]   /root/ApartmentValueSystem/@Timer@125 (wait=86400.0s, left=86395.1s, oneshot=false)
+[28/02 18:54:23.410] [INFO] [Godot]   /root/InvestigationProgressUI/@Timer@158 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:23.410] [INFO] [Godot]   /root/BuildingLobby/InventoryUI/@Timer@1601 (wait=1.0s, left=0.3s, oneshot=false)
+[28/02 18:54:23.410] [INFO] [Godot]   /root/BuildingLobby/PlayerPositionSaveTimer (wait=5.0s, left=4.3s, oneshot=false)
+[28/02 18:54:23.410] [INFO] [Godot]   /root/PlayerMenuUI/BadgeTimer (wait=5.0s, left=4.3s, oneshot=false)
+[28/02 18:54:23.410] [INFO] [Godot] --- AUTOLOAD COLLECTION SIZES ---
+[28/02 18:54:23.410] [INFO] [Godot]   Global.armes_enregistrees: 59 entries
+[28/02 18:54:23.410] [INFO] [Godot]   LogSystem._json_entries: 302 entries
+[28/02 18:54:23.410] [INFO] [Godot]   NodeGroupCache._cache: 12 entries
+[28/02 18:54:23.410] [INFO] [Godot]   GameStatistics.investigation_stats: 46 entries
+[28/02 18:54:23.410] [INFO] [Godot]   SkillSystem.ALL_SKILLS: 12 entries
+[28/02 18:54:23.410] [INFO] [Godot]   AdressesDatabase._zone_codes: 23 entries
+[28/02 18:54:23.410] [INFO] [Godot]   CharacterCustomizer.PRELOADED_TEXTURES: 82 entries
+[28/02 18:54:23.410] [INFO] [Godot]   NamesDatabase._male_names_cache: 144 entries
+[28/02 18:54:23.410] [INFO] [Godot]   NamesDatabase._female_names_cache: 136 entries
+[28/02 18:54:23.410] [INFO] [Godot]   NamesDatabase._last_names_cache: 245 entries
+[28/02 18:54:23.410] [INFO] [Godot]   UIAudioFeedback.connected_buttons: 33 entries
+[28/02 18:54:23.410] [INFO] [Godot]   PoliceService._pnj_group_cache: 20 entries
+[28/02 18:54:23.410] [INFO] [Godot]   BuildingSystemManager.buildings: 157 entries
+[28/02 18:54:23.410] [INFO] [Godot]   BuildingSystemManager._apt_to_building: 1827 entries
+[28/02 18:54:23.410] [INFO] [Godot]   FurnitureCatalog._catalog: 59 entries
+[28/02 18:54:23.410] [INFO] [Godot]   AchievementSystem.stats: 33 entries
+[28/02 18:54:23.410] [INFO] [Godot]   DealerSystem.drug_base_prices: 29 entries
+[28/02 18:54:23.410] [INFO] [Godot]   BusinessManager._daily_market: 41 entries
+[28/02 18:54:23.410] [INFO] [Godot]   CareerManager.career_stats: 17 entries
+[28/02 18:54:23.410] [INFO] [Godot]   PlayerLifeManager.player_profile: 21 entries
+[28/02 18:54:23.410] [INFO] [Godot]   VIPRegistry.vips: 24 entries
+[28/02 18:54:23.410] [INFO] [Godot]   BloodEffects._decal_pool: 20 entries
+[28/02 18:54:23.410] [INFO] [Godot]   NPCReactionSystem._cached_npcs: 20 entries
+[28/02 18:54:23.410] [INFO] [Godot]   GangBridge._district_to_territory: 13 entries
+[28/02 18:54:23.410] [INFO] [Godot]   DrawingMenuManager.available_colors: 12 entries
+[28/02 18:54:23.410] [INFO] [Godot]   CodenamesMenuManager.settings: 12 entries
+[28/02 18:54:23.410] [INFO] [Godot]   CardManager._loaded_sounds: 28 entries
+[28/02 18:54:23.410] [INFO] [Godot]   CardManager._audio_players: 12 entries
+[28/02 18:54:23.410] [INFO] [Godot]   CityEconomySystem.district_economies: 13 entries
+[28/02 18:54:23.410] [INFO] [Godot]   DealSpotNPCManager._spawn_points: 28 entries
+[28/02 18:54:23.410] [INFO] [Godot]   DealSpotNPCManager._queue_positions: 15 entries
+[28/02 18:54:23.410] [INFO] [Godot]   FlashbackSystem.flashbacks: 16 entries
+[28/02 18:54:23.410] [INFO] [Godot]   FlashbackSystem._trigger_rules: 12 entries
+[28/02 18:54:23.410] [INFO] [Godot]   VoiceLineManager._catalog: 326 entries
+[28/02 18:54:23.410] [INFO] [Godot]   VoiceLineManager._id_catalog: 164 entries
+[28/02 18:54:23.410] [INFO] [Godot]   VoiceLineManager._audio_pool: 12 entries
+[28/02 18:54:23.410] [INFO] [Godot]   PlayerMenuUI.TAB_COLORS: 11 entries
+[28/02 18:54:23.410] [INFO] [Godot] --- HIGH SIGNAL CONNECTION COUNTS ---
+[28/02 18:54:23.410] [INFO] [Godot]   Global.save_loaded: 30 connections
+[28/02 18:54:23.410] [INFO] [Godot]   TimeSystem.hour_changed: 16 connections
+[28/02 18:54:23.410] [INFO] [Godot]   TimeSystem.day_changed: 20 connections
+[28/02 18:54:23.410] [INFO] [Godot]   MultiplayerManager.player_connected: 12 connections
+[28/02 18:54:23.410] [INFO] [Godot]   MultiplayerManager.player_disconnected: 10 connections
+[28/02 18:54:23.410] [INFO] [Godot]   JobSystem.job_changed: 6 connections
+[28/02 18:54:23.410] [INFO] [Godot] Draw calls: 175
+[28/02 18:54:23.411] [INFO] [Godot] Objects drawn: 331
+[28/02 18:54:23.411] [INFO] [Godot] --- HISTORIQUE 10 dernières secondes ---
+[28/02 18:54:23.411] [INFO] [Godot]   t=19.0s | PROCESS: 639 MB (+271) | Static: 639 MB (+270.5) | VRAM: 688 MB | Obj: 14381 (+2244) | Nodes: 1639 (+716)
+[28/02 18:54:26.832] [INFO] [Godot] [TutorialManager] Premiere connexion detectee - lancement onboarding
+[28/02 18:54:26.832] [INFO] [Godot] 🎮 [GangSystem] Entree en gameplay detectee - generation du monde!
+[28/02 18:54:26.832] [INFO] [Godot] 🩸 [AAA FIX] Changement de scène - nettoyage sang de l'ancienne scène...
+[28/02 18:54:26.832] [INFO] [Godot] 🧹 Tout le sang nettoyé (preuves incluses, joueur: préservé)
+[28/02 18:54:26.832] [INFO] [Godot] 🩸 [AAA FIX] Mémoire sang libérée
+[28/02 18:54:26.832] [INFO] [Godot] 👤 PNJ spawné : Hannah Bernard  (Role: dealer, Genre: Female)
+[28/02 18:54:26.832] [INFO] [Godot] [DealSpotNPCManager] Queued spawn: Véronique Richard [Guetteur] at (-3.0, 0.0, 3.0)
+[28/02 18:54:26.832] [INFO] [Godot]   🎮 Instanciation modèle Kenney (pré-chargé)
+[28/02 18:54:26.832] [INFO] [Godot]   🎨 Application matériau
+[28/02 18:54:26.832] [INFO] [Godot]   ✅ Matériau appliqué
+[28/02 18:54:26.832] [INFO] [Godot]   🎯 Hitboxes de dégâts ajoutées
+[28/02 18:54:26.832] [INFO] [Godot] [DealSpotNPCManager] Queued spawn: Diana Neumann [Protection] at (-6.0, 0.0, -1.0)
+[28/02 18:54:26.832] [INFO] [Godot]   🎬 AnimationPlayer prêt pour Hannah Bernard
+[28/02 18:54:26.832] [INFO] [Godot] 👤 PNJ spawné : Véronique Richard  (Role: guetteur, Genre: Female)
+[28/02 18:54:26.832] [INFO] [Godot] [DealSpotNPCManager] Queued spawn: Alice Hernández [Gérant] at (0.5, 0.0, 3.0)
+[28/02 18:54:26.832] [INFO] [Godot]   📋 Animations disponibles: ["Death From Right", "DeathFromTheFront", "Dying", "Giveobject", "Injured Hurting Idle", "InjuredIdle", "InjuredRunjambe", "InjuredWalkingbras", "InjuredWalkjambe", "Openingdoor1", "SittingFemale", "SittingMale", "Typing", "Walking", "idle", "jump", "run"]
+[28/02 18:54:26.832] [INFO] [Godot]   ✓ Animation lancée : idle
+[28/02 18:54:26.832] [INFO] [Godot]   ❤️ HealthComponent configuré
+[28/02 18:54:26.832] [INFO] [Godot]     ✓ InjurySystem connecté à HealthComponent
+[28/02 18:54:26.832] [INFO] [Godot]   🩹 InjurySystem configuré pour PooledPNJ_18
+[28/02 18:54:26.832] [INFO] [Godot]   🩹 InjurySystem PNJ configuré
+[28/02 18:54:26.832] [INFO] [Godot]   🎮 Instanciation modèle Kenney (pré-chargé)
+[28/02 18:54:26.832] [INFO] [Godot]   🎨 Application matériau
+[28/02 18:54:26.832] [INFO] [Godot]   ✅ Matériau appliqué
+[28/02 18:54:26.832] [INFO] [Godot]   🎯 Hitboxes de dégâts ajoutées
+[28/02 18:54:26.832] [INFO] [Godot] 👤 PNJ spawné : Diana Neumann  (Role: protection, Genre: Female)
+[28/02 18:54:26.832] [INFO] [Godot] [DealSpotNPCManager] ✅ Phase 0 terminée — staff spawné avec matériaux pré-chauds
+[28/02 18:54:26.832] [INFO] [Godot] [PNJ PERF] Hannah Bernard  P4→P5 frame: 816ms
+[28/02 18:54:26.832] [INFO] [Godot] [PNJ PERF] Véronique Richard  P2→P3 frame: 815ms
+[28/02 18:54:26.832] [INFO] [Godot]   🎬 AnimationPlayer prêt pour Véronique Richard
+[28/02 18:54:26.832] [INFO] [Godot] [PNJ PERF] Diana Neumann  P1→P2 frame: 813ms
+[28/02 18:54:26.832] [INFO] [Godot]   🎮 Instanciation modèle Kenney (pré-chargé)
+[28/02 18:54:26.832] [INFO] [Godot]   🎨 Application matériau
+[28/02 18:54:26.836] [INFO] [Godot]   ✅ Matériau appliqué
+[28/02 18:54:26.836] [INFO] [Godot]   🎯 Hitboxes de dégâts ajoutées
+[28/02 18:54:26.836] [INFO] [Godot] [PNJ] Gym bag OK (bone: Spine, skel: 100, final_pos: (0.0013, -0.0115, 0.0002), final_scale: (0.00016, 0.00016, 0.00016))
+[28/02 18:54:26.836] [INFO] [Godot] 👤 PNJ spawné : Alice Hernández  (Role: gérant, Genre: Female)
+[28/02 18:54:26.836] [INFO] [Godot] [PNJ PERF] Hannah Bernard  P5→P6 frame: 926ms
+[28/02 18:54:26.836] [INFO] [Godot] [DealSpotNPCManager] Position restaurée (disque): dspot_1:0:pm_818245_1602920986 → (2.5, 0.0, -2.0)
+[28/02 18:54:26.836] [INFO] [Godot] [DealSpotNPCManager] NPC spawned: Hannah Bernard (key=dspot_1:0:pm_818245_1602920986)
+[28/02 18:54:26.836] [INFO] [Godot]   [PERF] setup_anim internal await: 928ms
+[28/02 18:54:26.836] [INFO] [Godot]   📋 Animations disponibles: ["Death From Right", "DeathFromTheFront", "Dying", "Giveobject", "Injured Hurting Idle", "InjuredIdle", "InjuredRunjambe", "InjuredWalkingbras", "InjuredWalkjambe", "Openingdoor1", "SittingFemale", "SittingMale", "Typing", "Walking", "idle", "jump", "run"]
+[28/02 18:54:26.836] [INFO] [Godot]   ✓ Animation lancée : idle
+[28/02 18:54:26.836] [INFO] [Godot] [PNJ PERF] Véronique Richard  P3→P4 frame: 928ms
+[28/02 18:54:26.836] [INFO] [Godot]   ❤️ HealthComponent configuré
+[28/02 18:54:26.836] [INFO] [Godot]     ✓ InjurySystem connecté à HealthComponent
+[28/02 18:54:26.836] [INFO] [Godot]   🩹 InjurySystem configuré pour PooledPNJ_17
+[28/02 18:54:26.836] [INFO] [Godot]   🩹 InjurySystem PNJ configuré
+[28/02 18:54:26.836] [INFO] [Godot] [PNJ PERF] Diana Neumann  P2→P3 frame: 929ms
+[28/02 18:54:26.836] [INFO] [Godot]   🎬 AnimationPlayer prêt pour Diana Neumann
+[28/02 18:54:26.836] [INFO] [Godot] [PNJ PERF] Alice Hernández  P1→P2 frame: 915ms
+[28/02 18:54:26.836] [INFO] [Godot]   🎮 Instanciation modèle Kenney (pré-chargé)
+[28/02 18:54:26.837] [INFO] [Godot]   🎨 Application matériau
+[28/02 18:54:26.837] [INFO] [Godot]   ✅ Matériau appliqué
+[28/02 18:54:26.837] [INFO] [Godot]   🎯 Hitboxes de dégâts ajoutées
+[28/02 18:54:26.837] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 918ms! (expected ~16ms)
+[28/02 18:54:26.837] [INFO] [Godot] [PNJ PERF] Véronique Richard  P4→P5 frame: 691ms
+[28/02 18:54:26.837] [INFO] [Godot]   [PERF] setup_anim internal await: 690ms
+[28/02 18:54:26.837] [INFO] [Godot]   📋 Animations disponibles: ["Death From Right", "DeathFromTheFront", "Dying", "Giveobject", "Injured Hurting Idle", "InjuredIdle", "InjuredRunjambe", "InjuredWalkingbras", "InjuredWalkjambe", "Openingdoor1", "SittingFemale", "SittingMale", "Typing", "Walking", "idle", "jump", "run"]
+[28/02 18:54:26.837] [INFO] [Godot]   ✓ Animation lancée : idle
+[28/02 18:54:26.837] [INFO] [Godot] [PNJ PERF] Diana Neumann  P3→P4 frame: 691ms
+[28/02 18:54:26.837] [INFO] [Godot]   ❤️ HealthComponent configuré
+[28/02 18:54:26.837] [INFO] [Godot]     ✓ InjurySystem connecté à HealthComponent
+[28/02 18:54:26.837] [INFO] [Godot]   🩹 InjurySystem configuré pour PooledPNJ_16
+[28/02 18:54:26.837] [INFO] [Godot]   🩹 InjurySystem PNJ configuré
+[28/02 18:54:26.837] [INFO] [Godot] [PNJ PERF] Alice Hernández  P2→P3 frame: 691ms
+[28/02 18:54:26.837] [INFO] [Godot]   🎬 AnimationPlayer prêt pour Alice Hernández
+[28/02 18:54:26.837] [INFO] [Godot] 👑 [GangSystem] VIPs charges depuis sauvegarde: 24
+[28/02 18:54:26.837] [INFO] [Godot] ✅ [GangSystem] Monde restaure depuis sauvegarde
+[28/02 18:54:26.837] [INFO] [Godot] ✅ [GangSystem] 24 VIPs existants
+[28/02 18:54:26.837] [INFO] [Godot] [PNJ PERF] Véronique Richard  P5→P6 frame: 908ms
+[28/02 18:54:26.837] [INFO] [Godot] [DealSpotNPCManager] Position restaurée (disque): dspot_1:1:pm_65135_1696096087 → (5.705917, 0.0, 22.82837)
+[28/02 18:54:26.837] [INFO] [Godot] [DealSpotNPCManager] NPC spawned: Véronique Richard (key=dspot_1:1:pm_65135_1696096087)
+[28/02 18:54:26.837] [INFO] [Godot] [PNJ PERF] Diana Neumann  P4→P5 frame: 908ms
+[28/02 18:54:26.837] [INFO] [Godot]   [PERF] setup_anim internal await: 908ms
+[28/02 18:54:26.837] [INFO] [Godot]   📋 Animations disponibles: ["Death From Right", "DeathFromTheFront", "Dying", "Giveobject", "Injured Hurting Idle", "InjuredIdle", "InjuredRunjambe", "InjuredWalkingbras", "InjuredWalkjambe", "Openingdoor1", "SittingFemale", "SittingMale", "Typing", "Walking", "idle", "jump", "run"]
+[28/02 18:54:26.837] [INFO] [Godot]   ✓ Animation lancée : idle
+[28/02 18:54:26.837] [INFO] [Godot] [PNJ PERF] Alice Hernández  P3→P4 frame: 908ms
+[28/02 18:54:26.837] [INFO] [Godot]   ❤️ HealthComponent configuré
+[28/02 18:54:26.837] [INFO] [Godot]     ✓ InjurySystem connecté à HealthComponent
+[28/02 18:54:26.837] [INFO] [Godot]   🩹 InjurySystem configuré pour PooledPNJ_15
+[28/02 18:54:26.837] [INFO] [Godot]   🩹 InjurySystem PNJ configuré
+[28/02 18:54:29.724] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 931ms! (expected ~16ms)
+[28/02 18:54:29.724] [INFO] [Godot] [PNJ PERF] Diana Neumann  P5→P6 frame: 700ms
+[28/02 18:54:29.724] [INFO] [Godot] [DealSpotNPCManager] Position restaurée (disque): dspot_1:2:pm_67143_1729818149 → (-2.126884, 0.0, 4.009134)
+[28/02 18:54:29.724] [INFO] [Godot]   [PNJMovementSystem] Lancement animation walk (vitesse: 1.20 m/s, distance: 2.00 m, durée: 1.67 sec)
+[28/02 18:54:29.724] [INFO] [Godot] [DealSpotNPCManager] NPC spawned: Diana Neumann (key=dspot_1:2:pm_67143_1729818149)
+[28/02 18:54:29.724] [INFO] [Godot] [PNJ PERF] Alice Hernández  P4→P5 frame: 701ms
+[28/02 18:54:29.724] [INFO] [Godot] [PNJ PERF] Alice Hernández  P5→P6 frame: 797ms
+[28/02 18:54:29.724] [INFO] [Godot] [DealSpotNPCManager] Position restaurée (disque): dspot_1:4:pm_65969_390639936 → (4.859818, 0.0, 1.909234)
+[28/02 18:54:29.724] [INFO] [Godot] [DealSpotNPCManager] NPC spawned: Alice Hernández (key=dspot_1:4:pm_65969_390639936)
+[28/02 18:54:29.724] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 797ms! (expected ~16ms)
+[28/02 18:54:29.724] [INFO] [Godot] ▶️ Gang simulation STARTED
+[28/02 18:54:29.724] [INFO] [Godot] ▶️ Simulation auto-started - The world is now ALIVE!
+[28/02 18:54:29.724] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:29.724] [INFO] [Godot] !!! MEMORY SPIKE #4 DETECTED at 25.4s !!!
+[28/02 18:54:29.724] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:29.724] [INFO] [Godot]   >>> PROCESS (Task Manager): 829 MB (delta: +190 MB) <<<
+[28/02 18:54:29.724] [INFO] [Godot]   Static: 829 MB (delta: +189.8 MB)
+[28/02 18:54:29.724] [INFO] [Godot]   VRAM: 718 MB
+[28/02 18:54:29.724] [INFO] [Resource]   Objects: 14937 (+556) | Nodes: 1904 (+265) | Resources: 2743 (+1)
+[28/02 18:54:29.724] [INFO] [Godot] ═══ SYSTEM STATE DUMP ═══
+[28/02 18:54:29.724] [INFO] [Godot] MaterialPool: cached=15, max=40, total_uses=19
+[28/02 18:54:29.724] [INFO] [Shader]   shader_cache: 0 entries
+[28/02 18:54:29.724] [INFO] [Godot] ModelPool: available=5, in_use=0, total=5
+[28/02 18:54:29.724] [INFO] [Godot] AnimPlayerPool: available=10, in_use=0, anims=17
+[28/02 18:54:29.724] [INFO] [Godot] PNJManager: active_pnjs=5
+[28/02 18:54:29.724] [INFO] [Godot] PNJCache: entries=0
+[28/02 18:54:29.724] [INFO] [Godot] BloodEffects: decals=0, floor=0, by_id=0
+[28/02 18:54:29.724] [INFO] [Godot] CorpseSystem: active=0
+[28/02 18:54:29.724] [INFO] [Resource] ResourceCache: scenes=0, textures=0, materials=0, models=0
+[28/02 18:54:29.724] [INFO] [Godot] CardManager: textures=0
+[28/02 18:54:29.724] [INFO] [Godot] DroppedItemsManager: scene_items=8, live_items=0
+[28/02 18:54:29.724] [INFO] [Godot] CitizenDatabase: citizens=0, vip_index=0
+[28/02 18:54:29.724] [INFO] [Shader] CharacterCustomizer: mat=1, tex=60, combined=100, shader=0, base=0, pnj_mat=15, pnj_shader=0, converted=0, lru=0
+[28/02 18:54:29.724] [INFO] [Godot] UIAudioFeedback: connected_buttons=33
+[28/02 18:54:29.725] [INFO] [Godot] MapOverlaySystem: open=false, city_instance=no
+[28/02 18:54:29.725] [INFO] [Godot] StainSystem: stains=0
+[28/02 18:54:29.725] [INFO] [Godot] GangAI: organizations=6
+[28/02 18:54:29.725] [INFO] [Godot] LogSystem: buffer=48, json_entries=150, error_dedup=0
+[28/02 18:54:29.725] [INFO] [Resource] Current scene: res://systems/scenes/buildings/BuildingLobby.tscn
+[28/02 18:54:29.725] [INFO] [Godot] Scene children: 614
+[28/02 18:54:29.725] [INFO] [Godot] --- TOP NODE TYPES ---
+[28/02 18:54:29.725] [INFO] [Godot]   Label: 237
+[28/02 18:54:29.725] [INFO] [Godot]   Button: 218
+[28/02 18:54:29.725] [INFO] [Godot]   Node: 183
+[28/02 18:54:29.725] [INFO] [Godot]   AudioStreamPlayer3D: 170
+[28/02 18:54:29.725] [INFO] [Godot]   Node3D: 117
+[28/02 18:54:29.725] [INFO] [Godot]   VBoxContainer: 83
+[28/02 18:54:29.725] [INFO] [Godot]   CollisionShape3D: 78
+[28/02 18:54:29.725] [INFO] [Godot]   MeshInstance3D: 75
+[28/02 18:54:29.725] [INFO] [Godot]   Timer: 63
+[28/02 18:54:29.725] [INFO] [Godot]   HBoxContainer: 63
+[28/02 18:54:29.725] [INFO] [Godot]   RigidBody3D: 50
+[28/02 18:54:29.725] [INFO] [Godot]   PanelContainer: 48
+[28/02 18:54:29.725] [INFO] [Godot]   AudioStreamPlayer: 38
+[28/02 18:54:29.725] [INFO] [Godot]   Control: 38
+[28/02 18:54:29.725] [INFO] [Godot]   Area3D: 37
+[28/02 18:54:29.725] [INFO] [Godot] Orphan nodes: 1424
+[28/02 18:54:29.725] [INFO] [Godot] VRAM: textures=676 MB, buffers=42 MB, TOTAL=718 MB
+[28/02 18:54:29.725] [INFO] [Godot] >>> PROCESS REAL (Task Manager): 0 MB <<<
+[28/02 18:54:29.725] [INFO] [Godot] OS Static (Godot only): current=829 MB, peak=849 MB
+[28/02 18:54:29.725] [INFO] [Godot] HIDDEN MEMORY (Vulkan/driver): -829 MB
+[28/02 18:54:29.725] [INFO] [Godot] FPS: 1
+[28/02 18:54:29.725] [INFO] [Godot] Process time: 458.8 ms
+[28/02 18:54:29.725] [INFO] [Physics] Physics time: 0.8 ms
+[28/02 18:54:29.725] [INFO] [Godot] --- ACTIVE TIMERS (45) ---
+[28/02 18:54:29.725] [INFO] [Godot]   /root/MemoryDebugMonitor/@Timer@2 (wait=1.0s, left=0.9s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/LogSystem/@Timer@4 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/LogSystem/@Timer@5 (wait=300.0s, left=294.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/LogSystem/@Timer@6 (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/TimeSystem/@Timer@7 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/GlobalDayNightCycle/StreetLightsCleanupTimer (wait=5.0s, left=4.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/PNJManager/@Timer@28 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/UIManager/GameModeIndicator/@Timer@35 (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/PhoneManager/PhoneWidgetLayer/PhoneUI/@Timer@1584 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/ApartmentStateManager/@Timer@41 (wait=30.0s, left=24.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/FloorStateManager/@Timer@42 (wait=60.0s, left=54.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/TutorialManager/@Timer@44 (wait=10.0s, left=4.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/GangSystem/@Timer@45 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/GangSystem/GangEconomy/EconomyTickTimer (wait=30.0s, left=24.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/GangSystem/PlayerGangSystem/GangUpdateTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/GangSystem/GangReputationSystem/ReputationUpdateTimer (wait=5.0s, left=4.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/GangSystem/ContrabandMarketSystem/UpdateTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TributeCheckTimer (wait=60.0s, left=54.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TrustDecayTimer (wait=300.0s, left=294.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/GangSystem/AllianceSystem/OperationsTimer (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/WeatherSystem/@Timer@46 (wait=822.1s, left=820.0s, oneshot=true)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/WeatherSystem/@Timer@48 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/CorpseSystem/@Timer@79 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/UIAnimations/@Timer@80 (wait=10.0s, left=4.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/DealerSystem/HeatDecayTimer (wait=60.0s, left=54.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/HeistSystem/HeistGenerationTimer (wait=300.0s, left=294.0s, oneshot=false)
+[28/02 18:54:29.725] [INFO] [Godot]   /root/JobMissionSystem/MissionGenerationTimer (wait=300.0s, left=294.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/JobMissionSystem/ExpiryCheckTimer (wait=60.0s, left=54.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@81 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@82 (wait=60.0s, left=54.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/DroppedItemsManager/SceneCheckTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/DroppedItemsManager/AutoSaveTimer (wait=30.0s, left=24.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/ChatboxManager/AutoSaveTimer (wait=60.0s, left=54.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/BloodEffects/@Timer@103 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/IntimidationSystem/NPCCacheTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/StainSystem/@Timer@104 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/SurvivalHUD/@Timer@1499 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/ApartmentValueSystem/@Timer@125 (wait=86400.0s, left=86394.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/DealSpotNPCManager/BehaviorTimer_dspot_1_0_pm_818245_1602920986 (wait=12.1s, left=11.3s, oneshot=true)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/DealSpotNPCManager/BehaviorTimer_dspot_1_1_pm_65135_1696096087 (wait=5.7s, left=5.2s, oneshot=true)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/DealSpotNPCManager/BehaviorTimer_dspot_1_2_pm_67143_1729818149 (wait=4.6s, left=4.2s, oneshot=true)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/InvestigationProgressUI/@Timer@158 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/BuildingLobby/InventoryUI/@Timer@1601 (wait=1.0s, left=0.2s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/BuildingLobby/PlayerPositionSaveTimer (wait=5.0s, left=3.2s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot]   /root/PlayerMenuUI/BadgeTimer (wait=5.0s, left=3.2s, oneshot=false)
+[28/02 18:54:29.726] [INFO] [Godot] --- AUTOLOAD COLLECTION SIZES ---
+[28/02 18:54:29.726] [INFO] [Godot]   Global.armes_enregistrees: 59 entries
+[28/02 18:54:29.726] [INFO] [Godot]   LogSystem._json_entries: 150 entries
+[28/02 18:54:29.726] [INFO] [Godot]   NodeGroupCache._cache: 12 entries
+[28/02 18:54:29.726] [INFO] [Godot]   GameStatistics.investigation_stats: 46 entries
+[28/02 18:54:29.726] [INFO] [Godot]   SkillSystem.ALL_SKILLS: 12 entries
+[28/02 18:54:29.726] [INFO] [Godot]   AdressesDatabase._zone_codes: 23 entries
+[28/02 18:54:29.726] [INFO] [Godot]   CharacterCustomizer.PRELOADED_TEXTURES: 82 entries
+[28/02 18:54:29.726] [INFO] [Godot]   CharacterCustomizer._pnj_materials_cache: 15 entries
+[28/02 18:54:29.726] [INFO] [Godot]   NamesDatabase._male_names_cache: 144 entries
+[28/02 18:54:29.726] [INFO] [Godot]   NamesDatabase._female_names_cache: 136 entries
+[28/02 18:54:29.726] [INFO] [Godot]   NamesDatabase._last_names_cache: 245 entries
+[28/02 18:54:29.726] [INFO] [Godot]   MaterialPool.material_cache: 15 entries
+[28/02 18:54:29.726] [INFO] [Godot]   MaterialPool._access_order: 15 entries
+[28/02 18:54:29.726] [INFO] [Godot]   UIAudioFeedback.connected_buttons: 33 entries
+[28/02 18:54:29.726] [INFO] [Godot]   PoliceService._pnj_group_cache: 20 entries
+[28/02 18:54:29.726] [INFO] [Godot]   BuildingSystemManager.buildings: 157 entries
+[28/02 18:54:29.726] [INFO] [Godot]   BuildingSystemManager._apt_to_building: 1827 entries
+[28/02 18:54:29.726] [INFO] [Godot]   FurnitureCatalog._catalog: 59 entries
+[28/02 18:54:29.726] [INFO] [Godot]   AchievementSystem.stats: 33 entries
+[28/02 18:54:29.726] [INFO] [Godot]   DealerSystem.drug_base_prices: 29 entries
+[28/02 18:54:29.726] [INFO] [Godot]   BusinessManager._daily_market: 41 entries
+[28/02 18:54:29.726] [INFO] [Godot]   CareerManager.career_stats: 17 entries
+[28/02 18:54:29.726] [INFO] [Godot]   PlayerLifeManager.player_profile: 21 entries
+[28/02 18:54:29.726] [INFO] [Godot]   VIPRegistry.vips: 24 entries
+[28/02 18:54:29.726] [INFO] [Godot]   BloodEffects._decal_pool: 20 entries
+[28/02 18:54:29.726] [INFO] [Godot]   NPCReactionSystem._cached_npcs: 20 entries
+[28/02 18:54:29.726] [INFO] [Godot]   GangBridge._district_to_territory: 13 entries
+[28/02 18:54:29.726] [INFO] [Godot]   DrawingMenuManager.available_colors: 12 entries
+[28/02 18:54:29.726] [INFO] [Godot]   CodenamesMenuManager.settings: 12 entries
+[28/02 18:54:29.726] [INFO] [Godot]   CardManager._loaded_sounds: 28 entries
+[28/02 18:54:29.726] [INFO] [Godot]   CardManager._audio_players: 12 entries
+[28/02 18:54:29.726] [INFO] [Godot]   CityEconomySystem.district_economies: 13 entries
+[28/02 18:54:29.726] [INFO] [Godot]   DealSpotNPCManager._spawn_points: 28 entries
+[28/02 18:54:29.726] [INFO] [Godot]   DealSpotNPCManager._queue_positions: 15 entries
+[28/02 18:54:29.726] [INFO] [Godot]   FlashbackSystem.flashbacks: 16 entries
+[28/02 18:54:29.726] [INFO] [Godot]   FlashbackSystem._trigger_rules: 12 entries
+[28/02 18:54:29.726] [INFO] [Godot]   VoiceLineManager._catalog: 326 entries
+[28/02 18:54:29.726] [INFO] [Godot]   VoiceLineManager._id_catalog: 164 entries
+[28/02 18:54:29.726] [INFO] [Godot]   VoiceLineManager._audio_pool: 12 entries
+[28/02 18:54:29.727] [INFO] [Godot]   PlayerMenuUI.TAB_COLORS: 11 entries
+[28/02 18:54:29.727] [INFO] [Godot] --- HIGH SIGNAL CONNECTION COUNTS ---
+[28/02 18:54:29.727] [INFO] [Godot]   Global.save_loaded: 30 connections
+[28/02 18:54:29.727] [INFO] [Godot]   TimeSystem.hour_changed: 16 connections
+[28/02 18:54:29.727] [INFO] [Godot]   TimeSystem.day_changed: 20 connections
+[28/02 18:54:29.727] [INFO] [Godot]   MultiplayerManager.player_connected: 12 connections
+[28/02 18:54:29.727] [INFO] [Godot]   MultiplayerManager.player_disconnected: 10 connections
+[28/02 18:54:29.727] [INFO] [Godot]   JobSystem.job_changed: 6 connections
+[28/02 18:54:29.727] [INFO] [Godot] Draw calls: 218
+[28/02 18:54:29.727] [INFO] [Godot] Objects drawn: 424
+[28/02 18:54:29.727] [INFO] [Godot] --- HISTORIQUE 10 dernières secondes ---
+[28/02 18:54:29.727] [INFO] [Godot]   t=19.0s | PROCESS: 639 MB (+271) | Static: 639 MB (+270.5) | VRAM: 688 MB | Obj: 14381 (+2244) | Nodes: 1639 (+716)
+[28/02 18:54:29.727] [INFO] [Godot]   t=25.4s | PROCESS: 829 MB (+190) | Static: 829 MB (+189.8) | VRAM: 718 MB | Obj: 14937 (+556) | Nodes: 1904 (+265)
+[28/02 18:54:29.727] [INFO] [Godot] [MEM] 25s | BuildingLobby | FPS:1 | REAL: 829 MB (+190) | Static: 829 MB (+189.8) | VRAM: 718 MB | Obj: 14937 (+556) | Nodes: 1904 (+265) | Res: 2743 (+1) | Draw:218 | DEV:CLOSED(tab0,n0)
+[28/02 18:54:31.530] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 953ms! (expected ~16ms)
+[28/02 18:54:31.530] [INFO] [Godot] 🎱 EffectsPool ready - Shells: 50, Impacts: 50
+[28/02 18:54:31.530] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 693ms! (expected ~16ms)
+[28/02 18:54:34.277] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 791ms! (expected ~16ms)
+[28/02 18:54:34.277] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 498ms! (expected ~16ms)
+[28/02 18:54:34.278] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:34.278] [INFO] [Godot] !!! MEMORY SPIKE #5 DETECTED at 29.9s !!!
+[28/02 18:54:34.278] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:34.278] [INFO] [Godot]   >>> PROCESS (Task Manager): 853 MB (delta: +24 MB) <<<
+[28/02 18:54:34.278] [INFO] [Godot]   Static: 853 MB (delta: +24.4 MB)
+[28/02 18:54:34.278] [INFO] [Godot]   VRAM: 746 MB
+[28/02 18:54:34.278] [INFO] [Resource]   Objects: 14996 (+59) | Nodes: 1922 (+18) | Resources: 2743 (+0)
+[28/02 18:54:34.278] [INFO] [Godot] ═══ SYSTEM STATE DUMP ═══
+[28/02 18:54:34.278] [INFO] [Godot] MaterialPool: cached=22, max=40, total_uses=26
+[28/02 18:54:34.278] [INFO] [Shader]   shader_cache: 0 entries
+[28/02 18:54:34.278] [INFO] [Godot] ModelPool: available=5, in_use=0, total=5
+[28/02 18:54:34.278] [INFO] [Godot] AnimPlayerPool: available=10, in_use=0, anims=17
+[28/02 18:54:34.278] [INFO] [Godot] PNJManager: active_pnjs=5
+[28/02 18:54:34.278] [INFO] [Godot] PNJCache: entries=0
+[28/02 18:54:34.278] [INFO] [Godot] BloodEffects: decals=0, floor=0, by_id=0
+[28/02 18:54:34.278] [INFO] [Godot] CorpseSystem: active=0
+[28/02 18:54:34.278] [INFO] [Resource] ResourceCache: scenes=0, textures=0, materials=0, models=0
+[28/02 18:54:34.278] [INFO] [Godot] CardManager: textures=0
+[28/02 18:54:34.278] [INFO] [Godot] DroppedItemsManager: scene_items=8, live_items=0
+[28/02 18:54:34.278] [INFO] [Godot] CitizenDatabase: citizens=0, vip_index=0
+[28/02 18:54:34.278] [INFO] [Shader] CharacterCustomizer: mat=1, tex=70, combined=100, shader=0, base=0, pnj_mat=22, pnj_shader=0, converted=0, lru=0
+[28/02 18:54:34.278] [INFO] [Godot] UIAudioFeedback: connected_buttons=33
+[28/02 18:54:34.278] [INFO] [Godot] MapOverlaySystem: open=false, city_instance=no
+[28/02 18:54:34.278] [INFO] [Godot] StainSystem: stains=0
+[28/02 18:54:34.278] [INFO] [Godot] GangAI: organizations=6
+[28/02 18:54:34.278] [INFO] [Godot] LogSystem: buffer=17, json_entries=317, error_dedup=0
+[28/02 18:54:34.278] [INFO] [Resource] Current scene: res://systems/scenes/buildings/BuildingLobby.tscn
+[28/02 18:54:34.278] [INFO] [Godot] Scene children: 624
+[28/02 18:54:34.278] [INFO] [Godot] --- TOP NODE TYPES ---
+[28/02 18:54:34.278] [INFO] [Godot]   Label: 238
+[28/02 18:54:34.278] [INFO] [Godot]   Button: 218
+[28/02 18:54:34.278] [INFO] [Godot]   Node: 183
+[28/02 18:54:34.278] [INFO] [Godot]   AudioStreamPlayer3D: 175
+[28/02 18:54:34.278] [INFO] [Godot]   Node3D: 122
+[28/02 18:54:34.278] [INFO] [Godot]   VBoxContainer: 83
+[28/02 18:54:34.278] [INFO] [Godot]   CollisionShape3D: 78
+[28/02 18:54:34.278] [INFO] [Godot]   MeshInstance3D: 75
+[28/02 18:54:34.278] [INFO] [Godot]   Timer: 66
+[28/02 18:54:34.278] [INFO] [Godot]   HBoxContainer: 63
+[28/02 18:54:34.278] [INFO] [Godot]   RigidBody3D: 50
+[28/02 18:54:34.278] [INFO] [Godot]   PanelContainer: 48
+[28/02 18:54:34.278] [INFO] [Godot]   Control: 39
+[28/02 18:54:34.278] [INFO] [Godot]   AudioStreamPlayer: 38
+[28/02 18:54:34.278] [INFO] [Godot]   Area3D: 37
+[28/02 18:54:34.278] [INFO] [Godot] Orphan nodes: 1424
+[28/02 18:54:34.278] [INFO] [Godot] VRAM: textures=704 MB, buffers=42 MB, TOTAL=746 MB
+[28/02 18:54:34.278] [INFO] [Godot] >>> PROCESS REAL (Task Manager): 0 MB <<<
+[28/02 18:54:34.278] [INFO] [Godot] OS Static (Godot only): current=853 MB, peak=877 MB
+[28/02 18:54:34.278] [INFO] [Godot] HIDDEN MEMORY (Vulkan/driver): -853 MB
+[28/02 18:54:34.278] [INFO] [Godot] FPS: 1
+[28/02 18:54:34.278] [INFO] [Godot] Process time: 575.2 ms
+[28/02 18:54:34.278] [INFO] [Physics] Physics time: 0.9 ms
+[28/02 18:54:34.278] [INFO] [Godot] --- ACTIVE TIMERS (45) ---
+[28/02 18:54:34.278] [INFO] [Godot]   /root/MemoryDebugMonitor/@Timer@2 (wait=1.0s, left=0.9s, oneshot=false)
+[28/02 18:54:34.278] [INFO] [Godot]   /root/LogSystem/@Timer@4 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.278] [INFO] [Godot]   /root/LogSystem/@Timer@5 (wait=300.0s, left=293.1s, oneshot=false)
+[28/02 18:54:34.278] [INFO] [Godot]   /root/LogSystem/@Timer@6 (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:34.278] [INFO] [Godot]   /root/TimeSystem/@Timer@7 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.278] [INFO] [Godot]   /root/GlobalDayNightCycle/StreetLightsCleanupTimer (wait=5.0s, left=3.1s, oneshot=false)
+[28/02 18:54:34.278] [INFO] [Godot]   /root/PNJManager/@Timer@28 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/UIManager/GameModeIndicator/@Timer@35 (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/PhoneManager/PhoneWidgetLayer/PhoneUI/@Timer@1584 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/ApartmentStateManager/@Timer@41 (wait=30.0s, left=23.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/FloorStateManager/@Timer@42 (wait=60.0s, left=53.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/TutorialManager/@Timer@44 (wait=10.0s, left=3.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/GangSystem/@Timer@45 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/GangSystem/GangEconomy/EconomyTickTimer (wait=30.0s, left=23.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/GangSystem/PlayerGangSystem/GangUpdateTimer (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/GangSystem/GangReputationSystem/ReputationUpdateTimer (wait=5.0s, left=3.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/GangSystem/ContrabandMarketSystem/UpdateTimer (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TributeCheckTimer (wait=60.0s, left=53.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TrustDecayTimer (wait=300.0s, left=293.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/GangSystem/AllianceSystem/OperationsTimer (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/WeatherSystem/@Timer@46 (wait=822.1s, left=819.0s, oneshot=true)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/WeatherSystem/@Timer@48 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/CorpseSystem/@Timer@79 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/UIAnimations/@Timer@80 (wait=10.0s, left=3.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/DealerSystem/HeatDecayTimer (wait=60.0s, left=53.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/HeistSystem/HeistGenerationTimer (wait=300.0s, left=293.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/JobMissionSystem/MissionGenerationTimer (wait=300.0s, left=293.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/JobMissionSystem/ExpiryCheckTimer (wait=60.0s, left=53.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@81 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@82 (wait=60.0s, left=53.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/DroppedItemsManager/SceneCheckTimer (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/DroppedItemsManager/AutoSaveTimer (wait=30.0s, left=23.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/ChatboxManager/AutoSaveTimer (wait=60.0s, left=53.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/BloodEffects/@Timer@103 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/IntimidationSystem/NPCCacheTimer (wait=0.5s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/StainSystem/@Timer@104 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/SurvivalHUD/@Timer@1499 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/ApartmentValueSystem/@Timer@125 (wait=86400.0s, left=86393.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/DealSpotNPCManager/BehaviorTimer_dspot_1_0_pm_818245_1602920986 (wait=12.1s, left=10.4s, oneshot=true)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/DealSpotNPCManager/BehaviorTimer_dspot_1_1_pm_65135_1696096087 (wait=5.7s, left=4.2s, oneshot=true)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/DealSpotNPCManager/BehaviorTimer_dspot_1_2_pm_67143_1729818149 (wait=4.6s, left=3.3s, oneshot=true)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/InvestigationProgressUI/@Timer@158 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/BuildingLobby/InventoryUI/@Timer@1601 (wait=1.0s, left=0.3s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/BuildingLobby/PlayerPositionSaveTimer (wait=5.0s, left=2.3s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot]   /root/PlayerMenuUI/BadgeTimer (wait=5.0s, left=2.3s, oneshot=false)
+[28/02 18:54:34.279] [INFO] [Godot] --- AUTOLOAD COLLECTION SIZES ---
+[28/02 18:54:34.279] [INFO] [Godot]   Global.armes_enregistrees: 59 entries
+[28/02 18:54:34.279] [INFO] [Godot]   LogSystem._json_entries: 317 entries
+[28/02 18:54:34.279] [INFO] [Godot]   NodeGroupCache._cache: 12 entries
+[28/02 18:54:34.279] [INFO] [Godot]   GameStatistics.investigation_stats: 46 entries
+[28/02 18:54:34.279] [INFO] [Godot]   SkillSystem.ALL_SKILLS: 12 entries
+[28/02 18:54:34.279] [INFO] [Godot]   AdressesDatabase._zone_codes: 23 entries
+[28/02 18:54:34.279] [INFO] [Godot]   CharacterCustomizer.PRELOADED_TEXTURES: 82 entries
+[28/02 18:54:34.279] [INFO] [Godot]   CharacterCustomizer._pnj_materials_cache: 22 entries
+[28/02 18:54:34.279] [INFO] [Godot]   NamesDatabase._male_names_cache: 144 entries
+[28/02 18:54:34.279] [INFO] [Godot]   NamesDatabase._female_names_cache: 136 entries
+[28/02 18:54:34.279] [INFO] [Godot]   NamesDatabase._last_names_cache: 245 entries
+[28/02 18:54:34.279] [INFO] [Godot]   MaterialPool.material_cache: 22 entries
+[28/02 18:54:34.279] [INFO] [Godot]   MaterialPool._access_order: 22 entries
+[28/02 18:54:34.279] [INFO] [Godot]   UIAudioFeedback.connected_buttons: 33 entries
+[28/02 18:54:34.279] [INFO] [Godot]   PoliceService._pnj_group_cache: 20 entries
+[28/02 18:54:34.280] [INFO] [Godot]   BuildingSystemManager.buildings: 157 entries
+[28/02 18:54:34.280] [INFO] [Godot]   BuildingSystemManager._apt_to_building: 1827 entries
+[28/02 18:54:34.280] [INFO] [Godot]   FurnitureCatalog._catalog: 59 entries
+[28/02 18:54:34.280] [INFO] [Godot]   AchievementSystem.stats: 33 entries
+[28/02 18:54:34.280] [INFO] [Godot]   DealerSystem.drug_base_prices: 29 entries
+[28/02 18:54:34.280] [INFO] [Godot]   BusinessManager._daily_market: 41 entries
+[28/02 18:54:34.280] [INFO] [Godot]   CareerManager.career_stats: 17 entries
+[28/02 18:54:34.280] [INFO] [Godot]   PlayerLifeManager.player_profile: 21 entries
+[28/02 18:54:34.280] [INFO] [Godot]   VIPRegistry.vips: 24 entries
+[28/02 18:54:34.280] [INFO] [Godot]   BloodEffects._decal_pool: 20 entries
+[28/02 18:54:34.280] [INFO] [Godot]   NPCReactionSystem._cached_npcs: 20 entries
+[28/02 18:54:34.280] [INFO] [Godot]   GangBridge._district_to_territory: 13 entries
+[28/02 18:54:34.280] [INFO] [Godot]   DrawingMenuManager.available_colors: 12 entries
+[28/02 18:54:34.280] [INFO] [Godot]   CodenamesMenuManager.settings: 12 entries
+[28/02 18:54:34.280] [INFO] [Godot]   CardManager._loaded_sounds: 28 entries
+[28/02 18:54:34.280] [INFO] [Godot]   CardManager._audio_players: 12 entries
+[28/02 18:54:34.280] [INFO] [Godot]   CityEconomySystem.district_economies: 13 entries
+[28/02 18:54:34.280] [INFO] [Godot]   DealSpotNPCManager._spawn_points: 28 entries
+[28/02 18:54:34.280] [INFO] [Godot]   DealSpotNPCManager._queue_positions: 15 entries
+[28/02 18:54:34.280] [INFO] [Godot]   DealSpotNPCManager._client_appearance_pool: 15 entries
+[28/02 18:54:34.280] [INFO] [Godot]   FlashbackSystem.flashbacks: 16 entries
+[28/02 18:54:34.280] [INFO] [Godot]   FlashbackSystem._trigger_rules: 12 entries
+[28/02 18:54:34.280] [INFO] [Godot]   VoiceLineManager._catalog: 326 entries
+[28/02 18:54:34.280] [INFO] [Godot]   VoiceLineManager._id_catalog: 164 entries
+[28/02 18:54:34.280] [INFO] [Godot]   VoiceLineManager._audio_pool: 12 entries
+[28/02 18:54:34.280] [INFO] [Godot]   PlayerMenuUI.TAB_COLORS: 11 entries
+[28/02 18:54:34.280] [INFO] [Godot] --- HIGH SIGNAL CONNECTION COUNTS ---
+[28/02 18:54:34.280] [INFO] [Godot]   Global.save_loaded: 30 connections
+[28/02 18:54:34.280] [INFO] [Godot]   TimeSystem.hour_changed: 16 connections
+[28/02 18:54:34.280] [INFO] [Godot]   TimeSystem.day_changed: 20 connections
+[28/02 18:54:34.280] [INFO] [Godot]   MultiplayerManager.player_connected: 12 connections
+[28/02 18:54:34.280] [INFO] [Godot]   MultiplayerManager.player_disconnected: 10 connections
+[28/02 18:54:34.280] [INFO] [Godot]   JobSystem.job_changed: 6 connections
+[28/02 18:54:34.280] [INFO] [Godot] Draw calls: 222
+[28/02 18:54:34.280] [INFO] [Godot] Objects drawn: 434
+[28/02 18:54:34.280] [INFO] [Godot] --- HISTORIQUE 10 dernières secondes ---
+[28/02 18:54:34.280] [INFO] [Godot]   t=25.4s | PROCESS: 829 MB (+190) | Static: 829 MB (+189.8) | VRAM: 718 MB | Obj: 14937 (+556) | Nodes: 1904 (+265)
+[28/02 18:54:34.280] [INFO] [Godot]   t=29.9s | PROCESS: 853 MB (+24) | Static: 853 MB (+24.4) | VRAM: 746 MB | Obj: 14996 (+59) | Nodes: 1922 (+18)
+[28/02 18:54:36.937] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 577ms! (expected ~16ms)
+[28/02 18:54:36.937] [INFO] [Godot] [DealSpotNPCManager] Alert state changed: calm → cautious (spot=dspot_1)
+[28/02 18:54:36.937] [INFO] [Godot]   [PNJMovementSystem] Mouvement terminé
+[28/02 18:54:36.937] [INFO] [Godot]   [PNJMovementSystem] Lancement animation walk (vitesse: 1.20 m/s, distance: 2.00 m, durée: 1.67 sec)
+[28/02 18:54:36.937] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 767ms! (expected ~16ms)
+[28/02 18:54:37.971] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 869ms! (expected ~16ms)
+[28/02 18:54:38.471] [INFO] [Godot] [DealSpotNPCManager] ✅ 20 client appearances + PSOs Vulkan pré-compilés → 0ms par spawn
+[28/02 18:54:39.456] [INFO] [Godot]   [PNJMovementSystem] Mouvement terminé
+[28/02 18:54:39.963] [INFO] [Godot] [MEM] 36s | BuildingLobby | FPS:137 | REAL: 865 MB (-0) | Static: 865 MB (-0.0) | VRAM: 770 MB | Obj: 15003 (-10) | Nodes: 1923 (+0) | Res: 2743 (+0) | Draw:220 | DEV:CLOSED(tab0,n0)
+[28/02 18:54:44.468] [INFO] [Godot] 👤 PNJ spawné : Lisa Al-Farsi (Role: client, Genre: Female)
+[28/02 18:54:44.468] [INFO] [Godot]   🎮 Instanciation modèle Kenney (pré-chargé)
+[28/02 18:54:44.468] [INFO] [Godot]   🎨 Application matériau
+[28/02 18:54:44.468] [INFO] [Godot]   ✅ Matériau appliqué
+[28/02 18:54:44.468] [INFO] [Godot]   🎬 AnimationPlayer prêt pour Lisa
+[28/02 18:54:44.468] [INFO] [Godot]   📋 Animations disponibles: ["Death From Right", "DeathFromTheFront", "Dying", "Giveobject", "Injured Hurting Idle", "InjuredIdle", "InjuredRunjambe", "InjuredWalkingbras", "InjuredWalkjambe", "Openingdoor1", "SittingFemale", "SittingMale", "Typing", "Walking", "idle", "jump", "run"]
+[28/02 18:54:44.468] [INFO] [Godot]   ✓ Animation lancée : idle
+[28/02 18:54:44.468] [INFO] [Godot]   ❤️ HealthComponent configuré
+[28/02 18:54:44.468] [INFO] [Godot]     ✓ InjurySystem connecté à HealthComponent
+[28/02 18:54:44.468] [INFO] [Godot]   🩹 InjurySystem configuré pour PooledPNJ_14
+[28/02 18:54:44.468] [INFO] [Godot]   🩹 InjurySystem PNJ configuré
+[28/02 18:54:44.468] [INFO] [Godot]   [PNJMovementSystem] Lancement animation walk (vitesse: 1.60 m/s, distance: 46.66 m, durée: 29.16 sec)
+[28/02 18:54:44.941] [INFO] [Godot] [MEM] 41s | BuildingLobby | FPS:144 | REAL: 866 MB (+0) | Static: 866 MB (+0.2) | VRAM: 770 MB | Obj: 15049 (+25) | Nodes: 1940 (+9) | Res: 2743 (+0) | Draw:217 | DEV:CLOSED(tab0,n0)
+[28/02 18:54:47.442] [INFO] [Godot] 🚶 Marche vers la porte GlassDoor pour: open
+[28/02 18:54:47.442] [INFO] [Godot] 🚪 Animation ouverture porte (proche)
+[28/02 18:54:47.939] [INFO] [Godot] 🚪 Ouverture de GlassDoor
+[28/02 18:54:48.940] [INFO] [Godot] 📹 Default Camera (Exterieur exit) - Transition fluide
+[28/02 18:54:49.939] [INFO] [Godot] 📹 Lobby Camera - Transition fluide
+[28/02 18:54:49.939] [INFO] [Godot] [MEM] 46s | BuildingLobby | FPS:144 | REAL: 866 MB (+0) | Static: 866 MB (+0.0) | VRAM: 770 MB | Obj: 15056 (+4) | Nodes: 1940 (+0) | Res: 2743 (+0) | Draw:220 | DEV:CLOSED(tab0,n0)
+[28/02 18:54:51.438] [INFO] [Godot] 📹 Ascenseur Camera - Transition fluide
+[28/02 18:54:51.438] [INFO] [Godot] 🎥 Transition: → AscensorCamera (0.6s)
+[28/02 18:54:52.437] [INFO] [Godot] ✓ Transition complete: AscensorCamera
+[28/02 18:54:54.437] [INFO] [Godot]   [PNJMovementSystem] Mouvement terminé
+[28/02 18:54:54.437] [INFO] [Godot] 👤 PNJ spawné : Hassan Kelly (Role: client, Genre: Male)
+[28/02 18:54:54.437] [INFO] [Godot]   🎮 Instanciation modèle Kenney (pré-chargé)
+[28/02 18:54:54.437] [INFO] [Godot]   🎨 Application matériau
+[28/02 18:54:54.437] [INFO] [Godot]   ✅ Matériau appliqué
+[28/02 18:54:54.437] [INFO] [Godot]   🎬 AnimationPlayer prêt pour Hassan
+[28/02 18:54:54.437] [INFO] [Godot]   📋 Animations disponibles: ["Death From Right", "DeathFromTheFront", "Dying", "Giveobject", "Injured Hurting Idle", "InjuredIdle", "InjuredRunjambe", "InjuredWalkingbras", "InjuredWalkjambe", "Openingdoor1", "SittingFemale", "SittingMale", "Typing", "Walking", "idle", "jump", "run"]
+[28/02 18:54:54.437] [INFO] [Godot]   ✓ Animation lancée : idle
+[28/02 18:54:54.437] [INFO] [Godot]   ❤️ HealthComponent configuré
+[28/02 18:54:54.437] [INFO] [Godot]     ✓ InjurySystem connecté à HealthComponent
+[28/02 18:54:54.437] [INFO] [Godot]   🩹 InjurySystem configuré pour PooledPNJ_13
+[28/02 18:54:54.437] [INFO] [Godot]   🩹 InjurySystem PNJ configuré
+[28/02 18:54:54.437] [INFO] [Godot]   [PNJMovementSystem] Lancement animation walk (vitesse: 1.60 m/s, distance: 29.64 m, durée: 18.53 sec)
+[28/02 18:54:54.938] [INFO] [Godot] [MEM] 51s | BuildingLobby | FPS:145 | REAL: 865 MB (+0) | Static: 865 MB (+0.4) | VRAM: 770 MB | Obj: 15127 (+65) | Nodes: 1970 (+30) | Res: 2743 (+0) | Draw:213 | DEV:CLOSED(tab0,n0)
+[28/02 18:54:55.952] [INFO] [Godot]   [PNJMovementSystem] Lancement animation walk (vitesse: 1.60 m/s, distance: 15.95 m, durée: 9.97 sec)
+[28/02 18:54:56.984] [INFO] [Godot] [LoadingScreen] load_scene('BuildingFloorIntegrated.tscn') called — current_scene=BuildingLobby, is_loading=false
+[28/02 18:54:56.984] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:56.984] [INFO] [Godot] !!! MEMORY SPIKE #6 DETECTED at 52.6s !!!
+[28/02 18:54:56.984] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:56.984] [INFO] [Godot]   >>> PROCESS (Task Manager): 907 MB (delta: +41 MB) <<<
+[28/02 18:54:56.984] [INFO] [Godot]   Static: 907 MB (delta: +41.2 MB)
+[28/02 18:54:56.984] [INFO] [Godot]   VRAM: 770 MB
+[28/02 18:54:56.984] [INFO] [Resource]   Objects: 15167 (+33) | Nodes: 1971 (+0) | Resources: 2747 (+4)
+[28/02 18:54:56.984] [INFO] [Godot] ═══ SYSTEM STATE DUMP ═══
+[28/02 18:54:56.984] [INFO] [Godot] MaterialPool: cached=27, max=40, total_uses=53
+[28/02 18:54:56.985] [INFO] [Shader]   shader_cache: 0 entries
+[28/02 18:54:56.985] [INFO] [Godot] ModelPool: available=5, in_use=0, total=5
+[28/02 18:54:56.985] [INFO] [Godot] AnimPlayerPool: available=10, in_use=0, anims=17
+[28/02 18:54:56.985] [INFO] [Godot] PNJManager: active_pnjs=7
+[28/02 18:54:56.985] [INFO] [Godot] PNJCache: entries=0
+[28/02 18:54:56.985] [INFO] [Godot] BloodEffects: decals=0, floor=0, by_id=0
+[28/02 18:54:56.985] [INFO] [Godot] CorpseSystem: active=0
+[28/02 18:54:56.985] [INFO] [Resource] ResourceCache: scenes=0, textures=1, materials=0, models=0
+[28/02 18:54:56.985] [INFO] [Godot] CardManager: textures=0
+[28/02 18:54:56.985] [INFO] [Godot] DroppedItemsManager: scene_items=8, live_items=0
+[28/02 18:54:56.985] [INFO] [Godot] CitizenDatabase: citizens=0, vip_index=0
+[28/02 18:54:56.985] [INFO] [Shader] CharacterCustomizer: mat=1, tex=74, combined=100, shader=0, base=0, pnj_mat=27, pnj_shader=0, converted=0, lru=0
+[28/02 18:54:56.985] [INFO] [Godot] UIAudioFeedback: connected_buttons=36
+[28/02 18:54:56.985] [INFO] [Godot] MapOverlaySystem: open=false, city_instance=no
+[28/02 18:54:56.985] [INFO] [Godot] StainSystem: stains=0
+[28/02 18:54:56.985] [INFO] [Godot] GangAI: organizations=6
+[28/02 18:54:56.985] [INFO] [Godot] LogSystem: buffer=1, json_entries=117, error_dedup=0
+[28/02 18:54:56.985] [INFO] [Resource] Current scene: res://systems/scenes/buildings/BuildingLobby.tscn
+[28/02 18:54:56.985] [INFO] [Godot] Scene children: 636
+[28/02 18:54:56.985] [INFO] [Godot] --- TOP NODE TYPES ---
+[28/02 18:54:56.985] [INFO] [Godot]   Label: 241
+[28/02 18:54:56.985] [INFO] [Godot]   Button: 221
+[28/02 18:54:56.985] [INFO] [Godot]   Node: 187
+[28/02 18:54:56.985] [INFO] [Godot]   AudioStreamPlayer3D: 178
+[28/02 18:54:56.985] [INFO] [Godot]   Node3D: 126
+[28/02 18:54:56.985] [INFO] [Godot]   VBoxContainer: 85
+[28/02 18:54:56.985] [INFO] [Godot]   CollisionShape3D: 78
+[28/02 18:54:56.985] [INFO] [Godot]   MeshInstance3D: 77
+[28/02 18:54:56.985] [INFO] [Godot]   Timer: 69
+[28/02 18:54:56.985] [INFO] [Godot]   HBoxContainer: 63
+[28/02 18:54:56.985] [INFO] [Godot]   RigidBody3D: 50
+[28/02 18:54:56.985] [INFO] [Godot]   PanelContainer: 49
+[28/02 18:54:56.985] [INFO] [Godot]   Control: 41
+[28/02 18:54:56.985] [INFO] [Godot]   AudioStreamPlayer: 38
+[28/02 18:54:56.985] [INFO] [Godot]   Area3D: 37
+[28/02 18:54:56.985] [INFO] [Godot] Orphan nodes: 1424
+[28/02 18:54:56.985] [INFO] [Godot] VRAM: textures=729 MB, buffers=42 MB, TOTAL=770 MB
+[28/02 18:54:56.985] [INFO] [Godot] >>> PROCESS REAL (Task Manager): 0 MB <<<
+[28/02 18:54:56.985] [INFO] [Godot] OS Static (Godot only): current=908 MB, peak=908 MB
+[28/02 18:54:56.985] [INFO] [Godot] HIDDEN MEMORY (Vulkan/driver): -908 MB
+[28/02 18:54:56.985] [INFO] [Godot] FPS: 145
+[28/02 18:54:56.985] [INFO] [Godot] Process time: 25.8 ms
+[28/02 18:54:56.985] [INFO] [Physics] Physics time: 0.7 ms
+[28/02 18:54:56.985] [INFO] [Godot] --- ACTIVE TIMERS (49) ---
+[28/02 18:54:56.985] [INFO] [Godot]   /root/MemoryDebugMonitor/@Timer@2 (wait=1.0s, left=1.0s, oneshot=false)
+[28/02 18:54:56.985] [INFO] [Godot]   /root/LogSystem/@Timer@4 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/LogSystem/@Timer@5 (wait=300.0s, left=273.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/LogSystem/@Timer@6 (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/TimeSystem/@Timer@7 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/GlobalDayNightCycle/StreetLightsCleanupTimer (wait=5.0s, left=3.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/SkillSystem/@Timer@8 (wait=0.1s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/PNJManager/@Timer@28 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/UIManager/GameModeIndicator/@Timer@35 (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/PhoneManager/PhoneWidgetLayer/PhoneUI/@Timer@1584 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/ApartmentStateManager/@Timer@41 (wait=30.0s, left=3.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/FloorStateManager/@Timer@42 (wait=60.0s, left=33.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/TutorialManager/@Timer@44 (wait=10.0s, left=3.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/GangSystem/@Timer@45 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/GangSystem/GangEconomy/EconomyTickTimer (wait=30.0s, left=3.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/GangSystem/PlayerGangSystem/GangUpdateTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/GangSystem/GangReputationSystem/ReputationUpdateTimer (wait=5.0s, left=3.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/GangSystem/ContrabandMarketSystem/UpdateTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TributeCheckTimer (wait=60.0s, left=33.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TrustDecayTimer (wait=300.0s, left=273.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/GangSystem/AllianceSystem/OperationsTimer (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/WeatherSystem/@Timer@46 (wait=822.1s, left=799.0s, oneshot=true)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/WeatherSystem/@Timer@48 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/CorpseSystem/@Timer@79 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/UIAnimations/@Timer@80 (wait=10.0s, left=3.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/DealerSystem/HeatDecayTimer (wait=60.0s, left=33.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/HeistSystem/HeistGenerationTimer (wait=300.0s, left=273.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/JobMissionSystem/MissionGenerationTimer (wait=300.0s, left=273.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/JobMissionSystem/ExpiryCheckTimer (wait=60.0s, left=33.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@81 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@82 (wait=60.0s, left=33.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/DroppedItemsManager/SceneCheckTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/DroppedItemsManager/AutoSaveTimer (wait=30.0s, left=3.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/ChatboxManager/AutoSaveTimer (wait=60.0s, left=33.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/BloodEffects/@Timer@103 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/IntimidationSystem/AimCheckTimer (wait=0.1s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/IntimidationSystem/NPCCacheTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/StainSystem/@Timer@104 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/SurvivalHUD/@Timer@1499 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/ApartmentValueSystem/@Timer@125 (wait=86400.0s, left=86373.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/DealSpotNPCManager/BehaviorTimer_dspot_1_0_pm_818245_1602920986 (wait=11.0s, left=1.4s, oneshot=true)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/DealSpotNPCManager/BehaviorTimer_dspot_1_1_pm_65135_1696096087 (wait=3.3s, left=3.2s, oneshot=true)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/DealSpotNPCManager/BehaviorTimer_dspot_1_2_pm_67143_1729818149 (wait=6.1s, left=2.2s, oneshot=true)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/InvestigationProgressUI/@Timer@158 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.986] [INFO] [Godot]   /root/BuildingLobby/InventoryUI/@Timer@1601 (wait=1.0s, left=0.2s, oneshot=false)
+[28/02 18:54:56.987] [INFO] [Godot]   /root/BuildingLobby/PlayerPositionSaveTimer (wait=5.0s, left=2.2s, oneshot=false)
+[28/02 18:54:56.987] [INFO] [Godot]   /root/PlayerMenuUI/BadgeTimer (wait=5.0s, left=2.2s, oneshot=false)
+[28/02 18:54:56.987] [INFO] [Godot]   /root/PNJDialogueCanvas/@Control@1848/@Timer@1851 (wait=0.0s, left=0.0s, oneshot=false)
+[28/02 18:54:56.987] [INFO] [Godot]   /root/PNJDialogueCanvas/@Control@1967/@Timer@1971 (wait=4.0s, left=2.1s, oneshot=true)
+[28/02 18:54:56.987] [INFO] [Godot] --- AUTOLOAD COLLECTION SIZES ---
+[28/02 18:54:56.987] [INFO] [Godot]   MemoryDebugMonitor._history: 27 entries
+[28/02 18:54:56.987] [INFO] [Godot]   Global.armes_enregistrees: 59 entries
+[28/02 18:54:56.987] [INFO] [Godot]   LogSystem._json_entries: 117 entries
+[28/02 18:54:56.987] [INFO] [Godot]   NodeGroupCache._cache: 15 entries
+[28/02 18:54:56.987] [INFO] [Godot]   GameStatistics.investigation_stats: 46 entries
+[28/02 18:54:56.987] [INFO] [Godot]   SkillSystem.ALL_SKILLS: 12 entries
+[28/02 18:54:56.987] [INFO] [Godot]   AdressesDatabase._zone_codes: 23 entries
+[28/02 18:54:56.987] [INFO] [Godot]   CharacterCustomizer.PRELOADED_TEXTURES: 82 entries
+[28/02 18:54:56.987] [INFO] [Godot]   CharacterCustomizer._pnj_materials_cache: 27 entries
+[28/02 18:54:56.987] [INFO] [Godot]   NamesDatabase._male_names_cache: 144 entries
+[28/02 18:54:56.987] [INFO] [Godot]   NamesDatabase._female_names_cache: 136 entries
+[28/02 18:54:56.987] [INFO] [Godot]   NamesDatabase._last_names_cache: 245 entries
+[28/02 18:54:56.987] [INFO] [Godot]   MaterialPool.material_cache: 27 entries
+[28/02 18:54:56.987] [INFO] [Godot]   MaterialPool._access_order: 27 entries
+[28/02 18:54:56.987] [INFO] [Godot]   UIAudioFeedback.connected_buttons: 36 entries
+[28/02 18:54:56.987] [INFO] [Godot]   PoliceService._pnj_group_cache: 20 entries
+[28/02 18:54:56.987] [INFO] [Godot]   BuildingSystemManager.buildings: 157 entries
+[28/02 18:54:56.987] [INFO] [Godot]   BuildingSystemManager._apt_to_building: 1827 entries
+[28/02 18:54:56.987] [INFO] [Godot]   FurnitureCatalog._catalog: 59 entries
+[28/02 18:54:56.987] [INFO] [Godot]   AchievementSystem.stats: 33 entries
+[28/02 18:54:56.987] [INFO] [Godot]   DealerSystem.drug_base_prices: 29 entries
+[28/02 18:54:56.987] [INFO] [Godot]   BusinessManager._daily_market: 41 entries
+[28/02 18:54:56.987] [INFO] [Godot]   CareerManager.career_stats: 17 entries
+[28/02 18:54:56.987] [INFO] [Godot]   PlayerLifeManager.player_profile: 21 entries
+[28/02 18:54:56.987] [INFO] [Godot]   VIPRegistry.vips: 24 entries
+[28/02 18:54:56.987] [INFO] [Godot]   BloodEffects._decal_pool: 20 entries
+[28/02 18:54:56.987] [INFO] [Godot]   NPCReactionSystem._cached_npcs: 20 entries
+[28/02 18:54:56.987] [INFO] [Godot]   GangBridge._district_to_territory: 13 entries
+[28/02 18:54:56.987] [INFO] [Godot]   DrawingMenuManager.available_colors: 12 entries
+[28/02 18:54:56.987] [INFO] [Godot]   CodenamesMenuManager.settings: 12 entries
+[28/02 18:54:56.987] [INFO] [Godot]   CardManager._loaded_sounds: 28 entries
+[28/02 18:54:56.987] [INFO] [Godot]   CardManager._audio_players: 12 entries
+[28/02 18:54:56.987] [INFO] [Godot]   CityEconomySystem.district_economies: 13 entries
+[28/02 18:54:56.987] [INFO] [Godot]   DealSpotNPCManager._spawn_points: 28 entries
+[28/02 18:54:56.987] [INFO] [Godot]   DealSpotNPCManager._queue_positions: 15 entries
+[28/02 18:54:56.987] [INFO] [Godot]   DealSpotNPCManager._client_appearance_pool: 20 entries
+[28/02 18:54:56.987] [INFO] [Godot]   FlashbackSystem.flashbacks: 16 entries
+[28/02 18:54:56.987] [INFO] [Godot]   FlashbackSystem._trigger_rules: 12 entries
+[28/02 18:54:56.987] [INFO] [Godot]   VoiceLineManager._catalog: 326 entries
+[28/02 18:54:56.987] [INFO] [Godot]   VoiceLineManager._id_catalog: 164 entries
+[28/02 18:54:56.987] [INFO] [Godot]   VoiceLineManager._audio_pool: 12 entries
+[28/02 18:54:56.988] [INFO] [Godot]   PlayerMenuUI.TAB_COLORS: 11 entries
+[28/02 18:54:56.988] [INFO] [Godot] --- HIGH SIGNAL CONNECTION COUNTS ---
+[28/02 18:54:56.988] [INFO] [Godot]   Global.save_loaded: 30 connections
+[28/02 18:54:56.988] [INFO] [Godot]   TimeSystem.hour_changed: 16 connections
+[28/02 18:54:56.988] [INFO] [Godot]   TimeSystem.day_changed: 20 connections
+[28/02 18:54:56.988] [INFO] [Godot]   MultiplayerManager.player_connected: 12 connections
+[28/02 18:54:56.988] [INFO] [Godot]   MultiplayerManager.player_disconnected: 10 connections
+[28/02 18:54:56.988] [INFO] [Godot]   JobSystem.job_changed: 6 connections
+[28/02 18:54:56.988] [INFO] [Godot] Draw calls: 209
+[28/02 18:54:56.988] [INFO] [Godot] Objects drawn: 432
+[28/02 18:54:56.988] [INFO] [Godot] --- HISTORIQUE 10 dernières secondes ---
+[28/02 18:54:56.988] [INFO] [Godot]   t=43.6s | PROCESS: 866 MB (+0) | Static: 866 MB (+0.0) | VRAM: 770 MB | Obj: 15056 (+6) | Nodes: 1940 (+0)
+[28/02 18:54:56.988] [INFO] [Godot]   t=44.6s | PROCESS: 866 MB (-0) | Static: 866 MB (-0.0) | VRAM: 770 MB | Obj: 15052 (-4) | Nodes: 1940 (+0)
+[28/02 18:54:56.988] [INFO] [Godot]   t=45.6s | PROCESS: 866 MB (+0) | Static: 866 MB (+0.0) | VRAM: 770 MB | Obj: 15056 (+4) | Nodes: 1940 (+0)
+[28/02 18:54:56.988] [INFO] [Godot]   t=46.6s | PROCESS: 866 MB (+0) | Static: 866 MB (+0.0) | VRAM: 770 MB | Obj: 15060 (+4) | Nodes: 1940 (+0)
+[28/02 18:54:56.988] [INFO] [Godot]   t=47.6s | PROCESS: 865 MB (-0) | Static: 865 MB (-0.5) | VRAM: 770 MB | Obj: 15061 (+1) | Nodes: 1940 (+0)
+[28/02 18:54:56.988] [INFO] [Godot]   t=48.6s | PROCESS: 865 MB (+0) | Static: 865 MB (+0.0) | VRAM: 770 MB | Obj: 15059 (-2) | Nodes: 1940 (+0)
+[28/02 18:54:56.988] [INFO] [Godot]   t=49.6s | PROCESS: 865 MB (-0) | Static: 865 MB (-0.0) | VRAM: 770 MB | Obj: 15062 (+3) | Nodes: 1940 (+0)
+[28/02 18:54:56.988] [INFO] [Godot]   t=50.6s | PROCESS: 865 MB (+0) | Static: 865 MB (+0.4) | VRAM: 770 MB | Obj: 15127 (+65) | Nodes: 1970 (+30)
+[28/02 18:54:56.988] [INFO] [Godot]   t=51.6s | PROCESS: 866 MB (+0) | Static: 866 MB (+0.0) | VRAM: 770 MB | Obj: 15134 (+7) | Nodes: 1971 (+1)
+[28/02 18:54:56.988] [INFO] [Godot]   t=52.6s | PROCESS: 907 MB (+41) | Static: 907 MB (+41.2) | VRAM: 770 MB | Obj: 15167 (+33) | Nodes: 1971 (+0)
+[28/02 18:54:58.398] [INFO] [Godot] 🎱 Nettoyage des EffectsPool...
+[28/02 18:54:58.399] [INFO] [Godot] 🎱 EffectsPool libéré
+[28/02 18:54:58.399] [INFO] [Resource] 🗑️ ResourceCache vidé
+[28/02 18:54:58.399] [INFO] [Godot] [CardManager] Cache textures vide
+[28/02 18:54:58.399] [INFO] [Shader] 🧹 CharacterCustomizer: Cache nettoyé (incluant shader et PNJ)
+[28/02 18:54:58.399] [INFO] [Godot] [MEM] Scene change cleanup: freed 484.4 MB
+[28/02 18:54:58.399] [INFO] [Shader] 🧹 CharacterCustomizer: Cache nettoyé (incluant shader et PNJ)
+[28/02 18:54:58.399] [INFO] [Godot] ✓ AnimationModule: 50 animations cachées
+[28/02 18:54:58.399] [INFO] [Godot] [SYNC TX] Module réseau configuré: peer_id=1, local=true
+[28/02 18:54:58.399] [INFO] [Godot] SoundModule: Audio players configurés
+[28/02 18:54:58.399] [INFO] [Godot] ✓ HandAnchor créé: pos=(-0.2, 0.4, -0.1), rot=(0.0, 0.0, 90.0)°
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Hitboxes de dégâts ajoutées au joueur
+[28/02 18:54:58.399] [INFO] [Godot] ❤️ HealthComponent joueur configuré
+[28/02 18:54:58.399] [INFO] [Godot]     ✓ InjurySystem connecté à HealthComponent
+[28/02 18:54:58.399] [INFO] [Godot]   🩹 InjurySystem configuré pour Player
+[28/02 18:54:58.399] [INFO] [Godot] 🩹 InjurySystem joueur configuré
+[28/02 18:54:58.399] [INFO] [Godot]   Lecture (cached): Root|Idle
+[28/02 18:54:58.399] [INFO] [Godot] 🎮 Session mode solo (en attente du bouton Partager)
+[28/02 18:54:58.399] [INFO] [Godot] ✓ PauseMenu prêt
+[28/02 18:54:58.399] [INFO] [Godot] === INVENTORY UI READY (CLOTHING-BASED) ===
+[28/02 18:54:58.399] [INFO] [Godot] ✓ 8 slots dynamiques créés - Style AAA minimaliste
+[28/02 18:54:58.399] [INFO] [Godot] ✗ Mode solo
+[28/02 18:54:58.399] [INFO] [Godot] 🎮 Steam Rich Presence: building_floor
+[28/02 18:54:58.399] [INFO] [Godot] 💬 Discord Rich Presence: building_floor
+[28/02 18:54:58.399] [INFO] [Godot] 🎱 EffectsPool initializing...
+[28/02 18:54:58.399] [INFO] [Godot] 🔫 Weapon serial: P9-47969-56944
+[28/02 18:54:58.399] [INFO] [Godot] 🔫 ShootingSystem setup - Player: Player, Camera: true
+[28/02 18:54:58.399] [INFO] [Godot] 🔫 ShootingSystem initialisé (BuildingFloorIntegrated)
+[28/02 18:54:58.399] [INFO] [Godot] 🤝 NPCInteractionSystem initialisé (BuildingFloorIntegrated)
+[28/02 18:54:58.399] [INFO] [Godot] 🔍 InspectionSystem setup - Player: Player, CameraManager: yes
+[28/02 18:54:58.399] [INFO] [Godot] 🔍 InspectionSystem initialisé (BuildingFloorIntegrated)
+[28/02 18:54:58.399] [INFO] [Godot] 🎯 GroundContextMenuSystem setup - Player: Player
+[28/02 18:54:58.399] [INFO] [Godot] 🎯 GroundContextMenuSystem initialisé (BuildingFloorIntegrated)
+[28/02 18:54:58.399] [INFO] [Godot] 🎮 KeyboardMovementSystem setup - Player: Player, CameraManager: yes
+[28/02 18:54:58.399] [INFO] [Godot] 🎮 KeyboardMovementSystem initialisé (BuildingFloorIntegrated)
+[28/02 18:54:58.399] [INFO] [Godot] 🚪 DoorSystem setup - Scene: BuildingFloorIntegrated
+[28/02 18:54:58.399] [INFO] [Godot] 🔊 DoorSystem audio configured
+[28/02 18:54:58.399] [INFO] [Godot] 🚪 DoorSystem initialisé (BuildingFloorIntegrated)
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Porte initialisée: Door_A (charnière: left)
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Porte initialisée: Door_B (charnière: right)
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Porte initialisée: Door_C (charnière: left)
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Porte initialisée: Door_D (charnière: right)
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Porte initialisée: Door_E (charnière: left)
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Porte initialisée: Door_F (charnière: right)
+[28/02 18:54:58.399] [INFO] [Godot] 📹 CameraZoneSystem setup - Player: Player, Default camera: MainCamera
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Zone caméra enregistrée: Corridor
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Zone caméra enregistrée: CorridorDoor_A
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Zone caméra enregistrée: CorridorDoor_B
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Zone caméra enregistrée: CorridorDoor_C
+[28/02 18:54:58.399] [INFO] [Godot] ✓ Zone caméra enregistrée: CorridorDoor_D
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: CorridorDoor_E
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: CorridorDoor_F
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptA_Entry
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptA_Living
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptA_Bathroom
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptA_Bedroom
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptB_Entry
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptB_Living
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptB_Bathroom
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptB_Bedroom
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptC_Entry
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptC_Living
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptC_Bathroom
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptC_Bedroom
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptD_Entry
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptD_Living
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptD_Bathroom
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptD_Bedroom
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptE_Entry
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptE_Living
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptE_Bathroom
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptE_Bedroom
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptF_Entry
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptF_Living
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptF_Bathroom
+[28/02 18:54:58.400] [INFO] [Godot] ✓ Zone caméra enregistrée: AptF_Bedroom
+[28/02 18:54:58.400] [INFO] [Godot] 📹 CameraZoneSystem initialisé (BuildingFloorIntegrated)
+[28/02 18:54:58.400] [INFO] [Godot] [TutorialTracker] Tracking joueur configure: Player
+[28/02 18:54:58.400] [INFO] [Godot] 🩸 Joueur blessé!
+[28/02 18:54:58.400] [INFO] [Godot] ❤️ HealthComponent synchro depuis TraitSystem: 57.3 HP
+[28/02 18:54:58.400] [INFO] [Godot] [APT-ZONES] Connecté 6 zones d'entrée appartement
+[28/02 18:54:58.400] [INFO] [Godot] [DealSpotNPCManager] Auto-generated 28 spawn points around PlayerSpawn at (-28.0, 0.0, 0.0)
+[28/02 18:54:58.400] [INFO] [Godot] [DealSpotNPCManager] TIP: Add Marker3D nodes named DealSpot_Dealer_1, DealSpot_Guetteur_1, etc. to your scene for precise positioning
+[28/02 18:54:58.400] [INFO] [Godot] [DealSpotNPCManager] Client waypoints: 5 spawns, 15 queue positions, exit=(-25.0, 0.0, 1.5), waypoint=(-28.0, 0.0, 4.0)
+[28/02 18:54:58.400] [INFO] [Godot] 📹 Corridor Camera - Transition fluide
+[28/02 18:54:58.400] [INFO] [Godot] ⚠️ Slot 4 était équipé mais l'item n'existe pas
+[28/02 18:54:58.400] [INFO] [Godot] ⚠️ [FREEZE DETECTED] Frame took 1081ms! (expected ~16ms)
+[28/02 18:54:58.400] [INFO] [Godot] 🔫 ShootingSystem: pools GPU prêts (8 lights, 16 particles)
+[28/02 18:54:58.400] [INFO] [Godot] 🎱 EffectsPool ready - Shells: 50, Impacts: 50
+[28/02 18:54:58.922] [INFO] [Godot] 🔄 [DroppedItems] Changement détecté: BuildingLobby.tscn → BuildingFloorIntegrated.tscn (contexte: auto_bldg_039_lobby → auto_bldg_039_floor_1)
+[28/02 18:54:58.922] [INFO] [Godot] 🔄 [DroppedItems] Sauvegarde avant changement: 0 items en mémoire
+[28/02 18:54:58.922] [INFO] [Resource] 💾 Sauvegardé 0 items pour: res://systems/scenes/buildings/BuildingLobby.tscn::auto_bldg_039_lobby
+[28/02 18:54:58.923] [INFO] [Godot] 💾 DroppedItems sauvegardés: slot 0 (8 scènes)
+[28/02 18:54:58.923] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:58.923] [INFO] [Godot] !!! MEMORY SPIKE #7 DETECTED at 54.6s !!!
+[28/02 18:54:58.923] [INFO] [Godot] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[28/02 18:54:58.923] [INFO] [Godot]   >>> PROCESS (Task Manager): 432 MB (delta: -475 MB) <<<
+[28/02 18:54:58.923] [INFO] [Godot]   Static: 432 MB (delta: -474.9 MB)
+[28/02 18:54:58.923] [INFO] [Godot]   VRAM: 764 MB
+[28/02 18:54:58.923] [INFO] [Resource]   Objects: 15155 (-12) | Nodes: 2101 (+130) | Resources: 2876 (+129)
+[28/02 18:54:58.923] [INFO] [Godot] ═══ SYSTEM STATE DUMP ═══
+[28/02 18:54:58.923] [INFO] [Godot] MaterialPool: cached=0, max=40, total_uses=0
+[28/02 18:54:58.923] [INFO] [Shader]   shader_cache: 0 entries
+[28/02 18:54:58.923] [INFO] [Godot] ModelPool: available=5, in_use=0, total=5
+[28/02 18:54:58.923] [INFO] [Godot] AnimPlayerPool: available=10, in_use=0, anims=17
+[28/02 18:54:58.923] [INFO] [Godot] PNJManager: active_pnjs=0
+[28/02 18:54:58.923] [INFO] [Godot] PNJCache: entries=0
+[28/02 18:54:58.923] [INFO] [Godot] BloodEffects: decals=0, floor=0, by_id=0
+[28/02 18:54:58.923] [INFO] [Godot] CorpseSystem: active=0
+[28/02 18:54:58.923] [INFO] [Resource] ResourceCache: scenes=0, textures=0, materials=0, models=0
+[28/02 18:54:58.923] [INFO] [Godot] CardManager: textures=0
+[28/02 18:54:58.923] [INFO] [Godot] DroppedItemsManager: scene_items=8, live_items=0
+[28/02 18:54:58.923] [INFO] [Godot] CitizenDatabase: citizens=0, vip_index=0
+[28/02 18:54:58.923] [INFO] [Shader] CharacterCustomizer: mat=1, tex=7, combined=8, shader=0, base=0, pnj_mat=0, pnj_shader=0, converted=0, lru=0
+[28/02 18:54:58.923] [INFO] [Godot] UIAudioFeedback: connected_buttons=19
+[28/02 18:54:58.923] [INFO] [Godot] MapOverlaySystem: open=false, city_instance=no
+[28/02 18:54:58.923] [INFO] [Godot] StainSystem: stains=0
+[28/02 18:54:58.923] [INFO] [Godot] GangAI: organizations=6
+[28/02 18:54:58.923] [INFO] [Godot] LogSystem: buffer=5, json_entries=372, error_dedup=0
+[28/02 18:54:58.923] [INFO] [Resource] Current scene: res://systems/scenes/buildings/BuildingFloorIntegrated.tscn
+[28/02 18:54:58.923] [INFO] [Godot] Scene children: 806
+[28/02 18:54:58.923] [INFO] [Godot] --- TOP NODE TYPES ---
+[28/02 18:54:58.923] [INFO] [Godot]   Label: 235
+[28/02 18:54:58.923] [INFO] [Godot]   Button: 215
+[28/02 18:54:58.923] [INFO] [Godot]   Node: 187
+[28/02 18:54:58.923] [INFO] [Godot]   Node3D: 177
+[28/02 18:54:58.923] [INFO] [Godot]   AudioStreamPlayer3D: 177
+[28/02 18:54:58.923] [INFO] [Godot]   MeshInstance3D: 117
+[28/02 18:54:58.923] [INFO] [Godot]   CollisionShape3D: 103
+[28/02 18:54:58.923] [INFO] [Godot]   VBoxContainer: 83
+[28/02 18:54:58.923] [INFO] [Godot]   Area3D: 67
+[28/02 18:54:58.923] [INFO] [Godot]   HBoxContainer: 63
+[28/02 18:54:58.923] [INFO] [Godot]   Timer: 57
+[28/02 18:54:58.923] [INFO] [Godot]   RigidBody3D: 50
+[28/02 18:54:58.923] [INFO] [Godot]   PanelContainer: 48
+[28/02 18:54:58.923] [INFO] [Godot]   AudioStreamPlayer: 38
+[28/02 18:54:58.923] [INFO] [Godot]   Control: 37
+[28/02 18:54:58.923] [INFO] [Godot] Orphan nodes: 1424
+[28/02 18:54:58.923] [INFO] [Godot] VRAM: textures=723 MB, buffers=41 MB, TOTAL=764 MB
+[28/02 18:54:58.923] [INFO] [Godot] >>> PROCESS REAL (Task Manager): 0 MB <<<
+[28/02 18:54:58.923] [INFO] [Godot] OS Static (Godot only): current=432 MB, peak=913 MB
+[28/02 18:54:58.923] [INFO] [Godot] HIDDEN MEMORY (Vulkan/driver): -432 MB
+[28/02 18:54:58.923] [INFO] [Godot] FPS: 9
+[28/02 18:54:58.923] [INFO] [Godot] Process time: 1119.4 ms
+[28/02 18:54:58.923] [INFO] [Physics] Physics time: 0.6 ms
+[28/02 18:54:58.923] [INFO] [Godot] --- ACTIVE TIMERS (44) ---
+[28/02 18:54:58.923] [INFO] [Godot]   /root/MemoryDebugMonitor/@Timer@2 (wait=1.0s, left=1.0s, oneshot=false)
+[28/02 18:54:58.923] [INFO] [Godot]   /root/LogSystem/@Timer@4 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/LogSystem/@Timer@5 (wait=300.0s, left=272.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/LogSystem/@Timer@6 (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/TimeSystem/@Timer@7 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/GlobalDayNightCycle/StreetLightsCleanupTimer (wait=5.0s, left=2.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/SkillSystem/@Timer@8 (wait=0.1s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/PNJManager/@Timer@28 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/UIManager/GameModeIndicator/@Timer@35 (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/PhoneManager/PhoneWidgetLayer/PhoneUI/@Timer@1584 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/ApartmentStateManager/@Timer@41 (wait=30.0s, left=2.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/FloorStateManager/@Timer@42 (wait=60.0s, left=32.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/TutorialManager/@Timer@44 (wait=10.0s, left=2.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/GangSystem/@Timer@45 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/GangSystem/GangEconomy/EconomyTickTimer (wait=30.0s, left=2.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/GangSystem/PlayerGangSystem/GangUpdateTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/GangSystem/GangReputationSystem/ReputationUpdateTimer (wait=5.0s, left=2.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/GangSystem/ContrabandMarketSystem/UpdateTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TributeCheckTimer (wait=60.0s, left=32.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/GangSystem/AllianceSystem/TrustDecayTimer (wait=300.0s, left=272.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/GangSystem/AllianceSystem/OperationsTimer (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/WeatherSystem/@Timer@46 (wait=822.1s, left=798.0s, oneshot=true)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/WeatherSystem/@Timer@48 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/CorpseSystem/@Timer@79 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/UIAnimations/@Timer@80 (wait=10.0s, left=2.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/DealerSystem/HeatDecayTimer (wait=60.0s, left=32.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/HeistSystem/HeistGenerationTimer (wait=300.0s, left=272.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/JobMissionSystem/MissionGenerationTimer (wait=300.0s, left=272.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/JobMissionSystem/ExpiryCheckTimer (wait=60.0s, left=32.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@81 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/PlayerLifeManager/@Timer@82 (wait=60.0s, left=32.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/DroppedItemsManager/SceneCheckTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/DroppedItemsManager/AutoSaveTimer (wait=30.0s, left=2.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/ChatboxManager/AutoSaveTimer (wait=60.0s, left=32.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/BloodEffects/@Timer@103 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/IntimidationSystem/AimCheckTimer (wait=0.1s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/IntimidationSystem/NPCCacheTimer (wait=0.5s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/StainSystem/@Timer@104 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/SurvivalHUD/@Timer@1499 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/ApartmentValueSystem/@Timer@125 (wait=86400.0s, left=86372.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/InvestigationProgressUI/@Timer@158 (wait=1.0s, left=0.0s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/PlayerMenuUI/BadgeTimer (wait=5.0s, left=1.2s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/BuildingFloorIntegrated/InventoryUI/@Timer@2002 (wait=1.0s, left=0.1s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot]   /root/BuildingFloorIntegrated/PlayerPositionSaveTimer (wait=5.0s, left=4.1s, oneshot=false)
+[28/02 18:54:58.924] [INFO] [Godot] --- AUTOLOAD COLLECTION SIZES ---
+[28/02 18:54:58.924] [INFO] [Godot]   MemoryDebugMonitor._history: 28 entries
+[28/02 18:54:58.924] [INFO] [Godot]   Global.armes_enregistrees: 59 entries
+[28/02 18:54:58.924] [INFO] [Godot]   LogSystem._json_entries: 372 entries
+[28/02 18:54:58.924] [INFO] [Godot]   NodeGroupCache._cache: 15 entries
+[28/02 18:54:58.924] [INFO] [Godot]   GameStatistics.investigation_stats: 46 entries
+[28/02 18:54:58.924] [INFO] [Godot]   SkillSystem.ALL_SKILLS: 12 entries
+[28/02 18:54:58.924] [INFO] [Godot]   AdressesDatabase._zone_codes: 23 entries
+[28/02 18:54:58.924] [INFO] [Godot]   CharacterCustomizer.PRELOADED_TEXTURES: 82 entries
+[28/02 18:54:58.924] [INFO] [Godot]   NamesDatabase._male_names_cache: 144 entries
+[28/02 18:54:58.924] [INFO] [Godot]   NamesDatabase._female_names_cache: 136 entries
+[28/02 18:54:58.925] [INFO] [Godot]   NamesDatabase._last_names_cache: 245 entries
+[28/02 18:54:58.925] [INFO] [Godot]   UIAudioFeedback.connected_buttons: 19 entries
+[28/02 18:54:58.925] [INFO] [Godot]   PoliceService._pnj_group_cache: 20 entries
+[28/02 18:54:58.925] [INFO] [Godot]   BuildingSystemManager.buildings: 157 entries
+[28/02 18:54:58.925] [INFO] [Godot]   BuildingSystemManager._apt_to_building: 1827 entries
+[28/02 18:54:58.925] [INFO] [Godot]   FurnitureCatalog._catalog: 59 entries
+[28/02 18:54:58.925] [INFO] [Godot]   AchievementSystem.stats: 33 entries
+[28/02 18:54:58.925] [INFO] [Godot]   DealerSystem.drug_base_prices: 29 entries
+[28/02 18:54:58.925] [INFO] [Godot]   BusinessManager._daily_market: 41 entries
+[28/02 18:54:58.925] [INFO] [Godot]   CareerManager.career_stats: 17 entries
+[28/02 18:54:58.925] [INFO] [Godot]   PlayerLifeManager.player_profile: 21 entries
+[28/02 18:54:58.925] [INFO] [Godot]   VIPRegistry.vips: 24 entries
+[28/02 18:54:58.925] [INFO] [Godot]   BloodEffects._decal_pool: 20 entries
+[28/02 18:54:58.925] [INFO] [Godot]   NPCReactionSystem._cached_npcs: 20 entries
+[28/02 18:54:58.925] [INFO] [Godot]   GangBridge._district_to_territory: 13 entries
+[28/02 18:54:58.925] [INFO] [Godot]   DrawingMenuManager.available_colors: 12 entries
+[28/02 18:54:58.925] [INFO] [Godot]   CodenamesMenuManager.settings: 12 entries
+[28/02 18:54:58.929] [INFO] [Godot]   CardManager._loaded_sounds: 28 entries
+[28/02 18:54:58.929] [INFO] [Godot]   CardManager._audio_players: 12 entries
+[28/02 18:54:58.929] [INFO] [Godot]   CityEconomySystem.district_economies: 13 entries
+[28/02 18:54:58.929] [INFO] [Godot]   DealSpotNPCManager._spawn_points: 28 entries
+[28/02 18:54:58.929] [INFO] [Godot]   DealSpotNPCManager._queue_positions: 15 entries
+[28/02 18:54:58.929] [INFO] [Godot]   DealSpotNPCManager._client_appearance_pool: 20 entries
+[28/02 18:54:58.929] [INFO] [Godot]   FlashbackSystem.flashbacks: 16 entries
+[28/02 18:54:58.929] [INFO] [Godot]   FlashbackSystem._trigger_rules: 12 entries
+[28/02 18:54:58.929] [INFO] [Godot]   VoiceLineManager._catalog: 326 entries
+[28/02 18:54:58.929] [INFO] [Godot]   VoiceLineManager._id_catalog: 164 entries
+[28/02 18:54:58.929] [INFO] [Godot]   VoiceLineManager._audio_pool: 12 entries
+[28/02 18:54:58.929] [INFO] [Godot]   PlayerMenuUI.TAB_COLORS: 11 entries
+[28/02 18:54:58.929] [INFO] [Godot] --- HIGH SIGNAL CONNECTION COUNTS ---
+[28/02 18:54:58.929] [INFO] [Godot]   Global.save_loaded: 30 connections
+[28/02 18:54:58.929] [INFO] [Godot]   TimeSystem.hour_changed: 16 connections
+[28/02 18:54:58.929] [INFO] [Godot]   TimeSystem.day_changed: 20 connections
+[28/02 18:54:58.929] [INFO] [Godot]   MultiplayerManager.player_connected: 12 connections
+[28/02 18:54:58.929] [INFO] [Godot]   MultiplayerManager.player_disconnected: 10 connections
+[28/02 18:54:58.929] [INFO] [Godot]   JobSystem.job_changed: 6 connections
+[28/02 18:54:58.929] [INFO] [Godot] Draw calls: 126
+[28/02 18:54:58.929] [INFO] [Godot] Objects drawn: 269
+[28/02 18:54:58.929] [INFO] [Godot] --- HISTORIQUE 10 dernières secondes ---
+[28/02 18:54:58.929] [INFO] [Godot]   t=44.6s | PROCESS: 866 MB (-0) | Static: 866 MB (-0.0) | VRAM: 770 MB | Obj: 15052 (-4) | Nodes: 1940 (+0)
+[28/02 18:54:58.929] [INFO] [Godot]   t=45.6s | PROCESS: 866 MB (+0) | Static: 866 MB (+0.0) | VRAM: 770 MB | Obj: 15056 (+4) | Nodes: 1940 (+0)
+[28/02 18:54:58.929] [INFO] [Godot]   t=46.6s | PROCESS: 866 MB (+0) | Static: 866 MB (+0.0) | VRAM: 770 MB | Obj: 15060 (+4) | Nodes: 1940 (+0)
+[28/02 18:54:58.929] [INFO] [Godot]   t=47.6s | PROCESS: 865 MB (-0) | Static: 865 MB (-0.5) | VRAM: 770 MB | Obj: 15061 (+1) | Nodes: 1940 (+0)
+[28/02 18:54:58.929] [INFO] [Godot]   t=48.6s | PROCESS: 865 MB (+0) | Static: 865 MB (+0.0) | VRAM: 770 MB | Obj: 15059 (-2) | Nodes: 1940 (+0)
+[28/02 18:54:58.929] [INFO] [Godot]   t=49.6s | PROCESS: 865 MB (-0) | Static: 865 MB (-0.0) | VRAM: 770 MB | Obj: 15062 (+3) | Nodes: 1940 (+0)
+[28/02 18:54:58.929] [INFO] [Godot]   t=50.6s | PROCESS: 865 MB (+0) | Static: 865 MB (+0.4) | VRAM: 770 MB | Obj: 15127 (+65) | Nodes: 1970 (+30)
+[28/02 18:54:58.929] [INFO] [Godot]   t=51.6s | PROCESS: 866 MB (+0) | Static: 866 MB (+0.0) | VRAM: 770 MB | Obj: 15134 (+7) | Nodes: 1971 (+1)
+[28/02 18:54:58.929] [INFO] [Godot]   t=52.6s | PROCESS: 907 MB (+41) | Static: 907 MB (+41.2) | VRAM: 770 MB | Obj: 15167 (+33) | Nodes: 1971 (+0)
+[28/02 18:54:58.929] [INFO] [Godot]   t=54.6s | PROCESS: 432 MB (-475) | Static: 432 MB (-474.9) | VRAM: 764 MB | Obj: 15155 (-12) | Nodes: 2101 (+130)
+[28/02 18:54:59.420] [INFO] [Godot] 🩸 [AAA FIX] Changement de scène - nettoyage sang de l'ancienne scène...
+[28/02 18:54:59.420] [INFO] [Godot] 🧹 Tout le sang nettoyé (preuves incluses, joueur: préservé)
+[28/02 18:54:59.420] [INFO] [Godot] 🩸 [AAA FIX] Mémoire sang libérée
+[28/02 18:54:59.919] [INFO] [Godot] [MEM] 56s | BuildingFloorIntegrated | FPS:120 | REAL: 432 MB (-0) | Static: 432 MB (-0.3) | VRAM: 764 MB | Obj: 15158 (+3) | Nodes: 2101 (+0) | Res: 2876 (+0) | Draw:126 | DEV:CLOSED(tab0,n0)
+[28/02 18:55:00.420] [INFO] [Godot] 📹 CorridorDoor_A Camera - Transition fluide
+[28/02 18:55:00.420] [INFO] [Godot] 🎥 Transition: → CorridorDoor_A (0.6s)
+[28/02 18:55:00.929] [INFO] [Godot] Evenement termine: Guerre des Prix
+[28/02 18:55:00.929] [INFO] [Godot] ⏳ Auto-save slot 0 [collecte: 10ms — écriture async...]
+[28/02 18:55:01.425] [INFO] [Godot] ✓ Auto-save slot 0 [async: 17ms]
+[28/02 18:55:01.426] [INFO] [Godot] ✓ Transition complete: CorridorDoor_A
+[28/02 18:55:01.426] [INFO] [Godot] 🎯 Menu Porte affiché pour: Door_A (principal: true, ouvert: false, verrouillé: false)
+[28/02 18:55:02.425] [INFO] [Godot] [DOOR-OWN] open Door_A → apt_data=oui owner=-1 tenant=1 my_id=1
+[28/02 18:55:02.425] [INFO] [Godot] 🚪 Animation ouverture porte (proche)
+[28/02 18:55:03.423] [INFO] [Godot] 🚪 Ouverture de Door_A
+[28/02 18:55:03.925] [INFO] [Godot] 🚪 Animation ouverture porte terminée
+[28/02 18:55:04.924] [INFO] [Godot] 📹 Default Camera (CorridorDoor_A exit) - Transition fluide
+[28/02 18:55:04.924] [INFO] [Godot] 🎥 Transition: → MainCamera (0.6s)
+[28/02 18:55:04.924] [INFO] [Godot] [MEM] 61s | BuildingFloorIntegrated | FPS:144 | REAL: 432 MB (+0) | Static: 432 MB (+0.0) | VRAM: 765 MB | Obj: 15182 (+4) | Nodes: 2109 (+0) | Res: 2876 (+0) | Draw:92 | DEV:CLOSED(tab0,n0)
+[28/02 18:55:05.424] [INFO] [Godot] [APT-ZONES] ENTRÉE slot=0 body=Player
+[28/02 18:55:05.424] [INFO] [Godot] [APT-ENTER] slot=0 apt_id='auto_bldg_039_F1_U0' _building_id='auto_bldg_039' _building_data=oui
+[28/02 18:55:05.424] [INFO] [Godot] [DealSpotNPCManager] Discovered 28 spawn points: ["DealSpot_Dealer_1", "DealSpot_Dealer_2", "DealSpot_Guetteur_1", "DealSpot_Guetteur_2", "DealSpot_Protection_1", "DealSpot_Protection_2", "DealSpot_ClientSpawn_1", "DealSpot_ClientSpawn_2", "DealSpot_ClientSpawn_3", "DealSpot_ClientSpawn_4", "DealSpot_ClientSpawn_5", "DealSpot_ClientWaypoint", "DealSpot_ClientDoor1", "DealSpot_ClientDoor2", "DealSpot_ClientDoor3", "DealSpot_ClientDoor4", "DealSpot_ClientDoor5", "DealSpot_ClientDoor6", "DealSpot_ClientDoor7", "DealSpot_ClientDoor8", "DealSpot_ClientDoor9", "DealSpot_ClientDoor10", "DealSpot_ClientDoor11", "DealSpot_ClientDoor12", "DealSpot_ClientDoor13", "DealSpot_ClientDoor14", "DealSpot_ClientDoor15", "DealSpot_ClientExit"]
+[28/02 18:55:05.424] [INFO] [Godot] [DealSpotNPCManager] Client waypoints: 5 spawns, 15 queue positions, exit=(-25.0, 0.0, 1.5), waypoint=(-28.0, 0.0, 4.0)
+[28/02 18:55:05.424] [INFO] [Godot] ✓ Transition complete: MainCamera
+[28/02 18:55:07.423] [INFO] [Godot] 📹 AptA_Living Camera - Transition fluide
+[28/02 18:55:07.423] [INFO] [Godot] 🎥 Transition: → AptA_Living (0.6s)
+[28/02 18:55:07.423] [INFO] [Godot] 📌 Band registered: band_2850767287_72237 (affiliated: cartel_mendoza)
+[28/02 18:55:07.423] [INFO] [Godot] 📌 [BandRespawn] Spawned 1 band (total: 1/5) - next in 30s
+[28/02 18:55:07.423] [INFO] [Godot] [APT-ZONES] SORTIE slot=0 body=Player
+[28/02 18:55:07.924] [INFO] [Godot] ✓ Transition complete: AptA_Living
+[28/02 18:55:09.924] [INFO] [Godot] Evenement termine: Guerre des Prix
+[28/02 18:55:09.924] [INFO] [Godot] Evenement termine: Guerre des Prix
+[28/02 18:55:09.924] [INFO] [Godot] [MEM] 66s | BuildingFloorIntegrated | FPS:144 | REAL: 432 MB (+0) | Static: 432 MB (+0.1) | VRAM: 765 MB | Obj: 15217 (+36) | Nodes: 2118 (+9) | Res: 2876 (+0) | Draw:93 | DEV:CLOSED(tab0,n0)
+[28/02 18:55:11.423] [INFO] [Godot] 🎯 Menu Porte affiché pour: Door_A (principal: true, ouvert: true, verrouillé: false)
+[28/02 18:55:13.644] [INFO] [LogSystem] === FIN DE SESSION (via PauseMenu) ===
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ FIN DE SESSION                                                               ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ Terminé le: 2026-02-28 18:55:13                                             ║
+║ Durée: 1m 09s                                                               ║
+║ Total logs: 1767                                                            ║
+║ Erreurs: 0 | Warnings: 0                                                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
