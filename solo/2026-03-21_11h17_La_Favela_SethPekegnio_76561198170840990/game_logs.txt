@@ -1,0 +1,991 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ LA FAVELA GAME - SESSION DE DEBUG AAA                                       ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ Session ID: 20260321_103056_0437                                            ║
+║ Démarré le: 2026-03-21 10:30:56                                             ║
+║ Godot: 4.5.1-stable (official)                                              ║
+║ OS: Windows                                                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+[21/03 10:30:56.125] [TRACE] [LogSystem] 📋 Synchronisation log Godot activée: C:/Users/niko9/AppData/Roaming/Godot/app_userdata/LaFavelaGame/logs/godot.log
+[21/03 10:30:56.130] [INFO] [LogSystem] === SESSION DE LOG AAA DÉMARRÉE ===
+[21/03 10:30:56.130] [INFO] [LogSystem] ID Session: 20260321_103056_0437
+[21/03 10:30:56.130] [INFO] [LogSystem] Chemin: C:/Users/niko9/Documents/LaFavelaGame/logs/game_logs.txt
+[21/03 10:30:56.130] [INFO] [LogSystem] Godot: 4.5.1-stable (official)
+[21/03 10:30:56.130] [INFO] [LogSystem] OS: Windows
+[21/03 10:30:56.130] [DEBUG] [LogSystem] Mémoire au démarrage: 178.84 MB
+[21/03 10:30:56.132] [INFO] [NodeGroupCache] Systeme de cache de groupes initialise
+[21/03 10:30:56.415] [DEBUG] [VoiceChat] 🎤 [Peer:1] [INIT] === VOICE CHAT MANAGER READY ===
+[21/03 10:30:56.415] [DEBUG] [VoiceChat] 🎤 [Peer:1] [INIT] Mode: PTT, Distance max: 10.0m
+[21/03 10:30:57.240] [INFO] [Weather] Système météo initialisé (défaut) - CLOUDY, 20.0°C (sera écrasé par sauvegarde si existante)
+[21/03 10:30:57.249] [INFO] [Achievements] Steam détecté - synchronisation activée
+[21/03 10:30:57.250] [INFO] [Achievements] Système initialisé - 6/56 débloqués
+[21/03 10:31:03.161] [INFO] [GangWar] GangWarManager initialisé (wars_enabled=false)
+[21/03 10:31:03.898] [INFO] [CustomerPoolSystem] Initialisé: 13 districts, 5 segments actifs
+[21/03 10:31:03.898] [INFO] [MarketShareSystem] Initialisé — écoute CustomerPoolSystem.demand_updated
+[21/03 10:31:04.423] [INFO] [Godot] [StructurePlacementSystem] Initialisé
+[21/03 10:31:04.423] [INFO] [Godot] [GridPersistence] Initialisé (server=false)
+[21/03 10:31:04.423] [INFO] [Godot] [StrategicPlanningSystem] Initialisé
+[21/03 10:31:04.423] [INFO] [Godot] [StrategicGrid] Locations mappées: 6
+[21/03 10:31:04.423] [INFO] [Godot] [StrategicGrid] Deal spots mappés: 0
+[21/03 10:31:04.423] [INFO] [Godot] [StrategicGrid] Appartements mappés: 1614
+[21/03 10:31:04.423] [INFO] [Godot] [StrategicGrid] NPCs mappés: 2
+[21/03 10:31:04.423] [INFO] [Godot] [GridEntityManager] Initialisé: 1040 noeuds AStar
+[21/03 10:31:04.423] [INFO] [Godot] [FogOfWarSystem] Initialisé
+[21/03 10:31:04.423] [INFO] [Godot] [StrategicGrid] Grille initialisée: 40×26 = 1040 cellules, 136 bâtiments (136 cellules BUILDING), 6 locations, 0 spots, 1614 apts
+[21/03 10:31:04.423] [INFO] [Godot] [GridAIAdapter] Initialisé: entités IA peuplées sur la grille
+[21/03 10:31:18.118] [INFO] [Territory] Deserialized 0 districts from save
+[21/03 10:31:18.118] [INFO] [Gang] DESERIALIZE: 0 membres (actifs=0 repos=0 autres=0) | trésorerie=$5000 | 0 territoires | gang=Mon Gang
+[21/03 10:31:18.118] [INFO] [GangWar] Deserialized: 0 active wars, 0 history
+[21/03 10:31:18.121] [INFO] [Reputation] RESET: toutes les factions remises à 0
+[21/03 10:31:18.121] [INFO] [Wanted] RESET: niveau de recherche remis à 0
+[21/03 10:31:18.121] [INFO] [Bodyguard] RESET: escorts cleared for new game
+[21/03 10:31:18.121] [INFO] [CombatMastery] RESET: all mastery data cleared
+[21/03 10:31:18.121] [INFO] [MoneyStash] RESET: all stash data cleared
+[21/03 10:31:18.121] [INFO] [Police] RESET: all police state cleared for new game
+[21/03 10:31:18.121] [INFO] [VIP] RESET: all VIP data cleared
+[21/03 10:31:18.121] [INFO] [Notes] RESET: all player notes cleared
+[21/03 10:31:18.121] [INFO] [GameLoop] RESET: all game loop data cleared
+[21/03 10:31:18.121] [INFO] [AptState] RESET: all apartment state files cleared
+[21/03 10:31:18.121] [INFO] [FloorState] RESET: all floor state files cleared
+[21/03 10:31:18.122] [INFO] [AddressReg] RESET: all address data cleared
+[21/03 10:31:18.122] [INFO] [Job] RESET: job state cleared for new game
+[21/03 10:31:18.122] [INFO] [Skill] SKILL DÉBLOQUÉ: firearms
+[21/03 10:31:18.122] [INFO] [Skill] SKILL DÉBLOQUÉ: melee
+[21/03 10:31:18.122] [INFO] [Skill] SKILL DÉBLOQUÉ: defense
+[21/03 10:31:18.122] [INFO] [Skill] SKILL DÉBLOQUÉ: observation
+[21/03 10:31:18.122] [INFO] [Skill] SKILL DÉBLOQUÉ: persuasion
+[21/03 10:31:18.122] [INFO] [Skill] SKILL DÉBLOQUÉ: intimidation_skill
+[21/03 10:31:18.124] [INFO] [Skill] SKILL DÉBLOQUÉ: empathy
+[21/03 10:31:18.124] [INFO] [Skill] SKILL DÉBLOQUÉ: hacking
+[21/03 10:31:18.124] [INFO] [Skill] SKILL DÉBLOQUÉ: lockpicking
+[21/03 10:31:18.124] [INFO] [Skill] RESET: all skills reset to defaults
+[21/03 10:31:18.124] [INFO] [TraitSystem] RESET: effets actifs vidés pour nouveau jeu
+[21/03 10:31:18.125] [DEBUG] [Bodyguard] SAVE LOADED — syncing escorts from gang members
+[21/03 10:31:18.127] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 100.0 → 98.0
+[21/03 10:31:18.127] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 0.0 → 1.5
+[21/03 10:31:18.127] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 0.0 → 2.0
+[21/03 10:31:18.127] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 0.0 → 1.0
+[21/03 10:31:18.127] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=6 | demand_total=0.6 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=6 | demand_total=1.6 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=6 | demand_total=1.5 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=6 | demand_total=4.7 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=6 | demand_total=5.5 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=6 | demand_total=1.0 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=6 | demand_total=0.5 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=6 | demand_total=4.0 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=6 | demand_total=2.6 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=6 | demand_total=2.5 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=6 | demand_total=3.5 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=6 | demand_total=3.3 players=[]
+[21/03 10:31:18.128] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=6 | demand_total=6.2 players=[]
+[21/03 10:31:18.128] [INFO] [Economy] ╔══ SNAPSHOT ÉCONOMIE h6 (Jour 1) ══
+[21/03 10:31:18.128] [INFO] [Economy] ║ CASH=$0 | COMPTE=$0 | TOTAL=$0
+[21/03 10:31:18.128] [INFO] [Economy] ║ GANG: (chargement...)
+[21/03 10:31:18.128] [INFO] [Economy] ║ SPOTS: 0 actifs | rev_jour=$0 | cash_non_collecté=$0 | stock=0.0g
+[21/03 10:31:18.128] [INFO] [Economy] ║ INVENTAIRE: brut=[vide] | préparés=0 | en préparation=0
+[21/03 10:31:18.128] [INFO] [Economy] ║ RÉPUT: civil:0, polic:0, gang_:0, media:0, infor:0
+[21/03 10:31:18.128] [INFO] [Economy] ║ MÉTÉO: CLOUDY | outdoor=0.90 | visibility=0.85
+[21/03 10:31:18.128] [INFO] [Economy] ╚══════════════════════════════════════
+[21/03 10:31:18.128] [INFO] [Store] Daily economy: 76 stores, $28 revenue, $0 racket
+[21/03 10:31:18.128] [INFO] [Finance] === BILAN JOUR 1 === cash=$0 banque=$0 | dettes=$0 (0 actives) investissements=$0 (0 actifs) | net=$0
+[21/03 10:31:18.130] [WARN] [DealSpot] DAY CHANGE SKIPPED: GangSystem.game_loaded not yet received — deferring salary/daily processing
+[21/03 10:31:18.131] [DEBUG] [Economy] District avg: wealth=0.51 crime=0.75 (13 districts)
+[21/03 10:31:18.131] [INFO] [Economy] Taxes collected: property=$0 income=$0 sales=$2 business=$0 total=$2
+[21/03 10:31:18.131] [INFO] [Economy] Fed $2 tax revenue into PoliticsSystem.city_budget (now $1000002)
+[21/03 10:31:18.131] [INFO] [Economy] Budget expenses: $30000 (balance=$470002, corruption=15%)
+[21/03 10:31:18.131] [INFO] [Economy] Service quality police: 0.50 -> 0.44
+[21/03 10:31:18.131] [INFO] [Economy] Service quality education: 0.50 -> 0.60
+[21/03 10:31:18.131] [INFO] [Economy] Service quality sanitation: 0.50 -> 0.60
+[21/03 10:32:03.095] [DEBUG] [Trait] discipline +15.0 (creation): 0.0 → 15.0
+[21/03 10:32:03.095] [DEBUG] [Trait] concentration +10.0 (creation): 83.7 → 93.7
+[21/03 10:32:03.095] [DEBUG] [Trait] stabilite +8.0 (creation): 0.0 → 8.0
+[21/03 10:32:03.095] [DEBUG] [Trait] impulsivite -5.0 (creation): 0.0 → -5.0
+[21/03 10:32:08.700] [INFO] [GangSystem] World populated (no bands — major orgs only)
+[21/03 10:32:24.328] [DEBUG] [Banking] CASH +$6250 → cash=$6250
+[21/03 10:32:24.328] [DEBUG] [Skill] XP +100 persuasion (milestone_net_worth_1k) → 100/91 lvl1
+[21/03 10:32:24.328] [INFO] [Skill] LEVEL UP! persuasion → niveau 2
+[21/03 10:32:24.332] [DEBUG] [Banking] CASH +$50 → cash=$6300
+[21/03 10:32:24.338] [INFO] [Finance] DETTE +$6250 créancier=Tony le Requin taux=50% durée=30j
+[21/03 10:32:29.832] [DEBUG] [VoiceChat] 🎤 [Peer:1] [LOCAL] START speaking - mode=PTT
+[21/03 10:32:29.908] [DEBUG] [VoiceChat] 🎤 [Peer:1] [LOCAL] STOP speaking
+[21/03 10:32:32.927] [DEBUG] [Banking] CASH -$1000 → cash=$5300
+[21/03 10:32:32.928] [INFO] [Gang] TRÉSORERIE +$1000 (cash perso → gang) | trésorerie=$1000
+[21/03 10:32:34.483] [DEBUG] [Banking] CASH -$500 → cash=$4800
+[21/03 10:32:34.483] [INFO] [Gang] TRÉSORERIE +$500 (cash perso → gang) | trésorerie=$1500
+[21/03 10:32:47.032] [INFO] [Gang] RECRUTEMENT: Thomas Joly (id=pm_123483_2675081324) | coût=$600 | combat=0.35 stealth=0.60 charisme=0.63 | genre=Male | total=1 membres
+[21/03 10:32:47.033] [DEBUG] [Skill] XP +10 persuasion (practice_success) → 19/118 lvl2
+[21/03 10:32:57.877] [INFO] [Gang] RECRUTEMENT: Stefan Fournier (id=pm_134327_621784151) | coût=$600 | combat=0.41 stealth=0.34 charisme=0.36 | genre=Male | total=2 membres
+[21/03 10:32:57.877] [DEBUG] [Skill] XP +10 persuasion (practice_success) → 29/118 lvl2
+[21/03 10:33:03.289] [INFO] [Navigation] ENTRÉE City (carte stratégique) | district=carte
+[21/03 10:33:03.391] [INFO] [StrategicGrid] Districts reassigned from 13 DistrictZones | 881 cells changed | distribution: { "iron_docks": 124, "the_hollows": 123, "steamworks": 95, "shadow_lane": 76, "vice_alley": 79, "ashfield": 57, "neon_strip": 60, "pearl_district": 40, "the_pit": 99, "market_square": 70, "central_plaza": 124, "crown_heights": 59, "golden_mile": 34 }
+[21/03 10:33:03.391] [INFO] [StrategicGrid] Road footprints: 82 meshes scannées → 559 cellules ROAD / 1040 total
+[21/03 10:33:07.226] [INFO] [Godot] [GridVisualizer] Initialisé: 1040 cellules rendues
+[21/03 10:33:19.500] [INFO] [CityTravel] PATH 656->894 | cells=9 (straight~8) | ROAD 8/559 on_road | BLD 136 thru_bld=0 | loc=Immeuble #18
+[21/03 10:34:11.176] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 98.0 → 96.0
+[21/03 10:34:11.176] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 1.5 → 3.0
+[21/03 10:34:11.176] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 2.0 → 4.0
+[21/03 10:34:11.176] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 1.0 → 2.0
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=7 | demand_total=1.1 players=[1]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.180 customers=0.1 → 1 spots
+[21/03 10:34:11.177] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.180 customers=0.0 → 1 spots
+[21/03 10:34:11.177] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.180 customers=0.0 → 1 spots
+[21/03 10:34:11.177] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.180 customers=0.0 → 1 spots
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=7 | demand_total=2.9 players=[]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=7 | demand_total=2.8 players=[]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=7 | demand_total=8.8 players=[]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=7 | demand_total=10.2 players=[]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=7 | demand_total=1.9 players=[]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=7 | demand_total=0.9 players=[]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=7 | demand_total=7.4 players=[]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=7 | demand_total=5.0 players=[]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=7 | demand_total=4.7 players=[]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=7 | demand_total=6.6 players=[]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=7 | demand_total=6.2 players=[]
+[21/03 10:34:11.177] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=7 | demand_total=11.7 players=[]
+[21/03 10:34:11.178] [DEBUG] [DealSpot] TICK h7 | Hall, Immeuble #18 | dealers:0 | produits:0 (0.0g) | cash:$0 | playerPresent:false
+[21/03 10:34:33.105] [INFO] [Bodyguard] SCENE READY: Bar | escorts_assigned=0
+[21/03 10:34:53.740] [DEBUG] [NPC] RELATION grossiste: 0 → 8 (+8)
+[21/03 10:34:53.740] [INFO] [NPC] TRUST grossiste: 0.0 → 5.0 (+5.0)
+[21/03 10:34:53.740] [INFO] [NPC] GROSSISTE PROGRESSION: never_met → introduced (trust=5.0)
+[21/03 10:35:11.644] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$288 | 0 territoires | 1 appts
+[21/03 10:35:11.650] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 10:35:33.440] [DEBUG] [Banking] CASH -$2500 → cash=$2300
+[21/03 10:35:33.440] [INFO] [NPC] COMMANDE CRÉÉE: Ketama Gold 1000g — $2500 | livraison Jour 1 à 8:30 | expire Jour 4
+[21/03 10:35:33.441] [DEBUG] [Skill] XP +10 persuasion (practice_success) → 39/118 lvl2
+[21/03 10:35:33.443] [INFO] [NPC] TRUST grossiste: 5.0 → 12.0 (+7.0)
+[21/03 10:35:39.132] [DEBUG] [Trait] energie +5.0 (sitting_rest): 96.0 → 100.0
+[21/03 10:35:39.134] [DEBUG] [Trait] sommeil -3.0 (sitting_rest): 2.0 → 0.0
+[21/03 10:35:58.482] [INFO] [DealSpot] STAFF STATE: Hall, Immeuble #18 | staff=[Gérant:joueur] | equipes=[A(0)ON]
+[21/03 10:36:02.681] [INFO] [DealSpot] AUTO-REPAIR EQUIPES: 1 staff → equipe A 24h
+[21/03 10:36:02.681] [INFO] [DealSpot] STAFF STATE: Hall, Immeuble #18 | staff=[Dealer:1, Gérant:joueur] | equipes=[A(1)ON]
+[21/03 10:36:05.825] [INFO] [DealSpot] Auto-assigned pm_134327_621784151 (Protection) to equipe A
+[21/03 10:36:05.826] [INFO] [DealSpot] STAFF STATE: Hall, Immeuble #18 | staff=[Dealer:1, Protection:1, Gérant:joueur] | equipes=[A(2)ON]
+[21/03 10:36:37.763] [DEBUG] [Memory] 💾 Mémoire stable: 871.08 MB
+[21/03 10:36:50.642] [INFO] [Navigation] ENTRÉE City (carte stratégique) | district=carte
+[21/03 10:36:50.940] [INFO] [Godot] [GridVisualizer] Réutilisé (cached): 1040 cellules
+[21/03 10:36:50.940] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 100.0 → 98.0
+[21/03 10:36:50.940] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 3.0 → 4.5
+[21/03 10:36:50.940] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 4.0 → 6.0
+[21/03 10:36:50.940] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 0.0 → 1.0
+[21/03 10:36:50.940] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=8 | demand_total=1.4 players=[1]
+[21/03 10:36:50.940] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.288 customers=0.2 → 1 spots
+[21/03 10:36:50.940] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.288 customers=0.1 → 1 spots
+[21/03 10:36:50.940] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.288 customers=0.0 → 1 spots
+[21/03 10:36:50.940] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.288 customers=0.0 → 1 spots
+[21/03 10:36:50.940] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.288 customers=0.1 → 1 spots
+[21/03 10:36:50.941] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=8 | demand_total=3.7 players=[]
+[21/03 10:36:50.941] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=8 | demand_total=3.7 players=[]
+[21/03 10:36:50.941] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=8 | demand_total=11.0 players=[]
+[21/03 10:36:50.941] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=8 | demand_total=12.8 players=[]
+[21/03 10:36:50.941] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=8 | demand_total=2.4 players=[]
+[21/03 10:36:50.941] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=8 | demand_total=1.1 players=[]
+[21/03 10:36:50.941] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=8 | demand_total=9.3 players=[]
+[21/03 10:36:50.941] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=8 | demand_total=6.4 players=[]
+[21/03 10:36:50.941] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=8 | demand_total=5.8 players=[]
+[21/03 10:36:50.941] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=8 | demand_total=8.2 players=[]
+[21/03 10:36:50.941] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=8 | demand_total=7.9 players=[]
+[21/03 10:36:50.943] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=8 | demand_total=14.6 players=[]
+[21/03 10:36:50.943] [DEBUG] [DealSpot] TICK h8 | Hall, Immeuble #18 | dealers:1 | produits:0 (0.0g) | cash:$0 | playerPresent:false
+[21/03 10:37:51.395] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$288 | 0 territoires | 1 appts
+[21/03 10:37:51.400] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 10:38:11.851] [INFO] [NPC] COMMANDE RÉCUPÉRÉE: Ketama Gold 1000g
+[21/03 10:38:11.852] [INFO] [Inventory] DROGUE +1x hashish (1000.0g) → sac (auto-créé)
+[21/03 10:38:11.852] [INFO] [NPC] TRUST grossiste: 12.0 → 19.0 (+7.0)
+[21/03 10:38:19.147] [INFO] [Navigation] ENTRÉE City (carte stratégique) | district=carte
+[21/03 10:38:19.559] [INFO] [Godot] [GridVisualizer] Réutilisé (cached): 1040 cellules
+[21/03 10:38:23.539] [INFO] [CityTravel] PATH 577->934 | cells=13 (straight~12) | ROAD 11/559 on_road | BLD 136 thru_bld=1 | loc=Immeuble #18
+[21/03 10:38:31.848] [DEBUG] [Weather] Transition météo: CLOUDY -> LIGHT_RAIN
+[21/03 10:38:32.346] [DEBUG] [Location] Cleanup complet: Le Refuge
+[21/03 10:38:33.486] [INFO] [Bodyguard] SCENE READY: BuildingLobby | escorts_assigned=0
+[21/03 10:38:33.486] [INFO] [DealSpotNPC] on_scene_ready: type=lobby bldg=auto_bldg_167 floor=-1 apt= → spots=["dspot_1"]
+[21/03 10:38:33.487] [INFO] [DealSpotNPC] PRESENCE BONUS: +60% spawn speed (presence=50%, gerant=true +10%)
+[21/03 10:38:33.487] [INFO] [DealSpotNPC] PREWARM START: 1 spot(s), scene=BuildingLobby
+[21/03 10:38:33.487] [WARN] [DealSpotNPC] PREWARM WAIT: GangSystem state: init=false world=true gang=true load_done=false
+[21/03 10:38:33.487] [INFO] [DealSpot] PORTE AUTO-OUVERTE: spot actif dans ce lobby
+[21/03 10:38:40.437] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$288 | 0 territoires | 1 appts
+[21/03 10:38:40.443] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 10:38:43.492] [WARN] [DealSpotNPC] PREWARM TIMEOUT after 10s — marking loaded to prevent repeat
+[21/03 10:38:43.492] [INFO] [DealSpotNPC] PREWARM WAIT resolved after 10004ms
+[21/03 10:38:45.316] [INFO] [DealSpotNPC] PREWARM COMPLETE → spawning staff for 1 spot(s): ["dspot_1"]
+[21/03 10:38:45.316] [INFO] [DealSpotNPC] STAFF SPAWN START: spot=dspot_1 | staff=[role0=["pm_123483_2675081324"], role2=["pm_134327_621784151"], role4=player_self] | parent=BuildingLobby
+[21/03 10:38:45.316] [DEBUG] [DealSpotNPC] STAFF SKIP: spot=dspot_1 — aucune equipe active a h8
+[21/03 10:38:45.316] [DEBUG] [DealSpotNPC] SKIP NPC pm_123483_2675081324 — not scheduled at h8
+[21/03 10:38:45.316] [INFO] [DealSpotNPC] STAFF QUEUED: pm_134327_621784151 (Protection) at pos (-6.0, 0.0, -1.0) (spot=dspot_1)
+[21/03 10:39:06.332] [INFO] [DealSpotNPC] POSITION SAVED: dspot_1:2:pm_134327_621784151 → (-1.340034, 0.0, 3.562109)
+[21/03 10:39:31.276] [INFO] [DealSpotNPC] DESPAWN ALL: 1 staff, 0 clients en queue | scène=BuildingLobby
+[21/03 10:39:32.351] [INFO] [Navigation] ENTRÉE BuildingFloor: bldg=auto_bldg_167 floor=1
+[21/03 10:39:32.382] [INFO] [Bodyguard] SCENE READY: BuildingFloorIntegrated | escorts_assigned=0
+[21/03 10:39:32.384] [INFO] [DealSpotNPC] on_scene_ready: type=floor bldg=auto_bldg_167 floor=1 apt= → spots=[]
+[21/03 10:39:32.384] [DEBUG] [DealSpotNPC] Aucun spot pour cette scène (type=floor bldg=auto_bldg_167)
+[21/03 10:39:36.720] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 98.0 → 96.0
+[21/03 10:39:36.720] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 4.5 → 6.0
+[21/03 10:39:36.720] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 6.0 → 8.0
+[21/03 10:39:36.720] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 1.0 → 2.0
+[21/03 10:39:36.720] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=9 | demand_total=1.3 players=[1]
+[21/03 10:39:36.720] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.353 customers=0.2 → 1 spots
+[21/03 10:39:36.720] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.353 customers=0.1 → 1 spots
+[21/03 10:39:36.720] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.353 customers=0.0 → 1 spots
+[21/03 10:39:36.720] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.353 customers=0.0 → 1 spots
+[21/03 10:39:36.720] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.353 customers=0.1 → 1 spots
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=9 | demand_total=3.4 players=[]
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=9 | demand_total=3.5 players=[]
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=9 | demand_total=10.2 players=[]
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=9 | demand_total=11.9 players=[]
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=9 | demand_total=2.2 players=[]
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=9 | demand_total=1.0 players=[]
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=9 | demand_total=8.8 players=[]
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=9 | demand_total=6.1 players=[]
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=9 | demand_total=5.5 players=[]
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=9 | demand_total=7.8 players=[]
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=9 | demand_total=7.4 players=[]
+[21/03 10:39:36.721] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=9 | demand_total=13.8 players=[]
+[21/03 10:39:36.723] [DEBUG] [DealSpot] TICK h9 | Hall, Immeuble #18 | dealers:1 | produits:0 (0.0g) | cash:$0 | playerPresent:false
+[21/03 10:39:38.288] [INFO] [DealSpotNPC] DESPAWN ALL: 0 staff, 0 clients en queue | scène=BuildingFloorIntegrated
+[21/03 10:39:38.290] [INFO] [DealSpotNPC] on_scene_ready: type=apartment bldg=auto_bldg_167 floor=1 apt=auto_bldg_167_F1_U0 → spots=[]
+[21/03 10:39:38.290] [DEBUG] [DealSpotNPC] Aucun spot pour cette scène (type=apartment bldg=auto_bldg_167)
+[21/03 10:39:47.223] [INFO] [Inventory] DROGUE -1x drug_hashish_hash_ketama_grossiste_1000g_p83
+[21/03 10:39:47.223] [INFO] [Business] TRANSFERT SACOCHE: 1000.0g Hashish (pureté=83%) → stock total=1000.0g
+[21/03 10:40:08.048] [DEBUG] [Banking] CASH -$13 → cash=$2288
+[21/03 10:40:08.048] [INFO] [Business] PRÉPARATION LANCÉE: 25x Hashish [Ketama Gold] (11.50g/u, $100/u, pureté=83%) | durée=40s | stock restant=712.50g | consommé=287.50g
+[21/03 10:40:08.131] [DEBUG] [Banking] CASH -$13 → cash=$2275
+[21/03 10:40:08.131] [INFO] [Business] PRÉPARATION LANCÉE: 25x Hashish [Ketama Gold] (11.50g/u, $100/u, pureté=83%) | durée=40s | stock restant=425.00g | consommé=287.50g
+[21/03 10:40:12.934] [DEBUG] [Banking] CASH -$13 → cash=$2263
+[21/03 10:40:12.936] [INFO] [Business] PRÉPARATION LANCÉE: 25x Hashish [Ketama Gold] (5.50g/u, $50/u, pureté=83%) | durée=40s | stock restant=287.50g | consommé=137.50g
+[21/03 10:40:16.849] [DEBUG] [Banking] CASH -$25 → cash=$2238
+[21/03 10:40:16.851] [INFO] [Business] PRÉPARATION LANCÉE: 50x Hashish [Ketama Gold] (3.20g/u, $30/u, pureté=83%) | durée=40s | stock restant=127.50g | consommé=160.00g
+[21/03 10:40:19.736] [DEBUG] [Banking] CASH -$13 → cash=$2225
+[21/03 10:40:19.737] [INFO] [Business] PRÉPARATION LANCÉE: 25x Hashish [Ketama Gold] (2.10g/u, $20/u, pureté=83%) | durée=40s | stock restant=75.00g | consommé=52.50g
+[21/03 10:40:24.832] [INFO] [Business] PRÉPARATION LANCÉE: 10x Hashish [Ketama Gold] (2.10g/u, $20/u, pureté=83%) | durée=40s | stock restant=54.00g | consommé=21.00g
+[21/03 10:40:28.039] [DEBUG] [Banking] CASH -$27 → cash=$2193
+[21/03 10:40:28.039] [INFO] [Business] PRÉPARATION LANCÉE: 54x Hashish [Ketama Gold] (1.00g/u, $10/u, pureté=83%) | durée=40s | stock restant=0.00g | consommé=54.00g
+[21/03 10:40:53.746] [INFO] [Business] PRÉPARATION TERMINÉE: prod_3 → 25x Hashish [hash_ketama] (5.5g/u, $50/u) | total produits=1
+[21/03 10:40:53.746] [DEBUG] [Skill] XP +11 observation (practice_success) → 11/97 lvl1
+[21/03 10:40:53.746] [INFO] [Business] PRÉPARATION TERMINÉE: prod_2 → 25x Hashish [hash_ketama] (11.5g/u, $100/u) | total produits=2
+[21/03 10:40:53.746] [DEBUG] [Skill] XP +11 observation (practice_success) → 22/97 lvl1
+[21/03 10:40:53.746] [INFO] [Business] PRÉPARATION TERMINÉE: prod_1 → 25x Hashish [hash_ketama] (11.5g/u, $100/u) | total produits=3
+[21/03 10:40:53.746] [DEBUG] [Skill] XP +11 observation (practice_success) → 33/97 lvl1
+[21/03 10:40:58.125] [DEBUG] [Banking] CASH -$1000 → cash=$1193
+[21/03 10:40:58.125] [DEBUG] [Territory] INFLUENCE crown_heights: gang_1 0.00 → 0.05
+[21/03 10:40:58.125] [INFO] [Territory] CONTRÔLE crown_heights: gang_1 → 
+[21/03 10:41:03.747] [INFO] [Business] PRÉPARATION TERMINÉE: prod_5 → 25x Hashish [hash_ketama] (2.1g/u, $20/u) | total produits=4
+[21/03 10:41:03.747] [DEBUG] [Skill] XP +11 observation (practice_success) → 44/97 lvl1
+[21/03 10:41:03.747] [INFO] [Business] PRÉPARATION TERMINÉE: prod_4 → 50x Hashish [hash_ketama] (3.2g/u, $30/u) | total produits=5
+[21/03 10:41:03.747] [DEBUG] [Skill] XP +11 observation (practice_success) → 55/97 lvl1
+[21/03 10:41:13.737] [INFO] [Business] PRÉPARATION TERMINÉE: prod_7 → 54x Hashish [hash_ketama] (1.0g/u, $10/u) | total produits=6
+[21/03 10:41:13.737] [DEBUG] [Skill] XP +11 observation (practice_success) → 66/97 lvl1
+[21/03 10:41:13.737] [INFO] [Business] PRÉPARATION TERMINÉE: prod_6 → 10x Hashish [hash_ketama] (2.1g/u, $20/u) | total produits=7
+[21/03 10:41:13.737] [DEBUG] [Skill] XP +11 observation (practice_success) → 77/97 lvl1
+[21/03 10:41:53.727] [INFO] [Memory] 📈 Mémoire: 975.02 MB (+103.94 MB)
+[21/03 10:42:06.730] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 96.0 → 94.0
+[21/03 10:42:06.730] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 6.0 → 7.5
+[21/03 10:42:06.730] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 8.0 → 10.0
+[21/03 10:42:06.730] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 2.0 → 3.0
+[21/03 10:42:06.732] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=10 | demand_total=1.5 players=[1]
+[21/03 10:42:06.732] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.392 customers=0.3 → 1 spots
+[21/03 10:42:06.732] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.392 customers=0.1 → 1 spots
+[21/03 10:42:06.732] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.392 customers=0.1 → 1 spots
+[21/03 10:42:06.732] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.392 customers=0.0 → 1 spots
+[21/03 10:42:06.732] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.392 customers=0.1 → 1 spots
+[21/03 10:42:06.732] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=10 | demand_total=4.3 players=[]
+[21/03 10:42:06.733] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=10 | demand_total=4.2 players=[]
+[21/03 10:42:06.733] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=10 | demand_total=11.2 players=[]
+[21/03 10:42:06.733] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=10 | demand_total=13.1 players=[]
+[21/03 10:42:06.733] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=10 | demand_total=2.6 players=[]
+[21/03 10:42:06.733] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=10 | demand_total=1.1 players=[]
+[21/03 10:42:06.733] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=10 | demand_total=10.9 players=[]
+[21/03 10:42:06.733] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=10 | demand_total=7.4 players=[]
+[21/03 10:42:06.733] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=10 | demand_total=6.8 players=[]
+[21/03 10:42:06.733] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=10 | demand_total=8.6 players=[]
+[21/03 10:42:06.733] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=10 | demand_total=9.2 players=[]
+[21/03 10:42:06.733] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=10 | demand_total=15.1 players=[]
+[21/03 10:42:06.733] [DEBUG] [DealSpot] TICK h10 | Hall, Immeuble #18 | dealers:1 | produits:0 (0.0g) | cash:$0 | playerPresent:false
+[21/03 10:43:14.622] [INFO] [Inventory] DROGUE +25x hashish (137.5g) → sac
+[21/03 10:43:15.269] [INFO] [Inventory] DROGUE +25x hashish (287.5g) → sac
+[21/03 10:43:15.914] [INFO] [Inventory] DROGUE +25x hashish (287.5g) → sac
+[21/03 10:43:17.101] [INFO] [Inventory] DROGUE +25x hashish (52.5g) → sac
+[21/03 10:43:17.796] [INFO] [Inventory] DROGUE +50x hashish (160.0g) → sac
+[21/03 10:43:18.539] [INFO] [Inventory] DROGUE +54x hashish (54.0g) → sac
+[21/03 10:43:19.177] [INFO] [Inventory] DROGUE +10x hashish (21.0g) → sac
+[21/03 10:43:29.177] [DEBUG] [Weather] Transition météo: LIGHT_RAIN -> CLOUDY
+[21/03 10:43:41.536] [INFO] [DealSpotNPC] DESPAWN ALL: 0 staff, 0 clients en queue | scène=BuildingFloorIntegrated
+[21/03 10:43:42.684] [INFO] [Bodyguard] SCENE READY: BuildingLobby | escorts_assigned=0
+[21/03 10:43:42.684] [INFO] [DealSpotNPC] on_scene_ready: type=lobby bldg=auto_bldg_167 floor=-1 apt= → spots=["dspot_1"]
+[21/03 10:43:42.686] [INFO] [DealSpotNPC] PRESENCE BONUS: +60% spawn speed (presence=50%, gerant=true +10%)
+[21/03 10:43:42.686] [INFO] [DealSpotNPC] PREWARM START: 1 spot(s), scene=BuildingLobby
+[21/03 10:43:42.686] [INFO] [DealSpot] PORTE AUTO-OUVERTE: spot actif dans ce lobby
+[21/03 10:43:42.736] [INFO] [DealSpotNPC] PREWARM COMPLETE → spawning staff for 1 spot(s): ["dspot_1"]
+[21/03 10:43:42.736] [INFO] [DealSpotNPC] STAFF SPAWN START: spot=dspot_1 | staff=[role0=["pm_123483_2675081324"], role2=["pm_134327_621784151"], role4=player_self] | parent=BuildingLobby
+[21/03 10:43:42.736] [DEBUG] [DealSpotNPC] STAFF SKIP: spot=dspot_1 — aucune equipe active a h10
+[21/03 10:43:42.736] [DEBUG] [DealSpotNPC] SKIP NPC pm_123483_2675081324 — not scheduled at h10
+[21/03 10:43:42.736] [INFO] [DealSpotNPC] STAFF QUEUED: pm_134327_621784151 (Protection) at pos (-6.0, 0.0, -1.0) (spot=dspot_1)
+[21/03 10:43:42.760] [INFO] [DealSpotNPC] POS RESTORE (session): dspot_1:2:pm_134327_621784151 → (-1.340034, 0.0, 3.562109)
+[21/03 10:44:37.753] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 94.0 → 92.0
+[21/03 10:44:37.753] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 7.5 → 9.0
+[21/03 10:44:37.753] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 10.0 → 12.0
+[21/03 10:44:37.753] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 3.0 → 4.0
+[21/03 10:44:37.753] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=11 | demand_total=2.2 players=[1]
+[21/03 10:44:37.755] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.415 customers=0.4 → 1 spots
+[21/03 10:44:37.755] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.415 customers=0.2 → 1 spots
+[21/03 10:44:37.755] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.415 customers=0.1 → 1 spots
+[21/03 10:44:37.755] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.415 customers=0.0 → 1 spots
+[21/03 10:44:37.755] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.415 customers=0.2 → 1 spots
+[21/03 10:44:37.755] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=11 | demand_total=6.1 players=[]
+[21/03 10:44:37.755] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=11 | demand_total=6.0 players=[]
+[21/03 10:44:37.755] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=11 | demand_total=15.5 players=[]
+[21/03 10:44:37.755] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=11 | demand_total=18.1 players=[]
+[21/03 10:44:37.755] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=11 | demand_total=3.7 players=[]
+[21/03 10:44:37.756] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=11 | demand_total=1.6 players=[]
+[21/03 10:44:37.756] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=11 | demand_total=15.2 players=[]
+[21/03 10:44:37.756] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=11 | demand_total=10.4 players=[]
+[21/03 10:44:37.756] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=11 | demand_total=9.5 players=[]
+[21/03 10:44:37.756] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=11 | demand_total=12.1 players=[]
+[21/03 10:44:37.756] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=11 | demand_total=12.8 players=[]
+[21/03 10:44:37.756] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=11 | demand_total=20.9 players=[]
+[21/03 10:44:37.756] [DEBUG] [DealSpot] TICK h11 | Hall, Immeuble #18 | dealers:1 | produits:0 (0.0g) | cash:$0 | playerPresent:true
+[21/03 10:44:37.756] [INFO] [DealSpotNPC] STAFF QUEUED: pm_123483_2675081324 (Dealer) at pos (2.5, 0.0, -2.0) (spot=dspot_1)
+[21/03 10:44:37.756] [INFO] [DealSpotNPC] PLANNING SPAWN: pm_123483_2675081324 (h11 — début planning)
+[21/03 10:44:41.051] [DEBUG] [Inventory] ITEM -Sacoche slot=4
+[21/03 10:44:43.111] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $60 | spot=dspot_1 | rate=1.00
+[21/03 10:44:43.153] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.0m speed=2.2 eta=9.1s from=(15.15423, 0.0, 24.69327) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 10:44:53.045] [INFO] [DealSpotNPC] POSITION SAVED: dspot_1:2:pm_134327_621784151 → (-3.217821, 0.0, 2.861682)
+[21/03 10:45:06.943] [DEBUG] [DealSpotNPC] VENTE NPC: +$60 | cash_spot=$60 | spot=dspot_1
+[21/03 10:45:10.282] [INFO] [DealSpot] COLLECTE CASH: $60 de Hall, Immeuble #18 | restant=$0
+[21/03 10:45:10.378] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $50 | spot=dspot_1 | rate=1.00
+[21/03 10:45:10.420] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.0m speed=1.6 eta=12.5s from=(-20.21293, 0.0, 10.68845) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 10:45:37.645] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $300 | spot=dspot_1 | rate=1.00
+[21/03 10:45:37.687] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.2m speed=2.2 eta=9.2s from=(-20.21293, 0.0, 10.68845) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 10:45:38.888] [DEBUG] [DealSpotNPC] VENTE NPC: +$50 | cash_spot=$50 | spot=dspot_1
+[21/03 10:46:01.526] [DEBUG] [DealSpotNPC] VENTE NPC: +$300 | cash_spot=$350 | spot=dspot_1
+[21/03 10:46:04.913] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $20 | spot=dspot_1 | rate=1.00
+[21/03 10:46:04.954] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.0m speed=2.2 eta=9.1s from=(15.15423, 0.0, 24.69327) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 10:46:29.397] [DEBUG] [DealSpotNPC] VENTE NPC: +$20 | cash_spot=$370 | spot=dspot_1
+[21/03 10:46:32.180] [DEBUG] [DealSpotNPC] CLIENT SPAWN: tourist $20 | spot=dspot_1 | rate=1.00
+[21/03 10:46:32.224] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.0m speed=1.1 eta=18.2s from=(7.230077, 0.0, 30.48775) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 10:46:54.706] [INFO] [Memory] 📈 Mémoire: 1008.40 MB (+33.38 MB)
+[21/03 10:46:59.447] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $200 | spot=dspot_1 | rate=1.00
+[21/03 10:46:59.490] [DEBUG] [DealSpotNPC] WALK DIAG: dist=19.3m speed=2.2 eta=8.8s from=(15.15423, 0.0, 24.69327) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 10:47:07.701] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 92.0 → 90.0
+[21/03 10:47:07.701] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 9.0 → 10.5
+[21/03 10:47:07.701] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 12.0 → 14.0
+[21/03 10:47:07.701] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 4.0 → 5.0
+[21/03 10:47:07.703] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=12 | demand_total=2.4 players=[1]
+[21/03 10:47:07.703] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.429 customers=0.4 → 1 spots
+[21/03 10:47:07.703] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.429 customers=0.2 → 1 spots
+[21/03 10:47:07.703] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.429 customers=0.1 → 1 spots
+[21/03 10:47:07.703] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.429 customers=0.0 → 1 spots
+[21/03 10:47:07.703] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.429 customers=0.3 → 1 spots
+[21/03 10:47:07.703] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=12 | demand_total=6.0 players=[]
+[21/03 10:47:07.703] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=12 | demand_total=6.1 players=[]
+[21/03 10:47:07.703] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=12 | demand_total=16.7 players=[]
+[21/03 10:47:07.703] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=12 | demand_total=19.3 players=[]
+[21/03 10:47:07.703] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=12 | demand_total=3.9 players=[]
+[21/03 10:47:07.704] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=12 | demand_total=1.8 players=[]
+[21/03 10:47:07.704] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=12 | demand_total=14.6 players=[]
+[21/03 10:47:07.704] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=12 | demand_total=10.6 players=[]
+[21/03 10:47:07.704] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=12 | demand_total=9.1 players=[]
+[21/03 10:47:07.704] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=12 | demand_total=13.1 players=[]
+[21/03 10:47:07.704] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=12 | demand_total=12.4 players=[]
+[21/03 10:47:07.704] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=12 | demand_total=22.4 players=[]
+[21/03 10:47:07.706] [INFO] [Economy] ╔══ SNAPSHOT ÉCONOMIE h12 (Jour 1) ══
+[21/03 10:47:07.706] [INFO] [Economy] ║ CASH=$1193 | COMPTE=$0 | TOTAL=$1193
+[21/03 10:47:07.706] [INFO] [Economy] ║ GANG: (chargement...)
+[21/03 10:47:07.706] [INFO] [Economy] ║ SPOTS: 1 actifs | rev_jour=$430 | cash_non_collecté=$370 | stock=951.4g
+[21/03 10:47:07.706] [INFO] [Economy] ║ INVENTAIRE: brut=[vide] | préparés=0 | en préparation=0
+[21/03 10:47:07.706] [INFO] [Economy] ║ RÉPUT: civil:0, polic:0, gang_:0, media:0, infor:0
+[21/03 10:47:07.706] [INFO] [Economy] ║ MÉTÉO: CLOUDY | outdoor=0.90 | visibility=0.85
+[21/03 10:47:07.706] [INFO] [Economy] ╚══════════════════════════════════════
+[21/03 10:47:07.706] [DEBUG] [DealSpot] TICK h12 | Hall, Immeuble #18 | dealers:1 | produits:5 (951.4g) | cash:$370 | playerPresent:true
+[21/03 10:47:07.706] [INFO] [Time] Jour 1 — 12h00 (tick horaire: 5ms)
+[21/03 10:47:12.803] [DEBUG] [DealSpotNPC] VENTE NPC: +$20 | cash_spot=$390 | spot=dspot_1
+[21/03 10:47:26.714] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $100 | spot=dspot_1 | rate=1.00
+[21/03 10:47:26.756] [DEBUG] [DealSpotNPC] WALK DIAG: dist=15.4m speed=1.6 eta=9.7s from=(13.94038, 0.0, 6.504149) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 10:47:27.790] [DEBUG] [DealSpotNPC] VENTE NPC: +$200 | cash_spot=$590 | spot=dspot_1
+[21/03 10:47:53.046] [DEBUG] [DealSpotNPC] VENTE NPC: +$100 | cash_spot=$690 | spot=dspot_1
+[21/03 10:47:53.983] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $30 | spot=dspot_1 | rate=1.00
+[21/03 10:47:54.023] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.0m speed=1.6 eta=12.5s from=(-20.21293, 0.0, 10.68845) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 10:48:21.249] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $300 | spot=dspot_1 | rate=1.00
+[21/03 10:48:21.292] [DEBUG] [DealSpotNPC] WALK DIAG: dist=19.0m speed=2.2 eta=8.6s from=(7.230077, 0.0, 30.48775) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 10:48:22.444] [DEBUG] [DealSpotNPC] VENTE NPC: +$30 | cash_spot=$720 | spot=dspot_1
+[21/03 10:48:44.742] [DEBUG] [DealSpotNPC] VENTE NPC: +$300 | cash_spot=$1020 | spot=dspot_1
+[21/03 10:48:47.982] [INFO] [DealSpot] COLLECTE CASH: $1020 de Hall, Immeuble #18 | restant=$0
+[21/03 10:48:48.517] [DEBUG] [DealSpotNPC] CLIENT SPAWN: tourist $20 | spot=dspot_1 | rate=1.00
+[21/03 10:48:48.559] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.0m speed=1.1 eta=18.2s from=(-20.21293, 0.0, 10.68845) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 10:49:15.783] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $50 | spot=dspot_1 | rate=1.00
+[21/03 10:49:15.825] [DEBUG] [DealSpotNPC] WALK DIAG: dist=15.4m speed=1.6 eta=9.7s from=(13.94038, 0.0, 6.504149) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 10:49:29.342] [DEBUG] [Weather] Transition météo: CLOUDY -> LIGHT_RAIN
+[21/03 10:49:30.203] [DEBUG] [DealSpotNPC] VENTE NPC: +$20 | cash_spot=$20 | spot=dspot_1
+[21/03 10:49:37.658] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 90.0 → 88.0
+[21/03 10:49:37.658] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 10.5 → 12.0
+[21/03 10:49:37.658] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 14.0 → 16.0
+[21/03 10:49:37.658] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 5.0 → 6.0
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=13 | demand_total=2.4 players=[1]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.437 customers=0.4 → 1 spots
+[21/03 10:49:37.661] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.437 customers=0.2 → 1 spots
+[21/03 10:49:37.661] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.437 customers=0.1 → 1 spots
+[21/03 10:49:37.661] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.437 customers=0.0 → 1 spots
+[21/03 10:49:37.661] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.437 customers=0.3 → 1 spots
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=13 | demand_total=6.0 players=[]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=13 | demand_total=6.0 players=[]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=13 | demand_total=16.9 players=[]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=13 | demand_total=19.6 players=[]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=13 | demand_total=3.9 players=[]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=13 | demand_total=1.9 players=[]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=13 | demand_total=14.6 players=[]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=13 | demand_total=10.4 players=[]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=13 | demand_total=9.1 players=[]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=13 | demand_total=13.3 players=[]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=13 | demand_total=12.4 players=[]
+[21/03 10:49:37.661] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=13 | demand_total=22.6 players=[]
+[21/03 10:49:37.661] [DEBUG] [DealSpot] TICK h13 | Hall, Immeuble #18 | dealers:1 | produits:5 (877.0g) | cash:$20 | playerPresent:true
+[21/03 10:49:43.052] [DEBUG] [DealSpotNPC] CLIENT SPAWN: vip $60 | spot=dspot_1 | rate=1.00
+[21/03 10:49:43.094] [DEBUG] [DealSpotNPC] WALK DIAG: dist=19.0m speed=1.3 eta=14.6s from=(7.230077, 0.0, 30.48775) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 10:49:46.960] [DEBUG] [DealSpotNPC] VENTE NPC: +$50 | cash_spot=$70 | spot=dspot_1
+[21/03 10:49:48.522] [INFO] [DealSpot] COLLECTE CASH: $70 de Hall, Immeuble #18 | restant=$0
+[21/03 10:50:01.828] [INFO] [Navigation] ENTRÉE City (carte stratégique) | district=carte
+[21/03 10:50:01.974] [INFO] [Godot] [GridVisualizer] Réutilisé (cached): 1040 cellules
+[21/03 10:50:10.457] [DEBUG] [DealSpotNPC] CLIENT SPAWN: bulk_dealer $50 | spot=dspot_1 | rate=1.00
+[21/03 10:50:10.506] [DEBUG] [DealSpotNPC] WALK DIAG: dist=19.0m speed=1.4 eta=13.6s from=(7.230077, 0.0, 30.48775) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 10:50:17.776] [DEBUG] [DealSpotNPC] VENTE NPC: +$60 | cash_spot=$60 | spot=dspot_1
+[21/03 10:50:20.451] [DEBUG] [DealSpotNPC] VENTE ANNULÉE: -$50 (client parti) | spot=dspot_1
+[21/03 10:50:20.453] [INFO] [DealSpotNPC] DESPAWN ALL: 2 staff, 1 clients en queue | scène=BuildingLobby
+[21/03 10:50:21.565] [INFO] [Bodyguard] SCENE READY: Bar | escorts_assigned=0
+[21/03 10:50:54.619] [DEBUG] [Banking] CASH -$1050 → cash=$143
+[21/03 10:50:54.621] [INFO] [NPC] COMMANDE CRÉÉE: Skunk #1 250g — $1050 | livraison Jour 1 à 14:29 | expire Jour 4
+[21/03 10:50:54.621] [DEBUG] [Skill] XP +10 persuasion (practice_success) → 52/118 lvl2
+[21/03 10:50:54.622] [INFO] [NPC] TRUST grossiste: 19.0 → 23.0 (+4.0)
+[21/03 10:50:57.710] [DEBUG] [Trait] energie +5.0 (sitting_rest): 88.0 → 93.0
+[21/03 10:50:57.710] [DEBUG] [Trait] sommeil -3.0 (sitting_rest): 6.0 → 3.0
+[21/03 10:51:55.285] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$1438 | 0 territoires | 1 appts
+[21/03 10:51:55.289] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 10:51:57.068] [DEBUG] [Memory] 💾 Mémoire stable: 1024.87 MB
+[21/03 10:52:10.062] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 93.0 → 91.0
+[21/03 10:52:10.062] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 12.0 → 13.5
+[21/03 10:52:10.062] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 16.0 → 18.0
+[21/03 10:52:10.062] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 3.0 → 4.0
+[21/03 10:52:10.063] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=14 | demand_total=1.8 players=[1]
+[21/03 10:52:10.063] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.442 customers=0.3 → 1 spots
+[21/03 10:52:10.065] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.442 customers=0.1 → 1 spots
+[21/03 10:52:10.065] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.442 customers=0.1 → 1 spots
+[21/03 10:52:10.065] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.442 customers=0.0 → 1 spots
+[21/03 10:52:10.065] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.442 customers=0.3 → 1 spots
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=14 | demand_total=4.5 players=[]
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=14 | demand_total=4.7 players=[]
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=14 | demand_total=11.5 players=[]
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=14 | demand_total=13.4 players=[]
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=14 | demand_total=2.9 players=[]
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=14 | demand_total=1.4 players=[]
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=14 | demand_total=11.1 players=[]
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=14 | demand_total=7.9 players=[]
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=14 | demand_total=7.1 players=[]
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=14 | demand_total=9.2 players=[]
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=14 | demand_total=9.6 players=[]
+[21/03 10:52:10.065] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=14 | demand_total=15.5 players=[]
+[21/03 10:52:10.065] [DEBUG] [DealSpot] TICK h14 | Hall, Immeuble #18 | dealers:1 | produits:5 (865.0g) | cash:$60 | playerPresent:false
+[21/03 10:52:10.065] [INFO] [DealSpot] === MODIFIERS h14 | Hall, Immeuble #18 ===
+[21/03 10:52:10.065] [INFO] [DealSpot]   traffic: base=18.00 time=0.90 loc_syn=1.00
+[21/03 10:52:10.065] [INFO] [DealSpot]   dealer: charisma=1.01 | guetteur=1.00 | markup=1.00
+[21/03 10:52:10.066] [INFO] [DealSpot]   heat: penalty=1.00 (heat=0.4/100)
+[21/03 10:52:10.066] [INFO] [DealSpot]   quality: 0.94 (base=0.9 event=0.00 network=1.00)
+[21/03 10:52:10.066] [INFO] [DealSpot]   economy: city=0.98 territory=1.00 saturation=1.00 rival=1.00 monopoly=1.00
+[21/03 10:52:10.066] [INFO] [DealSpot]   rep: demand=1.00 loyalty_vol=1.01 loyalty_bg=0.71 (ABSENT — bg_mult)
+[21/03 10:52:10.066] [INFO] [DealSpot]   staff: morale=1.00 alert=1.00 flow=1.00
+[21/03 10:52:10.066] [INFO] [DealSpot]   player: skill=1.00 trait=1.00
+[21/03 10:52:10.066] [INFO] [DealSpot]   weather: traffic=0.85 heat_mod=0.88
+[21/03 10:52:10.066] [INFO] [DealSpot]   law: price=1.00 event_rev=1.00
+[21/03 10:52:10.066] [INFO] [DealSpot]   upgrades: traffic=1.00 (sale_speed=0.00 txn_speed=0.00 satisfaction=0.00)
+[21/03 10:52:10.066] [DEBUG] [DealSpot] STOCK DISPO: hashish:187
+[21/03 10:52:10.066] [INFO] [DealSpot] POOL MODE ACTIVE spot=dspot_1 district=crown_heights | segments=[0, 1, 2, 3, 4] total_allocated=0.8
+[21/03 10:52:10.066] [WARN] [DealSpot] Hall, Immeuble #18 — 0 clients h14! base=16.2, bg=0.71, weath=0.85, terr=1.00, qual=0.94, morale=1.00, alert=1.00
+[21/03 10:53:14.598] [DEBUG] [Trait] energie +5.0 (sitting_rest): 91.0 → 96.0
+[21/03 10:53:14.598] [DEBUG] [Trait] sommeil -3.0 (sitting_rest): 4.0 → 1.0
+[21/03 10:53:28.490] [INFO] [NPC] COMMANDE RÉCUPÉRÉE: Skunk #1 250g
+[21/03 10:53:28.493] [INFO] [Inventory] DROGUE +1x weed (250.0g) → sac (auto-créé)
+[21/03 10:53:28.493] [INFO] [NPC] TRUST grossiste: 23.0 → 27.0 (+4.0)
+[21/03 10:53:28.493] [INFO] [NPC] GROSSISTE PROGRESSION: introduced → regular (trust=27.0)
+[21/03 10:53:33.167] [INFO] [Navigation] ENTRÉE City (carte stratégique) | district=carte
+[21/03 10:53:33.315] [INFO] [Godot] [GridVisualizer] Réutilisé (cached): 1040 cellules
+[21/03 10:53:37.098] [INFO] [CityTravel] PATH 577->934 | cells=13 (straight~12) | ROAD 11/559 on_road | BLD 136 thru_bld=1 | loc=Immeuble #18
+[21/03 10:53:56.163] [DEBUG] [Weather] Transition météo: LIGHT_RAIN -> CLOUDY
+[21/03 10:54:36.816] [DEBUG] [Location] Cleanup complet: Le Refuge
+[21/03 10:54:37.982] [INFO] [Bodyguard] SCENE READY: BuildingLobby | escorts_assigned=0
+[21/03 10:54:37.983] [INFO] [DealSpotNPC] on_scene_ready: type=lobby bldg=auto_bldg_167 floor=-1 apt= → spots=["dspot_1"]
+[21/03 10:54:37.983] [INFO] [DealSpotNPC] PRESENCE BONUS: +60% spawn speed (presence=50%, gerant=true +10%)
+[21/03 10:54:37.983] [INFO] [DealSpotNPC] PREWARM START: 1 spot(s), scene=BuildingLobby
+[21/03 10:54:37.983] [INFO] [DealSpot] PORTE AUTO-OUVERTE: spot actif dans ce lobby
+[21/03 10:54:38.003] [INFO] [DealSpotNPC] PREWARM COMPLETE → spawning staff for 1 spot(s): ["dspot_1"]
+[21/03 10:54:38.003] [INFO] [DealSpotNPC] STAFF SPAWN START: spot=dspot_1 | staff=[role0=["pm_123483_2675081324"], role2=["pm_134327_621784151"], role4=player_self] | parent=BuildingLobby
+[21/03 10:54:38.005] [INFO] [DealSpotNPC] STAFF QUEUED: pm_123483_2675081324 (Dealer) at pos (2.5, 0.0, -2.0) (spot=dspot_1)
+[21/03 10:54:38.020] [INFO] [DealSpotNPC] POS RESTORE (session): dspot_1:0:pm_123483_2675081324 → (2.5, 0.0, -2.0)
+[21/03 10:54:38.035] [INFO] [DealSpotNPC] STAFF QUEUED: pm_134327_621784151 (Protection) at pos (-6.0, 0.0, -1.0) (spot=dspot_1)
+[21/03 10:54:38.069] [INFO] [DealSpotNPC] POS RESTORE (session): dspot_1:2:pm_134327_621784151 → (-3.217821, 0.0, 2.861682)
+[21/03 10:54:41.186] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 96.0 → 94.0
+[21/03 10:54:41.187] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 13.5 → 15.0
+[21/03 10:54:41.187] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 18.0 → 20.0
+[21/03 10:54:41.187] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 1.0 → 2.0
+[21/03 10:54:41.187] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=15 | demand_total=2.1 players=[1]
+[21/03 10:54:41.187] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.445 customers=0.4 → 1 spots
+[21/03 10:54:41.187] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.445 customers=0.2 → 1 spots
+[21/03 10:54:41.187] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.445 customers=0.1 → 1 spots
+[21/03 10:54:41.187] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.445 customers=0.0 → 1 spots
+[21/03 10:54:41.187] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.445 customers=0.2 → 1 spots
+[21/03 10:54:41.187] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=15 | demand_total=5.7 players=[]
+[21/03 10:54:41.188] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=15 | demand_total=5.7 players=[]
+[21/03 10:54:41.188] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=15 | demand_total=14.4 players=[]
+[21/03 10:54:41.188] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=15 | demand_total=16.8 players=[]
+[21/03 10:54:41.188] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=15 | demand_total=3.5 players=[]
+[21/03 10:54:41.188] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=15 | demand_total=1.5 players=[]
+[21/03 10:54:41.188] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=15 | demand_total=14.2 players=[]
+[21/03 10:54:41.188] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=15 | demand_total=9.8 players=[]
+[21/03 10:54:41.188] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=15 | demand_total=8.9 players=[]
+[21/03 10:54:41.188] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=15 | demand_total=11.3 players=[]
+[21/03 10:54:41.188] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=15 | demand_total=12.0 players=[]
+[21/03 10:54:41.190] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=15 | demand_total=19.5 players=[]
+[21/03 10:54:41.190] [DEBUG] [DealSpot] TICK h15 | Hall, Immeuble #18 | dealers:1 | produits:5 (865.0g) | cash:$60 | playerPresent:true
+[21/03 10:54:43.822] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $20 | spot=dspot_1 | rate=1.00
+[21/03 10:54:43.865] [DEBUG] [DealSpotNPC] WALK DIAG: dist=6.0m speed=1.6 eta=3.8s from=(1.845016, 0.0, 17.5982) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 10:54:51.529] [INFO] [DealSpot] COLLECTE CASH: $60 de Hall, Immeuble #18 | restant=$0
+[21/03 10:55:02.276] [DEBUG] [DealSpotNPC] VENTE ANNULÉE: -$20 (client parti) | spot=dspot_1
+[21/03 10:55:02.279] [INFO] [DealSpotNPC] DESPAWN ALL: 2 staff, 1 clients en queue | scène=BuildingLobby
+[21/03 10:55:03.390] [INFO] [Navigation] ENTRÉE BuildingFloor: bldg=auto_bldg_167 floor=1
+[21/03 10:55:03.417] [INFO] [Bodyguard] SCENE READY: BuildingFloorIntegrated | escorts_assigned=0
+[21/03 10:55:03.418] [INFO] [DealSpotNPC] on_scene_ready: type=floor bldg=auto_bldg_167 floor=1 apt= → spots=[]
+[21/03 10:55:03.421] [DEBUG] [DealSpotNPC] Aucun spot pour cette scène (type=floor bldg=auto_bldg_167)
+[21/03 10:55:06.851] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$1498 | 0 territoires | 1 appts
+[21/03 10:55:06.857] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 10:55:09.322] [INFO] [DealSpotNPC] DESPAWN ALL: 0 staff, 0 clients en queue | scène=BuildingFloorIntegrated
+[21/03 10:55:09.323] [INFO] [DealSpotNPC] on_scene_ready: type=apartment bldg=auto_bldg_167 floor=1 apt=auto_bldg_167_F1_U0 → spots=[]
+[21/03 10:55:09.323] [DEBUG] [DealSpotNPC] Aucun spot pour cette scène (type=apartment bldg=auto_bldg_167)
+[21/03 10:55:25.706] [INFO] [Inventory] DROGUE -1x drug_weed_weed_skunk_grossiste_250g_p70
+[21/03 10:55:25.706] [INFO] [Business] TRANSFERT SACOCHE: 250.0g Weed (pureté=70%) → stock total=250.0g
+[21/03 10:55:25.724] [INFO] [Business] PRÉPARATION LANCÉE: 5x Weed [Skunk #1] (9.70g/u, $100/u, pureté=72%) | durée=54s | stock restant=201.50g | consommé=48.50g
+[21/03 10:55:32.049] [INFO] [Business] PRÉPARATION LANCÉE: 10x Weed [Skunk #1] (4.60g/u, $50/u, pureté=72%) | durée=54s | stock restant=155.50g | consommé=46.00g
+[21/03 10:55:36.463] [DEBUG] [Banking] CASH -$13 → cash=$123
+[21/03 10:55:36.464] [INFO] [Business] PRÉPARATION LANCÉE: 25x Weed [Skunk #1] (2.70g/u, $30/u, pureté=72%) | durée=54s | stock restant=88.00g | consommé=67.50g
+[21/03 10:55:39.726] [DEBUG] [Banking] CASH -$13 → cash=$111
+[21/03 10:55:39.729] [INFO] [Business] PRÉPARATION LANCÉE: 25x Weed [Skunk #1] (1.80g/u, $20/u, pureté=72%) | durée=54s | stock restant=43.00g | consommé=45.00g
+[21/03 10:55:43.697] [DEBUG] [Banking] CASH -$26 → cash=$85
+[21/03 10:55:43.698] [INFO] [Business] PRÉPARATION LANCÉE: 51x Weed [Skunk #1] (0.84g/u, $10/u, pureté=72%) | durée=54s | stock restant=0.00g | consommé=42.84g
+[21/03 10:55:56.461] [DEBUG] [Trait] energie +5.0 (sitting_rest): 94.0 → 99.0
+[21/03 10:55:56.461] [DEBUG] [Trait] sommeil -3.0 (sitting_rest): 2.0 → 0.0
+[21/03 10:56:19.858] [INFO] [Business] PRÉPARATION TERMINÉE: prod_8 → 5x Weed [weed_skunk] (9.7g/u, $100/u) | total produits=1
+[21/03 10:56:19.858] [DEBUG] [Skill] XP +10 observation (practice_success) → 87/97 lvl1
+[21/03 10:56:27.391] [INFO] [Business] PRÉPARATION TERMINÉE: prod_9 → 10x Weed [weed_skunk] (4.6g/u, $50/u) | total produits=2
+[21/03 10:56:27.391] [DEBUG] [Skill] XP +10 observation (practice_success) → 97/97 lvl1
+[21/03 10:56:27.391] [INFO] [Skill] LEVEL UP! observation → niveau 2
+[21/03 10:56:30.417] [INFO] [Business] PRÉPARATION TERMINÉE: prod_10 → 25x Weed [weed_skunk] (2.7g/u, $30/u) | total produits=3
+[21/03 10:56:30.417] [DEBUG] [Skill] XP +10 observation (practice_success) → 10/126 lvl2
+[21/03 10:56:34.936] [INFO] [Business] PRÉPARATION TERMINÉE: prod_11 → 25x Weed [weed_skunk] (1.8g/u, $20/u) | total produits=4
+[21/03 10:56:34.936] [DEBUG] [Skill] XP +10 observation (practice_success) → 20/126 lvl2
+[21/03 10:56:37.948] [INFO] [Business] PRÉPARATION TERMINÉE: prod_12 → 51x Weed [weed_skunk] (0.8g/u, $10/u) | total produits=5
+[21/03 10:56:37.948] [DEBUG] [Skill] XP +10 observation (practice_success) → 30/126 lvl2
+[21/03 10:56:56.503] [INFO] [DealSpot] RESUPPLY PRODUIT: 5x Weed (9.7g/u, $100/u) → Hall, Immeuble #18 | stock=911/2000
+[21/03 10:56:57.322] [INFO] [DealSpot] RESUPPLY PRODUIT: 10x Weed (4.6g/u, $50/u) → Hall, Immeuble #18 | stock=957/2000
+[21/03 10:56:57.967] [INFO] [DealSpot] RESUPPLY PRODUIT: 25x Weed (2.7g/u, $30/u) → Hall, Immeuble #18 | stock=1025/2000
+[21/03 10:56:58.753] [INFO] [DealSpot] RESUPPLY PRODUIT: 25x Weed (1.8g/u, $20/u) → Hall, Immeuble #18 | stock=1070/2000
+[21/03 10:56:59.203] [INFO] [Memory] 📈 Mémoire: 1084.89 MB (+60.01 MB)
+[21/03 10:56:59.828] [INFO] [DealSpot] RESUPPLY PRODUIT: 51x Weed (0.8g/u, $10/u) → Hall, Immeuble #18 | stock=1113/2000
+[21/03 10:57:12.197] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 99.0 → 97.0
+[21/03 10:57:12.198] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 15.0 → 16.5
+[21/03 10:57:12.198] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 20.0 → 22.0
+[21/03 10:57:12.198] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 0.0 → 1.0
+[21/03 10:57:12.200] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=16 | demand_total=2.4 players=[1]
+[21/03 10:57:12.200] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.447 customers=0.4 → 1 spots
+[21/03 10:57:12.200] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.447 customers=0.2 → 1 spots
+[21/03 10:57:12.200] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.447 customers=0.1 → 1 spots
+[21/03 10:57:12.200] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.447 customers=0.0 → 1 spots
+[21/03 10:57:12.200] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.447 customers=0.3 → 1 spots
+[21/03 10:57:12.200] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=16 | demand_total=6.4 players=[]
+[21/03 10:57:12.200] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=16 | demand_total=6.3 players=[]
+[21/03 10:57:12.200] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=16 | demand_total=15.7 players=[]
+[21/03 10:57:12.200] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=16 | demand_total=18.3 players=[]
+[21/03 10:57:12.200] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=16 | demand_total=3.8 players=[]
+[21/03 10:57:12.200] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=16 | demand_total=1.6 players=[]
+[21/03 10:57:12.200] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=16 | demand_total=15.5 players=[]
+[21/03 10:57:12.201] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=16 | demand_total=11.0 players=[]
+[21/03 10:57:12.201] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=16 | demand_total=9.7 players=[]
+[21/03 10:57:12.201] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=16 | demand_total=12.4 players=[]
+[21/03 10:57:12.201] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=16 | demand_total=13.1 players=[]
+[21/03 10:57:12.203] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=16 | demand_total=21.0 players=[]
+[21/03 10:57:12.203] [DEBUG] [DealSpot] TICK h16 | Hall, Immeuble #18 | dealers:1 | produits:10 (1112.7g) | cash:$0 | playerPresent:false
+[21/03 10:57:12.203] [DEBUG] [DealSpot] STOCK DISPO: hashish:186, weed:116
+[21/03 10:57:12.203] [INFO] [DealSpot] POOL MODE ACTIVE spot=dspot_1 district=crown_heights | segments=[0, 1, 2, 3, 4] total_allocated=1.1
+[21/03 10:57:12.203] [DEBUG] [DealSpot] SALE: prod_9 1x$50 weed (budget=$58, sat=87%)
+[21/03 10:57:12.203] [DEBUG] [DealSpot] CLIENTS h16: regular:1 (total=1)
+[21/03 10:57:12.203] [DEBUG] [DealSpot] VENTE h16 | Hall, Immeuble #18 | $55 | 1 clients | base=16.2 time=0.90 bg=0.71 weath=0.95 terr=1.00 qual=0.94 morale=1.00 alert=1.00 flow=1.00
+[21/03 10:58:21.361] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$1498 | 0 territoires | 1 appts
+[21/03 10:58:21.365] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 10:59:42.157] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 97.0 → 95.0
+[21/03 10:59:42.157] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 16.5 → 18.0
+[21/03 10:59:42.157] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 22.0 → 24.0
+[21/03 10:59:42.157] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 1.0 → 2.0
+[21/03 10:59:42.158] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=17 | demand_total=2.6 players=[1]
+[21/03 10:59:42.160] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.448 customers=0.5 → 1 spots
+[21/03 10:59:42.160] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.448 customers=0.2 → 1 spots
+[21/03 10:59:42.160] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.448 customers=0.1 → 1 spots
+[21/03 10:59:42.160] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.448 customers=0.0 → 1 spots
+[21/03 10:59:42.160] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.448 customers=0.3 → 1 spots
+[21/03 10:59:42.160] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=17 | demand_total=6.4 players=[]
+[21/03 10:59:42.160] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=17 | demand_total=6.5 players=[]
+[21/03 10:59:42.161] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=17 | demand_total=17.8 players=[]
+[21/03 10:59:42.161] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=17 | demand_total=20.6 players=[]
+[21/03 10:59:42.161] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=17 | demand_total=4.1 players=[]
+[21/03 10:59:42.161] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=17 | demand_total=1.9 players=[]
+[21/03 10:59:42.161] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=17 | demand_total=15.6 players=[]
+[21/03 10:59:42.161] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=17 | demand_total=11.3 players=[]
+[21/03 10:59:42.161] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=17 | demand_total=9.7 players=[]
+[21/03 10:59:42.161] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=17 | demand_total=14.0 players=[]
+[21/03 10:59:42.161] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=17 | demand_total=13.2 players=[]
+[21/03 10:59:42.161] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=17 | demand_total=23.8 players=[]
+[21/03 10:59:42.163] [DEBUG] [DealSpot] TICK h17 | Hall, Immeuble #18 | dealers:1 | produits:10 (1108.1g) | cash:$55 | playerPresent:false
+[21/03 10:59:42.163] [DEBUG] [DealSpot] STOCK DISPO: hashish:186, weed:115
+[21/03 10:59:42.163] [INFO] [DealSpot] POOL MODE ACTIVE spot=dspot_1 district=crown_heights | segments=[0, 1, 2, 3, 4] total_allocated=1.2
+[21/03 10:59:42.163] [DEBUG] [DealSpot] SALE: prod_10 1x$30 weed (budget=$32, sat=94%)
+[21/03 10:59:42.163] [DEBUG] [DealSpot] CLIENTS h17: regular:1 (total=1)
+[21/03 10:59:42.163] [DEBUG] [DealSpot] VENTE h17 | Hall, Immeuble #18 | $33 | 1 clients | base=16.2 time=0.90 bg=0.71 weath=0.95 terr=1.00 qual=0.94 morale=1.00 alert=1.00 flow=1.00
+[21/03 10:59:54.237] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$1498 | 0 territoires | 1 appts
+[21/03 10:59:54.243] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 11:01:59.124] [DEBUG] [Memory] 💾 Mémoire stable: 1095.10 MB
+[21/03 11:02:03.947] [INFO] [DealSpotNPC] DESPAWN ALL: 0 staff, 0 clients en queue | scène=BuildingFloorIntegrated
+[21/03 11:02:05.073] [INFO] [Bodyguard] SCENE READY: BuildingLobby | escorts_assigned=0
+[21/03 11:02:05.073] [INFO] [DealSpotNPC] on_scene_ready: type=lobby bldg=auto_bldg_167 floor=-1 apt= → spots=["dspot_1"]
+[21/03 11:02:05.075] [INFO] [DealSpotNPC] PRESENCE BONUS: +60% spawn speed (presence=50%, gerant=true +10%)
+[21/03 11:02:05.075] [INFO] [DealSpotNPC] PREWARM START: 1 spot(s), scene=BuildingLobby
+[21/03 11:02:05.075] [INFO] [DealSpot] PORTE AUTO-OUVERTE: spot actif dans ce lobby
+[21/03 11:02:05.125] [INFO] [DealSpotNPC] PREWARM COMPLETE → spawning staff for 1 spot(s): ["dspot_1"]
+[21/03 11:02:05.125] [INFO] [DealSpotNPC] STAFF SPAWN START: spot=dspot_1 | staff=[role0=["pm_123483_2675081324"], role2=["pm_134327_621784151"], role4=player_self] | parent=BuildingLobby
+[21/03 11:02:05.125] [INFO] [DealSpotNPC] STAFF QUEUED: pm_123483_2675081324 (Dealer) at pos (2.5, 0.0, -2.0) (spot=dspot_1)
+[21/03 11:02:05.154] [INFO] [DealSpotNPC] POS RESTORE (session): dspot_1:0:pm_123483_2675081324 → (2.5, 0.0, -2.0)
+[21/03 11:02:05.161] [INFO] [DealSpotNPC] STAFF QUEUED: pm_134327_621784151 (Protection) at pos (-6.0, 0.0, -1.0) (spot=dspot_1)
+[21/03 11:02:05.190] [INFO] [DealSpotNPC] POS RESTORE (session): dspot_1:2:pm_134327_621784151 → (-3.217821, 0.0, 2.861682)
+[21/03 11:02:10.951] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $20 | spot=dspot_1 | rate=1.00
+[21/03 11:02:10.993] [DEBUG] [DealSpotNPC] WALK DIAG: dist=19.9m speed=2.2 eta=9.0s from=(15.06516, 0.0, 24.64183) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 11:02:13.131] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 95.0 → 93.0
+[21/03 11:02:13.131] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 18.0 → 19.5
+[21/03 11:02:13.131] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 24.0 → 26.0
+[21/03 11:02:13.131] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 2.0 → 3.0
+[21/03 11:02:13.132] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=18 | demand_total=2.8 players=[1]
+[21/03 11:02:13.132] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.449 customers=0.5 → 1 spots
+[21/03 11:02:13.132] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.449 customers=0.3 → 1 spots
+[21/03 11:02:13.132] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.449 customers=0.1 → 1 spots
+[21/03 11:02:13.134] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.449 customers=0.1 → 1 spots
+[21/03 11:02:13.134] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.449 customers=0.3 → 1 spots
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=18 | demand_total=7.1 players=[]
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=18 | demand_total=7.2 players=[]
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=18 | demand_total=20.1 players=[]
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=18 | demand_total=23.3 players=[]
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=18 | demand_total=4.6 players=[]
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=18 | demand_total=2.2 players=[]
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=18 | demand_total=17.3 players=[]
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=18 | demand_total=12.4 players=[]
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=18 | demand_total=10.8 players=[]
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=18 | demand_total=15.7 players=[]
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=18 | demand_total=14.8 players=[]
+[21/03 11:02:13.134] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=18 | demand_total=26.9 players=[]
+[21/03 11:02:13.134] [INFO] [Economy] ╔══ SNAPSHOT ÉCONOMIE h18 (Jour 1) ══
+[21/03 11:02:13.134] [INFO] [Economy] ║ CASH=$85 | COMPTE=$0 | TOTAL=$85
+[21/03 11:02:13.134] [INFO] [Economy] ║ GANG: (chargement...)
+[21/03 11:02:13.134] [INFO] [Economy] ║ SPOTS: 1 actifs | rev_jour=$1318 | cash_non_collecté=$88 | stock=1105.4g
+[21/03 11:02:13.134] [INFO] [Economy] ║ INVENTAIRE: brut=[vide] | préparés=0 | en préparation=0
+[21/03 11:02:13.135] [INFO] [Economy] ║ RÉPUT: civil:0, polic:0, gang_:0, media:0, infor:0
+[21/03 11:02:13.135] [INFO] [Economy] ║ MÉTÉO: CLOUDY | outdoor=0.90 | visibility=0.85
+[21/03 11:02:13.135] [INFO] [Economy] ╚══════════════════════════════════════
+[21/03 11:02:13.135] [DEBUG] [DealSpot] TICK h18 | Hall, Immeuble #18 | dealers:1 | produits:10 (1105.4g) | cash:$88 | playerPresent:true
+[21/03 11:02:13.135] [INFO] [Time] Jour 1 — 18h00 (tick horaire: 4ms)
+[21/03 11:02:16.367] [INFO] [DealSpot] COLLECTE CASH: $88 de Hall, Immeuble #18 | restant=$0
+[21/03 11:02:38.220] [DEBUG] [DealSpotNPC] CLIENT SPAWN: bulk_dealer $300 | spot=dspot_1 | rate=1.00
+[21/03 11:02:38.260] [DEBUG] [DealSpotNPC] WALK DIAG: dist=10.9m speed=1.4 eta=7.8s from=(0.514681, 0.0, 2.105263) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 11:02:42.759] [DEBUG] [DealSpotNPC] VENTE NPC: +$20 | cash_spot=$20 | spot=dspot_1
+[21/03 11:03:05.486] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $200 | spot=dspot_1 | rate=1.00
+[21/03 11:03:05.529] [DEBUG] [DealSpotNPC] WALK DIAG: dist=4.0m speed=1.6 eta=2.5s from=(-3.835001, 0.0, 11.47878) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 11:03:20.634] [DEBUG] [DealSpotNPC] VENTE NPC: +$300 | cash_spot=$320 | spot=dspot_1
+[21/03 11:03:32.756] [DEBUG] [DealSpotNPC] CLIENT SPAWN: tourist $60 | spot=dspot_1 | rate=1.00
+[21/03 11:03:32.796] [DEBUG] [DealSpotNPC] WALK DIAG: dist=42.6m speed=1.1 eta=38.7s from=(16.04667, 0.0, 52.35601) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 11:03:44.286] [DEBUG] [Weather] Transition météo: CLOUDY -> LIGHT_RAIN
+[21/03 11:04:00.023] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $500 | spot=dspot_1 | rate=1.00
+[21/03 11:04:00.065] [DEBUG] [DealSpotNPC] WALK DIAG: dist=24.8m speed=2.2 eta=11.3s from=(20.19221, 0.0, 28.95732) to=(0.450175, 0.0, 13.94007) | spot=dspot_1 idx=2
+[21/03 11:04:08.279] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$1586 | 0 territoires | 1 appts
+[21/03 11:04:08.283] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 11:04:27.957] [DEBUG] [DealSpotNPC] VENTE NPC: +$200 | cash_spot=$520 | spot=dspot_1
+[21/03 11:04:32.740] [INFO] [DealSpot] COLLECTE CASH: $520 de Hall, Immeuble #18 | restant=$0
+[21/03 11:04:43.091] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 93.0 → 91.0
+[21/03 11:04:43.091] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 19.5 → 21.0
+[21/03 11:04:43.091] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 26.0 → 28.0
+[21/03 11:04:43.091] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 3.0 → 4.0
+[21/03 11:04:43.098] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=19 | demand_total=2.4 players=[1]
+[21/03 11:04:43.098] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.449 customers=0.4 → 1 spots
+[21/03 11:04:43.099] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.449 customers=0.2 → 1 spots
+[21/03 11:04:43.099] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.449 customers=0.1 → 1 spots
+[21/03 11:04:43.099] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.449 customers=0.0 → 1 spots
+[21/03 11:04:43.099] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.449 customers=0.3 → 1 spots
+[21/03 11:04:43.099] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=19 | demand_total=5.9 players=[]
+[21/03 11:04:43.099] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=19 | demand_total=6.2 players=[]
+[21/03 11:04:43.099] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=19 | demand_total=16.6 players=[]
+[21/03 11:04:43.099] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=19 | demand_total=19.3 players=[]
+[21/03 11:04:43.101] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=19 | demand_total=3.9 players=[]
+[21/03 11:04:43.101] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=19 | demand_total=1.9 players=[]
+[21/03 11:04:43.101] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=19 | demand_total=14.5 players=[]
+[21/03 11:04:43.101] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=19 | demand_total=10.7 players=[]
+[21/03 11:04:43.101] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=19 | demand_total=8.9 players=[]
+[21/03 11:04:43.101] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=19 | demand_total=13.2 players=[]
+[21/03 11:04:43.101] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=19 | demand_total=12.4 players=[]
+[21/03 11:04:43.101] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=19 | demand_total=22.3 players=[]
+[21/03 11:04:43.101] [DEBUG] [DealSpot] TICK h19 | Hall, Immeuble #18 | dealers:1 | produits:10 (1048.8g) | cash:$0 | playerPresent:true
+[21/03 11:04:54.576] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $100 | spot=dspot_1 | rate=1.00
+[21/03 11:04:54.608] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.7m speed=2.2 eta=9.4s from=(-20.03884, 0.0, 10.69936) to=(0.450175, 0.0, 13.94007) | spot=dspot_1 idx=2
+[21/03 11:05:04.194] [WARN] [DealSpotNPC] WATCHDOG: Client stuck in 'walking_to_queue' for 64.1s (threshold=60s) → forced idle+snap | spot=dspot_1 idx=1
+[21/03 11:05:20.980] [DEBUG] [DealSpotNPC] VENTE NPC: +$60 | cash_spot=$60 | spot=dspot_1
+[21/03 11:05:21.832] [DEBUG] [DealSpotNPC] CLIENT SPAWN: bulk_dealer $100 | spot=dspot_1 | rate=1.00
+[21/03 11:05:21.875] [DEBUG] [DealSpotNPC] WALK DIAG: dist=18.9m speed=1.4 eta=13.5s from=(-13.39142, 0.0, 26.78635) to=(0.450175, 0.0, 13.94007) | spot=dspot_1 idx=2
+[21/03 11:05:22.194] [INFO] [DealSpot] COLLECTE CASH: $60 de Hall, Immeuble #18 | restant=$0
+[21/03 11:05:37.315] [DEBUG] [Inventory] ITEM -Sacoche slot=4
+[21/03 11:05:46.776] [DEBUG] [DealSpotNPC] VENTE NPC: +$500 | cash_spot=$500 | spot=dspot_1
+[21/03 11:05:47.825] [INFO] [DealSpot] COLLECTE CASH: $500 de Hall, Immeuble #18 | restant=$0
+[21/03 11:05:49.101] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $100 | spot=dspot_1 | rate=1.00
+[21/03 11:05:49.144] [DEBUG] [DealSpotNPC] WALK DIAG: dist=18.2m speed=1.6 eta=11.4s from=(15.15423, 0.0, 24.69327) to=(0.450175, 0.0, 13.94007) | spot=dspot_1 idx=2
+[21/03 11:05:59.265] [WARN] [DealSpotNPC] WATCHDOG: Client stuck in 'walking_to_queue' for 64.7s (threshold=60s) → forced idle+snap | spot=dspot_1 idx=0
+[21/03 11:06:24.318] [WARN] [DealSpotNPC] WATCHDOG: Client stuck in 'walking_to_queue' for 62.4s (threshold=60s) → forced idle+snap | spot=dspot_1 idx=1
+[21/03 11:06:28.637] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$2666 | 0 territoires | 1 appts
+[21/03 11:06:28.642] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 11:07:00.180] [INFO] [Memory] 📈 Mémoire: 1132.73 MB (+37.63 MB)
+[21/03 11:07:13.176] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 91.0 → 89.0
+[21/03 11:07:13.176] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 21.0 → 22.5
+[21/03 11:07:13.176] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 28.0 → 30.0
+[21/03 11:07:13.176] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 4.0 → 5.0
+[21/03 11:07:13.177] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=20 | demand_total=2.2 players=[1]
+[21/03 11:07:13.177] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.450 customers=0.4 → 1 spots
+[21/03 11:07:13.177] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.450 customers=0.2 → 1 spots
+[21/03 11:07:13.177] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.450 customers=0.1 → 1 spots
+[21/03 11:07:13.177] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.450 customers=0.1 → 1 spots
+[21/03 11:07:13.177] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.450 customers=0.2 → 1 spots
+[21/03 11:07:13.177] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=20 | demand_total=5.7 players=[]
+[21/03 11:07:13.177] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=20 | demand_total=5.7 players=[]
+[21/03 11:07:13.177] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=20 | demand_total=14.9 players=[]
+[21/03 11:07:13.177] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=20 | demand_total=17.3 players=[]
+[21/03 11:07:13.177] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=20 | demand_total=3.5 players=[]
+[21/03 11:07:13.177] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=20 | demand_total=1.7 players=[]
+[21/03 11:07:13.177] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=20 | demand_total=13.4 players=[]
+[21/03 11:07:13.177] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=20 | demand_total=9.7 players=[]
+[21/03 11:07:13.177] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=20 | demand_total=8.9 players=[]
+[21/03 11:07:13.177] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=20 | demand_total=11.8 players=[]
+[21/03 11:07:13.178] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=20 | demand_total=11.5 players=[]
+[21/03 11:07:13.178] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=20 | demand_total=20.0 players=[]
+[21/03 11:07:13.178] [DEBUG] [DealSpot] TICK h20 | Hall, Immeuble #18 | dealers:1 | produits:10 (986.3g) | cash:$0 | playerPresent:true
+[21/03 11:08:00.138] [DEBUG] [Combat] Mode garde active
+[21/03 11:08:02.193] [DEBUG] [Combat] Mode garde desactive
+[21/03 11:08:14.523] [DEBUG] [DealSpotNPC] VENTE ANNULÉE: -$100 (client parti) | spot=dspot_1
+[21/03 11:08:14.525] [DEBUG] [DealSpotNPC] VENTE ANNULÉE: -$100 (client parti) | spot=dspot_1
+[21/03 11:08:14.525] [DEBUG] [DealSpotNPC] VENTE ANNULÉE: -$100 (client parti) | spot=dspot_1
+[21/03 11:08:14.526] [INFO] [DealSpotNPC] DESPAWN ALL: 2 staff, 3 clients en queue | scène=BuildingLobby
+[21/03 11:08:15.609] [INFO] [Navigation] ENTRÉE BuildingFloor: bldg=auto_bldg_167 floor=3
+[21/03 11:08:15.634] [INFO] [Bodyguard] SCENE READY: BuildingFloorIntegrated | escorts_assigned=0
+[21/03 11:08:15.637] [INFO] [DealSpotNPC] on_scene_ready: type=floor bldg=auto_bldg_167 floor=3 apt= → spots=[]
+[21/03 11:08:15.638] [DEBUG] [DealSpotNPC] Aucun spot pour cette scène (type=floor bldg=auto_bldg_167)
+[21/03 11:08:21.585] [INFO] [DealSpotNPC] DESPAWN ALL: 0 staff, 0 clients en queue | scène=BuildingFloorIntegrated
+[21/03 11:08:21.588] [INFO] [DealSpotNPC] on_scene_ready: type=apartment bldg=auto_bldg_167 floor=3 apt=auto_bldg_167_F3_U0 → spots=[]
+[21/03 11:08:21.588] [DEBUG] [DealSpotNPC] Aucun spot pour cette scène (type=apartment bldg=auto_bldg_167)
+[21/03 11:08:25.273] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$2666 | 0 territoires | 1 appts
+[21/03 11:08:25.278] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 11:08:27.938] [INFO] [DealSpotNPC] DESPAWN ALL: 0 staff, 0 clients en queue | scène=BuildingFloorIntegrated
+[21/03 11:08:29.046] [INFO] [Bodyguard] SCENE READY: BuildingLobby | escorts_assigned=0
+[21/03 11:08:29.046] [INFO] [DealSpotNPC] on_scene_ready: type=lobby bldg=auto_bldg_167 floor=-1 apt= → spots=["dspot_1"]
+[21/03 11:08:29.046] [INFO] [DealSpotNPC] PRESENCE BONUS: +60% spawn speed (presence=50%, gerant=true +10%)
+[21/03 11:08:29.046] [INFO] [DealSpotNPC] PREWARM START: 1 spot(s), scene=BuildingLobby
+[21/03 11:08:29.049] [INFO] [DealSpot] PORTE AUTO-OUVERTE: spot actif dans ce lobby
+[21/03 11:08:29.065] [INFO] [DealSpotNPC] PREWARM COMPLETE → spawning staff for 1 spot(s): ["dspot_1"]
+[21/03 11:08:29.065] [INFO] [DealSpotNPC] STAFF SPAWN START: spot=dspot_1 | staff=[role0=["pm_123483_2675081324"], role2=["pm_134327_621784151"], role4=player_self] | parent=BuildingLobby
+[21/03 11:08:29.066] [INFO] [DealSpotNPC] STAFF QUEUED: pm_123483_2675081324 (Dealer) at pos (2.5, 0.0, -2.0) (spot=dspot_1)
+[21/03 11:08:29.084] [INFO] [DealSpotNPC] POS RESTORE (session): dspot_1:0:pm_123483_2675081324 → (2.5, 0.0, -2.0)
+[21/03 11:08:29.096] [INFO] [DealSpotNPC] STAFF QUEUED: pm_134327_621784151 (Protection) at pos (-6.0, 0.0, -1.0) (spot=dspot_1)
+[21/03 11:08:29.134] [INFO] [DealSpotNPC] POS RESTORE (session): dspot_1:2:pm_134327_621784151 → (-3.217821, 0.0, 2.861682)
+[21/03 11:08:34.908] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $20 | spot=dspot_1 | rate=1.00
+[21/03 11:08:34.950] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.0m speed=2.2 eta=9.1s from=(7.230077, 0.0, 30.48775) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 11:08:58.525] [DEBUG] [DealSpotNPC] VENTE NPC: +$20 | cash_spot=$20 | spot=dspot_1
+[21/03 11:08:58.900] [INFO] [DealSpot] COLLECTE CASH: $20 de Hall, Immeuble #18 | restant=$0
+[21/03 11:09:02.176] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $150 | spot=dspot_1 | rate=1.00
+[21/03 11:09:02.217] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.0m speed=1.6 eta=12.5s from=(-20.21293, 0.0, 10.68845) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 11:09:29.477] [DEBUG] [DealSpotNPC] CLIENT SPAWN: bulk_dealer $50 | spot=dspot_1 | rate=1.00
+[21/03 11:09:29.519] [DEBUG] [DealSpotNPC] WALK DIAG: dist=19.0m speed=1.4 eta=13.6s from=(7.230077, 0.0, 30.48775) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 11:09:30.686] [DEBUG] [DealSpotNPC] VENTE NPC: +$150 | cash_spot=$150 | spot=dspot_1
+[21/03 11:09:45.119] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 89.0 → 87.0
+[21/03 11:09:45.119] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 22.5 → 24.0
+[21/03 11:09:45.119] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 30.0 → 32.0
+[21/03 11:09:45.119] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 5.0 → 6.0
+[21/03 11:09:45.121] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=21 | demand_total=1.9 players=[1]
+[21/03 11:09:45.121] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.450 customers=0.3 → 1 spots
+[21/03 11:09:45.121] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.450 customers=0.2 → 1 spots
+[21/03 11:09:45.121] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.450 customers=0.1 → 1 spots
+[21/03 11:09:45.121] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.450 customers=0.1 → 1 spots
+[21/03 11:09:45.121] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.450 customers=0.2 → 1 spots
+[21/03 11:09:45.121] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=21 | demand_total=5.3 players=[]
+[21/03 11:09:45.121] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=21 | demand_total=5.0 players=[]
+[21/03 11:09:45.121] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=21 | demand_total=13.2 players=[]
+[21/03 11:09:45.121] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=21 | demand_total=15.2 players=[]
+[21/03 11:09:45.121] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=21 | demand_total=3.2 players=[]
+[21/03 11:09:45.121] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=21 | demand_total=1.4 players=[]
+[21/03 11:09:45.121] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=21 | demand_total=12.1 players=[]
+[21/03 11:09:45.121] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=21 | demand_total=8.7 players=[]
+[21/03 11:09:45.121] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=21 | demand_total=8.2 players=[]
+[21/03 11:09:45.122] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=21 | demand_total=10.3 players=[]
+[21/03 11:09:45.122] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=21 | demand_total=10.4 players=[]
+[21/03 11:09:45.122] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=21 | demand_total=17.6 players=[]
+[21/03 11:09:45.122] [DEBUG] [DealSpot] TICK h21 | Hall, Immeuble #18 | dealers:1 | produits:10 (967.2g) | cash:$150 | playerPresent:true
+[21/03 11:09:56.746] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $150 | spot=dspot_1 | rate=1.00
+[21/03 11:09:56.788] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.1m speed=2.2 eta=9.1s from=(-20.06611, 0.0, 10.62424) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 11:10:05.417] [DEBUG] [DealSpotNPC] VENTE NPC: +$50 | cash_spot=$200 | spot=dspot_1
+[21/03 11:10:15.030] [DEBUG] [DealSpotNPC] VENTE NPC: +$100 | cash_spot=$300 | spot=dspot_1
+[21/03 11:10:15.032] [INFO] [DealerXP] LEVEL UP! Thomas Joly: Lv1→2 (XP:501, ventes:24)
+[21/03 11:10:22.252] [DEBUG] [DealSpotNPC] VENTE NPC: +$50 | cash_spot=$350 | spot=dspot_1
+[21/03 11:10:24.015] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $500 | spot=dspot_1 | rate=1.00
+[21/03 11:10:24.055] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.0m speed=1.6 eta=12.5s from=(-20.21293, 0.0, 10.68845) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 11:10:51.282] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $50 | spot=dspot_1 | rate=1.00
+[21/03 11:10:51.322] [DEBUG] [DealSpotNPC] WALK DIAG: dist=19.3m speed=2.2 eta=8.8s from=(15.15423, 0.0, 24.69327) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 11:10:52.733] [DEBUG] [DealSpotNPC] VENTE NPC: +$500 | cash_spot=$850 | spot=dspot_1
+[21/03 11:11:14.740] [DEBUG] [DealSpotNPC] VENTE NPC: +$50 | cash_spot=$900 | spot=dspot_1
+[21/03 11:11:18.549] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $60 | spot=dspot_1 | rate=1.00
+[21/03 11:11:18.592] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.0m speed=2.2 eta=9.1s from=(15.15423, 0.0, 24.69327) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 11:11:30.137] [INFO] [DealSpot] COLLECTE CASH: $900 de Hall, Immeuble #18 | restant=$0
+[21/03 11:11:41.979] [DEBUG] [DealSpotNPC] VENTE NPC: +$60 | cash_spot=$60 | spot=dspot_1
+[21/03 11:11:45.819] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $100 | spot=dspot_1 | rate=1.00
+[21/03 11:11:45.858] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.0m speed=1.6 eta=12.5s from=(7.230077, 0.0, 30.48775) to=(-0.252129, 0.0, 11.94007) | spot=dspot_1 idx=0
+[21/03 11:12:02.076] [INFO] [Memory] 📈 Mémoire: 1204.04 MB (+71.32 MB)
+[21/03 11:12:13.085] [DEBUG] [DealSpotNPC] CLIENT SPAWN: bulk_dealer $60 | spot=dspot_1 | rate=1.00
+[21/03 11:12:13.128] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.2m speed=1.4 eta=14.5s from=(-20.21293, 0.0, 10.68845) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 11:12:14.529] [DEBUG] [DealSpotNPC] VENTE NPC: +$100 | cash_spot=$160 | spot=dspot_1
+[21/03 11:12:15.078] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 87.0 → 85.0
+[21/03 11:12:15.078] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 24.0 → 25.5
+[21/03 11:12:15.078] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 32.0 → 34.0
+[21/03 11:12:15.078] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 6.0 → 7.0
+[21/03 11:12:15.079] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=22 | demand_total=1.4 players=[1]
+[21/03 11:12:15.079] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.450 customers=0.3 → 1 spots
+[21/03 11:12:15.079] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.450 customers=0.1 → 1 spots
+[21/03 11:12:15.079] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.450 customers=0.1 → 1 spots
+[21/03 11:12:15.081] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.450 customers=0.1 → 1 spots
+[21/03 11:12:15.081] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.450 customers=0.1 → 1 spots
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=22 | demand_total=4.1 players=[]
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=22 | demand_total=3.9 players=[]
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=22 | demand_total=9.6 players=[]
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=22 | demand_total=11.2 players=[]
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=22 | demand_total=2.3 players=[]
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=22 | demand_total=1.0 players=[]
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=22 | demand_total=9.1 players=[]
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=22 | demand_total=6.7 players=[]
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=22 | demand_total=6.3 players=[]
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=22 | demand_total=7.6 players=[]
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=22 | demand_total=7.9 players=[]
+[21/03 11:12:15.081] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=22 | demand_total=12.9 players=[]
+[21/03 11:12:15.082] [DEBUG] [DealSpot] TICK h22 | Hall, Immeuble #18 | dealers:1 | produits:10 (852.5g) | cash:$160 | playerPresent:true
+[21/03 11:12:20.842] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$3586 | 0 territoires | 1 appts
+[21/03 11:12:20.846] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 11:12:40.361] [DEBUG] [DealSpotNPC] CLIENT SPAWN: tourist $100 | spot=dspot_1 | rate=1.00
+[21/03 11:12:40.403] [DEBUG] [DealSpotNPC] WALK DIAG: dist=19.0m speed=1.1 eta=17.3s from=(7.230077, 0.0, 30.48775) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 11:12:49.905] [DEBUG] [DealSpotNPC] VENTE NPC: +$60 | cash_spot=$220 | spot=dspot_1
+[21/03 11:13:07.628] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $60 | spot=dspot_1 | rate=1.00
+[21/03 11:13:07.670] [DEBUG] [DealSpotNPC] WALK DIAG: dist=7.9m speed=1.6 eta=4.9s from=(5.670236, 0.0, 7.569475) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 11:13:20.930] [DEBUG] [DealSpotNPC] VENTE NPC: +$100 | cash_spot=$320 | spot=dspot_1
+[21/03 11:13:34.895] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $40 | spot=dspot_1 | rate=1.00
+[21/03 11:13:34.937] [DEBUG] [DealSpotNPC] WALK DIAG: dist=18.8m speed=2.2 eta=8.6s from=(7.16482, 0.0, 30.32598) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 11:14:00.943] [DEBUG] [DealSpotNPC] VENTE NPC: +$60 | cash_spot=$380 | spot=dspot_1
+[21/03 11:14:02.164] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $150 | spot=dspot_1 | rate=1.00
+[21/03 11:14:02.206] [DEBUG] [DealSpotNPC] WALK DIAG: dist=20.2m speed=1.6 eta=12.6s from=(-20.21293, 0.0, 10.68845) to=(-0.10108, 0.0, 12.94007) | spot=dspot_1 idx=1
+[21/03 11:14:29.433] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $90 | spot=dspot_1 | rate=1.00
+[21/03 11:14:29.474] [DEBUG] [DealSpotNPC] WALK DIAG: dist=15.4m speed=1.6 eta=9.6s from=(13.94038, 0.0, 6.504149) to=(0.450175, 0.0, 13.94007) | spot=dspot_1 idx=2
+[21/03 11:14:39.117] [WARN] [DealSpotNPC] WATCHDOG: Client stuck in 'walking_to_queue' for 64.2s (threshold=60s) → forced idle+snap | spot=dspot_1 idx=0
+[21/03 11:14:45.039] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 85.0 → 83.0
+[21/03 11:14:45.039] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 25.5 → 27.0
+[21/03 11:14:45.039] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 34.0 → 36.0
+[21/03 11:14:45.039] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 7.0 → 8.0
+[21/03 11:14:45.039] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=23 | demand_total=0.8 players=[1]
+[21/03 11:14:45.039] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.450 customers=0.2 → 1 spots
+[21/03 11:14:45.039] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.450 customers=0.1 → 1 spots
+[21/03 11:14:45.039] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.450 customers=0.0 → 1 spots
+[21/03 11:14:45.039] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.450 customers=0.0 → 1 spots
+[21/03 11:14:45.040] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.450 customers=0.0 → 1 spots
+[21/03 11:14:45.040] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=23 | demand_total=2.3 players=[]
+[21/03 11:14:45.040] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=23 | demand_total=2.3 players=[]
+[21/03 11:14:45.040] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=23 | demand_total=6.0 players=[]
+[21/03 11:14:45.040] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=23 | demand_total=7.0 players=[]
+[21/03 11:14:45.040] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=23 | demand_total=1.4 players=[]
+[21/03 11:14:45.040] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=23 | demand_total=0.6 players=[]
+[21/03 11:14:45.040] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=23 | demand_total=5.6 players=[]
+[21/03 11:14:45.046] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=23 | demand_total=4.1 players=[]
+[21/03 11:14:45.046] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=23 | demand_total=3.8 players=[]
+[21/03 11:14:45.046] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=23 | demand_total=4.7 players=[]
+[21/03 11:14:45.046] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=23 | demand_total=4.8 players=[]
+[21/03 11:14:45.046] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=23 | demand_total=8.2 players=[]
+[21/03 11:14:45.046] [DEBUG] [DealSpot] TICK h23 | Hall, Immeuble #18 | dealers:1 | produits:10 (830.3g) | cash:$380 | playerPresent:true
+[21/03 11:14:45.046] [INFO] [DealSpotNPC] PLANNING DESPAWN: pm_123483_2675081324 (h23 — hors planning)
+[21/03 11:14:45.049] [INFO] [DealSpotNPC] PLANNING: Plus de dealer → 3 clients évacués | spot=dspot_1
+[21/03 11:14:54.145] [INFO] [DealSpotNPC] POSITION SAVED: dspot_1:2:pm_134327_621784151 → (-2.599807, 0.0, 2.962245)
+[21/03 11:14:57.459] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$3586 | 0 territoires | 1 appts
+[21/03 11:14:57.463] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 11:15:00.572] [INFO] [DealSpotNPC] POSITION SAVED: dspot_1:2:pm_134327_621784151 → (-3.637202, 0.0, 2.646852)
+[21/03 11:15:07.806] [DEBUG] [Combat] Mode garde active
+[21/03 11:15:07.926] [DEBUG] [Combat] Mode garde desactive
+[21/03 11:15:08.321] [DEBUG] [Combat] Mode garde active
+[21/03 11:15:09.203] [DEBUG] [Combat] Mode garde desactive
+[21/03 11:15:34.180] [WARN] [DealSpotNPC] WATCHDOG: Client stuck in 'walking_to_queue' for 64.7s (threshold=60s) → forced idle+snap | spot=dspot_1 idx=2
+[21/03 11:16:10.292] [DEBUG] [Weather] Transition météo: LIGHT_RAIN -> DRIZZLE
+[21/03 11:16:53.493] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$3586 | 0 territoires | 1 appts
+[21/03 11:16:53.499] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 11:17:02.003] [DEBUG] [Memory] 💾 Mémoire stable: 1222.14 MB
+[21/03 11:17:10.331] [INFO] [Navigation] ENTRÉE City (carte stratégique) | district=carte
+[21/03 11:17:10.670] [INFO] [Godot] [GridVisualizer] Réutilisé (cached): 1040 cellules
+[21/03 11:17:15.193] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 83.0 → 81.0
+[21/03 11:17:15.193] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 27.0 → 28.5
+[21/03 11:17:15.193] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 36.0 → 38.0
+[21/03 11:17:15.193] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 8.0 → 9.0
+[21/03 11:17:15.193] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=0 | demand_total=0.5 players=[1]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.450 customers=0.1 → 1 spots
+[21/03 11:17:15.194] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.450 customers=0.1 → 1 spots
+[21/03 11:17:15.194] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.450 customers=0.0 → 1 spots
+[21/03 11:17:15.194] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.450 customers=0.0 → 1 spots
+[21/03 11:17:15.194] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.450 customers=0.0 → 1 spots
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=golden_mile h=0 | demand_total=1.2 players=[]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=pearl_district h=0 | demand_total=1.2 players=[]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=ashfield h=0 | demand_total=5.1 players=[]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=the_hollows h=0 | demand_total=5.9 players=[]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=iron_docks h=0 | demand_total=0.9 players=[]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=steamworks h=0 | demand_total=0.4 players=[]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=neon_strip h=0 | demand_total=3.2 players=[]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=market_square h=0 | demand_total=2.0 players=[]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=central_plaza h=0 | demand_total=2.0 players=[]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=shadow_lane h=0 | demand_total=3.8 players=[]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=vice_alley h=0 | demand_total=2.6 players=[]
+[21/03 11:17:15.194] [DEBUG] [MarketShare] DISTRIBUTE district=the_pit h=0 | demand_total=6.8 players=[]
+[21/03 11:17:15.196] [INFO] [Economy] ╔══ SNAPSHOT ÉCONOMIE h0 (Jour 2) ══
+[21/03 11:17:15.196] [INFO] [Economy] ║ CASH=$85 | COMPTE=$0 | TOTAL=$85
+[21/03 11:17:15.196] [INFO] [Economy] ║ GANG: (chargement...)
+[21/03 11:17:15.196] [INFO] [Economy] ║ SPOTS: 1 actifs | rev_jour=$3798 | cash_non_collecté=$380 | stock=830.3g
+[21/03 11:17:15.196] [INFO] [Economy] ║ INVENTAIRE: brut=[vide] | préparés=0 | en préparation=0
+[21/03 11:17:15.196] [INFO] [Economy] ║ RÉPUT: civil:0, polic:0, gang_:0, media:0, infor:0
+[21/03 11:17:15.196] [INFO] [Economy] ║ MÉTÉO: DRIZZLE | outdoor=0.80 | visibility=0.80
+[21/03 11:17:15.196] [INFO] [Economy] ╚══════════════════════════════════════
+[21/03 11:17:15.196] [DEBUG] [DealSpot] TICK h0 | Hall, Immeuble #18 | dealers:1 | produits:10 (830.3g) | cash:$380 | playerPresent:true
+[21/03 11:17:15.196] [DEBUG] [DealSpot] EQUIPE DIAG h0 Hall, Immeuble #18: [A:en=true,members=2,h=11+12, B:en=false,members=0,h=16+8, C:en=false,members=0,h=0+8]
+[21/03 11:17:15.197] [INFO] [Time] Jour 2 — 0h00 (tick horaire: 5ms)
+[21/03 11:17:15.197] [INFO] [Time] === JOUR 2 ===
+[21/03 11:17:15.203] [INFO] [Store] Daily economy: 76 stores, $56150 revenue, $0 racket
+[21/03 11:17:15.203] [INFO] [Finance] === BILAN JOUR 2 === cash=$85 banque=$0 | dettes=$6250 (1 actives) investissements=$0 (0 actifs) | net=$-6165
+[21/03 11:17:15.206] [WARN] [DealSpot] DAY CHANGE SKIPPED: GangSystem.game_loaded not yet received — deferring salary/daily processing
+[21/03 11:17:15.206] [DEBUG] [Economy] District avg: wealth=0.51 crime=0.75 (13 districts)
+[21/03 11:17:15.207] [INFO] [Gang] === BILAN MEMBRES JOUR 2 === total:2 actifs:2 repos:0 arrêtés:0 | morale_basse:0 fatigue_haute:0 risque_trahison:0 | loyalty_moy=51% trésorerie=$3574 revenus_totaux=$0
+[21/03 11:17:15.207] [DEBUG] [Banking] CASH +$200 → cash=$285
+[21/03 11:17:30.937] [INFO] [DealSpotNPC] POSITION SAVED: dspot_1:2:pm_134327_621784151 → (-3.591605, 0.0, 3.235239)
+[21/03 11:17:43.301] [INFO] [Gang] SERIALIZE: 2 membres | trésorerie=$3574 | 0 territoires | 1 appts
+[21/03 11:17:43.305] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[21/03 11:17:43.335] [INFO] [LogSystem] === FIN DE SESSION (via PauseMenu) ===
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ FIN DE SESSION                                                               ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ Terminé le: 2026-03-21 11:17:43                                             ║
+║ Durée: 46m 47s                                                              ║
+║ Total logs: 968                                                             ║
+║ Erreurs: 0 | Warnings: 10                                                   ║
+║ Mémoire: 1222 MB                                                             ║
+║ Cash: $285 | Banque: $0                                                     ║
+║ Faim: 29 | Soif: 38 | Santé: 99 | Énergie: 81                               ║
+║ Wanted: 0/5                                                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
