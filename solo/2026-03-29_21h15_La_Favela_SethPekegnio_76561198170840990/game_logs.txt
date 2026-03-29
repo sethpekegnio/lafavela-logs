@@ -1,0 +1,1730 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ LA FAVELA GAME - SESSION DE DEBUG AAA                                       ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ Session ID: 20260329_205353_4372                                            ║
+║ Démarré le: 2026-03-29 20:53:53                                             ║
+║ Godot: 4.5.1-stable (official)                                              ║
+║ OS: Windows                                                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+[29/03 20:53:53.210] [TRACE] [LogSystem] 📋 Synchronisation log Godot activée: C:/Users/niko9/AppData/Roaming/Godot/app_userdata/LaFavelaGame/logs/godot.log
+[29/03 20:53:53.213] [INFO] [LogSystem] === SESSION DE LOG AAA DÉMARRÉE ===
+[29/03 20:53:53.213] [INFO] [LogSystem] ID Session: 20260329_205353_4372
+[29/03 20:53:53.213] [INFO] [LogSystem] Chemin: C:/Users/niko9/Documents/LaFavelaGame/logs/game_logs.txt
+[29/03 20:53:53.213] [INFO] [LogSystem] Godot: 4.5.1-stable (official)
+[29/03 20:53:53.213] [INFO] [LogSystem] OS: Windows
+[29/03 20:53:53.213] [DEBUG] [LogSystem] Mémoire au démarrage: 183.73 MB
+[29/03 20:53:53.217] [INFO] [NodeGroupCache] Systeme de cache de groupes initialise
+[29/03 20:53:53.506] [DEBUG] [VoiceChat] 🎤 [Peer:1] [INIT] === VOICE CHAT MANAGER READY ===
+[29/03 20:53:53.506] [DEBUG] [VoiceChat] 🎤 [Peer:1] [INIT] Mode: PTT, Distance max: 10.0m
+[29/03 20:53:54.368] [INFO] [Weather] Système météo initialisé (défaut) - LIGHT_RAIN, 20.0°C (sera écrasé par sauvegarde si existante)
+[29/03 20:53:54.375] [INFO] [Achievements] Steam détecté - synchronisation activée
+[29/03 20:53:54.378] [INFO] [Achievements] Système initialisé - 7/64 débloqués
+[29/03 20:54:00.073] [INFO] [GangWar] GangWarManager initialisé (wars_enabled=false)
+[29/03 20:54:00.326] [INFO] [GangSystem] OrgConflictSystem initialized (deterministic auto-battle)
+[29/03 20:54:01.010] [INFO] [CustomerPoolSystem] Initialisé: 13 districts, 5 segments actifs
+[29/03 20:54:01.010] [INFO] [MarketShareSystem] Initialisé — écoute CustomerPoolSystem.demand_updated
+[29/03 20:54:01.539] [INFO] [Godot] [StructurePlacementSystem] Initialisé
+[29/03 20:54:01.539] [INFO] [Godot] [GridPersistence] Initialisé (server=false)
+[29/03 20:54:01.539] [INFO] [Godot] [StrategicPlanningSystem] Initialisé
+[29/03 20:54:01.539] [INFO] [Godot] [StrategicGrid] Locations mappées: 6
+[29/03 20:54:01.539] [INFO] [Godot] [StrategicGrid] Deal spots mappés: 0
+[29/03 20:54:01.539] [INFO] [Godot] [StrategicGrid] Appartements mappés: 1614
+[29/03 20:54:01.539] [INFO] [Godot] [StrategicGrid] NPCs mappés: 2
+[29/03 20:54:01.539] [INFO] [Godot] [GridEntityManager] Initialisé: 1040 noeuds AStar
+[29/03 20:54:01.539] [INFO] [Godot] [FogOfWarSystem] Initialisé
+[29/03 20:54:01.539] [INFO] [Godot] [StrategicGrid] Grille initialisée: 40×26 = 1040 cellules, 136 bâtiments (136 cellules BUILDING), 6 locations, 0 spots, 1614 apts
+[29/03 20:54:01.539] [INFO] [Godot] [GridAIAdapter] Initialisé: entités IA peuplées sur la grille
+[29/03 20:54:05.118] [INFO] [Weather] Météo chargée depuis sauvegarde: PARTLY_CLOUDY, 22.1°C
+[29/03 20:54:05.124] [INFO] [DealSpot] LOAD EQUIPES AI Spot - the_pit: [A:en=true,m=2,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.124] [INFO] [DealSpot] LOAD EQUIPES AI Spot - vice_alley: [A:en=true,m=3,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.124] [INFO] [DealSpot] LOAD EQUIPES AI Spot - market_square: [A:en=true,m=4,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.124] [INFO] [DealSpot] LOAD EQUIPES AI Spot - pearl_district: [A:en=true,m=2,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.124] [INFO] [DealSpot] LOAD EQUIPES AI Spot - shadow_lane: [A:en=false,m=0,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.125] [INFO] [DealSpot] LOAD EQUIPES Hall, Immeuble #18: [A:en=true,m=2,h=0+12, B:en=true,m=2,h=12+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.125] [INFO] [DealSpot] LOAD EQUIPES AI Spot - ashfield: [A:en=true,m=3,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.125] [INFO] [DealSpot] LOAD EQUIPES AI Spot - shadow_lane: [A:en=true,m=4,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.125] [INFO] [DealSpot] LOAD EQUIPES AI Spot - golden_mile: [A:en=true,m=2,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.125] [INFO] [DealSpot] LOAD EQUIPES AI Spot - central_plaza: [A:en=true,m=3,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.125] [INFO] [DealSpot] LOAD EQUIPES AI Spot - crown_heights: [A:en=true,m=4,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.125] [INFO] [DealSpot] LOAD EQUIPES AI Spot - iron_docks: [A:en=true,m=2,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.125] [INFO] [DealSpot] LOAD EQUIPES AI Spot - steamworks: [A:en=true,m=3,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.125] [INFO] [DealSpot] LOAD EQUIPES AI Spot - neon_strip: [A:en=true,m=2,h=0+24, B:en=false,m=0,h=0+12, C:en=false,m=0,h=0+8]
+[29/03 20:54:05.125] [DEBUG] [Bodyguard] SAVE LOADED — syncing escorts from gang members
+[29/03 20:54:05.128] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 68.0 → 66.0
+[29/03 20:54:05.128] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 24.0 → 25.5
+[29/03 20:54:05.128] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 32.0 → 34.0
+[29/03 20:54:05.128] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 16.0 → 17.0
+[29/03 20:54:05.134] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=16 | demand_total=2.3 players=[1]
+[29/03 20:54:05.134] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.311 customers=0.3 → 1 spots
+[29/03 20:54:05.134] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.311 customers=0.2 → 1 spots
+[29/03 20:54:05.134] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.311 customers=0.1 → 1 spots
+[29/03 20:54:05.134] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.311 customers=0.0 → 1 spots
+[29/03 20:54:05.134] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.311 customers=0.1 → 1 spots
+[29/03 20:54:05.134] [DEBUG] [DealSpot] AI AUTO-COLLECT: 11 spots, $4420 total
+[29/03 20:54:05.135] [INFO] [Grossiste] VENTE: Cristaux K 500g à $10/g ($4965 total) → ai_triade_dragon
+[29/03 20:54:05.135] [INFO] [Grossiste] VENTE: Superman 250g à $7/g ($1870 total) → ai_triade_dragon
+[29/03 20:54:05.135] [INFO] [Grossiste] VENTE: Northern Lights 2000g à $4/g ($7097 total) → ai_triade_dragon
+[29/03 20:54:05.135] [INFO] [DealSpot] AI MARKET BUY: AI Spot - neon_strip (triade_dragon) | Cristaux K 500g($4965), Superman 250g($1870), Northern Lights 2000g($7097) | spent=$13932 treasury=$387598 | stock=[ketamine:21x$33, mdma:19x$18, ketamine:80x$10, ketamine:80x$13, ketamine:80x$19, ketamine:80x$22, mdma:80x$10, mdma:80x$11, mdma:80x$15, mdma:80x$18, weed:80x$11, weed:80x$19, weed:80x$27, weed:80x$32]
+[29/03 20:54:05.135] [TRACE] [DealSpot] TICK h16 | AI Spot - the_pit | dealers:1 | produits:13 (350.1g) | cash:$0
+[29/03 20:54:05.137] [TRACE] [DealSpot] STOCK DISPO: crack:289, cocaine:248, weed:261
+[29/03 20:54:05.137] [TRACE] [DealSpot] LEGACY MODE spot=dspot_1 district=the_pit (no pool_allocated)
+[29/03 20:54:05.138] [DEBUG] [DealSpot] CLIENTS h16: regular:14, addict:7, bulk_dealer:2, vip:1, tourist:2 (total=26)
+[29/03 20:54:05.138] [DEBUG] [DealSpot] VENTE h16 | AI Spot - the_pit | $867 | 26 clients | base=20.1 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.86 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:54:05.138] [DEBUG] [DealSpot] HEAT DECAY AI Spot - the_pit: 1.7 → 1.2 (-0.4)
+[29/03 20:54:05.138] [INFO] [DealSpot] HEAT AI Spot - the_pit: 1.2 → 3.1 (+1.89) | guett=-20% weath=0.97 alert=1.00
+[29/03 20:54:05.138] [TRACE] [DealSpot] TICK h16 | AI Spot - vice_alley | dealers:1 | produits:3 (39.3g) | cash:$0
+[29/03 20:54:05.138] [TRACE] [DealSpot] STOCK DISPO: heroin:21, ketamine:34, mdma:39
+[29/03 20:54:05.138] [TRACE] [DealSpot] LEGACY MODE spot=dspot_10 district=vice_alley (no pool_allocated)
+[29/03 20:54:05.138] [DEBUG] [DealSpot] CLIENTS h16: regular:8, addict:4, bulk_dealer:1, vip:1, tourist:1 (total=15)
+[29/03 20:54:05.138] [DEBUG] [DealSpot] VENTE h16 | AI Spot - vice_alley | $816 | 15 clients | base=17.2 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.72 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:54:05.140] [DEBUG] [DealSpot] HEAT DECAY AI Spot - vice_alley: 0.8 → 0.4 (-0.4)
+[29/03 20:54:05.140] [INFO] [DealSpot] HEAT AI Spot - vice_alley: 0.4 → 1.4 (+1.00) | guett=-20% weath=0.97 alert=1.00
+[29/03 20:54:05.140] [TRACE] [DealSpot] TICK h16 | AI Spot - market_square | dealers:1 | produits:3 (61.9g) | cash:$0
+[29/03 20:54:05.140] [TRACE] [DealSpot] STOCK DISPO: heroin:43, ketamine:43, mdma:80
+[29/03 20:54:05.140] [TRACE] [DealSpot] LEGACY MODE spot=dspot_11 district=market_square (no pool_allocated)
+[29/03 20:54:05.141] [DEBUG] [DealSpot] CLIENTS h16: regular:7, addict:3, bulk_dealer:1, tourist:1 (total=12)
+[29/03 20:54:05.141] [DEBUG] [DealSpot] VENTE h16 | AI Spot - market_square | $646 | 12 clients | base=16.6 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.71 morale=1.00 alert=1.00 flow=1.25
+[29/03 20:54:05.141] [DEBUG] [DealSpot] HEAT DECAY AI Spot - market_square: 0.5 → 0.1 (-0.4)
+[29/03 20:54:05.141] [INFO] [DealSpot] HEAT AI Spot - market_square: 0.1 → 1.0 (+0.89) | guett=-20% weath=0.97 alert=1.00
+[29/03 20:54:05.141] [TRACE] [DealSpot] TICK h16 | AI Spot - pearl_district | dealers:1 | produits:3 (229.6g) | cash:$0
+[29/03 20:54:05.141] [TRACE] [DealSpot] STOCK DISPO: crack:81, hashish:54, weed:48
+[29/03 20:54:05.141] [TRACE] [DealSpot] LEGACY MODE spot=dspot_12 district=pearl_district (no pool_allocated)
+[29/03 20:54:05.141] [DEBUG] [DealSpot] CLIENTS h16: regular:4, addict:2, bulk_dealer:1, vip:1, tourist:1 (total=9)
+[29/03 20:54:05.141] [DEBUG] [DealSpot] VENTE h16 | AI Spot - pearl_district | $364 | 9 clients | base=13.1 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.83 morale=1.00 alert=1.00 flow=1.20
+[29/03 20:54:05.141] [DEBUG] [DealSpot] HEAT DECAY AI Spot - pearl_district: 0.4 → 0.0 (-0.4)
+[29/03 20:54:05.141] [INFO] [DealSpot] HEAT AI Spot - pearl_district: 0.0 → 0.8 (+0.75) | guett=-20% weath=0.97 alert=1.00
+[29/03 20:54:05.141] [TRACE] [DealSpot] TICK h16 | AI Spot - shadow_lane | dealers:0 | produits:12 (352.2g) | cash:$0
+[29/03 20:54:05.141] [DEBUG] [DealSpot] TICK h16 | Hall, Immeuble #18 | dealers:2 | produits:4 (923.6g) | cash:$370 | playerPresent:false
+[29/03 20:54:05.141] [DEBUG] [DealSpot] STOCK DISPO: hashish:339
+[29/03 20:54:05.141] [INFO] [DealSpot] POOL MODE ACTIVE spot=dspot_14 district=crown_heights | segments=[0, 1, 2, 3, 4] total_allocated=0.7
+[29/03 20:54:05.141] [TRACE] [DealSpot] SALE: prod_5 1x~$50=$50 hashish (budget=$67, sat=75%)
+[29/03 20:54:05.142] [TRACE] [DealSpot] SALE: prod_5 1x~$50=$50 hashish (budget=$91, sat=55%)
+[29/03 20:54:05.142] [DEBUG] [DealSpot] CLIENTS h16: addict:1, tourist:1 (total=2)
+[29/03 20:54:05.142] [DEBUG] [DealSpot] VENTE h16 | Hall, Immeuble #18 | $110 | 2 clients | base=11.1 time=0.90 bg=0.86 weath=1.00 terr=1.00 qual=0.97 morale=1.00 alert=1.00 flow=1.05
+[29/03 20:54:05.142] [INFO] [Reputation] gang_norte +1 (deal_spot_revenue): 1 → 2
+[29/03 20:54:05.144] [TRACE] [DealSpot] TICK h16 | AI Spot - ashfield | dealers:1 | produits:12 (225.3g) | cash:$0
+[29/03 20:54:05.144] [TRACE] [DealSpot] STOCK DISPO: crack:30, cocaine:305, mdma:262, weed:54
+[29/03 20:54:05.144] [TRACE] [DealSpot] LEGACY MODE spot=dspot_2 district=ashfield (no pool_allocated)
+[29/03 20:54:05.144] [DEBUG] [DealSpot] CLIENTS h16: regular:9, addict:4, bulk_dealer:1, vip:1, tourist:1 (total=16)
+[29/03 20:54:05.144] [DEBUG] [DealSpot] VENTE h16 | AI Spot - ashfield | $453 | 16 clients | base=14.9 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.87 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:54:05.144] [DEBUG] [DealSpot] HEAT DECAY AI Spot - ashfield: 1.2 → 0.8 (-0.4)
+[29/03 20:54:05.144] [INFO] [DealSpot] HEAT AI Spot - ashfield: 0.8 → 2.0 (+1.26) | guett=-20% weath=0.97 alert=1.00
+[29/03 20:54:05.144] [TRACE] [DealSpot] TICK h16 | AI Spot - shadow_lane | dealers:1 | produits:3 (242.8g) | cash:$0
+[29/03 20:54:05.144] [TRACE] [DealSpot] STOCK DISPO: cocaine:39, crack:27, weed:69
+[29/03 20:54:05.144] [TRACE] [DealSpot] LEGACY MODE spot=dspot_3 district=shadow_lane (no pool_allocated)
+[29/03 20:54:05.145] [DEBUG] [DealSpot] CLIENTS h16: regular:3, addict:1, tourist:1 (total=5)
+[29/03 20:54:05.145] [DEBUG] [DealSpot] VENTE h16 | AI Spot - shadow_lane | $96 | 5 clients | base=13.0 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:54:05.145] [DEBUG] [DealSpot] HEAT DECAY AI Spot - shadow_lane: 0.3 → 0.0 (-0.4)
+[29/03 20:54:05.145] [TRACE] [DealSpot] TICK h16 | AI Spot - golden_mile | dealers:1 | produits:3 (82.0g) | cash:$0
+[29/03 20:54:05.145] [TRACE] [DealSpot] STOCK DISPO: cocaine:40, hashish:62, heroin:22
+[29/03 20:54:05.145] [TRACE] [DealSpot] LEGACY MODE spot=dspot_4 district=golden_mile (no pool_allocated)
+[29/03 20:54:05.147] [DEBUG] [DealSpot] CLIENTS h16: regular:4, addict:2, bulk_dealer:1, vip:1, tourist:1 (total=9)
+[29/03 20:54:05.147] [DEBUG] [DealSpot] VENTE h16 | AI Spot - golden_mile | $685 | 9 clients | base=18.6 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.30
+[29/03 20:54:05.147] [DEBUG] [DealSpot] HEAT DECAY AI Spot - golden_mile: 0.4 → 0.0 (-0.4)
+[29/03 20:54:05.147] [INFO] [DealSpot] HEAT AI Spot - golden_mile: 0.0 → 0.7 (+0.66) | guett=-20% weath=0.97 alert=1.00
+[29/03 20:54:05.147] [TRACE] [DealSpot] TICK h16 | AI Spot - central_plaza | dealers:1 | produits:3 (41.3g) | cash:$0
+[29/03 20:54:05.147] [TRACE] [DealSpot] STOCK DISPO: cocaine:17, hashish:19, heroin:68
+[29/03 20:54:05.147] [TRACE] [DealSpot] LEGACY MODE spot=dspot_5 district=central_plaza (no pool_allocated)
+[29/03 20:54:05.148] [DEBUG] [DealSpot] CLIENTS h16: regular:8, addict:4, bulk_dealer:1, vip:1, tourist:1 (total=15)
+[29/03 20:54:05.148] [DEBUG] [DealSpot] VENTE h16 | AI Spot - central_plaza | $797 | 15 clients | base=17.6 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.30
+[29/03 20:54:05.148] [DEBUG] [DealSpot] HEAT DECAY AI Spot - central_plaza: 0.9 → 0.5 (-0.4)
+[29/03 20:54:05.148] [INFO] [DealSpot] HEAT AI Spot - central_plaza: 0.5 → 1.5 (+1.07) | guett=-20% weath=0.97 alert=1.00
+[29/03 20:54:05.148] [TRACE] [DealSpot] TICK h16 | AI Spot - crown_heights | dealers:1 | produits:3 (86.3g) | cash:$0
+[29/03 20:54:05.148] [TRACE] [DealSpot] STOCK DISPO: cocaine:79, hashish:53, heroin:44
+[29/03 20:54:05.148] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=16 | demand_total=2.3 players=[1]
+[29/03 20:54:05.148] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.331 customers=0.3 → 1 spots
+[29/03 20:54:05.148] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.331 customers=0.2 → 1 spots
+[29/03 20:54:05.148] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.331 customers=0.1 → 1 spots
+[29/03 20:54:05.148] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.331 customers=0.0 → 1 spots
+[29/03 20:54:05.148] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.331 customers=0.2 → 1 spots
+[29/03 20:54:05.148] [TRACE] [DealSpot] LEGACY MODE spot=dspot_6 district=crown_heights (no pool_allocated)
+[29/03 20:54:05.148] [DEBUG] [DealSpot] CLIENTS h16: regular:1, vip:1 (total=2)
+[29/03 20:54:05.148] [DEBUG] [DealSpot] VENTE h16 | AI Spot - crown_heights | $175 | 2 clients | base=10.8 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.73 morale=1.00 alert=1.00 flow=1.25
+[29/03 20:54:05.148] [DEBUG] [DealSpot] HEAT DECAY AI Spot - crown_heights: 0.2 → 0.0 (-0.4)
+[29/03 20:54:05.150] [TRACE] [DealSpot] TICK h16 | AI Spot - iron_docks | dealers:1 | produits:3 (85.6g) | cash:$0
+[29/03 20:54:05.150] [TRACE] [DealSpot] STOCK DISPO: cocaine:61, heroin:83, meth:34
+[29/03 20:54:05.150] [TRACE] [DealSpot] LEGACY MODE spot=dspot_7 district=iron_docks (no pool_allocated)
+[29/03 20:54:05.150] [TRACE] [DealSpot] MISSED: budget=$20, wanted=weed, none≤$20
+[29/03 20:54:05.150] [DEBUG] [DealSpot] CLIENTS h16: regular:2, addict:1, bulk_dealer:1, tourist:1 (total=5)
+[29/03 20:54:05.150] [WARN] [DealSpot] VENTES MANQUÉES h16: weed:1 (total=1 perdus)
+[29/03 20:54:05.150] [DEBUG] [DealSpot] VENTE h16 | AI Spot - iron_docks | $380 | 5 clients | base=12.5 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:54:05.150] [DEBUG] [DealSpot] HEAT DECAY AI Spot - iron_docks: 0.1 → 0.0 (-0.4)
+[29/03 20:54:05.151] [TRACE] [DealSpot] TICK h16 | AI Spot - steamworks | dealers:1 | produits:3 (43.6g) | cash:$0
+[29/03 20:54:05.151] [TRACE] [DealSpot] STOCK DISPO: cocaine:36, heroin:49, meth:34
+[29/03 20:54:05.151] [TRACE] [DealSpot] LEGACY MODE spot=dspot_8 district=steamworks (no pool_allocated)
+[29/03 20:54:05.151] [TRACE] [DealSpot] MISSED: budget=$27, wanted=ketamine, none≤$27
+[29/03 20:54:05.151] [DEBUG] [DealSpot] CLIENTS h16: regular:1, tourist:1 (total=2)
+[29/03 20:54:05.151] [WARN] [DealSpot] VENTES MANQUÉES h16: ketamine:1 (total=1 perdus)
+[29/03 20:54:05.151] [DEBUG] [DealSpot] VENTE h16 | AI Spot - steamworks | $35 | 2 clients | base=11.9 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:54:05.151] [TRACE] [DealSpot] TICK h16 | AI Spot - neon_strip | dealers:1 | produits:14 (451.0g) | cash:$0
+[29/03 20:54:05.151] [TRACE] [DealSpot] STOCK DISPO: ketamine:341, mdma:339, weed:320
+[29/03 20:54:05.151] [TRACE] [DealSpot] LEGACY MODE spot=dspot_9 district=neon_strip (no pool_allocated)
+[29/03 20:54:05.151] [DEBUG] [DealSpot] CLIENTS h16: regular:12, addict:6, bulk_dealer:2, vip:1, tourist:2 (total=23)
+[29/03 20:54:05.151] [DEBUG] [DealSpot] VENTE h16 | AI Spot - neon_strip | $830 | 23 clients | base=19.3 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:54:05.151] [DEBUG] [DealSpot] HEAT DECAY AI Spot - neon_strip: 1.1 → 0.6 (-0.4)
+[29/03 20:54:05.153] [INFO] [DealSpot] HEAT AI Spot - neon_strip: 0.6 → 2.5 (+1.85) | guett=-20% weath=0.97 alert=1.00
+[29/03 20:54:05.155] [INFO] [Store] Daily economy: 76 stores, $4470 revenue, $440 racket
+[29/03 20:54:05.155] [DEBUG] [Banking] CASH +$247 → cash=$709
+[29/03 20:54:05.155] [INFO] [Store] RACKET AUTO-COLLECT: $247 from 4 stores
+[29/03 20:54:05.155] [INFO] [Store] AI RACKET COLLECT: { "famiglia_moretti": 421, "freres_sang": 243, "triade_dragon": 370, "diablos_norte": 292, "cartel_mendoza": 217, "confrerie": 260 }
+[29/03 20:54:05.157] [INFO] [Finance] === BILAN JOUR 1 === cash=$709 banque=$0 | dettes=$12500 (2 actives) investissements=$0 (0 actifs) | net=$-11791
+[29/03 20:54:05.165] [WARN] [DealSpot] DAY CHANGE SKIPPED: GangSystem.game_loaded not yet received — deferring salary/daily processing
+[29/03 20:54:05.167] [INFO] [Grossiste] ARRIVAGE JOUR 1: 24 brands, 117 lots total
+[29/03 20:54:05.528] [INFO] [Godot] [StrategicGrid] Deal spots mappés: 14
+[29/03 20:54:07.674] [INFO] [Navigation] ENTRÉE BuildingFloor: bldg=auto_bldg_167 floor=1
+[29/03 20:54:11.862] [INFO] [Bodyguard] SCENE READY: BuildingFloorIntegrated | escorts_assigned=0
+[29/03 20:54:11.865] [INFO] [DealSpotNPC] on_scene_ready: type=floor bldg=auto_bldg_167 floor=1 apt= → spots=[]
+[29/03 20:54:11.865] [DEBUG] [DealSpotNPC] Aucun spot pour cette scène (type=floor bldg=auto_bldg_167)
+[29/03 20:54:12.665] [INFO] [Territory] Deserialized 13 districts from save
+[29/03 20:54:12.667] [INFO] [Gang] DESERIALIZE: 6 membres (actifs=4 repos=0 autres=2) | trésorerie=$999 | 0 territoires | gang=La Favela Corp
+[29/03 20:54:12.667] [INFO] [GangWar] Deserialized: 0 active wars, 0 history
+[29/03 20:54:12.667] [INFO] [GangSystem] Player gang "La Favela Corp" (gang_1) synced to GangAI (org_ais=true)
+[29/03 20:54:12.667] [INFO] [GangSystem] Game loaded (wars=0, territories=18, events=0, player_gang_members=6)
+[29/03 20:54:12.667] [INFO] [DealSpotNPC] GangSystem.game_loaded reçu — membres disponibles pour spawn
+[29/03 20:54:12.667] [INFO] [DealSpot] VALIDATION POST-LOAD: gang_members=6 | spots=14 | staff_total=38 | cleaned=0 | stale=0 | repaired=0 | relinked=0
+[29/03 20:54:12.667] [INFO] [DealSpot] DEFERRED DAY CHANGE: Running daily processing for day 1 (gang data now ready)
+[29/03 20:54:12.667] [INFO] [DealSpot] === BILAN JOUR 1 === spots:1 | rev=$181 | clients=5 | non-collecté=$480
+[29/03 20:54:12.667] [INFO] [DealSpot]   [AI] AI Spot - the_pit: rev=$1659 clients=50 heat=3.1 stock=13(324.1g) cash=$867 | tier=1(14.2) dealers=1 gérant=non missed=0
+[29/03 20:54:12.667] [INFO] [DealSpot]   [AI] AI Spot - vice_alley: rev=$1431 clients=28 heat=1.4 stock=3(35.0g) cash=$816 | tier=1(13.0) dealers=1 gérant=non missed=0
+[29/03 20:54:12.667] [INFO] [DealSpot]   [AI] AI Spot - market_square: rev=$1009 clients=21 heat=1.0 stock=3(58.5g) cash=$646 | tier=1(12.3) dealers=1 gérant=non missed=0
+[29/03 20:54:12.667] [INFO] [DealSpot]   [AI] AI Spot - pearl_district: rev=$532 clients=15 heat=0.8 stock=3(215.6g) cash=$364 | tier=1(12.1) dealers=1 gérant=non missed=0
+[29/03 20:54:12.667] [INFO] [DealSpot]   [AI] AI Spot - shadow_lane: rev=$0 clients=0 heat=0.0 stock=12(352.2g) cash=$0 | tier=0(8.5) dealers=0 gérant=non missed=0
+[29/03 20:54:12.667] [INFO] [DealSpot]   Hall, Immeuble #18: rev=$181 clients=5 heat=0.3 stock=4(906.3g) cash=$480 | tier=0(2.1) dealers=2 gérant=oui missed=0
+[29/03 20:54:12.667] [INFO] [DealSpot]   [AI] AI Spot - ashfield: rev=$928 clients=32 heat=2.0 stock=12(212.6g) cash=$453 | tier=1(15.1) dealers=1 gérant=non missed=0
+[29/03 20:54:12.667] [INFO] [DealSpot]   [AI] AI Spot - shadow_lane: rev=$182 clients=9 heat=0.4 stock=3(237.8g) cash=$96 | tier=1(14.3) dealers=1 gérant=non missed=0
+[29/03 20:54:12.668] [INFO] [DealSpot]   [AI] AI Spot - golden_mile: rev=$948 clients=15 heat=0.7 stock=3(75.1g) cash=$685 | tier=1(12.6) dealers=1 gérant=non missed=0
+[29/03 20:54:12.668] [INFO] [DealSpot]   [AI] AI Spot - central_plaza: rev=$1759 clients=27 heat=1.5 stock=3(32.4g) cash=$797 | tier=1(14.3) dealers=1 gérant=non missed=0
+[29/03 20:54:12.668] [INFO] [DealSpot]   [AI] AI Spot - crown_heights: rev=$219 clients=4 heat=0.1 stock=3(85.9g) cash=$175 | tier=1(12.9) dealers=1 gérant=non missed=0
+[29/03 20:54:12.668] [INFO] [DealSpot]   [AI] AI Spot - iron_docks: rev=$480 clients=8 heat=0.4 stock=3(81.6g) cash=$380 | tier=1(13.2) dealers=1 gérant=non missed=1
+[29/03 20:54:12.668] [INFO] [DealSpot]   [AI] AI Spot - steamworks: rev=$35 clients=2 heat=0.1 stock=3(42.9g) cash=$35 | tier=1(12.1) dealers=1 gérant=non missed=1
+[29/03 20:54:12.668] [INFO] [DealSpot]   [AI] AI Spot - neon_strip: rev=$1382 clients=39 heat=2.5 stock=14(425.8g) cash=$830 | tier=1(12.4) dealers=1 gérant=non missed=0
+[29/03 20:54:12.668] [INFO] [DealSpot]   === AI TOTAL: 13 spots | rev=$10564 | clients=250 ===
+[29/03 20:54:12.668] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - the_pit: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.668] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - the_pit (diablos_norte) — $250 (2 staff)
+[29/03 20:54:12.668] [DEBUG] [DealSpot] REP DETAIL AI Spot - the_pit: prix=17.7 sec=15.9 qual=15.1 choix=8.2 | ventes=oui stock=oui heat=0 guards=1 types=3 missed=0%
+[29/03 20:54:12.668] [INFO] [DealSpot] AI Spot - the_pit REP: 15.0 (+0.78) [P:18 S:16 Q:15 C:8] tier 1
+[29/03 20:54:12.668] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - vice_alley: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.668] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - vice_alley (triade_dragon) — $325 (3 staff)
+[29/03 20:54:12.668] [DEBUG] [DealSpot] REP DETAIL AI Spot - vice_alley: prix=13.5 sec=16.7 qual=14.8 choix=5.4 | ventes=oui stock=oui heat=0 guards=2 types=3 missed=0%
+[29/03 20:54:12.668] [INFO] [DealSpot] AI Spot - vice_alley REP: 13.4 (+0.43) [P:14 S:17 Q:15 C:5] tier 1
+[29/03 20:54:12.670] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - market_square: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.670] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - market_square (triade_dragon) — $400 (4 staff)
+[29/03 20:54:12.670] [DEBUG] [DealSpot] REP DETAIL AI Spot - market_square: prix=10.7 sec=16.5 qual=15.8 choix=5.8 | ventes=oui stock=oui heat=0 guards=3 types=3 missed=0%
+[29/03 20:54:12.670] [INFO] [DealSpot] AI Spot - market_square REP: 12.9 (+0.57) [P:11 S:16 Q:16 C:6] tier 1
+[29/03 20:54:12.670] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - pearl_district: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.670] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - pearl_district (freres_sang) — $250 (2 staff)
+[29/03 20:54:12.670] [DEBUG] [DealSpot] REP DETAIL AI Spot - pearl_district: prix=15.6 sec=12.1 qual=15.0 choix=0.1 | ventes=oui stock=oui heat=0 guards=1 types=3 missed=0%
+[29/03 20:54:12.670] [INFO] [DealSpot] AI Spot - pearl_district REP: 12.4 (+0.24) [P:16 S:12 Q:15 C:0] tier 1
+[29/03 20:54:12.670] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - shadow_lane: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.670] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - shadow_lane (confrerie) — $100 (0 staff)
+[29/03 20:54:12.670] [DEBUG] [DealSpot] REP DETAIL AI Spot - shadow_lane: prix=8.5 sec=8.5 qual=9.2 choix=5.2 | ventes=non stock=oui heat=0 guards=0 types=3 missed=0%
+[29/03 20:54:12.670] [INFO] [DealSpot] AI Spot - shadow_lane REP: 8.2 (-0.24) [P:9 S:8 Q:9 C:5] tier 0
+[29/03 20:54:12.670] [DEBUG] [DealSpot] PURETÉ DECAY Hall, Immeuble #18: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.670] [INFO] [DealSpot] SALAIRES: Hall, Immeuble #18 — $54 pour 2 membre(s), heures: { "pm_229841_3801604840": 2.0, "pm_234777_2881678259": 2.0 }
+[29/03 20:54:12.670] [DEBUG] [DealSpot] FATIGUE RECOVERY: Chantal Gauthier -0.39 (base=0.04+off=0.35, worked=0h, now=0.00)
+[29/03 20:54:12.670] [DEBUG] [DealSpot] FATIGUE RECOVERY: Mathieu Thomas -0.36 (base=0.04+off=0.32, worked=2h, now=0.00)
+[29/03 20:54:12.670] [DEBUG] [DealSpot] FATIGUE RECOVERY: David Lange -0.39 (base=0.04+off=0.35, worked=0h, now=0.00)
+[29/03 20:54:12.670] [DEBUG] [DealSpot] FATIGUE RECOVERY: Ahmed Carvalho -0.36 (base=0.04+off=0.32, worked=2h, now=0.00)
+[29/03 20:54:12.671] [DEBUG] [DealSpot] REP DETAIL Hall, Immeuble #18: prix=6.5 sec=3.3 qual=2.2 choix=0.1 | ventes=oui stock=oui heat=0 guards=2 types=1 missed=0%
+[29/03 20:54:12.671] [INFO] [DealSpot] Hall, Immeuble #18 REP: 3.4 (+1.28) [P:6 S:3 Q:2 C:0] tier 0
+[29/03 20:54:12.671] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - ashfield: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.671] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - ashfield (diablos_norte) — $325 (3 staff)
+[29/03 20:54:12.671] [DEBUG] [DealSpot] REP DETAIL AI Spot - ashfield: prix=15.6 sec=16.8 qual=19.0 choix=6.2 | ventes=oui stock=oui heat=0 guards=2 types=4 missed=0%
+[29/03 20:54:12.671] [INFO] [DealSpot] AI Spot - ashfield REP: 15.6 (+0.52) [P:16 S:17 Q:19 C:6] tier 1
+[29/03 20:54:12.671] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - shadow_lane: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.671] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - shadow_lane (diablos_norte) — $400 (4 staff)
+[29/03 20:54:12.671] [DEBUG] [DealSpot] REP DETAIL AI Spot - shadow_lane: prix=21.5 sec=15.7 qual=15.9 choix=2.1 | ventes=oui stock=oui heat=0 guards=3 types=3 missed=0%
+[29/03 20:54:12.671] [INFO] [DealSpot] AI Spot - shadow_lane REP: 15.4 (+1.16) [P:21 S:16 Q:16 C:2] tier 1
+[29/03 20:54:12.673] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - golden_mile: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.673] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - golden_mile (famiglia_moretti) — $250 (2 staff)
+[29/03 20:54:12.673] [DEBUG] [DealSpot] REP DETAIL AI Spot - golden_mile: prix=13.0 sec=12.3 qual=18.0 choix=2.9 | ventes=oui stock=oui heat=0 guards=1 types=3 missed=0%
+[29/03 20:54:12.673] [INFO] [DealSpot] AI Spot - golden_mile REP: 13.1 (+0.49) [P:13 S:12 Q:18 C:3] tier 1
+[29/03 20:54:12.673] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - central_plaza: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.673] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - central_plaza (famiglia_moretti) — $325 (3 staff)
+[29/03 20:54:12.673] [DEBUG] [DealSpot] REP DETAIL AI Spot - central_plaza: prix=14.4 sec=15.3 qual=18.9 choix=6.0 | ventes=oui stock=oui heat=0 guards=2 types=3 missed=0%
+[29/03 20:54:12.673] [INFO] [DealSpot] AI Spot - central_plaza REP: 14.9 (+0.60) [P:14 S:15 Q:19 C:6] tier 1
+[29/03 20:54:12.673] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - crown_heights: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.673] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - crown_heights (famiglia_moretti) — $400 (4 staff)
+[29/03 20:54:12.673] [DEBUG] [DealSpot] REP DETAIL AI Spot - crown_heights: prix=12.2 sec=14.6 qual=16.3 choix=7.0 | ventes=oui stock=oui heat=0 guards=3 types=3 missed=0%
+[29/03 20:54:12.673] [INFO] [DealSpot] AI Spot - crown_heights REP: 13.4 (+0.41) [P:12 S:15 Q:16 C:7] tier 1
+[29/03 20:54:12.673] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - iron_docks: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.673] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - iron_docks (cartel_mendoza) — $250 (2 staff)
+[29/03 20:54:12.673] [DEBUG] [DealSpot] REP DETAIL AI Spot - iron_docks: prix=14.8 sec=15.3 qual=14.8 choix=3.8 | ventes=oui stock=oui heat=0 guards=1 types=3 missed=13%
+[29/03 20:54:12.673] [INFO] [DealSpot] AI Spot - iron_docks REP: 13.3 (+0.12) [P:15 S:15 Q:15 C:4] tier 1
+[29/03 20:54:12.673] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - steamworks: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.674] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - steamworks (cartel_mendoza) — $325 (3 staff)
+[29/03 20:54:12.674] [DEBUG] [DealSpot] REP DETAIL AI Spot - steamworks: prix=16.9 sec=16.2 qual=13.6 choix=0.0 | ventes=oui stock=oui heat=0 guards=2 types=3 missed=50%
+[29/03 20:54:12.674] [INFO] [DealSpot] AI Spot - steamworks REP: 13.1 (+0.95) [P:17 S:16 Q:14 C:0] tier 1
+[29/03 20:54:12.674] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - neon_strip: rate=0.010 (table_lvl=0)
+[29/03 20:54:12.674] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - neon_strip (triade_dragon) — $250 (2 staff)
+[29/03 20:54:12.674] [DEBUG] [DealSpot] REP DETAIL AI Spot - neon_strip: prix=13.4 sec=16.0 qual=15.6 choix=2.9 | ventes=oui stock=oui heat=0 guards=1 types=3 missed=0%
+[29/03 20:54:12.674] [INFO] [DealSpot] AI Spot - neon_strip REP: 13.1 (+0.66) [P:13 S:16 Q:16 C:3] tier 1
+[29/03 20:54:12.684] [INFO] [Gang] SALAIRES PAYÉS: $200/jour (2 membres hors spots/apt) | trésorerie=$999
+[29/03 20:54:30.335] [INFO] [Business] TRANSFERT SACOCHE: 2000.0g Weed (pureté=90%) → stock total=2000.0g
+[29/03 20:54:30.335] [INFO] [GangApt] SACOCHE TRANSFER: 1 items, 2000g total
+[29/03 20:55:05.045] [INFO] [DealSpotNPC] DESPAWN ALL: 0 staff, 0 clients en queue | scène=BuildingFloorIntegrated
+[29/03 20:55:05.046] [INFO] [DealSpotNPC] on_scene_ready: type=apartment bldg=auto_bldg_167 floor=1 apt=auto_bldg_167_F1_U0 → spots=[]
+[29/03 20:55:05.046] [DEBUG] [DealSpotNPC] APT STAFF REF POS: (-26.0, 0.0, 16.0) (parent=Apartment_A)
+[29/03 20:55:07.398] [INFO] [GangAI] AI RACKET: cartel_mendoza rackette Maison Pressing dans iron_docks
+[29/03 20:55:07.398] [INFO] [GangAI] AI RACKET: diablos_norte rackette Spa Excellence dans ashfield
+[29/03 20:55:07.398] [INFO] [GangAI] AI RACKET: famiglia_moretti rackette Tabac Chez Kaddour dans golden_mile
+[29/03 20:55:07.398] [INFO] [GangAI] AI RACKET: triade_dragon rackette Boulangerie du Coin dans vice_alley
+[29/03 20:55:07.398] [INFO] [GangAI] AI RACKET: freres_sang rackette Le Petit Supérette dans pearl_district
+[29/03 20:55:12.891] [DEBUG] [Skill] XP +654 observation (achievement) → 654/97 lvl1
+[29/03 20:55:12.891] [INFO] [Skill] LEVEL UP! observation → niveau 2
+[29/03 20:55:12.894] [INFO] [Skill] LEVEL UP! observation → niveau 3
+[29/03 20:55:12.894] [INFO] [Skill] LEVEL UP! observation → niveau 4
+[29/03 20:55:12.894] [INFO] [Skill] LEVEL UP! observation → niveau 5
+[29/03 20:55:12.894] [INFO] [Achievements] Succès débloqué: EMPIRE DU RACKET
+[29/03 20:55:12.895] [INFO] [GangAI] AI RACKET: gang_1 rackette Opticien & Co dans crown_heights
+[29/03 20:55:16.971] [INFO] [GangApt] SKIP COOKING (no-cook drug): weed 2000.0g → cooked_stock (waste=35.4g)
+[29/03 20:55:32.792] [INFO] [GangApt] MANUAL CUTTING: 1973.8g weed → 4 portions séquentielles at auto_bldg_167_F1_U0
+[29/03 20:55:32.796] [INFO] [GangApt] DISTRIBUTION PLAN SET: weed at auto_bldg_167_F1_U0 — [{ "price_point_id": "street_10", "pct": 40 }, { "price_point_id": "street_20", "pct": 40 }, { "price_point_id": "street_50", "pct": 10 }, { "price_point_id": "mid_100", "pct": 10 }]
+[29/03 20:55:53.398] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 66.0 → 64.0
+[29/03 20:55:53.398] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 25.5 → 27.0
+[29/03 20:55:53.398] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 34.0 → 36.0
+[29/03 20:55:53.398] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 17.0 → 18.0
+[29/03 20:55:53.401] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=17 | demand_total=2.5 players=[1]
+[29/03 20:55:53.401] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.348 customers=0.4 → 1 spots
+[29/03 20:55:53.401] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.348 customers=0.2 → 1 spots
+[29/03 20:55:53.401] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.348 customers=0.1 → 1 spots
+[29/03 20:55:53.401] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.348 customers=0.0 → 1 spots
+[29/03 20:55:53.401] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.348 customers=0.1 → 1 spots
+[29/03 20:55:53.404] [TRACE] [DealSpot] TICK h17 | AI Spot - the_pit | dealers:1 | produits:13 (324.1g) | cash:$0
+[29/03 20:55:53.404] [TRACE] [DealSpot] STOCK DISPO: crack:287, cocaine:237, weed:244
+[29/03 20:55:53.404] [TRACE] [DealSpot] LEGACY MODE spot=dspot_1 district=the_pit (no pool_allocated)
+[29/03 20:55:53.404] [DEBUG] [DealSpot] CLIENTS h17: regular:14, addict:7, bulk_dealer:2, vip:1, tourist:2 (total=26)
+[29/03 20:55:53.404] [DEBUG] [DealSpot] VENTE h17 | AI Spot - the_pit | $868 | 26 clients | base=20.1 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.86 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:55:53.404] [INFO] [DealSpot] HEAT AI Spot - the_pit: 0.0 → 2.0 (+1.97) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:55:53.405] [TRACE] [DealSpot] TICK h17 | AI Spot - vice_alley | dealers:1 | produits:3 (35.0g) | cash:$0
+[29/03 20:55:53.405] [TRACE] [DealSpot] STOCK DISPO: heroin:8, ketamine:34, mdma:37
+[29/03 20:55:53.405] [TRACE] [DealSpot] LEGACY MODE spot=dspot_10 district=vice_alley (no pool_allocated)
+[29/03 20:55:53.405] [DEBUG] [DealSpot] CLIENTS h17: regular:8, addict:4, bulk_dealer:1, tourist:1 (total=14)
+[29/03 20:55:53.405] [DEBUG] [DealSpot] VENTE h17 | AI Spot - vice_alley | $603 | 14 clients | base=17.2 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.72 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:55:53.405] [INFO] [DealSpot] HEAT AI Spot - vice_alley: 0.0 → 1.0 (+1.01) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:55:53.407] [TRACE] [DealSpot] TICK h17 | AI Spot - market_square | dealers:1 | produits:3 (58.5g) | cash:$0
+[29/03 20:55:53.407] [TRACE] [DealSpot] STOCK DISPO: heroin:37, ketamine:39, mdma:78
+[29/03 20:55:53.407] [TRACE] [DealSpot] LEGACY MODE spot=dspot_11 district=market_square (no pool_allocated)
+[29/03 20:55:53.407] [TRACE] [DealSpot] MISSED: budget=$15, wanted=heroin, none≤$15
+[29/03 20:55:53.407] [DEBUG] [DealSpot] CLIENTS h17: regular:6, addict:3, bulk_dealer:1, vip:1, tourist:1 (total=12)
+[29/03 20:55:53.407] [WARN] [DealSpot] VENTES MANQUÉES h17: heroin:1 (total=1 perdus)
+[29/03 20:55:53.407] [DEBUG] [DealSpot] VENTE h17 | AI Spot - market_square | $588 | 12 clients | base=16.7 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.71 morale=1.00 alert=1.00 flow=1.25
+[29/03 20:55:53.407] [INFO] [DealSpot] HEAT AI Spot - market_square: 0.0 → 0.8 (+0.77) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:55:53.407] [TRACE] [DealSpot] TICK h17 | AI Spot - pearl_district | dealers:1 | produits:3 (215.6g) | cash:$0
+[29/03 20:55:53.407] [TRACE] [DealSpot] STOCK DISPO: crack:81, hashish:54, weed:35
+[29/03 20:55:53.407] [TRACE] [DealSpot] LEGACY MODE spot=dspot_12 district=pearl_district (no pool_allocated)
+[29/03 20:55:53.407] [DEBUG] [DealSpot] CLIENTS h17: regular:4, addict:2, bulk_dealer:1, tourist:1 (total=8)
+[29/03 20:55:53.407] [DEBUG] [DealSpot] VENTE h17 | AI Spot - pearl_district | $256 | 8 clients | base=13.1 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.83 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:55:53.407] [INFO] [DealSpot] HEAT AI Spot - pearl_district: 0.0 → 0.8 (+0.75) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:55:53.407] [TRACE] [DealSpot] TICK h17 | AI Spot - shadow_lane | dealers:0 | produits:12 (352.2g) | cash:$0
+[29/03 20:55:53.408] [DEBUG] [DealSpot] TICK h17 | Hall, Immeuble #18 | dealers:2 | produits:4 (906.3g) | cash:$426 | playerPresent:false
+[29/03 20:55:53.408] [INFO] [DealSpot] === MODIFIERS h17 | Hall, Immeuble #18 ===
+[29/03 20:55:53.408] [INFO] [DealSpot]   traffic: base=18.00 time=0.90 loc_syn=1.00
+[29/03 20:55:53.408] [INFO] [DealSpot]   dealer: charisma=1.00 | guetteur=1.00 | markup=1.00
+[29/03 20:55:53.408] [INFO] [DealSpot]   heat: penalty=1.00 (heat=0.0/100)
+[29/03 20:55:53.408] [INFO] [DealSpot]   quality: 0.97 (base=1.0 event=0.00 network=1.00)
+[29/03 20:55:53.408] [INFO] [DealSpot]   economy: city=0.98 territory=1.00 saturation=0.56 rival=1.00 monopoly=1.00
+[29/03 20:55:53.408] [INFO] [DealSpot]   rep: demand=1.00 loyalty_vol=1.03 loyalty_bg=0.92 (ABSENT)
+[29/03 20:55:53.408] [INFO] [DealSpot]   staff: morale=1.00 alert=1.00 flow=1.20
+[29/03 20:55:53.408] [INFO] [DealSpot]   player: skill=1.00 trait=1.00
+[29/03 20:55:53.408] [INFO] [DealSpot]   weather: traffic=1.00 heat_mod=1.00
+[29/03 20:55:53.408] [INFO] [DealSpot]   law: price=1.00 event_rev=1.00
+[29/03 20:55:53.408] [INFO] [DealSpot]   upgrades: traffic=1.00 (sale_speed=0.00 txn_speed=0.00 satisfaction=0.00)
+[29/03 20:55:53.408] [DEBUG] [DealSpot] STOCK DISPO: hashish:337
+[29/03 20:55:53.408] [INFO] [DealSpot] POOL MODE ACTIVE spot=dspot_14 district=crown_heights | segments=[0, 1, 2, 3, 4] total_allocated=0.9
+[29/03 20:55:53.408] [TRACE] [DealSpot] SALE: prod_4 1x~$20=$20 hashish (budget=$41, sat=49%)
+[29/03 20:55:53.408] [DEBUG] [DealSpot] CLIENTS h17: regular:1 (total=1)
+[29/03 20:55:53.408] [DEBUG] [DealSpot] VENTE h17 | Hall, Immeuble #18 | $22 | 1 clients | base=11.1 time=0.90 bg=0.92 weath=1.00 terr=1.00 qual=0.97 morale=1.00 alert=1.00 flow=1.20
+[29/03 20:55:53.408] [INFO] [DealSpot] Hall, Immeuble #18 — Vente h17: $22, 1 clients (bg_mult=0.92, weather=1.00, terr=1.00, qual=0.97)
+[29/03 20:55:53.410] [TRACE] [DealSpot] TICK h17 | AI Spot - ashfield | dealers:1 | produits:12 (212.6g) | cash:$0
+[29/03 20:55:53.410] [TRACE] [DealSpot] STOCK DISPO: crack:30, cocaine:297, mdma:254, weed:50
+[29/03 20:55:53.410] [TRACE] [DealSpot] LEGACY MODE spot=dspot_2 district=ashfield (no pool_allocated)
+[29/03 20:55:53.411] [DEBUG] [DealSpot] CLIENTS h17: regular:9, addict:4, bulk_dealer:1, vip:1, tourist:1 (total=16)
+[29/03 20:55:53.411] [DEBUG] [DealSpot] VENTE h17 | AI Spot - ashfield | $405 | 16 clients | base=14.9 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.87 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:55:53.411] [INFO] [DealSpot] HEAT AI Spot - ashfield: 0.0 → 1.2 (+1.16) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:55:53.411] [TRACE] [DealSpot] TICK h17 | AI Spot - shadow_lane | dealers:1 | produits:3 (237.8g) | cash:$0
+[29/03 20:55:53.411] [TRACE] [DealSpot] STOCK DISPO: cocaine:37, crack:25, weed:68
+[29/03 20:55:53.411] [TRACE] [DealSpot] LEGACY MODE spot=dspot_3 district=shadow_lane (no pool_allocated)
+[29/03 20:55:53.411] [DEBUG] [DealSpot] CLIENTS h17: regular:3, addict:1, bulk_dealer:1, tourist:1 (total=6)
+[29/03 20:55:53.411] [DEBUG] [DealSpot] VENTE h17 | AI Spot - shadow_lane | $122 | 6 clients | base=12.9 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:55:53.411] [INFO] [DealSpot] HEAT AI Spot - shadow_lane: 0.0 → 0.6 (+0.59) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:55:53.411] [TRACE] [DealSpot] TICK h17 | AI Spot - golden_mile | dealers:1 | produits:3 (75.1g) | cash:$0
+[29/03 20:55:53.411] [TRACE] [DealSpot] STOCK DISPO: cocaine:35, hashish:57, heroin:21
+[29/03 20:55:53.411] [TRACE] [DealSpot] LEGACY MODE spot=dspot_4 district=golden_mile (no pool_allocated)
+[29/03 20:55:53.411] [DEBUG] [DealSpot] CLIENTS h17: regular:4, addict:2, vip:1, tourist:1 (total=8)
+[29/03 20:55:53.411] [DEBUG] [DealSpot] VENTE h17 | AI Spot - golden_mile | $410 | 8 clients | base=18.6 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.25
+[29/03 20:55:53.411] [INFO] [DealSpot] HEAT AI Spot - golden_mile: 0.0 → 0.6 (+0.61) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:55:53.411] [TRACE] [DealSpot] TICK h17 | AI Spot - central_plaza | dealers:1 | produits:3 (32.4g) | cash:$0
+[29/03 20:55:53.413] [TRACE] [DealSpot] STOCK DISPO: cocaine:13, hashish:13, heroin:63
+[29/03 20:55:53.413] [TRACE] [DealSpot] LEGACY MODE spot=dspot_5 district=central_plaza (no pool_allocated)
+[29/03 20:55:53.413] [DEBUG] [DealSpot] CLIENTS h17: regular:7, addict:3, bulk_dealer:1, vip:1, tourist:1 (total=13)
+[29/03 20:55:53.413] [DEBUG] [DealSpot] VENTE h17 | AI Spot - central_plaza | $1005 | 13 clients | base=17.5 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.25
+[29/03 20:55:53.413] [INFO] [DealSpot] HEAT AI Spot - central_plaza: 0.0 → 1.0 (+1.00) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:55:53.413] [TRACE] [DealSpot] TICK h17 | AI Spot - crown_heights | dealers:1 | produits:3 (85.9g) | cash:$0
+[29/03 20:55:53.414] [TRACE] [DealSpot] STOCK DISPO: cocaine:78, hashish:53, heroin:43
+[29/03 20:55:53.414] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=17 | demand_total=2.5 players=[1]
+[29/03 20:55:53.414] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.361 customers=0.4 → 1 spots
+[29/03 20:55:53.414] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.361 customers=0.2 → 1 spots
+[29/03 20:55:53.414] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.361 customers=0.1 → 1 spots
+[29/03 20:55:53.414] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.361 customers=0.0 → 1 spots
+[29/03 20:55:53.414] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.361 customers=0.1 → 1 spots
+[29/03 20:55:53.414] [TRACE] [DealSpot] LEGACY MODE spot=dspot_6 district=crown_heights (no pool_allocated)
+[29/03 20:55:53.414] [DEBUG] [DealSpot] VENTE h17 | AI Spot - crown_heights | $10 | 1 clients | base=10.8 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.73 morale=1.00 alert=1.00 flow=1.30
+[29/03 20:55:53.414] [TRACE] [DealSpot] TICK h17 | AI Spot - iron_docks | dealers:1 | produits:3 (81.6g) | cash:$0
+[29/03 20:55:53.414] [TRACE] [DealSpot] STOCK DISPO: cocaine:54, heroin:82, meth:34
+[29/03 20:55:53.414] [TRACE] [DealSpot] LEGACY MODE spot=dspot_7 district=iron_docks (no pool_allocated)
+[29/03 20:55:53.414] [DEBUG] [DealSpot] CLIENTS h17: regular:3, addict:1, bulk_dealer:1, tourist:1 (total=6)
+[29/03 20:55:53.414] [DEBUG] [DealSpot] VENTE h17 | AI Spot - iron_docks | $440 | 6 clients | base=12.4 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:55:53.414] [INFO] [DealSpot] HEAT AI Spot - iron_docks: 0.0 → 0.6 (+0.59) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:55:53.414] [TRACE] [DealSpot] TICK h17 | AI Spot - steamworks | dealers:1 | produits:3 (42.9g) | cash:$0
+[29/03 20:55:53.414] [TRACE] [DealSpot] STOCK DISPO: cocaine:35, heroin:49, meth:34
+[29/03 20:55:53.414] [TRACE] [DealSpot] LEGACY MODE spot=dspot_8 district=steamworks (no pool_allocated)
+[29/03 20:55:53.415] [DEBUG] [DealSpot] CLIENTS h17: regular:1, addict:1, tourist:1 (total=3)
+[29/03 20:55:53.415] [DEBUG] [DealSpot] VENTE h17 | AI Spot - steamworks | $135 | 3 clients | base=11.7 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:55:53.415] [TRACE] [DealSpot] TICK h17 | AI Spot - neon_strip | dealers:1 | produits:14 (425.8g) | cash:$0
+[29/03 20:55:53.415] [TRACE] [DealSpot] STOCK DISPO: ketamine:333, mdma:333, weed:305
+[29/03 20:55:53.415] [TRACE] [DealSpot] LEGACY MODE spot=dspot_9 district=neon_strip (no pool_allocated)
+[29/03 20:55:53.417] [DEBUG] [DealSpot] CLIENTS h17: regular:12, addict:6, bulk_dealer:2, vip:1, tourist:2 (total=23)
+[29/03 20:55:53.417] [DEBUG] [DealSpot] VENTE h17 | AI Spot - neon_strip | $855 | 23 clients | base=19.2 time=0.90 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:55:53.417] [INFO] [DealSpot] HEAT AI Spot - neon_strip: 0.0 → 1.9 (+1.85) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:55:53.420] [INFO] [GangApt] PACKAGING STARTED: 526x weed ($263 packaging) at auto_bldg_167_F1_U0
+[29/03 20:55:53.421] [INFO] [GangApt] PACKAGING STARTED: 264x weed ($132 packaging) at auto_bldg_167_F1_U0
+[29/03 20:55:53.421] [INFO] [GangApt] PACKAGING STARTED: 117x weed ($59 packaging) at auto_bldg_167_F1_U0
+[29/03 20:55:53.421] [INFO] [GangApt] PACKAGING STARTED: 35x weed ($18 packaging) at auto_bldg_167_F1_U0
+[29/03 20:55:53.421] [INFO] [GangApt] PACKAGING STARTED: 17x weed ($9 packaging) at auto_bldg_167_F1_U0
+[29/03 20:55:58.125] [DEBUG] [Inventory] ITEM -Sacoche slot=4
+[29/03 20:55:59.897] [DEBUG] [Inventory] ITEM -Sacoche slot=5
+[29/03 20:56:26.528] [INFO] [Gang] SERIALIZE: 6 membres | trésorerie=$501 | 0 territoires | 1 appts
+[29/03 20:56:26.532] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[29/03 20:57:47.085] [INFO] [Gang] SERIALIZE: 6 membres | trésorerie=$490 | 0 territoires | 1 appts
+[29/03 20:57:47.092] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[29/03 20:58:23.400] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 64.0 → 62.0
+[29/03 20:58:23.400] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 27.0 → 28.5
+[29/03 20:58:23.400] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 36.0 → 38.0
+[29/03 20:58:23.400] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 18.0 → 19.0
+[29/03 20:58:23.403] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=18 | demand_total=2.8 players=[1]
+[29/03 20:58:23.404] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.371 customers=0.5 → 1 spots
+[29/03 20:58:23.404] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.371 customers=0.2 → 1 spots
+[29/03 20:58:23.404] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.371 customers=0.1 → 1 spots
+[29/03 20:58:23.404] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.371 customers=0.0 → 1 spots
+[29/03 20:58:23.404] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.371 customers=0.1 → 1 spots
+[29/03 20:58:23.404] [INFO] [Economy] ╔══ SNAPSHOT ÉCONOMIE h18 (Jour 1) ══
+[29/03 20:58:23.404] [INFO] [Economy] ║ CASH=$709 | COMPTE=$0 | TOTAL=$709
+[29/03 20:58:23.404] [INFO] [Economy] ║ GANG: trésorerie=$485 | membres=6 (actifs=4 repos=0 autres=2) | heat=0.00
+[29/03 20:58:23.404] [INFO] [Economy] ║ SPOTS: 1 actifs | rev_jour=$22 | cash_non_collecté=$448 | stock=902.8g
+[29/03 20:58:23.404] [INFO] [Economy] ║ INVENTAIRE: brut=[vide] | préparés=0 | en préparation=0
+[29/03 20:58:23.404] [INFO] [Economy] ║ RÉPUT: civilians:0, police:0, gang_norte:2, media:0, informants:0
+[29/03 20:58:23.404] [INFO] [Economy] ║ MÉTÉO: CLEAR | outdoor=1.00 | visibility=1.00
+[29/03 20:58:23.404] [INFO] [Economy] ║ RAM: 452 MB | spots: 1 joueur + 13 AI = 14 total
+[29/03 20:58:23.404] [INFO] [Economy] ║ AI TRÉSOR: cartel_m:$484894, diablos_:$235646, famiglia:$443136, triade_d:$387168, freres_s:$293221, confreri:$480446, gang_1:$485
+[29/03 20:58:23.404] [INFO] [Economy] ╚══════════════════════════════════════
+[29/03 20:58:23.404] [DEBUG] [DealSpot] AI AUTO-COLLECT: 12 spots, $5707 total
+[29/03 20:58:23.405] [INFO] [Grossiste] VENTE: Cristaux K 71g à $12/g ($852 total) → ai_triade_dragon
+[29/03 20:58:23.405] [INFO] [Grossiste] VENTE: Superman 57g à $7/g ($387 total) → ai_triade_dragon
+[29/03 20:58:23.405] [INFO] [Grossiste] VENTE: Fishscale 100g à $45/g ($4529 total) → ai_triade_dragon
+[29/03 20:58:23.405] [INFO] [DealSpot] AI MARKET BUY: AI Spot - vice_alley (triade_dragon) | Cristaux K 70g($852), Superman 56g($387), Fishscale 100g($4529) | spent=$5768 treasury=$383447 | stock=[ketamine:33x$33, mdma:32x$18, ketamine:53x$10, ketamine:80x$13, ketamine:77x$19, ketamine:39x$22, mdma:42x$10, mdma:64x$11, mdma:50x$15, mdma:25x$18, cocaine:75x$14, cocaine:80x$24, cocaine:80x$34, cocaine:62x$40]
+[29/03 20:58:23.405] [TRACE] [DealSpot] TICK h18 | AI Spot - the_pit | dealers:1 | produits:12 (298.4g) | cash:$0
+[29/03 20:58:23.407] [TRACE] [DealSpot] STOCK DISPO: crack:284, cocaine:225, weed:227
+[29/03 20:58:23.407] [TRACE] [DealSpot] LEGACY MODE spot=dspot_1 district=the_pit (no pool_allocated)
+[29/03 20:58:23.408] [DEBUG] [DealSpot] CLIENTS h18: regular:15, addict:7, bulk_dealer:3, vip:1, tourist:3 (total=29)
+[29/03 20:58:23.408] [DEBUG] [DealSpot] VENTE h18 | AI Spot - the_pit | $834 | 29 clients | base=22.5 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.86 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:58:23.408] [DEBUG] [DealSpot] HEAT DECAY AI Spot - the_pit: 2.0 → 1.5 (-0.4)
+[29/03 20:58:23.408] [INFO] [DealSpot] HEAT AI Spot - the_pit: 1.5 → 3.7 (+2.15) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:58:23.408] [TRACE] [DealSpot] TICK h18 | AI Spot - vice_alley | dealers:1 | produits:14 (232.8g) | cash:$0
+[29/03 20:58:23.408] [TRACE] [DealSpot] STOCK DISPO: ketamine:282, mdma:213, cocaine:297
+[29/03 20:58:23.408] [TRACE] [DealSpot] LEGACY MODE spot=dspot_10 district=vice_alley (no pool_allocated)
+[29/03 20:58:23.410] [DEBUG] [DealSpot] CLIENTS h18: regular:10, addict:5, bulk_dealer:2, vip:1, tourist:2 (total=20)
+[29/03 20:58:23.410] [DEBUG] [DealSpot] VENTE h18 | AI Spot - vice_alley | $1105 | 20 clients | base=19.0 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.72 morale=1.00 alert=1.00 flow=1.25
+[29/03 20:58:23.411] [DEBUG] [DealSpot] HEAT DECAY AI Spot - vice_alley: 1.0 → 0.6 (-0.4)
+[29/03 20:58:23.411] [INFO] [DealSpot] HEAT AI Spot - vice_alley: 0.6 → 2.2 (+1.67) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:58:23.411] [TRACE] [DealSpot] TICK h18 | AI Spot - market_square | dealers:1 | produits:3 (55.2g) | cash:$0
+[29/03 20:58:23.411] [TRACE] [DealSpot] STOCK DISPO: heroin:31, ketamine:37, mdma:75
+[29/03 20:58:23.411] [TRACE] [DealSpot] LEGACY MODE spot=dspot_11 district=market_square (no pool_allocated)
+[29/03 20:58:23.411] [DEBUG] [DealSpot] CLIENTS h18: regular:7, addict:3, bulk_dealer:1, tourist:1 (total=12)
+[29/03 20:58:23.411] [DEBUG] [DealSpot] VENTE h18 | AI Spot - market_square | $718 | 12 clients | base=18.4 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.71 morale=1.00 alert=1.00 flow=1.25
+[29/03 20:58:23.411] [DEBUG] [DealSpot] HEAT DECAY AI Spot - market_square: 0.8 → 0.3 (-0.4)
+[29/03 20:58:23.411] [INFO] [DealSpot] HEAT AI Spot - market_square: 0.3 → 1.2 (+0.92) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:58:23.411] [TRACE] [DealSpot] TICK h18 | AI Spot - pearl_district | dealers:1 | produits:3 (197.5g) | cash:$0
+[29/03 20:58:23.411] [TRACE] [DealSpot] STOCK DISPO: crack:81, hashish:50, weed:27
+[29/03 20:58:23.411] [TRACE] [DealSpot] LEGACY MODE spot=dspot_12 district=pearl_district (no pool_allocated)
+[29/03 20:58:23.411] [DEBUG] [DealSpot] CLIENTS h18: regular:4, addict:2, bulk_dealer:1, tourist:1 (total=8)
+[29/03 20:58:23.411] [DEBUG] [DealSpot] VENTE h18 | AI Spot - pearl_district | $174 | 8 clients | base=14.5 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.83 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:58:23.411] [DEBUG] [DealSpot] HEAT DECAY AI Spot - pearl_district: 0.8 → 0.3 (-0.4)
+[29/03 20:58:23.411] [INFO] [DealSpot] HEAT AI Spot - pearl_district: 0.3 → 0.9 (+0.62) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:58:23.411] [TRACE] [DealSpot] TICK h18 | AI Spot - shadow_lane | dealers:0 | produits:12 (352.2g) | cash:$0
+[29/03 20:58:23.411] [DEBUG] [DealSpot] EQUIPE DIAG h18 AI Spot - shadow_lane: [A:en=false,members=0,h=0+24, B:en=false,members=0,h=0+12, C:en=false,members=0,h=0+8]
+[29/03 20:58:23.411] [DEBUG] [DealSpot] TICK h18 | Hall, Immeuble #18 | dealers:2 | produits:4 (902.8g) | cash:$448 | playerPresent:false
+[29/03 20:58:23.411] [DEBUG] [DealSpot] STOCK DISPO: hashish:336
+[29/03 20:58:23.411] [INFO] [DealSpot] POOL MODE ACTIVE spot=dspot_14 district=crown_heights | segments=[0, 1, 2, 3, 4] total_allocated=1.0
+[29/03 20:58:23.414] [TRACE] [DealSpot] SALE: prod_6 1x~$100=$100 hashish (budget=$103, sat=97%)
+[29/03 20:58:23.414] [TRACE] [DealSpot] SALE: prod_3 1x~$10=$10 hashish (budget=$13, sat=77%)
+[29/03 20:58:23.414] [DEBUG] [DealSpot] CLIENTS h18: regular:1, addict:1 (total=2)
+[29/03 20:58:23.414] [DEBUG] [DealSpot] VENTE h18 | Hall, Immeuble #18 | $121 | 2 clients | base=12.2 time=1.00 bg=0.92 weath=1.00 terr=1.00 qual=0.97 morale=1.00 alert=1.00 flow=1.20
+[29/03 20:58:23.414] [DEBUG] [DealSpot] HEAT DECAY Hall, Immeuble #18: 0.1 → 0.0 (-0.3)
+[29/03 20:58:23.414] [INFO] [Reputation] gang_norte +1 (deal_spot_revenue): 2 → 3
+[29/03 20:58:23.414] [TRACE] [DealSpot] TICK h18 | AI Spot - ashfield | dealers:1 | produits:12 (202.2g) | cash:$0
+[29/03 20:58:23.414] [TRACE] [DealSpot] STOCK DISPO: crack:30, cocaine:287, mdma:252, weed:46
+[29/03 20:58:23.414] [TRACE] [DealSpot] LEGACY MODE spot=dspot_2 district=ashfield (no pool_allocated)
+[29/03 20:58:23.415] [DEBUG] [DealSpot] CLIENTS h18: regular:10, addict:5, bulk_dealer:2, vip:1, tourist:2 (total=20)
+[29/03 20:58:23.415] [DEBUG] [DealSpot] VENTE h18 | AI Spot - ashfield | $633 | 20 clients | base=16.6 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.87 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:58:23.415] [DEBUG] [DealSpot] HEAT DECAY AI Spot - ashfield: 1.2 → 0.7 (-0.4)
+[29/03 20:58:23.415] [INFO] [DealSpot] HEAT AI Spot - ashfield: 0.7 → 2.5 (+1.78) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:58:23.415] [TRACE] [DealSpot] TICK h18 | AI Spot - shadow_lane | dealers:1 | produits:3 (215.1g) | cash:$0
+[29/03 20:58:23.415] [TRACE] [DealSpot] STOCK DISPO: cocaine:35, crack:24, weed:61
+[29/03 20:58:23.415] [TRACE] [DealSpot] LEGACY MODE spot=dspot_3 district=shadow_lane (no pool_allocated)
+[29/03 20:58:23.417] [DEBUG] [DealSpot] CLIENTS h18: regular:3, addict:1, bulk_dealer:1, vip:1, tourist:1 (total=7)
+[29/03 20:58:23.417] [DEBUG] [DealSpot] VENTE h18 | AI Spot - shadow_lane | $318 | 7 clients | base=14.2 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:58:23.417] [DEBUG] [DealSpot] HEAT DECAY AI Spot - shadow_lane: 0.6 → 0.1 (-0.4)
+[29/03 20:58:23.417] [INFO] [DealSpot] HEAT AI Spot - shadow_lane: 0.1 → 0.8 (+0.64) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:58:23.417] [TRACE] [DealSpot] TICK h18 | AI Spot - golden_mile | dealers:1 | produits:3 (68.9g) | cash:$0
+[29/03 20:58:23.417] [TRACE] [DealSpot] STOCK DISPO: cocaine:32, hashish:52, heroin:21
+[29/03 20:58:23.417] [TRACE] [DealSpot] LEGACY MODE spot=dspot_4 district=golden_mile (no pool_allocated)
+[29/03 20:58:23.417] [DEBUG] [DealSpot] CLIENTS h18: regular:5, addict:2, bulk_dealer:1, tourist:1 (total=9)
+[29/03 20:58:23.417] [DEBUG] [DealSpot] VENTE h18 | AI Spot - golden_mile | $616 | 9 clients | base=20.6 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.25
+[29/03 20:58:23.417] [DEBUG] [DealSpot] HEAT DECAY AI Spot - golden_mile: 0.6 → 0.2 (-0.4)
+[29/03 20:58:23.417] [INFO] [DealSpot] HEAT AI Spot - golden_mile: 0.2 → 0.8 (+0.69) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:58:23.417] [TRACE] [DealSpot] TICK h18 | AI Spot - central_plaza | dealers:1 | produits:3 (23.9g) | cash:$0
+[29/03 20:58:23.417] [TRACE] [DealSpot] STOCK DISPO: cocaine:4, hashish:8, heroin:61
+[29/03 20:58:23.417] [TRACE] [DealSpot] LEGACY MODE spot=dspot_5 district=central_plaza (no pool_allocated)
+[29/03 20:58:23.418] [DEBUG] [DealSpot] CLIENTS h18: regular:8, addict:4, bulk_dealer:1, vip:1, tourist:1 (total=15)
+[29/03 20:58:23.418] [DEBUG] [DealSpot] VENTE h18 | AI Spot - central_plaza | $841 | 15 clients | base=19.7 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.25
+[29/03 20:58:23.418] [DEBUG] [DealSpot] HEAT DECAY AI Spot - central_plaza: 1.0 → 0.6 (-0.4)
+[29/03 20:58:23.418] [INFO] [DealSpot] HEAT AI Spot - central_plaza: 0.6 → 1.7 (+1.16) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:58:23.418] [TRACE] [DealSpot] TICK h18 | AI Spot - crown_heights | dealers:1 | produits:3 (85.6g) | cash:$0
+[29/03 20:58:23.418] [TRACE] [DealSpot] STOCK DISPO: cocaine:77, hashish:53, heroin:43
+[29/03 20:58:23.418] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=18 | demand_total=2.8 players=[1]
+[29/03 20:58:23.420] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.379 customers=0.5 → 1 spots
+[29/03 20:58:23.420] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.379 customers=0.3 → 1 spots
+[29/03 20:58:23.420] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.379 customers=0.1 → 1 spots
+[29/03 20:58:23.420] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.379 customers=0.1 → 1 spots
+[29/03 20:58:23.420] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.379 customers=0.2 → 1 spots
+[29/03 20:58:23.420] [TRACE] [DealSpot] LEGACY MODE spot=dspot_6 district=crown_heights (no pool_allocated)
+[29/03 20:58:23.420] [TRACE] [DealSpot] MISSED: budget=$15, wanted=heroin, none≤$15
+[29/03 20:58:23.420] [DEBUG] [DealSpot] CLIENTS h18: regular:1, addict:1, bulk_dealer:1 (total=3)
+[29/03 20:58:23.420] [WARN] [DealSpot] VENTES MANQUÉES h18: heroin:1 (total=1 perdus)
+[29/03 20:58:23.420] [DEBUG] [DealSpot] VENTE h18 | AI Spot - crown_heights | $222 | 3 clients | base=11.9 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.73 morale=1.00 alert=1.00 flow=1.30
+[29/03 20:58:23.420] [TRACE] [DealSpot] TICK h18 | AI Spot - iron_docks | dealers:1 | produits:3 (76.6g) | cash:$0
+[29/03 20:58:23.421] [TRACE] [DealSpot] STOCK DISPO: cocaine:47, heroin:79, meth:34
+[29/03 20:58:23.421] [TRACE] [DealSpot] LEGACY MODE spot=dspot_7 district=iron_docks (no pool_allocated)
+[29/03 20:58:23.421] [TRACE] [DealSpot] MISSED: budget=$19, wanted=heroin, none≤$19
+[29/03 20:58:23.424] [DEBUG] [DealSpot] CLIENTS h18: regular:3, addict:1, vip:1 (total=5)
+[29/03 20:58:23.426] [WARN] [DealSpot] VENTES MANQUÉES h18: heroin:1 (total=1 perdus)
+[29/03 20:58:23.426] [DEBUG] [DealSpot] VENTE h18 | AI Spot - iron_docks | $180 | 5 clients | base=13.8 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:58:23.426] [DEBUG] [DealSpot] HEAT DECAY AI Spot - iron_docks: 0.6 → 0.1 (-0.4)
+[29/03 20:58:23.426] [TRACE] [DealSpot] TICK h18 | AI Spot - steamworks | dealers:1 | produits:3 (41.3g) | cash:$0
+[29/03 20:58:23.426] [TRACE] [DealSpot] STOCK DISPO: cocaine:33, heroin:48, meth:34
+[29/03 20:58:23.426] [TRACE] [DealSpot] LEGACY MODE spot=dspot_8 district=steamworks (no pool_allocated)
+[29/03 20:58:23.426] [TRACE] [DealSpot] MISSED: budget=$20, wanted=meth, none≤$20
+[29/03 20:58:23.426] [DEBUG] [DealSpot] CLIENTS h18: regular:1, addict:1, bulk_dealer:1, tourist:1 (total=4)
+[29/03 20:58:23.426] [WARN] [DealSpot] VENTES MANQUÉES h18: meth:1 (total=1 perdus)
+[29/03 20:58:23.426] [DEBUG] [DealSpot] VENTE h18 | AI Spot - steamworks | $195 | 4 clients | base=13.2 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:58:23.427] [DEBUG] [DealSpot] HEAT DECAY AI Spot - steamworks: 0.3 → 0.0 (-0.4)
+[29/03 20:58:23.427] [TRACE] [DealSpot] TICK h18 | AI Spot - neon_strip | dealers:1 | produits:13 (406.9g) | cash:$0
+[29/03 20:58:23.427] [TRACE] [DealSpot] STOCK DISPO: mdma:332, ketamine:317, weed:295
+[29/03 20:58:23.427] [TRACE] [DealSpot] LEGACY MODE spot=dspot_9 district=neon_strip (no pool_allocated)
+[29/03 20:58:23.427] [DEBUG] [DealSpot] CLIENTS h18: regular:13, addict:6, bulk_dealer:2, vip:1, tourist:2 (total=24)
+[29/03 20:58:23.427] [DEBUG] [DealSpot] VENTE h18 | AI Spot - neon_strip | $751 | 24 clients | base=21.1 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 20:58:23.427] [DEBUG] [DealSpot] HEAT DECAY AI Spot - neon_strip: 1.9 → 1.4 (-0.4)
+[29/03 20:58:23.427] [INFO] [DealSpot] HEAT AI Spot - neon_strip: 1.4 → 3.3 (+1.92) | guett=-20% weath=1.00 alert=1.00
+[29/03 20:58:23.430] [INFO] [GangApt] PACKAGING COMPLETE: 526x weed sachets ready at auto_bldg_167_F1_U0
+[29/03 20:58:23.440] [INFO] [GangApt] PACKAGING COMPLETE: 264x weed sachets ready at auto_bldg_167_F1_U0
+[29/03 20:58:23.440] [INFO] [GangApt] PACKAGING COMPLETE: 117x weed sachets ready at auto_bldg_167_F1_U0
+[29/03 20:58:23.440] [INFO] [GangApt] PACKAGING COMPLETE: 35x weed sachets ready at auto_bldg_167_F1_U0
+[29/03 20:58:23.440] [INFO] [GangApt] PACKAGING COMPLETE: 17x weed sachets ready at auto_bldg_167_F1_U0
+[29/03 20:58:23.441] [INFO] [DealSpot] RESUPPLY PRODUIT: 526x Weed (1.1g/u, $10/u) → Hall, Immeuble #18 | stock=1473/2000
+[29/03 20:58:23.441] [INFO] [GangApt] DISPATCH: 526x → dspot_14 from auto_bldg_167_F1_U0
+[29/03 20:58:23.444] [INFO] [DealSpot] RESUPPLY PRODUIT: 236x Weed (2.2g/u, $20/u) → Hall, Immeuble #18 | stock=1999/2000 [TRONQUÉ 264→236]
+[29/03 20:58:23.444] [INFO] [GangApt] DISPATCH: 264x → dspot_14 from auto_bldg_167_F1_U0
+[29/03 20:58:23.446] [INFO] [Time] Jour 1 — 18h00 (tick horaire: 45ms)
+[29/03 20:58:49.003] [DEBUG] [Banking] CASH -$555 → cash=$154
+[29/03 20:58:49.003] [INFO] [GangApt] MANUAL PACKAGING: batch batch_2, 4 portions, sachet_zip, cost $555 at auto_bldg_167_F1_U0
+[29/03 20:58:49.414] [WARN] [Godot] WARNING: PlayerGangSystem: Trésorerie insuffisante ($555 requis)
+[29/03 20:58:49.414] [INFO] [Godot]    at: push_warning (core/variant/variant_utility.cpp:1034)
+[29/03 20:58:49.414] [INFO] [Script]    GDScript backtrace (most recent call first):
+[29/03 20:58:49.414] [INFO] [Script]        [0] withdraw_treasury (res://systems/scripts/gangs/PlayerGangSystem.gd:3547)
+[29/03 20:58:49.414] [INFO] [Script]        [1] start_manual_packaging (res://systems/scripts/gangs/PlayerGangSystem.gd:2689)
+[29/03 20:58:49.414] [INFO] [Script]        [2] _on_lab_package_batch (res://systems/scripts/ui/ApartmentManagementUI_Tabs.gd:870)
+[29/03 20:59:07.400] [DEBUG] [Memory] 💾 Mémoire stable: 451.78 MB
+[29/03 20:59:07.413] [INFO] [DealSpotNPC] POOL STATS: created=20 reused=0 peak=0 available=0 reuse_rate=0%
+[29/03 20:59:13.391] [INFO] [Gang] SERIALIZE: 6 membres | trésorerie=$478 | 0 territoires | 1 appts
+[29/03 20:59:13.398] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[29/03 21:00:53.388] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 62.0 → 60.0
+[29/03 21:00:53.388] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 28.5 → 30.0
+[29/03 21:00:53.388] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 38.0 → 40.0
+[29/03 21:00:53.388] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 19.0 → 20.0
+[29/03 21:00:53.391] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=19 | demand_total=2.9 players=[1]
+[29/03 21:00:53.391] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.396 customers=0.6 → 1 spots
+[29/03 21:00:53.391] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.396 customers=0.3 → 1 spots
+[29/03 21:00:53.391] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.396 customers=0.1 → 1 spots
+[29/03 21:00:53.391] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.396 customers=0.1 → 1 spots
+[29/03 21:00:53.391] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.396 customers=0.2 → 1 spots
+[29/03 21:00:53.392] [DEBUG] [DealSpot] AI AUTO-COLLECT: 12 spots, $6587 total
+[29/03 21:00:53.394] [INFO] [Grossiste] VENTE: Fishscale 74g à $45/g ($3352 total) → ai_famiglia_moretti
+[29/03 21:00:53.394] [INFO] [Grossiste] VENTE: Purple Haze 1000g à $4/g ($3852 total) → ai_famiglia_moretti
+[29/03 21:00:53.394] [INFO] [Grossiste] VENTE: Dominos 500g à $7/g ($3423 total) → ai_famiglia_moretti
+[29/03 21:00:53.394] [INFO] [DealSpot] AI MARKET BUY: AI Spot - central_plaza (famiglia_moretti) | Fishscale 74g($3352), Purple Haze 1000g($3852), Dominos 500g($3423) | spent=$10627 treasury=$433951 | stock=[heroin:56x$65, cocaine:55x$14, cocaine:80x$24, cocaine:80x$34, cocaine:46x$40, weed:80x$10, weed:80x$17, weed:80x$24, weed:80x$28, mdma:80x$10, mdma:80x$12, mdma:80x$17, mdma:80x$20]
+[29/03 21:00:53.394] [INFO] [DealSpot] AI UPGRADE: Affiche tarifs niv.1 at AI Spot - pearl_district (freres_sang) — $800 (rev=$430/day)
+[29/03 21:00:53.394] [TRACE] [DealSpot] TICK h19 | AI Spot - the_pit | dealers:1 | produits:11 (275.9g) | cash:$0
+[29/03 21:00:53.394] [DEBUG] [DealSpot] AI MOD h19 AI Spot - the_pit: base=18.0 time=1.00 heat=3.7 qual=0.86 city=0.98 sat=1.00 mono=1.25
+[29/03 21:00:53.394] [TRACE] [DealSpot] STOCK DISPO: crack:281, cocaine:213, weed:209
+[29/03 21:00:53.394] [TRACE] [DealSpot] LEGACY MODE spot=dspot_1 district=the_pit (no pool_allocated)
+[29/03 21:00:53.395] [DEBUG] [DealSpot] CLIENTS h19: regular:15, addict:7, bulk_dealer:3, vip:1, tourist:3 (total=29)
+[29/03 21:00:53.395] [DEBUG] [DealSpot] VENTE h19 | AI Spot - the_pit | $973 | 29 clients | base=22.3 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.86 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:00:53.395] [INFO] [DealSpot] AI Spot - the_pit — Vente h19: $973, 29 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.86)
+[29/03 21:00:53.395] [DEBUG] [DealSpot] HEAT DECAY AI Spot - the_pit: 3.7 → 3.2 (-0.4)
+[29/03 21:00:53.395] [INFO] [DealSpot] HEAT AI Spot - the_pit: 3.2 → 5.6 (+2.39) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:00:53.395] [TRACE] [DealSpot] TICK h19 | AI Spot - vice_alley | dealers:1 | produits:14 (220.2g) | cash:$0
+[29/03 21:00:53.395] [DEBUG] [DealSpot] AI MOD h19 AI Spot - vice_alley: base=18.0 time=1.00 heat=2.2 qual=0.72 city=0.98 sat=1.00 mono=1.25
+[29/03 21:00:53.395] [TRACE] [DealSpot] STOCK DISPO: ketamine:281, mdma:209, cocaine:272
+[29/03 21:00:53.395] [TRACE] [DealSpot] LEGACY MODE spot=dspot_10 district=vice_alley (no pool_allocated)
+[29/03 21:00:53.398] [DEBUG] [DealSpot] CLIENTS h19: regular:11, addict:5, bulk_dealer:2, vip:1, tourist:2 (total=21)
+[29/03 21:00:53.398] [DEBUG] [DealSpot] VENTE h19 | AI Spot - vice_alley | $973 | 21 clients | base=18.9 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.72 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:00:53.398] [INFO] [DealSpot] AI Spot - vice_alley — Vente h19: $973, 21 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.72)
+[29/03 21:00:53.398] [DEBUG] [DealSpot] HEAT DECAY AI Spot - vice_alley: 2.2 → 1.8 (-0.4)
+[29/03 21:00:53.398] [INFO] [DealSpot] HEAT AI Spot - vice_alley: 1.8 → 3.4 (+1.61) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:00:53.398] [TRACE] [DealSpot] TICK h19 | AI Spot - market_square | dealers:1 | produits:3 (52.0g) | cash:$0
+[29/03 21:00:53.398] [DEBUG] [DealSpot] AI MOD h19 AI Spot - market_square: base=18.0 time=1.00 heat=1.2 qual=0.71 city=0.98 sat=1.00 mono=1.25
+[29/03 21:00:53.398] [TRACE] [DealSpot] STOCK DISPO: heroin:23, ketamine:35, mdma:73
+[29/03 21:00:53.398] [TRACE] [DealSpot] LEGACY MODE spot=dspot_11 district=market_square (no pool_allocated)
+[29/03 21:00:53.398] [DEBUG] [DealSpot] CLIENTS h19: regular:8, addict:4, bulk_dealer:1, vip:1, tourist:1 (total=15)
+[29/03 21:00:53.398] [DEBUG] [DealSpot] VENTE h19 | AI Spot - market_square | $725 | 15 clients | base=18.6 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.71 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:00:53.398] [INFO] [DealSpot] AI Spot - market_square — Vente h19: $725, 15 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.71)
+[29/03 21:00:53.398] [DEBUG] [DealSpot] HEAT DECAY AI Spot - market_square: 1.2 → 0.8 (-0.4)
+[29/03 21:00:53.398] [INFO] [DealSpot] HEAT AI Spot - market_square: 0.8 → 1.9 (+1.10) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:00:53.398] [TRACE] [DealSpot] TICK h19 | AI Spot - pearl_district | dealers:1 | produits:3 (189.9g) | cash:$0
+[29/03 21:00:53.398] [DEBUG] [DealSpot] AI MOD h19 AI Spot - pearl_district: base=18.0 time=1.00 heat=0.9 qual=0.83 city=0.98 sat=1.00 mono=1.25
+[29/03 21:00:53.398] [TRACE] [DealSpot] STOCK DISPO: crack:79, hashish:50, weed:21
+[29/03 21:00:53.400] [TRACE] [DealSpot] LEGACY MODE spot=dspot_12 district=pearl_district (no pool_allocated)
+[29/03 21:00:53.400] [DEBUG] [DealSpot] CLIENTS h19: regular:5, addict:2, bulk_dealer:1, vip:1, tourist:1 (total=10)
+[29/03 21:00:53.400] [DEBUG] [DealSpot] VENTE h19 | AI Spot - pearl_district | $160 | 10 clients | base=14.5 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.83 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:00:53.400] [INFO] [DealSpot] AI Spot - pearl_district — Vente h19: $160, 10 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.83)
+[29/03 21:00:53.400] [DEBUG] [DealSpot] HEAT DECAY AI Spot - pearl_district: 0.9 → 0.5 (-0.4)
+[29/03 21:00:53.400] [INFO] [DealSpot] HEAT AI Spot - pearl_district: 0.5 → 1.1 (+0.66) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:00:53.400] [TRACE] [DealSpot] TICK h19 | AI Spot - shadow_lane | dealers:0 | produits:12 (352.2g) | cash:$0
+[29/03 21:00:53.400] [DEBUG] [DealSpot] TICK h19 | Hall, Immeuble #18 | dealers:2 | produits:6 (1999.2g) | cash:$569 | playerPresent:false
+[29/03 21:00:53.401] [DEBUG] [DealSpot] STOCK DISPO: hashish:334, weed:762
+[29/03 21:00:53.401] [INFO] [DealSpot] POOL MODE ACTIVE spot=dspot_14 district=crown_heights | segments=[0, 1, 2, 3, 4] total_allocated=1.2
+[29/03 21:00:53.401] [DEBUG] [DealSpot] VENTE h19 | Hall, Immeuble #18 | $11 | 1 clients | base=12.4 time=1.00 bg=0.92 weath=1.00 terr=1.00 qual=0.97 morale=1.00 alert=1.00 flow=1.20
+[29/03 21:00:53.401] [DEBUG] [DealSpot] HEAT DECAY Hall, Immeuble #18: 0.3 → 0.0 (-0.3)
+[29/03 21:00:53.401] [TRACE] [DealSpot] TICK h19 | AI Spot - ashfield | dealers:1 | produits:11 (184.8g) | cash:$0
+[29/03 21:00:53.401] [DEBUG] [DealSpot] AI MOD h19 AI Spot - ashfield: base=18.0 time=1.00 heat=2.5 qual=0.87 city=0.98 sat=1.00 mono=1.25
+[29/03 21:00:53.401] [TRACE] [DealSpot] STOCK DISPO: crack:29, cocaine:276, mdma:246, weed:34
+[29/03 21:00:53.401] [TRACE] [DealSpot] LEGACY MODE spot=dspot_2 district=ashfield (no pool_allocated)
+[29/03 21:00:53.401] [DEBUG] [DealSpot] CLIENTS h19: regular:10, addict:5, bulk_dealer:2, vip:1, tourist:2 (total=20)
+[29/03 21:00:53.401] [DEBUG] [DealSpot] VENTE h19 | AI Spot - ashfield | $431 | 20 clients | base=16.5 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.87 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:00:53.401] [INFO] [DealSpot] AI Spot - ashfield — Vente h19: $431, 20 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.87)
+[29/03 21:00:53.401] [DEBUG] [DealSpot] HEAT DECAY AI Spot - ashfield: 2.5 → 2.0 (-0.4)
+[29/03 21:00:53.401] [INFO] [DealSpot] HEAT AI Spot - ashfield: 2.0 → 3.5 (+1.48) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:00:53.401] [TRACE] [DealSpot] TICK h19 | AI Spot - shadow_lane | dealers:1 | produits:3 (199.8g) | cash:$0
+[29/03 21:00:53.401] [DEBUG] [DealSpot] AI MOD h19 AI Spot - shadow_lane: base=18.0 time=1.00 heat=0.8 qual=0.77 city=0.98 sat=0.56 mono=1.00
+[29/03 21:00:53.401] [TRACE] [DealSpot] STOCK DISPO: cocaine:27, crack:22, weed:58
+[29/03 21:00:53.401] [TRACE] [DealSpot] LEGACY MODE spot=dspot_3 district=shadow_lane (no pool_allocated)
+[29/03 21:00:53.404] [DEBUG] [DealSpot] CLIENTS h19: regular:3, addict:1, bulk_dealer:1, vip:1, tourist:1 (total=7)
+[29/03 21:00:53.404] [DEBUG] [DealSpot] VENTE h19 | AI Spot - shadow_lane | $322 | 7 clients | base=14.1 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:00:53.404] [INFO] [DealSpot] AI Spot - shadow_lane — Vente h19: $322, 7 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.77)
+[29/03 21:00:53.404] [DEBUG] [DealSpot] HEAT DECAY AI Spot - shadow_lane: 0.8 → 0.3 (-0.4)
+[29/03 21:00:53.404] [INFO] [DealSpot] HEAT AI Spot - shadow_lane: 0.3 → 1.0 (+0.64) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:00:53.404] [TRACE] [DealSpot] TICK h19 | AI Spot - golden_mile | dealers:1 | produits:3 (64.2g) | cash:$0
+[29/03 21:00:53.404] [DEBUG] [DealSpot] AI MOD h19 AI Spot - golden_mile: base=18.0 time=1.00 heat=0.8 qual=0.77 city=0.98 sat=1.00 mono=1.25
+[29/03 21:00:53.404] [TRACE] [DealSpot] STOCK DISPO: cocaine:28, hashish:49, heroin:19
+[29/03 21:00:53.404] [TRACE] [DealSpot] LEGACY MODE spot=dspot_4 district=golden_mile (no pool_allocated)
+[29/03 21:00:53.404] [DEBUG] [DealSpot] CLIENTS h19: regular:5, addict:2, bulk_dealer:1, vip:1, tourist:1 (total=10)
+[29/03 21:00:53.404] [DEBUG] [DealSpot] VENTE h19 | AI Spot - golden_mile | $863 | 10 clients | base=20.7 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:00:53.404] [INFO] [DealSpot] AI Spot - golden_mile — Vente h19: $863, 10 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.77)
+[29/03 21:00:53.404] [DEBUG] [DealSpot] HEAT DECAY AI Spot - golden_mile: 0.8 → 0.4 (-0.4)
+[29/03 21:00:53.404] [INFO] [DealSpot] HEAT AI Spot - golden_mile: 0.4 → 1.1 (+0.75) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:00:53.404] [TRACE] [DealSpot] TICK h19 | AI Spot - central_plaza | dealers:1 | produits:13 (443.9g) | cash:$0
+[29/03 21:00:53.405] [DEBUG] [DealSpot] AI MOD h19 AI Spot - central_plaza: base=18.0 time=1.00 heat=1.7 qual=0.81 city=0.98 sat=1.00 mono=1.25
+[29/03 21:00:53.405] [TRACE] [DealSpot] STOCK DISPO: heroin:56, cocaine:261, weed:320, mdma:320
+[29/03 21:00:53.405] [TRACE] [DealSpot] LEGACY MODE spot=dspot_5 district=central_plaza (no pool_allocated)
+[29/03 21:00:53.405] [DEBUG] [DealSpot] CLIENTS h19: regular:8, addict:4, bulk_dealer:1, tourist:1 (total=14)
+[29/03 21:00:53.407] [DEBUG] [DealSpot] VENTE h19 | AI Spot - central_plaza | $610 | 14 clients | base=19.7 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:00:53.407] [INFO] [DealSpot] AI Spot - central_plaza — Vente h19: $610, 14 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.81)
+[29/03 21:00:53.407] [DEBUG] [DealSpot] HEAT DECAY AI Spot - central_plaza: 1.7 → 1.3 (-0.4)
+[29/03 21:00:53.407] [INFO] [DealSpot] HEAT AI Spot - central_plaza: 1.3 → 2.5 (+1.21) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:00:53.407] [TRACE] [DealSpot] TICK h19 | AI Spot - crown_heights | dealers:1 | produits:3 (84.0g) | cash:$0
+[29/03 21:00:53.407] [DEBUG] [DealSpot] AI MOD h19 AI Spot - crown_heights: base=18.0 time=1.00 heat=0.1 qual=0.73 city=0.98 sat=0.56 mono=1.00
+[29/03 21:00:53.407] [TRACE] [DealSpot] STOCK DISPO: cocaine:75, hashish:52, heroin:43
+[29/03 21:00:53.407] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=19 | demand_total=2.9 players=[1]
+[29/03 21:00:53.407] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.410 customers=0.6 → 1 spots
+[29/03 21:00:53.407] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.410 customers=0.3 → 1 spots
+[29/03 21:00:53.407] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.410 customers=0.1 → 1 spots
+[29/03 21:00:53.407] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.410 customers=0.1 → 1 spots
+[29/03 21:00:53.407] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.410 customers=0.2 → 1 spots
+[29/03 21:00:53.407] [TRACE] [DealSpot] LEGACY MODE spot=dspot_6 district=crown_heights (no pool_allocated)
+[29/03 21:00:53.407] [DEBUG] [DealSpot] CLIENTS h19: regular:1, addict:1 (total=2)
+[29/03 21:00:53.407] [DEBUG] [DealSpot] VENTE h19 | AI Spot - crown_heights | $122 | 2 clients | base=11.9 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.73 morale=1.00 alert=1.00 flow=1.30
+[29/03 21:00:53.407] [INFO] [DealSpot] AI Spot - crown_heights — Vente h19: $122, 2 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.73)
+[29/03 21:00:53.407] [DEBUG] [DealSpot] HEAT DECAY AI Spot - crown_heights: 0.1 → 0.0 (-0.4)
+[29/03 21:00:53.407] [TRACE] [DealSpot] TICK h19 | AI Spot - iron_docks | dealers:1 | produits:3 (74.6g) | cash:$0
+[29/03 21:00:53.407] [DEBUG] [DealSpot] AI MOD h19 AI Spot - iron_docks: base=18.0 time=1.00 heat=0.4 qual=0.89 city=0.98 sat=1.00 mono=1.25
+[29/03 21:00:53.407] [TRACE] [DealSpot] STOCK DISPO: cocaine:44, heroin:78, meth:34
+[29/03 21:00:53.407] [TRACE] [DealSpot] LEGACY MODE spot=dspot_7 district=iron_docks (no pool_allocated)
+[29/03 21:00:53.408] [TRACE] [DealSpot] MISSED: budget=$28, wanted=mdma, none≤$28
+[29/03 21:00:53.408] [DEBUG] [DealSpot] CLIENTS h19: regular:3, addict:1, bulk_dealer:1, vip:1, tourist:1 (total=7)
+[29/03 21:00:53.408] [WARN] [DealSpot] VENTES MANQUÉES h19: mdma:1 (total=1 perdus)
+[29/03 21:00:53.408] [DEBUG] [DealSpot] VENTE h19 | AI Spot - iron_docks | $380 | 7 clients | base=13.6 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:00:53.408] [INFO] [DealSpot] AI Spot - iron_docks — Vente h19: $380, 7 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.89)
+[29/03 21:00:53.408] [DEBUG] [DealSpot] HEAT DECAY AI Spot - iron_docks: 0.4 → 0.0 (-0.4)
+[29/03 21:00:53.408] [TRACE] [DealSpot] TICK h19 | AI Spot - steamworks | dealers:1 | produits:3 (40.6g) | cash:$0
+[29/03 21:00:53.408] [DEBUG] [DealSpot] AI MOD h19 AI Spot - steamworks: base=18.0 time=1.00 heat=0.2 qual=0.81 city=0.98 sat=1.00 mono=1.25
+[29/03 21:00:53.408] [TRACE] [DealSpot] STOCK DISPO: cocaine:33, heroin:45, meth:34
+[29/03 21:00:53.408] [TRACE] [DealSpot] LEGACY MODE spot=dspot_8 district=steamworks (no pool_allocated)
+[29/03 21:00:53.410] [TRACE] [DealSpot] MISSED: budget=$32, wanted=heroin, none≤$32
+[29/03 21:00:53.410] [DEBUG] [DealSpot] CLIENTS h19: regular:1, addict:1, bulk_dealer:1 (total=3)
+[29/03 21:00:53.410] [WARN] [DealSpot] VENTES MANQUÉES h19: heroin:1 (total=1 perdus)
+[29/03 21:00:53.410] [DEBUG] [DealSpot] VENTE h19 | AI Spot - steamworks | $130 | 3 clients | base=13.2 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:00:53.410] [INFO] [DealSpot] AI Spot - steamworks — Vente h19: $130, 3 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.81)
+[29/03 21:00:53.410] [DEBUG] [DealSpot] HEAT DECAY AI Spot - steamworks: 0.2 → 0.0 (-0.4)
+[29/03 21:00:53.410] [TRACE] [DealSpot] TICK h19 | AI Spot - neon_strip | dealers:1 | produits:13 (379.8g) | cash:$0
+[29/03 21:00:53.410] [DEBUG] [DealSpot] AI MOD h19 AI Spot - neon_strip: base=18.0 time=1.00 heat=3.3 qual=0.89 city=0.98 sat=1.00 mono=1.25
+[29/03 21:00:53.410] [TRACE] [DealSpot] STOCK DISPO: mdma:324, ketamine:315, weed:277
+[29/03 21:00:53.410] [TRACE] [DealSpot] LEGACY MODE spot=dspot_9 district=neon_strip (no pool_allocated)
+[29/03 21:00:53.411] [DEBUG] [DealSpot] CLIENTS h19: regular:13, addict:6, bulk_dealer:2, vip:1, tourist:2 (total=24)
+[29/03 21:00:53.411] [DEBUG] [DealSpot] VENTE h19 | AI Spot - neon_strip | $744 | 24 clients | base=20.9 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:00:53.411] [INFO] [DealSpot] AI Spot - neon_strip — Vente h19: $744, 24 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.89)
+[29/03 21:00:53.411] [DEBUG] [DealSpot] HEAT DECAY AI Spot - neon_strip: 3.3 → 2.9 (-0.4)
+[29/03 21:00:53.411] [INFO] [DealSpot] HEAT AI Spot - neon_strip: 2.9 → 4.7 (+1.79) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:00:53.414] [INFO] [DealSpot] RESUPPLY PRODUIT: 2x Weed (1.1g/u, $10/u) → Hall, Immeuble #18 | stock=2000/2000 [TRONQUÉ 704→2]
+[29/03 21:00:53.414] [INFO] [GangApt] DISPATCH: 704x → dspot_14 from auto_bldg_167_F1_U0
+[29/03 21:01:47.234] [DEBUG] [Inventory] ITEM -Sacoche slot=4
+[29/03 21:01:47.901] [INFO] [Gang] SERIALIZE: 6 membres | trésorerie=$457 | 0 territoires | 1 appts
+[29/03 21:01:47.907] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[29/03 21:01:50.380] [INFO] [Navigation] ENTRÉE City (carte stratégique) | district=carte
+[29/03 21:01:50.493] [INFO] [StrategicGrid] Districts reassigned from 13 DistrictZones | 881 cells changed | distribution: { "iron_docks": 124, "the_hollows": 123, "steamworks": 95, "shadow_lane": 76, "vice_alley": 79, "ashfield": 57, "neon_strip": 60, "pearl_district": 40, "the_pit": 99, "market_square": 70, "central_plaza": 124, "crown_heights": 59, "golden_mile": 34 }
+[29/03 21:01:50.494] [INFO] [StrategicGrid] Road footprints: 82 meshes scannées → 559 cellules ROAD / 1040 total
+[29/03 21:01:50.665] [INFO] [City] OVERLAY BUTTONS: Added to canvas_layer (M map mode, 6 buttons)
+[29/03 21:01:50.806] [INFO] [Godot] [GridVisualizer] Initialisé: 1040 cellules rendues
+[29/03 21:03:08.196] [DEBUG] [BuildingPopup] CLOSE: forced visible=false IMMEDIATE
+[29/03 21:03:10.101] [INFO] [Bodyguard] SCENE READY: BuildingLobby | escorts_assigned=0
+[29/03 21:03:10.102] [INFO] [DealSpotNPC] on_scene_ready: type=lobby bldg=auto_bldg_167 floor=-1 apt= → spots=["dspot_14"]
+[29/03 21:03:10.105] [INFO] [DealSpotNPC] PRESENCE BONUS: +60% spawn speed (presence=50%, gerant=true +10%)
+[29/03 21:03:10.105] [INFO] [DealSpotNPC] PREWARM START: 1 spot(s), scene=BuildingLobby
+[29/03 21:03:11.174] [INFO] [DealSpot] PORTE AUTO-OUVERTE: spot actif dans ce lobby
+[29/03 21:03:13.950] [DEBUG] [DealSpotInteraction] Police materials pre-warmed (2 appearances)
+[29/03 21:03:13.950] [DEBUG] [DealSpotInteraction] PATROL TIMER INIT: dspot_14 → 83s (heat=0)
+[29/03 21:03:15.690] [INFO] [DealSpotNPC] PREWARM COMPLETE → spawning staff for 1 spot(s): ["dspot_14"]
+[29/03 21:03:15.690] [INFO] [DealSpotNPC] STAFF SPAWN START: spot=dspot_14 | staff=[role0=["pm_227058_355057300", "pm_229841_3801604840"], role2=["pm_232244_424885085", "pm_234777_2881678259"], role4=player_self] | parent=BuildingLobby
+[29/03 21:03:15.690] [DEBUG] [DealSpotNPC] SKIP NPC pm_227058_355057300 (Dealer) — not scheduled at h19
+[29/03 21:03:15.690] [INFO] [DealSpotNPC] STAFF QUEUED: pm_229841_3801604840 (Dealer) at pos (3.214386, 0.0, -3.355183) (spot=dspot_14)
+[29/03 21:03:15.839] [INFO] [DealSpotNPC] POS RESTORE (disk): dspot_14:0:pm_229841_3801604840 → (3.214386, 0.0, -3.355183)
+[29/03 21:03:15.891] [DEBUG] [DealSpotNPC] SKIP NPC pm_232244_424885085 (Protection) — not scheduled at h19
+[29/03 21:03:15.891] [INFO] [DealSpotNPC] STAFF QUEUED: pm_234777_2881678259 (Protection) at pos (-2.922948, 0.0, 3.551001) (spot=dspot_14)
+[29/03 21:03:16.006] [INFO] [DealSpotNPC] POS RESTORE (disk): dspot_14:2:pm_234777_2881678259 → (-2.922948, 0.0, 3.551001)
+[29/03 21:03:23.750] [TRACE] [PNJ] BUBBLE SKIP: Mathieu Thomas too far (23.5m)
+[29/03 21:03:25.256] [DEBUG] [PNJ] BUBBLE SHOW: 'Rien a signaler, boss' on Ahmed Carvalho
+[29/03 21:03:27.075] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $35 | spot=dspot_14 | rate=1.00
+[29/03 21:03:27.118] [DEBUG] [DealSpotNPC] WALK DIAG: dist=23.7m speed=1.6 eta=14.8s from=(9.026096, 0.0, 33.77005) to=(-0.252129, 0.0, 11.94007) | spot=dspot_14 idx=0
+[29/03 21:03:28.131] [DEBUG] [Banking] CASH +$295 → cash=$449
+[29/03 21:03:28.131] [DEBUG] [DealSpot] CASH SPLIT: $295 joueur + $295 trésorerie
+[29/03 21:03:28.134] [INFO] [DealSpot] COLLECTE CASH: $590 de Hall, Immeuble #18 | restant=$0
+[29/03 21:03:36.809] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 60.0 → 58.0
+[29/03 21:03:36.809] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 30.0 → 31.5
+[29/03 21:03:36.809] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 40.0 → 42.0
+[29/03 21:03:36.809] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 20.0 → 21.0
+[29/03 21:03:36.812] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=20 | demand_total=2.8 players=[1]
+[29/03 21:03:36.812] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.420 customers=0.5 → 1 spots
+[29/03 21:03:36.812] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.420 customers=0.3 → 1 spots
+[29/03 21:03:36.812] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.420 customers=0.1 → 1 spots
+[29/03 21:03:36.812] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.420 customers=0.1 → 1 spots
+[29/03 21:03:36.812] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.420 customers=0.2 → 1 spots
+[29/03 21:03:36.812] [DEBUG] [DealSpot] AI AUTO-COLLECT: 12 spots, $6433 total
+[29/03 21:03:36.813] [INFO] [DealSpot] AI UPGRADE: Table de presentation niv.1 at AI Spot - golden_mile (famiglia_moretti) — $1500 (rev=$1889/day)
+[29/03 21:03:36.813] [TRACE] [DealSpot] TICK h20 | AI Spot - the_pit | dealers:1 | produits:11 (252.1g) | cash:$0
+[29/03 21:03:36.813] [TRACE] [DealSpot] STOCK DISPO: crack:277, cocaine:193, weed:192
+[29/03 21:03:36.813] [TRACE] [DealSpot] LEGACY MODE spot=dspot_1 district=the_pit (no pool_allocated)
+[29/03 21:03:36.815] [DEBUG] [DealSpot] CLIENTS h20: regular:19, addict:9, bulk_dealer:3, vip:1, tourist:3 (total=35)
+[29/03 21:03:36.815] [DEBUG] [DealSpot] VENTE h20 | AI Spot - the_pit | $841 | 35 clients | base=28.9 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.86 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:03:36.815] [DEBUG] [DealSpot] HEAT DECAY AI Spot - the_pit: 5.6 → 5.2 (-0.4)
+[29/03 21:03:36.815] [INFO] [DealSpot] HEAT AI Spot - the_pit: 5.2 → 8.6 (+3.43) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:03:36.815] [TRACE] [DealSpot] TICK h20 | AI Spot - vice_alley | dealers:1 | produits:14 (209.7g) | cash:$0
+[29/03 21:03:36.815] [TRACE] [DealSpot] STOCK DISPO: ketamine:276, mdma:207, cocaine:252
+[29/03 21:03:36.815] [TRACE] [DealSpot] LEGACY MODE spot=dspot_10 district=vice_alley (no pool_allocated)
+[29/03 21:03:36.816] [DEBUG] [DealSpot] CLIENTS h20: regular:10, addict:5, bulk_dealer:2, vip:1, tourist:2 (total=20)
+[29/03 21:03:36.816] [DEBUG] [DealSpot] VENTE h20 | AI Spot - vice_alley | $765 | 20 clients | base=24.4 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.72 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:03:36.816] [DEBUG] [DealSpot] HEAT DECAY AI Spot - vice_alley: 3.4 → 2.9 (-0.4)
+[29/03 21:03:36.818] [INFO] [DealSpot] HEAT AI Spot - vice_alley: 2.9 → 4.9 (+1.95) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:03:36.818] [TRACE] [DealSpot] TICK h20 | AI Spot - market_square | dealers:1 | produits:3 (47.2g) | cash:$0
+[29/03 21:03:36.818] [TRACE] [DealSpot] STOCK DISPO: heroin:17, ketamine:30, mdma:69
+[29/03 21:03:36.818] [TRACE] [DealSpot] LEGACY MODE spot=dspot_11 district=market_square (no pool_allocated)
+[29/03 21:03:36.819] [TRACE] [DealSpot] MISSED: budget=$15, wanted=crack, none≤$15
+[29/03 21:03:36.819] [DEBUG] [DealSpot] CLIENTS h20: regular:7, addict:3, bulk_dealer:1, vip:1, tourist:1 (total=13)
+[29/03 21:03:36.819] [WARN] [DealSpot] VENTES MANQUÉES h20: crack:1 (total=1 perdus)
+[29/03 21:03:36.819] [DEBUG] [DealSpot] VENTE h20 | AI Spot - market_square | $745 | 13 clients | base=24.2 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.71 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:03:36.819] [DEBUG] [DealSpot] HEAT DECAY AI Spot - market_square: 1.9 → 1.4 (-0.4)
+[29/03 21:03:36.819] [INFO] [DealSpot] HEAT AI Spot - market_square: 1.4 → 2.8 (+1.36) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:03:36.819] [TRACE] [DealSpot] TICK h20 | AI Spot - pearl_district | dealers:1 | produits:3 (171.2g) | cash:$0
+[29/03 21:03:36.819] [TRACE] [DealSpot] STOCK DISPO: crack:79, hashish:44, weed:17
+[29/03 21:03:36.819] [TRACE] [DealSpot] LEGACY MODE spot=dspot_12 district=pearl_district (no pool_allocated)
+[29/03 21:03:36.819] [DEBUG] [DealSpot] CLIENTS h20: regular:4, addict:2, bulk_dealer:1, vip:1, tourist:1 (total=9)
+[29/03 21:03:36.819] [DEBUG] [DealSpot] VENTE h20 | AI Spot - pearl_district | $187 | 9 clients | base=18.9 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.83 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:03:36.819] [DEBUG] [DealSpot] HEAT DECAY AI Spot - pearl_district: 1.1 → 0.7 (-0.4)
+[29/03 21:03:36.819] [INFO] [DealSpot] HEAT AI Spot - pearl_district: 0.7 → 1.5 (+0.84) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:03:36.821] [TRACE] [DealSpot] TICK h20 | AI Spot - shadow_lane | dealers:0 | produits:12 (352.2g) | cash:$0
+[29/03 21:03:36.821] [DEBUG] [DealSpot] TICK h20 | Hall, Immeuble #18 | dealers:2 | produits:7 (1999.7g) | cash:$0 | playerPresent:true
+[29/03 21:03:36.821] [TRACE] [DealSpot] TICK h20 | AI Spot - ashfield | dealers:1 | produits:11 (174.2g) | cash:$0
+[29/03 21:03:36.821] [TRACE] [DealSpot] STOCK DISPO: crack:29, cocaine:266, mdma:240, weed:30
+[29/03 21:03:36.821] [TRACE] [DealSpot] LEGACY MODE spot=dspot_2 district=ashfield (no pool_allocated)
+[29/03 21:03:36.822] [DEBUG] [DealSpot] CLIENTS h20: regular:13, addict:6, bulk_dealer:2, vip:1, tourist:2 (total=24)
+[29/03 21:03:36.822] [DEBUG] [DealSpot] VENTE h20 | AI Spot - ashfield | $514 | 24 clients | base=21.3 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.87 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:03:36.822] [DEBUG] [DealSpot] HEAT DECAY AI Spot - ashfield: 3.5 → 3.1 (-0.4)
+[29/03 21:03:36.822] [INFO] [DealSpot] HEAT AI Spot - ashfield: 3.1 → 5.8 (+2.70) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:03:36.822] [TRACE] [DealSpot] TICK h20 | AI Spot - shadow_lane | dealers:1 | produits:3 (187.2g) | cash:$0
+[29/03 21:03:36.822] [TRACE] [DealSpot] STOCK DISPO: cocaine:19, crack:19, weed:56
+[29/03 21:03:36.822] [TRACE] [DealSpot] LEGACY MODE spot=dspot_3 district=shadow_lane (no pool_allocated)
+[29/03 21:03:36.822] [DEBUG] [DealSpot] CLIENTS h20: regular:4, addict:2, bulk_dealer:1, vip:1, tourist:1 (total=9)
+[29/03 21:03:36.822] [DEBUG] [DealSpot] VENTE h20 | AI Spot - shadow_lane | $417 | 9 clients | base=18.2 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:03:36.822] [DEBUG] [DealSpot] HEAT DECAY AI Spot - shadow_lane: 1.0 → 0.5 (-0.4)
+[29/03 21:03:36.822] [INFO] [DealSpot] HEAT AI Spot - shadow_lane: 0.5 → 1.7 (+1.13) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:03:36.825] [TRACE] [DealSpot] TICK h20 | AI Spot - golden_mile | dealers:1 | produits:3 (57.9g) | cash:$0
+[29/03 21:03:36.825] [TRACE] [DealSpot] STOCK DISPO: cocaine:21, hashish:45, heroin:18
+[29/03 21:03:36.825] [TRACE] [DealSpot] LEGACY MODE spot=dspot_4 district=golden_mile (no pool_allocated)
+[29/03 21:03:36.825] [DEBUG] [DealSpot] CLIENTS h20: regular:6, addict:3, bulk_dealer:1, vip:1, tourist:1 (total=12)
+[29/03 21:03:36.825] [DEBUG] [DealSpot] VENTE h20 | AI Spot - golden_mile | $814 | 12 clients | base=26.8 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:03:36.825] [DEBUG] [DealSpot] HEAT DECAY AI Spot - golden_mile: 1.1 → 0.7 (-0.4)
+[29/03 21:03:36.825] [INFO] [DealSpot] HEAT AI Spot - golden_mile: 0.7 → 2.1 (+1.46) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:03:36.825] [TRACE] [DealSpot] TICK h20 | AI Spot - central_plaza | dealers:1 | produits:13 (426.5g) | cash:$0
+[29/03 21:03:36.826] [TRACE] [DealSpot] STOCK DISPO: heroin:54, cocaine:257, weed:310, mdma:318
+[29/03 21:03:36.826] [TRACE] [DealSpot] LEGACY MODE spot=dspot_5 district=central_plaza (no pool_allocated)
+[29/03 21:03:36.826] [DEBUG] [DealSpot] CLIENTS h20: regular:8, addict:4, bulk_dealer:1, vip:1, tourist:1 (total=15)
+[29/03 21:03:36.826] [DEBUG] [DealSpot] VENTE h20 | AI Spot - central_plaza | $769 | 15 clients | base=25.3 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:03:36.826] [DEBUG] [DealSpot] HEAT DECAY AI Spot - central_plaza: 2.5 → 2.0 (-0.4)
+[29/03 21:03:36.826] [INFO] [DealSpot] HEAT AI Spot - central_plaza: 2.0 → 3.6 (+1.59) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:03:36.828] [TRACE] [DealSpot] TICK h20 | AI Spot - crown_heights | dealers:1 | produits:3 (82.7g) | cash:$0
+[29/03 21:03:36.828] [TRACE] [DealSpot] STOCK DISPO: cocaine:74, hashish:51, heroin:43
+[29/03 21:03:36.828] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=20 | demand_total=2.8 players=[1]
+[29/03 21:03:36.828] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.428 customers=0.5 → 1 spots
+[29/03 21:03:36.828] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.428 customers=0.3 → 1 spots
+[29/03 21:03:36.828] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.428 customers=0.1 → 1 spots
+[29/03 21:03:36.828] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.428 customers=0.1 → 1 spots
+[29/03 21:03:36.828] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.428 customers=0.2 → 1 spots
+[29/03 21:03:36.828] [TRACE] [DealSpot] LEGACY MODE spot=dspot_6 district=crown_heights (no pool_allocated)
+[29/03 21:03:36.828] [DEBUG] [DealSpot] CLIENTS h20: regular:1, addict:1, bulk_dealer:1, vip:1 (total=4)
+[29/03 21:03:36.828] [DEBUG] [DealSpot] VENTE h20 | AI Spot - crown_heights | $307 | 4 clients | base=15.7 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.73 morale=1.00 alert=1.00 flow=1.30
+[29/03 21:03:36.828] [DEBUG] [DealSpot] HEAT DECAY AI Spot - crown_heights: 0.2 → 0.0 (-0.4)
+[29/03 21:03:36.829] [TRACE] [DealSpot] TICK h20 | AI Spot - iron_docks | dealers:1 | produits:3 (70.6g) | cash:$0
+[29/03 21:03:36.829] [TRACE] [DealSpot] STOCK DISPO: cocaine:37, heroin:77, meth:34
+[29/03 21:03:36.829] [TRACE] [DealSpot] LEGACY MODE spot=dspot_7 district=iron_docks (no pool_allocated)
+[29/03 21:03:36.829] [DEBUG] [DealSpot] CLIENTS h20: regular:3, addict:1, bulk_dealer:1 (total=5)
+[29/03 21:03:36.829] [DEBUG] [DealSpot] VENTE h20 | AI Spot - iron_docks | $430 | 5 clients | base=17.5 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:03:36.829] [DEBUG] [DealSpot] HEAT DECAY AI Spot - iron_docks: 0.5 → 0.0 (-0.4)
+[29/03 21:03:36.829] [INFO] [DealSpot] HEAT AI Spot - iron_docks: 0.0 → 0.6 (+0.64) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:03:36.831] [TRACE] [DealSpot] TICK h20 | AI Spot - steamworks | dealers:1 | produits:3 (40.1g) | cash:$0
+[29/03 21:03:36.831] [TRACE] [DealSpot] STOCK DISPO: cocaine:33, heroin:43, meth:34
+[29/03 21:03:36.831] [TRACE] [DealSpot] LEGACY MODE spot=dspot_8 district=steamworks (no pool_allocated)
+[29/03 21:03:36.831] [TRACE] [DealSpot] MISSED: budget=$32, wanted=hashish, none≤$32
+[29/03 21:03:36.831] [TRACE] [DealSpot] MISSED: budget=$29, wanted=cocaine, none≤$29
+[29/03 21:03:36.831] [DEBUG] [DealSpot] CLIENTS h20: regular:1, addict:1 (total=2)
+[29/03 21:03:36.831] [WARN] [DealSpot] VENTES MANQUÉES h20: hashish:1, cocaine:1 (total=2 perdus)
+[29/03 21:03:36.831] [TRACE] [DealSpot] TICK h20 | AI Spot - neon_strip | dealers:1 | produits:13 (351.2g) | cash:$0
+[29/03 21:03:36.831] [TRACE] [DealSpot] STOCK DISPO: mdma:323, ketamine:315, weed:254
+[29/03 21:03:36.831] [TRACE] [DealSpot] LEGACY MODE spot=dspot_9 district=neon_strip (no pool_allocated)
+[29/03 21:03:36.832] [DEBUG] [DealSpot] CLIENTS h20: regular:13, addict:6, bulk_dealer:2, vip:1, tourist:2 (total=24)
+[29/03 21:03:36.832] [DEBUG] [DealSpot] VENTE h20 | AI Spot - neon_strip | $697 | 24 clients | base=26.9 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:03:36.832] [DEBUG] [DealSpot] HEAT DECAY AI Spot - neon_strip: 4.7 → 4.2 (-0.4)
+[29/03 21:03:36.832] [INFO] [DealSpot] HEAT AI Spot - neon_strip: 4.2 → 6.7 (+2.50) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:03:41.717] [DEBUG] [PNJ] BUBBLE SHOW: 'J'ai un mauvais pressentiment' on Ahmed Carvalho
+[29/03 21:03:42.217] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $95 | spot=dspot_14 | rate=1.00
+[29/03 21:03:42.259] [DEBUG] [DealSpotNPC] WALK DIAG: dist=22.3m speed=1.6 eta=14.0s from=(-15.89214, 0.0, 28.74004) to=(-0.10108, 0.0, 12.94007) | spot=dspot_14 idx=1
+[29/03 21:03:44.217] [DEBUG] [PNJ] BUBBLE SHOW: 'T'inquiète, c'est le stress' on Mathieu Thomas
+[29/03 21:03:51.714] [DEBUG] [PNJ] BUBBLE SHOW: 'Hey' on Oscar
+[29/03 21:03:53.124] [DEBUG] [PNJ] BUBBLE SHOW: 'Voila: hasch, 3.5g la dose — 20$ — test et approuv' on Mathieu Thomas
+[29/03 21:03:57.690] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $29 | spot=dspot_14 | rate=1.00
+[29/03 21:03:57.733] [DEBUG] [DealSpotNPC] WALK DIAG: dist=23.2m speed=2.2 eta=10.5s from=(-15.68797, 0.0, 30.57435) to=(0.450175, 0.0, 13.94007) | spot=dspot_14 idx=2
+[29/03 21:03:58.677] [DEBUG] [PNJ] BUBBLE SHOW: 'Passe une bonne soiree' on Mathieu Thomas
+[29/03 21:03:59.378] [DEBUG] [DealSpotNPC] VENTE NPC: +$30 | cash_spot=$30 | spot=dspot_14
+[29/03 21:03:59.378] [TRACE] [DealSpotNPC] CHANGE: -$5 (budget non-dépensé) | spot=dspot_14
+[29/03 21:03:59.684] [DEBUG] [PNJ] BUBBLE SHOW: 'Tchuss' on Oscar
+[29/03 21:04:00.017] [DEBUG] [PNJ] BUBBLE SHOW: 'Vas-y, pas besoin de te checker.' on Ahmed Carvalho
+[29/03 21:04:09.243] [DEBUG] [PNJ] BUBBLE SHOW: 'Yo, on se connait non?' on Giulia
+[29/03 21:04:10.644] [DEBUG] [PNJ] BUBBLE SHOW: 'Regarde ca: teuch, 8.6g en sachet zip — 50$ piece' on Mathieu Thomas
+[29/03 21:04:12.839] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $37 | spot=dspot_14 | rate=1.00
+[29/03 21:04:12.881] [DEBUG] [DealSpotNPC] WALK DIAG: dist=16.8m speed=1.6 eta=10.5s from=(-15.79435, 0.0, 9.692542) to=(0.450175, 0.0, 13.94007) | spot=dspot_14 idx=2
+[29/03 21:04:16.207] [DEBUG] [PNJ] BUBBLE SHOW: 'Merci la famille' on Mathieu Thomas
+[29/03 21:04:16.907] [DEBUG] [DealSpotNPC] VENTE NPC: +$90 | cash_spot=$120 | spot=dspot_14
+[29/03 21:04:16.907] [TRACE] [DealSpotNPC] CHANGE: -$5 (budget non-dépensé) | spot=dspot_14
+[29/03 21:04:17.213] [DEBUG] [PNJ] BUBBLE SHOW: 'Tchuss' on Giulia
+[29/03 21:04:18.657] [DEBUG] [Banking] CASH +$60 → cash=$509
+[29/03 21:04:18.657] [DEBUG] [DealSpot] CASH SPLIT: $60 joueur + $60 trésorerie
+[29/03 21:04:18.660] [INFO] [DealSpot] COLLECTE CASH: $120 de Hall, Immeuble #18 | restant=$0
+[29/03 21:04:21.115] [WARN] [Memory] ⚠️ Mémoire: 893.12 MB (+441.34 MB) - POSSIBLE MEMORY LEAK
+[29/03 21:04:21.127] [INFO] [DealSpotNPC] POOL STATS: created=20 reused=6 peak=6 available=0 reuse_rate=23%
+[29/03 21:04:21.447] [DEBUG] [PNJ] BUBBLE SHOW: 'Écarte les bras, vite.' on Ahmed Carvalho
+[29/03 21:04:23.510] [DEBUG] [PNJ] BUBBLE SHOW: 'Ok, il est safe.' on Ahmed Carvalho
+[29/03 21:04:26.940] [DEBUG] [PNJ] BUBBLE SHOW: 'J'ai les thunes' on Pierre
+[29/03 21:04:27.122] [INFO] [Gang] SERIALIZE: 6 membres | trésorerie=$791 | 0 territoires | 1 appts
+[29/03 21:04:27.128] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[29/03 21:04:27.744] [DEBUG] [PNJ] BUBBLE SHOW: 'Regarde ca: barette, 3.5g en sachet zip — 20$ piec' on Mathieu Thomas
+[29/03 21:04:27.987] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $90 | spot=dspot_14 | rate=1.00
+[29/03 21:04:28.029] [DEBUG] [DealSpotNPC] WALK DIAG: dist=21.9m speed=1.6 eta=13.7s from=(-16.53581, 0.0, 27.75707) to=(0.450175, 0.0, 13.94007) | spot=dspot_14 idx=2
+[29/03 21:04:32.881] [DEBUG] [PNJ] BUBBLE SHOW: 'Bonne route frere' on Mathieu Thomas
+[29/03 21:04:33.283] [DEBUG] [DealSpotNPC] VENTE NPC: +$20 | cash_spot=$20 | spot=dspot_14
+[29/03 21:04:33.285] [TRACE] [DealSpotNPC] CHANGE: -$9 (budget non-dépensé) | spot=dspot_14
+[29/03 21:04:33.390] [DEBUG] [PNJ] BUBBLE SHOW: 'Salut' on Pierre
+[29/03 21:04:33.723] [DEBUG] [PNJ] BUBBLE SHOW: 'Vas-y, pas besoin de te checker.' on Ahmed Carvalho
+[29/03 21:04:34.374] [DEBUG] [Banking] CASH +$10 → cash=$519
+[29/03 21:04:34.375] [DEBUG] [DealSpot] CASH SPLIT: $10 joueur + $10 trésorerie
+[29/03 21:04:34.375] [INFO] [DealSpot] COLLECTE CASH: $20 de Hall, Immeuble #18 | restant=$0
+[29/03 21:04:43.010] [DEBUG] [PNJ] BUBBLE SHOW: 'Eh salut toi' on Kévin
+[29/03 21:04:43.135] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $85 | spot=dspot_14 | rate=1.00
+[29/03 21:04:43.177] [DEBUG] [DealSpotNPC] WALK DIAG: dist=15.2m speed=1.6 eta=9.5s from=(14.64839, 0.0, 8.500581) to=(0.450175, 0.0, 13.94007) | spot=dspot_14 idx=2
+[29/03 21:04:44.413] [DEBUG] [PNJ] BUBBLE SHOW: 'J'ai du marron frais: 3.5g — 20$ c'est honnete' on Mathieu Thomas
+[29/03 21:04:49.967] [DEBUG] [PNJ] BUBBLE SHOW: 'T'es le bienvenu' on Mathieu Thomas
+[29/03 21:04:50.668] [DEBUG] [DealSpotNPC] VENTE NPC: +$30 | cash_spot=$30 | spot=dspot_14
+[29/03 21:04:50.668] [TRACE] [DealSpotNPC] CHANGE: -$7 (budget non-dépensé) | spot=dspot_14
+[29/03 21:04:50.973] [DEBUG] [PNJ] BUBBLE SHOW: 'Merci, a+' on Kévin
+[29/03 21:04:51.306] [DEBUG] [PNJ] BUBBLE SHOW: 'Vas-y, pas besoin de te checker.' on Ahmed Carvalho
+[29/03 21:04:54.619] [INFO] [Gang] SERIALIZE: 6 membres | trésorerie=$798 | 0 territoires | 1 appts
+[29/03 21:04:54.625] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[29/03 21:04:58.299] [DEBUG] [DealSpotNPC] CLIENT SPAWN: tourist $21 | spot=dspot_14 | rate=1.00
+[29/03 21:04:58.339] [DEBUG] [DealSpotNPC] WALK DIAG: dist=21.1m speed=1.1 eta=19.2s from=(-14.66612, 0.0, 28.63334) to=(0.450175, 0.0, 13.94007) | spot=dspot_14 idx=2
+[29/03 21:05:00.588] [DEBUG] [PNJ] BUBBLE SHOW: 'Wesh wesh' on Sabrina
+[29/03 21:05:01.990] [DEBUG] [PNJ] BUBBLE SHOW: 'Du marron propre: 8.6g — 50$ et c'est cadeau' on Mathieu Thomas
+[29/03 21:05:03.632] [INFO] [DealSpotNPC] EXIT SELL: 1 client(s) finalisés ($21) — joueur quitte le spot
+[29/03 21:05:03.634] [INFO] [DealSpotNPC] EXIT SELL (transit): $174 pending finalized at dspot_14
+[29/03 21:05:03.637] [INFO] [DealSpotNPC] DESPAWN ALL: 2 staff, 0 clients en queue | scène=BuildingLobby
+[29/03 21:05:04.730] [INFO] [Navigation] ENTRÉE City (carte stratégique) | district=carte
+[29/03 21:05:04.747] [INFO] [StrategicGrid] Districts already assigned — skipping reassignment
+[29/03 21:05:04.747] [INFO] [StrategicGrid] Road footprints already applied — skipping scan
+[29/03 21:05:04.864] [INFO] [City] OVERLAY BUTTONS: Added to canvas_layer (M map mode, 6 buttons)
+[29/03 21:05:04.878] [INFO] [Godot] [GridVisualizer] Réutilisé (cached): 1040 cellules
+[29/03 21:05:05.450] [DEBUG] [DealSpotNPC] VENTE ANNULÉE: -$90 (client parti sans acheter) | spot=dspot_14
+[29/03 21:06:08.171] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 58.0 → 56.0
+[29/03 21:06:08.171] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 31.5 → 33.0
+[29/03 21:06:08.171] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 42.0 → 44.0
+[29/03 21:06:08.171] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 21.0 → 22.0
+[29/03 21:06:08.173] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=21 | demand_total=2.5 players=[1]
+[29/03 21:06:08.173] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.435 customers=0.5 → 1 spots
+[29/03 21:06:08.173] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.435 customers=0.2 → 1 spots
+[29/03 21:06:08.173] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.435 customers=0.1 → 1 spots
+[29/03 21:06:08.173] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.435 customers=0.1 → 1 spots
+[29/03 21:06:08.173] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.435 customers=0.1 → 1 spots
+[29/03 21:06:08.174] [DEBUG] [DealSpot] AI AUTO-COLLECT: 11 spots, $6486 total
+[29/03 21:06:08.174] [INFO] [DealSpot] AI UPGRADE: Table de presentation niv.1 at AI Spot - iron_docks (cartel_mendoza) — $1500 (rev=$1430/day)
+[29/03 21:06:08.174] [TRACE] [DealSpot] TICK h21 | AI Spot - the_pit | dealers:1 | produits:11 (229.8g) | cash:$0
+[29/03 21:06:08.174] [TRACE] [DealSpot] STOCK DISPO: crack:273, cocaine:181, weed:173
+[29/03 21:06:08.174] [TRACE] [DealSpot] LEGACY MODE spot=dspot_1 district=the_pit (no pool_allocated)
+[29/03 21:06:08.176] [DEBUG] [DealSpot] CLIENTS h21: regular:17, addict:8, bulk_dealer:3, vip:1, tourist:3 (total=32)
+[29/03 21:06:08.176] [DEBUG] [DealSpot] VENTE h21 | AI Spot - the_pit | $961 | 32 clients | base=28.8 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.86 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:06:08.177] [DEBUG] [DealSpot] HEAT DECAY AI Spot - the_pit: 8.6 → 8.1 (-0.4)
+[29/03 21:06:08.180] [INFO] [DealSpot] HEAT AI Spot - the_pit: 8.1 → 11.5 (+3.36) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:06:08.180] [TRACE] [DealSpot] TICK h21 | AI Spot - vice_alley | dealers:1 | produits:14 (201.7g) | cash:$0
+[29/03 21:06:08.180] [TRACE] [DealSpot] STOCK DISPO: ketamine:275, mdma:206, cocaine:234
+[29/03 21:06:08.180] [TRACE] [DealSpot] LEGACY MODE spot=dspot_10 district=vice_alley (no pool_allocated)
+[29/03 21:06:08.181] [DEBUG] [DealSpot] CLIENTS h21: regular:9, addict:4, bulk_dealer:1, vip:1, tourist:1 (total=16)
+[29/03 21:06:08.181] [DEBUG] [DealSpot] VENTE h21 | AI Spot - vice_alley | $549 | 16 clients | base=24.2 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.72 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:06:08.183] [DEBUG] [DealSpot] HEAT DECAY AI Spot - vice_alley: 4.9 → 4.4 (-0.4)
+[29/03 21:06:08.183] [INFO] [DealSpot] HEAT AI Spot - vice_alley: 4.4 → 6.0 (+1.57) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:06:08.183] [TRACE] [DealSpot] TICK h21 | AI Spot - market_square | dealers:1 | produits:3 (42.0g) | cash:$0
+[29/03 21:06:08.183] [TRACE] [DealSpot] STOCK DISPO: heroin:11, ketamine:25, mdma:64
+[29/03 21:06:08.183] [TRACE] [DealSpot] LEGACY MODE spot=dspot_11 district=market_square (no pool_allocated)
+[29/03 21:06:08.183] [DEBUG] [DealSpot] CLIENTS h21: regular:7, addict:3, bulk_dealer:1, tourist:1 (total=12)
+[29/03 21:06:08.184] [DEBUG] [DealSpot] VENTE h21 | AI Spot - market_square | $718 | 12 clients | base=24.3 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.71 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:06:08.184] [DEBUG] [DealSpot] HEAT DECAY AI Spot - market_square: 2.8 → 2.3 (-0.4)
+[29/03 21:06:08.184] [INFO] [DealSpot] HEAT AI Spot - market_square: 2.3 → 3.6 (+1.28) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:06:08.184] [TRACE] [DealSpot] TICK h21 | AI Spot - pearl_district | dealers:1 | produits:3 (159.4g) | cash:$0
+[29/03 21:06:08.184] [TRACE] [DealSpot] STOCK DISPO: crack:78, hashish:42, weed:11
+[29/03 21:06:08.184] [TRACE] [DealSpot] LEGACY MODE spot=dspot_12 district=pearl_district (no pool_allocated)
+[29/03 21:06:08.184] [DEBUG] [DealSpot] CLIENTS h21: regular:4, addict:2, bulk_dealer:1, tourist:1 (total=8)
+[29/03 21:06:08.184] [DEBUG] [DealSpot] VENTE h21 | AI Spot - pearl_district | $296 | 8 clients | base=18.9 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.83 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:06:08.184] [DEBUG] [DealSpot] HEAT DECAY AI Spot - pearl_district: 1.5 → 1.1 (-0.4)
+[29/03 21:06:08.184] [INFO] [DealSpot] HEAT AI Spot - pearl_district: 1.1 → 2.1 (+0.99) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:06:08.184] [TRACE] [DealSpot] TICK h21 | AI Spot - shadow_lane | dealers:0 | produits:12 (352.2g) | cash:$0
+[29/03 21:06:08.184] [DEBUG] [DealSpot] TICK h21 | Hall, Immeuble #18 | dealers:2 | produits:7 (1970.3g) | cash:$225 | playerPresent:false
+[29/03 21:06:08.184] [DEBUG] [DealSpot] STOCK DISPO: hashish:323, weed:764
+[29/03 21:06:08.184] [INFO] [DealSpot] POOL MODE ACTIVE spot=dspot_14 district=crown_heights | segments=[0, 1, 2, 3, 4] total_allocated=1.1
+[29/03 21:06:08.184] [TRACE] [DealSpot] SALE: prod_3 1x~$10=$10 hashish (budget=$19, sat=54%)
+[29/03 21:06:08.184] [DEBUG] [DealSpot] CLIENTS h21: addict:1 (total=1)
+[29/03 21:06:08.184] [DEBUG] [DealSpot] VENTE h21 | Hall, Immeuble #18 | $11 | 1 clients | base=16.1 time=1.00 bg=0.92 weath=1.00 terr=1.00 qual=0.97 morale=1.00 alert=1.00 flow=1.20
+[29/03 21:06:08.184] [DEBUG] [DealSpot] HEAT DECAY Hall, Immeuble #18: 0.1 → 0.0 (-0.3)
+[29/03 21:06:08.186] [TRACE] [DealSpot] TICK h21 | AI Spot - ashfield | dealers:1 | produits:9 (160.7g) | cash:$0
+[29/03 21:06:08.186] [TRACE] [DealSpot] STOCK DISPO: crack:27, cocaine:256, mdma:232, weed:21
+[29/03 21:06:08.186] [TRACE] [DealSpot] LEGACY MODE spot=dspot_2 district=ashfield (no pool_allocated)
+[29/03 21:06:08.187] [DEBUG] [DealSpot] CLIENTS h21: regular:12, addict:6, bulk_dealer:2, vip:1, tourist:2 (total=23)
+[29/03 21:06:08.187] [DEBUG] [DealSpot] VENTE h21 | AI Spot - ashfield | $675 | 23 clients | base=21.3 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.87 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:06:08.187] [DEBUG] [DealSpot] HEAT DECAY AI Spot - ashfield: 5.8 → 5.3 (-0.4)
+[29/03 21:06:08.187] [INFO] [DealSpot] HEAT AI Spot - ashfield: 5.3 → 8.1 (+2.82) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:06:08.187] [TRACE] [DealSpot] TICK h21 | AI Spot - shadow_lane | dealers:1 | produits:3 (172.8g) | cash:$0
+[29/03 21:06:08.187] [TRACE] [DealSpot] STOCK DISPO: cocaine:8, crack:17, weed:54
+[29/03 21:06:08.187] [TRACE] [DealSpot] LEGACY MODE spot=dspot_3 district=shadow_lane (no pool_allocated)
+[29/03 21:06:08.187] [DEBUG] [DealSpot] CLIENTS h21: regular:3, addict:1, bulk_dealer:1, vip:1, tourist:1 (total=7)
+[29/03 21:06:08.187] [DEBUG] [DealSpot] VENTE h21 | AI Spot - shadow_lane | $308 | 7 clients | base=18.3 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:06:08.188] [DEBUG] [DealSpot] HEAT DECAY AI Spot - shadow_lane: 1.7 → 1.2 (-0.4)
+[29/03 21:06:08.188] [INFO] [DealSpot] HEAT AI Spot - shadow_lane: 1.2 → 2.1 (+0.88) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:06:08.188] [TRACE] [DealSpot] TICK h21 | AI Spot - golden_mile | dealers:1 | produits:3 (43.4g) | cash:$0
+[29/03 21:06:08.188] [TRACE] [DealSpot] STOCK DISPO: cocaine:17, hashish:33, heroin:16
+[29/03 21:06:08.188] [TRACE] [DealSpot] LEGACY MODE spot=dspot_4 district=golden_mile (no pool_allocated)
+[29/03 21:06:08.188] [DEBUG] [DealSpot] CLIENTS h21: regular:5, addict:2, bulk_dealer:1, vip:1, tourist:1 (total=10)
+[29/03 21:06:08.188] [DEBUG] [DealSpot] VENTE h21 | AI Spot - golden_mile | $648 | 10 clients | base=26.6 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:06:08.190] [DEBUG] [DealSpot] HEAT DECAY AI Spot - golden_mile: 2.1 → 1.7 (-0.4)
+[29/03 21:06:08.190] [INFO] [DealSpot] HEAT AI Spot - golden_mile: 1.7 → 2.9 (+1.17) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:06:08.190] [TRACE] [DealSpot] TICK h21 | AI Spot - central_plaza | dealers:1 | produits:13 (417.5g) | cash:$0
+[29/03 21:06:08.190] [TRACE] [DealSpot] STOCK DISPO: heroin:49, cocaine:248, weed:307, mdma:318
+[29/03 21:06:08.190] [TRACE] [DealSpot] LEGACY MODE spot=dspot_5 district=central_plaza (no pool_allocated)
+[29/03 21:06:08.190] [DEBUG] [DealSpot] CLIENTS h21: regular:8, addict:4, bulk_dealer:1, tourist:1 (total=14)
+[29/03 21:06:08.190] [DEBUG] [DealSpot] VENTE h21 | AI Spot - central_plaza | $590 | 14 clients | base=25.1 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:06:08.190] [DEBUG] [DealSpot] HEAT DECAY AI Spot - central_plaza: 3.6 → 3.2 (-0.4)
+[29/03 21:06:08.190] [INFO] [DealSpot] HEAT AI Spot - central_plaza: 3.2 → 4.8 (+1.69) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:06:08.190] [TRACE] [DealSpot] TICK h21 | AI Spot - crown_heights | dealers:1 | produits:3 (75.7g) | cash:$0
+[29/03 21:06:08.190] [TRACE] [DealSpot] STOCK DISPO: cocaine:73, hashish:45, heroin:42
+[29/03 21:06:08.190] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=21 | demand_total=2.5 players=[1]
+[29/03 21:06:08.190] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.439 customers=0.5 → 1 spots
+[29/03 21:06:08.190] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.439 customers=0.2 → 1 spots
+[29/03 21:06:08.190] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.439 customers=0.1 → 1 spots
+[29/03 21:06:08.191] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.439 customers=0.1 → 1 spots
+[29/03 21:06:08.191] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.439 customers=0.1 → 1 spots
+[29/03 21:06:08.191] [TRACE] [DealSpot] LEGACY MODE spot=dspot_6 district=crown_heights (no pool_allocated)
+[29/03 21:06:08.191] [DEBUG] [DealSpot] CLIENTS h21: regular:1, addict:1 (total=2)
+[29/03 21:06:08.191] [DEBUG] [DealSpot] VENTE h21 | AI Spot - crown_heights | $97 | 2 clients | base=15.7 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.73 morale=1.00 alert=1.00 flow=1.30
+[29/03 21:06:08.191] [DEBUG] [DealSpot] HEAT DECAY AI Spot - crown_heights: 0.5 → 0.0 (-0.4)
+[29/03 21:06:08.191] [TRACE] [DealSpot] TICK h21 | AI Spot - iron_docks | dealers:1 | produits:3 (66.1g) | cash:$0
+[29/03 21:06:08.191] [TRACE] [DealSpot] STOCK DISPO: cocaine:29, heroin:76, meth:34
+[29/03 21:06:08.191] [TRACE] [DealSpot] LEGACY MODE spot=dspot_7 district=iron_docks (no pool_allocated)
+[29/03 21:06:08.193] [DEBUG] [DealSpot] CLIENTS h21: regular:3, addict:1, bulk_dealer:1, tourist:1 (total=6)
+[29/03 21:06:08.193] [DEBUG] [DealSpot] VENTE h21 | AI Spot - iron_docks | $300 | 6 clients | base=17.6 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:06:08.193] [DEBUG] [DealSpot] HEAT DECAY AI Spot - iron_docks: 0.6 → 0.2 (-0.4)
+[29/03 21:06:08.193] [INFO] [DealSpot] HEAT AI Spot - iron_docks: 0.2 → 0.8 (+0.64) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:06:08.193] [TRACE] [DealSpot] TICK h21 | AI Spot - steamworks | dealers:1 | produits:3 (40.1g) | cash:$0
+[29/03 21:06:08.193] [TRACE] [DealSpot] STOCK DISPO: cocaine:33, heroin:43, meth:34
+[29/03 21:06:08.193] [TRACE] [DealSpot] LEGACY MODE spot=dspot_8 district=steamworks (no pool_allocated)
+[29/03 21:06:08.193] [DEBUG] [DealSpot] CLIENTS h21: regular:1, addict:1 (total=2)
+[29/03 21:06:08.193] [DEBUG] [DealSpot] VENTE h21 | AI Spot - steamworks | $70 | 2 clients | base=16.2 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:06:08.193] [DEBUG] [DealSpot] HEAT DECAY AI Spot - steamworks: 0.1 → 0.0 (-0.4)
+[29/03 21:06:08.194] [TRACE] [DealSpot] TICK h21 | AI Spot - neon_strip | dealers:1 | produits:11 (325.1g) | cash:$0
+[29/03 21:06:08.194] [TRACE] [DealSpot] STOCK DISPO: ketamine:315, mdma:319, weed:234
+[29/03 21:06:08.194] [TRACE] [DealSpot] LEGACY MODE spot=dspot_9 district=neon_strip (no pool_allocated)
+[29/03 21:06:08.194] [DEBUG] [DealSpot] CLIENTS h21: regular:11, addict:5, bulk_dealer:2, vip:1, tourist:2 (total=21)
+[29/03 21:06:08.194] [DEBUG] [DealSpot] VENTE h21 | AI Spot - neon_strip | $616 | 21 clients | base=26.6 time=1.00 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:06:08.194] [DEBUG] [DealSpot] HEAT DECAY AI Spot - neon_strip: 6.7 → 6.3 (-0.4)
+[29/03 21:06:08.194] [INFO] [DealSpot] HEAT AI Spot - neon_strip: 6.3 → 8.6 (+2.36) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:06:08.198] [INFO] [DealSpot] RESUPPLY PRODUIT: 9x Weed (3.4g/u, $30/u) → Hall, Immeuble #18 | stock=1999/2000 [TRONQUÉ 117→9]
+[29/03 21:06:08.198] [INFO] [GangApt] DISPATCH: 117x → dspot_14 from auto_bldg_167_F1_U0
+[29/03 21:06:26.835] [INFO] [CityTravel] PATH 934->651 | cells=15 (straight~10) | ROAD 14/559 on_road | BLD 136 thru_bld=1 | loc=Immeuble #67
+[29/03 21:06:37.035] [DEBUG] [BuildingPopup] CLOSE: forced visible=false IMMEDIATE
+[29/03 21:06:38.272] [INFO] [Bodyguard] SCENE READY: BuildingLobby | escorts_assigned=0
+[29/03 21:06:38.272] [DEBUG] [PNJPool] PURGE: 5 freed instances removed from pool
+[29/03 21:06:38.273] [INFO] [DealSpotNPC] on_scene_ready: type=lobby bldg=auto_bldg_216 floor=-1 apt= → spots=["dspot_8"]
+[29/03 21:06:38.273] [INFO] [DealSpotNPC] PREWARM START: 1 spot(s), scene=BuildingLobby
+[29/03 21:06:38.273] [INFO] [DealSpot] PORTE AUTO-OUVERTE: spot actif dans ce lobby
+[29/03 21:06:38.298] [INFO] [DealSpotNPC] PREWARM COMPLETE → spawning staff for 1 spot(s): ["dspot_8"]
+[29/03 21:06:38.298] [INFO] [DealSpotNPC] STAFF SPAWN START: spot=dspot_8 | staff=[role0=["ai_staff_cartel_mendoza_1_0"], role1=["ai_staff_cartel_mendoza_1_1"], role2=["ai_staff_cartel_mendoza_1_2"]] | parent=BuildingLobby
+[29/03 21:06:38.298] [DEBUG] [DealSpotNPC] AI APPEARANCE GENERATED: ai_staff_cartel_mendoza_1_0 → Manuel (Male) for cartel_mendoza
+[29/03 21:06:38.298] [INFO] [DealSpotNPC] AI STAFF SPAWN: Manuel (Dealer) org=cartel_mendoza spot=dspot_8
+[29/03 21:06:38.298] [INFO] [DealSpotNPC] STAFF QUEUED: ai_staff_cartel_mendoza_1_0 (Dealer) at pos (3.214386, 0.0, -3.355183) (spot=dspot_8)
+[29/03 21:06:38.308] [DEBUG] [DealSpotInteraction] PATROL TIMER INIT: dspot_8 → 103s (heat=0)
+[29/03 21:06:38.822] [DEBUG] [DealSpotNPC] AI APPEARANCE GENERATED: ai_staff_cartel_mendoza_1_1 → Gabriela (Female) for cartel_mendoza
+[29/03 21:06:38.822] [INFO] [DealSpotNPC] AI STAFF SPAWN: Gabriela (Guetteur) org=cartel_mendoza spot=dspot_8
+[29/03 21:06:38.822] [INFO] [DealSpotNPC] STAFF QUEUED: ai_staff_cartel_mendoza_1_1 (Guetteur) at pos (5.197387, 0.0, 21.49194) (spot=dspot_8)
+[29/03 21:06:39.759] [DEBUG] [DealSpotNPC] AI APPEARANCE GENERATED: ai_staff_cartel_mendoza_1_2 → Hugo (Male) for cartel_mendoza
+[29/03 21:06:39.759] [INFO] [DealSpotNPC] AI STAFF SPAWN: Hugo (Protection) org=cartel_mendoza spot=dspot_8
+[29/03 21:06:39.759] [INFO] [DealSpotNPC] STAFF QUEUED: ai_staff_cartel_mendoza_1_2 (Protection) at pos (-2.922948, 0.0, 3.551001) (spot=dspot_8)
+[29/03 21:06:45.272] [INFO] [DealSpotNPC] INTERACTION: Gabriela (Guetteur) au spot dspot_8
+[29/03 21:06:45.444] [DEBUG] [DealSpotNPC] CLIENT SPAWN: tourist $69 | spot=dspot_8 | rate=1.00
+[29/03 21:06:45.486] [DEBUG] [DealSpotNPC] WALK DIAG: dist=14.0m speed=1.1 eta=12.7s from=(-14.13036, 0.0, 10.19991) to=(-0.252129, 0.0, 11.94007) | spot=dspot_8 idx=0
+[29/03 21:06:47.598] [DEBUG] [PNJ] BUBBLE SHOW: 'C'est le spot de Cartel Mendoza. Touche à rien.' on Gabriela
+[29/03 21:06:55.448] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $34 | spot=dspot_8 | rate=1.00
+[29/03 21:06:55.490] [DEBUG] [DealSpotNPC] WALK DIAG: dist=24.5m speed=1.6 eta=15.3s from=(10.46765, 0.0, 35.09176) to=(-0.10108, 0.0, 12.94007) | spot=dspot_8 idx=1
+[29/03 21:06:58.198] [TRACE] [PNJ] BUBBLE SKIP: Hugo too far (15.8m)
+[29/03 21:07:03.328] [DEBUG] [PNJ] BUBBLE SHOW: 'J'ai failli m'endormir debout' on Gabriela
+[29/03 21:07:05.453] [DEBUG] [DealSpotNPC] CLIENT SPAWN: vip $68 | spot=dspot_8 | rate=1.00
+[29/03 21:07:05.493] [DEBUG] [DealSpotNPC] WALK DIAG: dist=21.5m speed=1.3 eta=16.6s from=(-14.25658, 0.0, 29.66886) to=(0.450175, 0.0, 13.94007) | spot=dspot_8 idx=2
+[29/03 21:07:05.828] [DEBUG] [PNJ] BUBBLE SHOW: 'Café frere, c'est la solution' on Hugo
+[29/03 21:07:06.053] [DEBUG] [Weather] Transition météo: CLEAR -> PARTLY_CLOUDY
+[29/03 21:07:11.645] [TRACE] [PNJ] BUBBLE SKIP: Daniela too far (19.2m)
+[29/03 21:07:13.256] [TRACE] [PNJ] BUBBLE SKIP: Manuel too far (21.3m)
+[29/03 21:07:13.743] [TRACE] [PNJ] BUBBLE SKIP: Daniela too far (20.0m)
+[29/03 21:07:15.457] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $39 | spot=dspot_8 | rate=1.00
+[29/03 21:07:15.499] [DEBUG] [DealSpotNPC] WALK DIAG: dist=13.4m speed=1.6 eta=8.4s from=(11.34696, 0.0, 20.54424) to=(-0.877722, 0.0, 14.94007) | spot=dspot_8 idx=3
+[29/03 21:07:18.954] [TRACE] [PNJ] BUBBLE SKIP: Manuel too far (21.2m)
+[29/03 21:07:19.760] [DEBUG] [DealSpotNPC] VENTE NPC AI: +$35 → cartel_mendoza treasury | spot=dspot_8
+[29/03 21:07:19.760] [TRACE] [DealSpotNPC] CHANGE: -$34 (budget non-dépensé) | spot=dspot_8
+[29/03 21:07:20.164] [TRACE] [PNJ] BUBBLE SKIP: Daniela too far (20.0m)
+[29/03 21:07:20.496] [DEBUG] [PNJ] BUBBLE SHOW: 'Vas-y, pas besoin de te checker.' on Hugo
+[29/03 21:07:23.565] [INFO] [Navigation] ENTRÉE City (carte stratégique) | district=carte
+[29/03 21:07:23.681] [INFO] [City] OVERLAY BUTTONS: Added to landscape frame layer (6 buttons)
+[29/03 21:07:23.789] [INFO] [Godot] [GridVisualizer] Réutilisé (cached): 1040 cellules
+[29/03 21:07:25.566] [DEBUG] [DealSpotNPC] CLIENT SPAWN: vip $171 | spot=dspot_8 | rate=1.00
+[29/03 21:07:25.608] [DEBUG] [DealSpotNPC] WALK DIAG: dist=21.9m speed=1.3 eta=16.9s from=(9.970419, 0.0, 34.0193) to=(-0.877722, 0.0, 14.94007) | spot=dspot_8 idx=3
+[29/03 21:07:27.503] [INFO] [CityTravel] PATH 652->894 | cells=13 (straight~8) | ROAD 12/559 on_road | BLD 136 thru_bld=1 | loc=Immeuble #18
+[29/03 21:07:28.953] [TRACE] [PNJ] BUBBLE SKIP: Manuel too far (21.2m)
+[29/03 21:07:29.865] [TRACE] [PNJ] BUBBLE SKIP: Henrik too far (19.6m)
+[29/03 21:07:31.273] [TRACE] [PNJ] BUBBLE SKIP: Manuel too far (21.2m)
+[29/03 21:07:31.469] [DEBUG] [PNJ] BUBBLE SHOW: 'T'inquiète, personne passe sans que je voie' on Hugo
+[29/03 21:07:35.549] [DEBUG] [BuildingPopup] CLOSE: forced visible=false IMMEDIATE
+[29/03 21:07:35.653] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $59 | spot=dspot_8 | rate=1.00
+[29/03 21:07:35.694] [INFO] [DealSpotNPC] EXIT SELL: 1 client(s) finalisés ($171) — joueur quitte le spot
+[29/03 21:07:35.694] [INFO] [DealSpotNPC] EXIT SELL (transit): $200 pending finalized at dspot_8
+[29/03 21:07:35.700] [INFO] [DealSpotNPC] DESPAWN ALL: 3 staff, 0 clients en queue | scène=BuildingLobby
+[29/03 21:07:36.796] [INFO] [Bodyguard] SCENE READY: BuildingLobby | escorts_assigned=0
+[29/03 21:07:36.796] [DEBUG] [PNJPool] PURGE: 6 freed instances removed from pool
+[29/03 21:07:36.796] [INFO] [DealSpotNPC] on_scene_ready: type=lobby bldg=auto_bldg_167 floor=-1 apt= → spots=["dspot_14"]
+[29/03 21:07:36.798] [INFO] [DealSpotNPC] PRESENCE BONUS: +60% spawn speed (presence=50%, gerant=true +10%)
+[29/03 21:07:36.798] [INFO] [DealSpotNPC] PREWARM START: 1 spot(s), scene=BuildingLobby
+[29/03 21:07:36.798] [INFO] [DealSpot] PORTE AUTO-OUVERTE: spot actif dans ce lobby
+[29/03 21:07:36.838] [INFO] [DealSpotNPC] PREWARM COMPLETE → spawning staff for 1 spot(s): ["dspot_14"]
+[29/03 21:07:36.838] [INFO] [DealSpotNPC] STAFF SPAWN START: spot=dspot_14 | staff=[role0=["pm_227058_355057300", "pm_229841_3801604840"], role2=["pm_232244_424885085", "pm_234777_2881678259"], role4=player_self] | parent=BuildingLobby
+[29/03 21:07:36.838] [DEBUG] [DealSpotNPC] SKIP NPC pm_227058_355057300 (Dealer) — not scheduled at h21
+[29/03 21:07:36.838] [INFO] [DealSpotNPC] STAFF QUEUED: pm_229841_3801604840 (Dealer) at pos (3.214386, 0.0, -3.355183) (spot=dspot_14)
+[29/03 21:07:36.872] [INFO] [DealSpotNPC] POS RESTORE (session): dspot_14:0:pm_229841_3801604840 → (3.214386, 0.0, -3.355183)
+[29/03 21:07:36.887] [DEBUG] [DealSpotNPC] SKIP NPC pm_232244_424885085 (Protection) — not scheduled at h21
+[29/03 21:07:36.887] [INFO] [DealSpotNPC] STAFF QUEUED: pm_234777_2881678259 (Protection) at pos (-2.922948, 0.0, 3.551001) (spot=dspot_14)
+[29/03 21:07:36.921] [INFO] [DealSpotNPC] POS RESTORE (session): dspot_14:2:pm_234777_2881678259 → (-2.922948, 0.0, 3.551001)
+[29/03 21:07:37.802] [TRACE] [PNJ] BUBBLE SKIP: PooledPNJ_18 too far (27.8m)
+[29/03 21:07:38.519] [DEBUG] [DealSpotNPC] VENTE ANNULÉE: -$34 (client parti sans acheter) | spot=dspot_8
+[29/03 21:07:38.880] [TRACE] [PNJ] BUBBLE SKIP: Mathieu Thomas too far (30.8m)
+[29/03 21:07:40.387] [TRACE] [PNJ] BUBBLE SKIP: Ahmed Carvalho too far (25.0m)
+[29/03 21:07:42.671] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $23 | spot=dspot_14 | rate=1.00
+[29/03 21:07:42.711] [DEBUG] [DealSpotNPC] WALK DIAG: dist=16.2m speed=1.6 eta=10.1s from=(-16.38772, 0.0, 10.36816) to=(-0.252129, 0.0, 11.94007) | spot=dspot_14 idx=0
+[29/03 21:07:44.655] [DEBUG] [Banking] CASH +$118 → cash=$637
+[29/03 21:07:44.657] [DEBUG] [DealSpot] CASH SPLIT: $118 joueur + $118 trésorerie
+[29/03 21:07:44.657] [INFO] [DealSpot] COLLECTE CASH: $236 de Hall, Immeuble #18 | restant=$0
+[29/03 21:07:52.848] [DEBUG] [PNJ] BUBBLE SHOW: 'Tu peux passer, bonne soirée.' on Ahmed Carvalho
+[29/03 21:07:57.631] [DEBUG] [PNJ] BUBBLE SHOW: 'Tu voudrais monter en grade?' on Mathieu Thomas
+[29/03 21:07:57.825] [DEBUG] [DealSpotNPC] CLIENT SPAWN: vip $121 | spot=dspot_14 | rate=1.00
+[29/03 21:07:57.868] [DEBUG] [DealSpotNPC] WALK DIAG: dist=15.5m speed=1.3 eta=11.9s from=(-15.6005, 0.0, 12.59555) to=(-0.10108, 0.0, 12.94007) | spot=dspot_14 idx=1
+[29/03 21:08:00.130] [DEBUG] [PNJ] BUBBLE SHOW: 'Si le boss me fait confiance, ouais' on Ahmed Carvalho
+[29/03 21:08:04.246] [DEBUG] [PNJ] BUBBLE SHOW: 'Salut chef' on Daniela
+[29/03 21:08:05.648] [DEBUG] [PNJ] BUBBLE SHOW: 'J'ai du ganja frais: 1.1g — 10$ c'est honnete' on Mathieu Thomas
+[29/03 21:08:09.150] [INFO] [Gang] SERIALIZE: 6 membres | trésorerie=$889 | 0 territoires | 1 appts
+[29/03 21:08:09.157] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[29/03 21:08:11.203] [DEBUG] [PNJ] BUBBLE SHOW: 'Bonne route frere' on Mathieu Thomas
+[29/03 21:08:11.904] [DEBUG] [DealSpotNPC] VENTE NPC: +$20 | cash_spot=$20 | spot=dspot_14
+[29/03 21:08:11.904] [TRACE] [DealSpotNPC] CHANGE: -$3 (budget non-dépensé) | spot=dspot_14
+[29/03 21:08:12.210] [DEBUG] [PNJ] BUBBLE SHOW: 'Ciao' on Daniela
+[29/03 21:08:12.543] [DEBUG] [PNJ] BUBBLE SHOW: 'Hé, on t'attendait.' on Ahmed Carvalho
+[29/03 21:08:12.973] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $52 | spot=dspot_14 | rate=1.00
+[29/03 21:08:13.015] [DEBUG] [DealSpotNPC] WALK DIAG: dist=23.0m speed=2.2 eta=10.4s from=(-16.60271, 0.0, 28.92383) to=(-0.10108, 0.0, 12.94007) | spot=dspot_14 idx=1
+[29/03 21:08:13.051] [DEBUG] [PNJ] BUBBLE SHOW: 'Top, merci. À plus.' on Romain
+[29/03 21:08:13.431] [DEBUG] [Banking] CASH +$10000 → cash=$10637
+[29/03 21:08:13.631] [INFO] [Godot] 💰 Cheat: +$10000 (BankingSystem cash)
+[29/03 21:08:25.053] [DEBUG] [PNJ] BUBBLE SHOW: 'Bonjour' on Romain
+[29/03 21:08:26.858] [DEBUG] [PNJ] BUBBLE SHOW: 'teuch direct fournisseur: 17.3g — 100$ piece, on r' on Mathieu Thomas
+[29/03 21:08:27.400] [DEBUG] [PNJ] BUBBLE SHOW: 'Tu peux pas baisser un peu?' on Romain
+[29/03 21:08:28.135] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $52 | spot=dspot_14 | rate=1.00
+[29/03 21:08:28.177] [DEBUG] [DealSpotNPC] WALK DIAG: dist=14.2m speed=2.2 eta=6.4s from=(12.77098, 0.0, 6.953002) to=(0.450175, 0.0, 13.94007) | spot=dspot_14 idx=2
+[29/03 21:08:30.032] [INFO] [Gang] RECRUTEMENT: Ali Rousseau (id=pm_886498_3704687065) | coût=$600 | combat=0.34 stealth=0.33 charisme=0.50 | genre=Male | total=7 membres
+[29/03 21:08:30.032] [DEBUG] [Skill] XP +10 persuasion (practice_success) → 188/259 lvl5
+[29/03 21:08:32.690] [DEBUG] [PNJ] BUBBLE SHOW: 'T'es un bon client toi' on Mathieu Thomas
+[29/03 21:08:33.592] [DEBUG] [DealSpotNPC] VENTE NPC: +$120 | cash_spot=$140 | spot=dspot_14
+[29/03 21:08:33.592] [TRACE] [DealSpotNPC] CHANGE: -$1 (budget non-dépensé) | spot=dspot_14
+[29/03 21:08:34.196] [DEBUG] [PNJ] BUBBLE SHOW: 'Tchuss' on Romain
+[29/03 21:08:38.430] [DEBUG] [PNJ] BUBBLE SHOW: 'Debout, les mains levees.' on Ahmed Carvalho
+[29/03 21:08:39.187] [DEBUG] [Banking] CASH -$5000 → cash=$5637
+[29/03 21:08:39.188] [INFO] [Gang] TRÉSORERIE +$5000 (cash perso → gang) | trésorerie=$5284
+[29/03 21:08:41.631] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 56.0 → 54.0
+[29/03 21:08:41.632] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 33.0 → 34.5
+[29/03 21:08:41.632] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 44.0 → 46.0
+[29/03 21:08:41.632] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 22.0 → 23.0
+[29/03 21:08:41.634] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=22 | demand_total=1.9 players=[1]
+[29/03 21:08:41.634] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.443 customers=0.4 → 1 spots
+[29/03 21:08:41.634] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.443 customers=0.2 → 1 spots
+[29/03 21:08:41.634] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.443 customers=0.1 → 1 spots
+[29/03 21:08:41.634] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.443 customers=0.1 → 1 spots
+[29/03 21:08:41.634] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.443 customers=0.1 → 1 spots
+[29/03 21:08:41.635] [DEBUG] [DealSpot] AI AUTO-COLLECT: 12 spots, $6199 total
+[29/03 21:08:41.635] [INFO] [Grossiste] VENTE: Ready Rock 100g à $10/g ($977 total) → ai_diablos_norte
+[29/03 21:08:41.635] [INFO] [Grossiste] VENTE: AK-47 500g à $4/g ($1781 total) → ai_diablos_norte
+[29/03 21:08:41.635] [INFO] [Grossiste] VENTE: Bolivienne 66g à $33/g ($2186 total) → ai_diablos_norte
+[29/03 21:08:41.635] [INFO] [DealSpot] AI MARKET BUY: AI Spot - shadow_lane (diablos_norte) | Ready Rock 100g($977), AK-47 500g($1781), Bolivienne 66g($2186) | spent=$4945 treasury=$228993 | stock=[crack:16x$10, weed:51x$6, crack:75x$10, crack:75x$10, crack:60x$10, crack:30x$12, weed:80x$10, weed:80x$16, weed:80x$22, weed:80x$26, cocaine:49x$10, cocaine:72x$17, cocaine:58x$24, cocaine:29x$28]
+[29/03 21:08:41.637] [TRACE] [DealSpot] TICK h22 | AI Spot - the_pit | dealers:1 | produits:11 (205.0g) | cash:$0
+[29/03 21:08:41.637] [TRACE] [DealSpot] STOCK DISPO: crack:270, cocaine:168, weed:151
+[29/03 21:08:41.637] [TRACE] [DealSpot] LEGACY MODE spot=dspot_1 district=the_pit (no pool_allocated)
+[29/03 21:08:41.638] [DEBUG] [DealSpot] CLIENTS h22: regular:11, addict:5, bulk_dealer:2, vip:1, tourist:2 (total=21)
+[29/03 21:08:41.638] [DEBUG] [DealSpot] VENTE h22 | AI Spot - the_pit | $538 | 21 clients | base=17.2 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.86 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:08:41.638] [DEBUG] [DealSpot] HEAT DECAY AI Spot - the_pit: 11.5 → 11.1 (-0.4)
+[29/03 21:08:41.638] [INFO] [DealSpot] HEAT AI Spot - the_pit: 11.1 → 13.1 (+2.03) | guett=-20% weath=0.97 alert=1.00
+[29/03 21:08:41.638] [TRACE] [DealSpot] TICK h22 | AI Spot - vice_alley | dealers:1 | produits:13 (194.8g) | cash:$0
+[29/03 21:08:41.638] [TRACE] [DealSpot] STOCK DISPO: ketamine:274, mdma:201, cocaine:222
+[29/03 21:08:41.638] [TRACE] [DealSpot] LEGACY MODE spot=dspot_10 district=vice_alley (no pool_allocated)
+[29/03 21:08:41.640] [DEBUG] [DealSpot] CLIENTS h22: regular:6, addict:3, bulk_dealer:1, tourist:1 (total=11)
+[29/03 21:08:41.640] [DEBUG] [DealSpot] VENTE h22 | AI Spot - vice_alley | $500 | 11 clients | base=14.4 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.72 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:08:41.640] [DEBUG] [DealSpot] HEAT DECAY AI Spot - vice_alley: 6.0 → 5.6 (-0.4)
+[29/03 21:08:41.640] [INFO] [DealSpot] HEAT AI Spot - vice_alley: 5.6 → 6.8 (+1.25) | guett=-20% weath=0.97 alert=1.00
+[29/03 21:08:41.640] [TRACE] [DealSpot] TICK h22 | AI Spot - market_square | dealers:1 | produits:3 (38.7g) | cash:$0
+[29/03 21:08:41.640] [TRACE] [DealSpot] STOCK DISPO: heroin:3, ketamine:23, mdma:62
+[29/03 21:08:41.640] [TRACE] [DealSpot] LEGACY MODE spot=dspot_11 district=market_square (no pool_allocated)
+[29/03 21:08:41.640] [TRACE] [DealSpot] MISSED: budget=$20, wanted=weed, none≤$20
+[29/03 21:08:41.640] [DEBUG] [DealSpot] CLIENTS h22: regular:5, addict:2, bulk_dealer:1, tourist:1 (total=9)
+[29/03 21:08:41.641] [WARN] [DealSpot] VENTES MANQUÉES h22: weed:1 (total=1 perdus)
+[29/03 21:08:41.641] [DEBUG] [DealSpot] VENTE h22 | AI Spot - market_square | $363 | 9 clients | base=14.6 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.71 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:08:41.641] [DEBUG] [DealSpot] HEAT DECAY AI Spot - market_square: 3.6 → 3.2 (-0.4)
+[29/03 21:08:41.641] [INFO] [DealSpot] HEAT AI Spot - market_square: 3.2 → 3.9 (+0.76) | guett=-20% weath=0.97 alert=1.00
+[29/03 21:08:41.641] [TRACE] [DealSpot] TICK h22 | AI Spot - pearl_district | dealers:1 | produits:3 (143.9g) | cash:$0
+[29/03 21:08:41.641] [TRACE] [DealSpot] STOCK DISPO: crack:78, hashish:40, weed:1
+[29/03 21:08:41.641] [TRACE] [DealSpot] LEGACY MODE spot=dspot_12 district=pearl_district (no pool_allocated)
+[29/03 21:08:41.641] [DEBUG] [DealSpot] CLIENTS h22: regular:3, addict:1, tourist:1 (total=5)
+[29/03 21:08:41.641] [DEBUG] [DealSpot] VENTE h22 | AI Spot - pearl_district | $60 | 5 clients | base=11.3 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.83 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:08:41.641] [DEBUG] [DealSpot] HEAT DECAY AI Spot - pearl_district: 2.1 → 1.6 (-0.4)
+[29/03 21:08:41.641] [INFO] [DealSpot] HEAT AI Spot - pearl_district: 1.6 → 2.2 (+0.54) | guett=-20% weath=0.97 alert=1.00
+[29/03 21:08:41.641] [TRACE] [DealSpot] TICK h22 | AI Spot - shadow_lane | dealers:0 | produits:12 (352.2g) | cash:$0
+[29/03 21:08:41.641] [DEBUG] [DealSpot] TICK h22 | Hall, Immeuble #18 | dealers:2 | produits:6 (1975.8g) | cash:$140 | playerPresent:true
+[29/03 21:08:41.641] [TRACE] [DealSpot] TICK h22 | AI Spot - ashfield | dealers:1 | produits:9 (145.8g) | cash:$0
+[29/03 21:08:41.641] [TRACE] [DealSpot] STOCK DISPO: crack:26, cocaine:237, mdma:224, weed:16
+[29/03 21:08:41.641] [TRACE] [DealSpot] LEGACY MODE spot=dspot_2 district=ashfield (no pool_allocated)
+[29/03 21:08:41.642] [DEBUG] [DealSpot] CLIENTS h22: regular:8, addict:4, bulk_dealer:1, tourist:1 (total=14)
+[29/03 21:08:41.642] [DEBUG] [DealSpot] VENTE h22 | AI Spot - ashfield | $393 | 14 clients | base=12.7 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.87 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:08:41.642] [DEBUG] [DealSpot] HEAT DECAY AI Spot - ashfield: 8.1 → 7.7 (-0.4)
+[29/03 21:08:41.642] [INFO] [DealSpot] HEAT AI Spot - ashfield: 7.7 → 9.3 (+1.64) | guett=-20% weath=0.97 alert=1.00
+[29/03 21:08:41.642] [TRACE] [DealSpot] TICK h22 | AI Spot - shadow_lane | dealers:1 | produits:14 (607.3g) | cash:$0
+[29/03 21:08:41.642] [TRACE] [DealSpot] STOCK DISPO: crack:256, weed:371, cocaine:208
+[29/03 21:08:41.644] [TRACE] [DealSpot] LEGACY MODE spot=dspot_3 district=shadow_lane (no pool_allocated)
+[29/03 21:08:41.644] [DEBUG] [DealSpot] CLIENTS h22: regular:2, addict:1, bulk_dealer:1 (total=4)
+[29/03 21:08:41.644] [DEBUG] [DealSpot] VENTE h22 | AI Spot - shadow_lane | $200 | 4 clients | base=10.8 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:08:41.644] [DEBUG] [DealSpot] HEAT DECAY AI Spot - shadow_lane: 2.1 → 1.6 (-0.4)
+[29/03 21:08:41.644] [INFO] [DealSpot] HEAT AI Spot - shadow_lane: 1.6 → 2.2 (+0.53) | guett=-20% weath=0.97 alert=1.00
+[29/03 21:08:41.644] [TRACE] [DealSpot] TICK h22 | AI Spot - golden_mile | dealers:1 | produits:3 (32.5g) | cash:$0
+[29/03 21:08:41.644] [TRACE] [DealSpot] STOCK DISPO: cocaine:14, hashish:24, heroin:14
+[29/03 21:08:41.644] [TRACE] [DealSpot] LEGACY MODE spot=dspot_4 district=golden_mile (no pool_allocated)
+[29/03 21:08:41.644] [TRACE] [DealSpot] MISSED: budget=$20, wanted=ketamine, none≤$20
+[29/03 21:08:41.644] [DEBUG] [DealSpot] CLIENTS h22: regular:4, addict:2, bulk_dealer:1, tourist:1 (total=8)
+[29/03 21:08:41.644] [WARN] [DealSpot] VENTES MANQUÉES h22: ketamine:1 (total=1 perdus)
+[29/03 21:08:41.644] [DEBUG] [DealSpot] VENTE h22 | AI Spot - golden_mile | $516 | 8 clients | base=15.8 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:08:41.644] [DEBUG] [DealSpot] HEAT DECAY AI Spot - golden_mile: 2.9 → 2.4 (-0.4)
+[29/03 21:08:41.644] [INFO] [DealSpot] HEAT AI Spot - golden_mile: 2.4 → 3.1 (+0.71) | guett=-20% weath=0.97 alert=1.00
+[29/03 21:08:41.644] [TRACE] [DealSpot] TICK h22 | AI Spot - central_plaza | dealers:1 | produits:13 (406.4g) | cash:$0
+[29/03 21:08:41.644] [TRACE] [DealSpot] STOCK DISPO: heroin:47, cocaine:241, weed:303, mdma:313
+[29/03 21:08:41.644] [TRACE] [DealSpot] LEGACY MODE spot=dspot_5 district=central_plaza (no pool_allocated)
+[29/03 21:08:41.645] [DEBUG] [DealSpot] CLIENTS h22: regular:6, addict:3, bulk_dealer:1, vip:1, tourist:1 (total=12)
+[29/03 21:08:41.645] [DEBUG] [DealSpot] VENTE h22 | AI Spot - central_plaza | $625 | 12 clients | base=15.1 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:08:41.645] [DEBUG] [DealSpot] HEAT DECAY AI Spot - central_plaza: 4.8 → 4.4 (-0.4)
+[29/03 21:08:41.645] [INFO] [DealSpot] HEAT AI Spot - central_plaza: 4.4 → 5.8 (+1.36) | guett=-20% weath=0.97 alert=1.00
+[29/03 21:08:41.645] [TRACE] [DealSpot] TICK h22 | AI Spot - crown_heights | dealers:1 | produits:3 (74.4g) | cash:$0
+[29/03 21:08:41.647] [TRACE] [DealSpot] STOCK DISPO: cocaine:73, hashish:44, heroin:41
+[29/03 21:08:41.647] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=22 | demand_total=1.9 players=[1]
+[29/03 21:08:41.647] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.446 customers=0.4 → 1 spots
+[29/03 21:08:41.647] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.446 customers=0.2 → 1 spots
+[29/03 21:08:41.647] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.446 customers=0.1 → 1 spots
+[29/03 21:08:41.647] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.446 customers=0.1 → 1 spots
+[29/03 21:08:41.647] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.446 customers=0.1 → 1 spots
+[29/03 21:08:41.647] [TRACE] [DealSpot] LEGACY MODE spot=dspot_6 district=crown_heights (no pool_allocated)
+[29/03 21:08:41.647] [DEBUG] [DealSpot] CLIENTS h22: regular:1, bulk_dealer:1 (total=2)
+[29/03 21:08:41.647] [DEBUG] [DealSpot] VENTE h22 | AI Spot - crown_heights | $122 | 2 clients | base=10.0 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.73 morale=1.00 alert=1.00 flow=1.30
+[29/03 21:08:41.647] [DEBUG] [DealSpot] HEAT DECAY AI Spot - crown_heights: 0.3 → 0.0 (-0.4)
+[29/03 21:08:41.647] [TRACE] [DealSpot] TICK h22 | AI Spot - iron_docks | dealers:1 | produits:3 (63.1g) | cash:$0
+[29/03 21:08:41.648] [TRACE] [DealSpot] STOCK DISPO: cocaine:23, heroin:76, meth:34
+[29/03 21:08:41.648] [TRACE] [DealSpot] LEGACY MODE spot=dspot_7 district=iron_docks (no pool_allocated)
+[29/03 21:08:41.648] [TRACE] [DealSpot] MISSED: budget=$20, wanted=mdma, none≤$20
+[29/03 21:08:41.648] [TRACE] [DealSpot] MISSED: budget=$20, wanted=weed, none≤$20
+[29/03 21:08:41.648] [DEBUG] [DealSpot] CLIENTS h22: regular:2, addict:1, bulk_dealer:1, tourist:1 (total=5)
+[29/03 21:08:41.648] [WARN] [DealSpot] VENTES MANQUÉES h22: mdma:1, weed:1 (total=2 perdus)
+[29/03 21:08:41.648] [DEBUG] [DealSpot] VENTE h22 | AI Spot - iron_docks | $330 | 5 clients | base=10.6 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:08:41.648] [DEBUG] [DealSpot] HEAT DECAY AI Spot - iron_docks: 0.8 → 0.4 (-0.4)
+[29/03 21:08:41.648] [TRACE] [DealSpot] TICK h22 | AI Spot - steamworks | dealers:1 | produits:3 (38.0g) | cash:$0
+[29/03 21:08:41.650] [TRACE] [DealSpot] STOCK DISPO: cocaine:30, heroin:43, meth:34
+[29/03 21:08:41.650] [TRACE] [DealSpot] LEGACY MODE spot=dspot_8 district=steamworks (no pool_allocated)
+[29/03 21:08:41.650] [TRACE] [DealSpot] MISSED: budget=$20, wanted=hashish, none≤$20
+[29/03 21:08:41.650] [DEBUG] [DealSpot] CLIENTS h22: regular:1 (total=1)
+[29/03 21:08:41.650] [WARN] [DealSpot] VENTES MANQUÉES h22: hashish:1 (total=1 perdus)
+[29/03 21:08:41.650] [TRACE] [DealSpot] TICK h22 | AI Spot - neon_strip | dealers:1 | produits:11 (305.7g) | cash:$0
+[29/03 21:08:41.650] [TRACE] [DealSpot] STOCK DISPO: ketamine:314, mdma:313, weed:216
+[29/03 21:08:41.650] [TRACE] [DealSpot] LEGACY MODE spot=dspot_9 district=neon_strip (no pool_allocated)
+[29/03 21:08:41.651] [DEBUG] [DealSpot] CLIENTS h22: regular:8, addict:4, bulk_dealer:1, vip:1, tourist:1 (total=15)
+[29/03 21:08:41.651] [DEBUG] [DealSpot] VENTE h22 | AI Spot - neon_strip | $441 | 15 clients | base=15.8 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:08:41.651] [DEBUG] [DealSpot] HEAT DECAY AI Spot - neon_strip: 8.6 → 8.2 (-0.4)
+[29/03 21:08:41.651] [INFO] [DealSpot] HEAT AI Spot - neon_strip: 8.2 → 9.8 (+1.68) | guett=-20% weath=0.97 alert=1.00
+[29/03 21:08:41.654] [INFO] [DealSpot] RESUPPLY PRODUIT: 4x Weed (5.6g/u, $50/u) → Hall, Immeuble #18 | stock=1998/2000 [TRONQUÉ 35→4]
+[29/03 21:08:41.654] [INFO] [GangApt] DISPATCH: 35x → dspot_14 from auto_bldg_167_F1_U0
+[29/03 21:08:43.055] [DEBUG] [PNJ] BUBBLE SHOW: 'Dis-moi que t'as du stock' on Pedro
+[29/03 21:08:43.283] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $50 | spot=dspot_14 | rate=1.00
+[29/03 21:08:43.325] [DEBUG] [DealSpotNPC] WALK DIAG: dist=14.6m speed=1.6 eta=9.1s from=(13.86558, 0.0, 8.272246) to=(0.450175, 0.0, 13.94007) | spot=dspot_14 idx=2
+[29/03 21:08:43.859] [DEBUG] [PNJ] BUBBLE SHOW: 'teuch direct fournisseur: 8.6g — 50$ piece, on rig' on Mathieu Thomas
+[29/03 21:08:44.137] [INFO] [Gang] RECRUTEMENT: Amelia Thomas (id=pm_900604_741468574) | coût=$600 | combat=0.40 stealth=0.48 charisme=0.55 | genre=Female | total=8 membres
+[29/03 21:08:44.138] [DEBUG] [Skill] XP +10 persuasion (practice_success) → 198/259 lvl5
+[29/03 21:08:48.996] [DEBUG] [PNJ] BUBBLE SHOW: 'Prends soin de toi' on Mathieu Thomas
+[29/03 21:08:49.400] [DEBUG] [DealSpotNPC] VENTE NPC: +$50 | cash_spot=$190 | spot=dspot_14
+[29/03 21:08:49.400] [TRACE] [DealSpotNPC] CHANGE: -$2 (budget non-dépensé) | spot=dspot_14
+[29/03 21:08:49.505] [DEBUG] [PNJ] BUBBLE SHOW: 'Tchao' on Pedro
+[29/03 21:08:54.204] [DEBUG] [PNJ] BUBBLE SHOW: 'Routine — 30 secondes.' on Ahmed Carvalho
+[29/03 21:08:58.640] [DEBUG] [PNJ] BUBBLE SHOW: 'Dis-moi que t'as du stock' on Zoe
+[29/03 21:08:59.446] [DEBUG] [PNJ] BUBBLE SHOW: 'ganja direct fournisseur: 3.4g — 30$ piece, on rig' on Mathieu Thomas
+[29/03 21:09:03.457] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $40 | spot=dspot_14 | rate=1.00
+[29/03 21:09:03.499] [DEBUG] [DealSpotNPC] WALK DIAG: dist=14.1m speed=1.6 eta=8.8s from=(13.29068, 0.0, 8.036911) to=(0.450175, 0.0, 13.94007) | spot=dspot_14 idx=2
+[29/03 21:09:04.582] [TRACE] [PNJ] BUBBLE SKIP: Mathieu Thomas too far (15.9m)
+[29/03 21:09:04.986] [DEBUG] [DealSpotNPC] VENTE NPC: +$50 | cash_spot=$240 | spot=dspot_14
+[29/03 21:09:04.986] [TRACE] [DealSpotNPC] CHANGE: -$2 (budget non-dépensé) | spot=dspot_14
+[29/03 21:09:05.098] [TRACE] [PNJ] BUBBLE SKIP: Zoe too far (15.3m)
+[29/03 21:09:05.423] [DEBUG] [PNJ] BUBBLE SHOW: 'Vas-y, pas besoin de te checker.' on Ahmed Carvalho
+[29/03 21:09:14.641] [TRACE] [PNJ] BUBBLE SKIP: Loïc too far (20.1m)
+[29/03 21:09:16.045] [TRACE] [PNJ] BUBBLE SKIP: Mathieu Thomas too far (22.0m)
+[29/03 21:09:18.835] [DEBUG] [PNJ] BUBBLE SHOW: 'Yo.' on Ali
+[29/03 21:09:21.042] [DEBUG] [PNJ] BUBBLE SHOW: 'Ouais c'est calme pour l'instant.' on Ali
+[29/03 21:09:21.598] [TRACE] [PNJ] BUBBLE SKIP: Mathieu Thomas too far (22.0m)
+[29/03 21:09:22.299] [DEBUG] [DealSpotNPC] VENTE NPC: +$50 | cash_spot=$290 | spot=dspot_14
+[29/03 21:09:22.605] [TRACE] [PNJ] BUBBLE SKIP: Loïc too far (20.1m)
+[29/03 21:09:22.938] [DEBUG] [PNJ] BUBBLE SHOW: 'C'est bon, passe.' on Ahmed Carvalho
+[29/03 21:09:23.154] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $47 | spot=dspot_14 | rate=1.00
+[29/03 21:09:23.194] [DEBUG] [DealSpotNPC] WALK DIAG: dist=24.2m speed=2.2 eta=11.0s from=(-15.69727, 0.0, 31.45493) to=(-0.10108, 0.0, 12.94007) | spot=dspot_14 idx=1
+[29/03 21:09:23.355] [DEBUG] [PNJ] BUBBLE SHOW: 'Personne s'approchera, je vous le garantis.' on Ali
+[29/03 21:09:26.082] [DEBUG] [Memory] 💾 Mémoire stable: 904.05 MB
+[29/03 21:09:26.095] [INFO] [DealSpotNPC] POOL STATS: created=25 reused=28 peak=9 available=0 reuse_rate=53%
+[29/03 21:09:32.082] [INFO] [Gang] SERIALIZE: 8 membres | trésorerie=$4670 | 0 territoires | 1 appts
+[29/03 21:09:32.088] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[29/03 21:09:32.157] [TRACE] [PNJ] BUBBLE SKIP: Beatrice too far (22.5m)
+[29/03 21:09:33.559] [TRACE] [PNJ] BUBBLE SKIP: Mathieu Thomas too far (24.4m)
+[29/03 21:09:33.831] [DEBUG] [Banking] CASH +$145 → cash=$5782
+[29/03 21:09:33.832] [DEBUG] [DealSpot] CASH SPLIT: $145 joueur + $145 trésorerie
+[29/03 21:09:33.832] [INFO] [DealSpot] COLLECTE CASH: $290 de Hall, Immeuble #18 | restant=$0
+[29/03 21:09:39.114] [TRACE] [PNJ] BUBBLE SKIP: Mathieu Thomas too far (24.4m)
+[29/03 21:09:39.815] [DEBUG] [DealSpotNPC] VENTE NPC: +$40 | cash_spot=$40 | spot=dspot_14
+[29/03 21:09:40.121] [TRACE] [PNJ] BUBBLE SKIP: Beatrice too far (22.5m)
+[29/03 21:09:42.862] [DEBUG] [DealSpotNPC] CLIENT SPAWN: addict $50 | spot=dspot_14 | rate=1.00
+[29/03 21:09:42.903] [DEBUG] [DealSpotNPC] WALK DIAG: dist=14.8m speed=2.2 eta=6.7s from=(12.28968, 0.0, 20.96792) to=(-0.10108, 0.0, 12.94007) | spot=dspot_14 idx=1
+[29/03 21:09:44.368] [TRACE] [PNJ] BUBBLE SKIP: Ahmed Carvalho too far (16.7m)
+[29/03 21:09:48.805] [TRACE] [PNJ] BUBBLE SKIP: Céline too far (22.5m)
+[29/03 21:09:49.611] [TRACE] [PNJ] BUBBLE SKIP: Mathieu Thomas too far (24.4m)
+[29/03 21:09:54.749] [TRACE] [PNJ] BUBBLE SKIP: Mathieu Thomas too far (24.4m)
+[29/03 21:09:55.150] [DEBUG] [DealSpotNPC] VENTE NPC: +$40 | cash_spot=$80 | spot=dspot_14
+[29/03 21:09:55.150] [TRACE] [DealSpotNPC] CHANGE: -$7 (budget non-dépensé) | spot=dspot_14
+[29/03 21:09:55.262] [TRACE] [PNJ] BUBBLE SKIP: Céline too far (22.5m)
+[29/03 21:09:57.358] [TRACE] [PNJ] BUBBLE SKIP: Ahmed Carvalho too far (16.7m)
+[29/03 21:09:59.489] [TRACE] [PNJ] BUBBLE SKIP: Ahmed Carvalho too far (15.4m)
+[29/03 21:09:59.851] [TRACE] [PNJ] BUBBLE SKIP: Mathieu Thomas too far (23.2m)
+[29/03 21:10:01.551] [TRACE] [PNJ] BUBBLE SKIP: Ahmed Carvalho too far (15.4m)
+[29/03 21:10:02.558] [DEBUG] [DealSpotNPC] CLIENT SPAWN: regular $15 | spot=dspot_14 | rate=1.00
+[29/03 21:10:02.598] [DEBUG] [DealSpotNPC] WALK DIAG: dist=23.0m speed=1.6 eta=14.4s from=(9.963242, 0.0, 33.63123) to=(-0.10108, 0.0, 12.94007) | spot=dspot_14 idx=1
+[29/03 21:10:04.980] [TRACE] [PNJ] BUBBLE SKIP: Odile too far (21.5m)
+[29/03 21:10:05.786] [TRACE] [PNJ] BUBBLE SKIP: Mathieu Thomas too far (23.2m)
+[29/03 21:10:07.118] [INFO] [DealSpotNPC] EXIT SELL: 1 client(s) finalisés ($15) — joueur quitte le spot
+[29/03 21:10:07.118] [INFO] [DealSpotNPC] EXIT SELL (transit): $50 pending finalized at dspot_14
+[29/03 21:10:07.121] [INFO] [DealSpotNPC] DESPAWN ALL: 2 staff, 0 clients en queue | scène=BuildingLobby
+[29/03 21:10:08.256] [INFO] [Navigation] ENTRÉE City (carte stratégique) | district=carte
+[29/03 21:10:08.273] [INFO] [StrategicGrid] Districts already assigned — skipping reassignment
+[29/03 21:10:08.273] [INFO] [StrategicGrid] Road footprints already applied — skipping scan
+[29/03 21:10:08.400] [INFO] [City] OVERLAY BUTTONS: Added to canvas_layer (M map mode, 6 buttons)
+[29/03 21:10:08.704] [INFO] [Godot] [GridVisualizer] Réutilisé (cached): 1040 cellules
+[29/03 21:10:08.878] [DEBUG] [DealSpotNPC] VENTE ANNULÉE: -$50 (client parti sans acheter) | spot=dspot_14
+[29/03 21:10:17.808] [DEBUG] [Weather] Transition météo: PARTLY_CLOUDY -> CLEAR
+[29/03 21:10:23.851] [INFO] [Dispatch] CREATED: disp_2 type=surveillance → crown_heights (1 membres, 120s travel)
+[29/03 21:11:13.250] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 54.0 → 52.0
+[29/03 21:11:13.252] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 34.5 → 36.0
+[29/03 21:11:13.252] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 46.0 → 48.0
+[29/03 21:11:13.252] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 23.0 → 24.0
+[29/03 21:11:13.253] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=23 | demand_total=1.2 players=[1]
+[29/03 21:11:13.253] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.448 customers=0.2 → 1 spots
+[29/03 21:11:13.253] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.448 customers=0.1 → 1 spots
+[29/03 21:11:13.253] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.448 customers=0.0 → 1 spots
+[29/03 21:11:13.253] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.448 customers=0.1 → 1 spots
+[29/03 21:11:13.253] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.448 customers=0.1 → 1 spots
+[29/03 21:11:13.255] [DEBUG] [DealSpot] AI AUTO-COLLECT: 11 spots, $4088 total
+[29/03 21:11:13.256] [INFO] [Grossiste] VENTE: Cristaux K 250g à $11/g ($2858 total) → ai_triade_dragon
+[29/03 21:11:13.260] [INFO] [Grossiste] VENTE: Superman 250g à $6/g ($1619 total) → ai_triade_dragon
+[29/03 21:11:13.260] [INFO] [Grossiste] VENTE: Northern Lights 82g à $5/g ($396 total) → ai_triade_dragon
+[29/03 21:11:13.260] [INFO] [DealSpot] AI MARKET BUY: AI Spot - market_square (triade_dragon) | Cristaux K 250g($2858), Superman 250g($1619), Northern Lights 82g($396) | spent=$4874 treasury=$379882 | stock=[ketamine:21x$39, mdma:59x$20, ketamine:80x$10, ketamine:80x$13, ketamine:80x$19, ketamine:80x$22, mdma:80x$10, mdma:80x$11, mdma:80x$15, mdma:80x$18, weed:49x$11, weed:41x$19, weed:33x$27, weed:16x$32]
+[29/03 21:11:13.260] [INFO] [Grossiste] VENTE: Ready Rock 107g à $10/g ($1045 total) → ai_freres_sang
+[29/03 21:11:13.260] [INFO] [Grossiste] VENTE: Marocain Classic 100g à $2/g ($240 total) → ai_freres_sang
+[29/03 21:11:13.260] [INFO] [Grossiste] VENTE: Purple Haze 100g à $5/g ($453 total) → ai_freres_sang
+[29/03 21:11:13.260] [INFO] [DealSpot] AI MARKET BUY: AI Spot - pearl_district (freres_sang) | Ready Rock 106g($1045), Marocain Classic 100g($240), Purple Haze 100g($453) | spent=$1739 treasury=$291203 | stock=[crack:78x$3, hashish:36x$8, crack:80x$10, crack:80x$10, crack:64x$10, crack:32x$12, hashish:50x$10, hashish:41x$12, hashish:33x$17, hashish:16x$20, weed:51x$10, weed:43x$17, weed:35x$24, weed:17x$28]
+[29/03 21:11:13.262] [TRACE] [DealSpot] TICK h23 | AI Spot - the_pit | dealers:1 | produits:10 (192.0g) | cash:$0
+[29/03 21:11:13.262] [TRACE] [DealSpot] STOCK DISPO: crack:268, cocaine:157, weed:141
+[29/03 21:11:13.262] [TRACE] [DealSpot] LEGACY MODE spot=dspot_1 district=the_pit (no pool_allocated)
+[29/03 21:11:13.263] [DEBUG] [DealSpot] CLIENTS h23: regular:7, addict:3, bulk_dealer:1, vip:1, tourist:1 (total=13)
+[29/03 21:11:13.263] [DEBUG] [DealSpot] VENTE h23 | AI Spot - the_pit | $392 | 13 clients | base=17.2 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.86 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:11:13.263] [DEBUG] [DealSpot] HEAT DECAY AI Spot - the_pit: 13.1 → 12.6 (-0.4)
+[29/03 21:11:13.263] [INFO] [DealSpot] HEAT AI Spot - the_pit: 12.6 → 14.0 (+1.39) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:11:13.263] [TRACE] [DealSpot] TICK h23 | AI Spot - vice_alley | dealers:1 | produits:13 (190.7g) | cash:$0
+[29/03 21:11:13.263] [TRACE] [DealSpot] STOCK DISPO: ketamine:274, mdma:201, cocaine:207
+[29/03 21:11:13.263] [TRACE] [DealSpot] LEGACY MODE spot=dspot_10 district=vice_alley (no pool_allocated)
+[29/03 21:11:13.263] [DEBUG] [DealSpot] CLIENTS h23: regular:4, addict:2, bulk_dealer:1, vip:1, tourist:1 (total=9)
+[29/03 21:11:13.263] [DEBUG] [DealSpot] VENTE h23 | AI Spot - vice_alley | $338 | 9 clients | base=14.3 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.72 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:11:13.265] [DEBUG] [DealSpot] HEAT DECAY AI Spot - vice_alley: 6.8 → 6.4 (-0.4)
+[29/03 21:11:13.265] [INFO] [DealSpot] HEAT AI Spot - vice_alley: 6.4 → 7.3 (+0.89) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:11:13.265] [TRACE] [DealSpot] TICK h23 | AI Spot - market_square | dealers:1 | produits:14 (320.7g) | cash:$0
+[29/03 21:11:13.265] [TRACE] [DealSpot] STOCK DISPO: ketamine:341, mdma:379, weed:139
+[29/03 21:11:13.265] [TRACE] [DealSpot] LEGACY MODE spot=dspot_11 district=market_square (no pool_allocated)
+[29/03 21:11:13.265] [DEBUG] [DealSpot] CLIENTS h23: regular:3, addict:1, bulk_dealer:1, tourist:1 (total=6)
+[29/03 21:11:13.265] [DEBUG] [DealSpot] VENTE h23 | AI Spot - market_square | $181 | 6 clients | base=14.7 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.71 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:11:13.266] [DEBUG] [DealSpot] HEAT DECAY AI Spot - market_square: 3.9 → 3.5 (-0.4)
+[29/03 21:11:13.266] [INFO] [DealSpot] HEAT AI Spot - market_square: 3.5 → 4.1 (+0.64) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:11:13.266] [TRACE] [DealSpot] TICK h23 | AI Spot - pearl_district | dealers:1 | produits:14 (436.1g) | cash:$0
+[29/03 21:11:13.266] [TRACE] [DealSpot] STOCK DISPO: crack:334, hashish:176, weed:146
+[29/03 21:11:13.266] [TRACE] [DealSpot] LEGACY MODE spot=dspot_12 district=pearl_district (no pool_allocated)
+[29/03 21:11:13.266] [DEBUG] [DealSpot] CLIENTS h23: regular:2, addict:1, bulk_dealer:1, tourist:1 (total=5)
+[29/03 21:11:13.266] [DEBUG] [DealSpot] VENTE h23 | AI Spot - pearl_district | $129 | 5 clients | base=11.3 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.83 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:11:13.266] [DEBUG] [DealSpot] HEAT DECAY AI Spot - pearl_district: 2.2 → 1.7 (-0.4)
+[29/03 21:11:13.266] [INFO] [DealSpot] HEAT AI Spot - pearl_district: 1.7 → 2.2 (+0.51) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:11:13.266] [TRACE] [DealSpot] TICK h23 | AI Spot - shadow_lane | dealers:0 | produits:12 (352.2g) | cash:$0
+[29/03 21:11:13.266] [DEBUG] [DealSpot] TICK h23 | Hall, Immeuble #18 | dealers:2 | produits:7 (1962.0g) | cash:$145 | playerPresent:false
+[29/03 21:11:13.266] [INFO] [DealSpot] === MODIFIERS h23 | Hall, Immeuble #18 ===
+[29/03 21:11:13.266] [INFO] [DealSpot]   traffic: base=18.00 time=0.60 loc_syn=1.30
+[29/03 21:11:13.266] [INFO] [DealSpot]   dealer: charisma=1.00 | guetteur=1.00 | markup=1.00
+[29/03 21:11:13.266] [INFO] [DealSpot]   heat: penalty=1.00 (heat=0.4/100)
+[29/03 21:11:13.266] [INFO] [DealSpot]   quality: 0.97 (base=1.0 event=0.00 network=1.00)
+[29/03 21:11:13.266] [INFO] [DealSpot]   economy: city=0.98 territory=1.00 saturation=0.56 rival=1.00 monopoly=1.00
+[29/03 21:11:13.266] [INFO] [DealSpot]   rep: demand=1.00 loyalty_vol=1.03 loyalty_bg=0.92 (ABSENT)
+[29/03 21:11:13.266] [INFO] [DealSpot]   staff: morale=1.00 alert=1.00 flow=1.30
+[29/03 21:11:13.266] [INFO] [DealSpot]   player: skill=1.00 trait=1.00
+[29/03 21:11:13.266] [INFO] [DealSpot]   weather: traffic=1.00 heat_mod=1.00
+[29/03 21:11:13.266] [INFO] [DealSpot]   law: price=1.00 event_rev=1.00
+[29/03 21:11:13.266] [INFO] [DealSpot]   upgrades: traffic=1.00 (sale_speed=0.00 txn_speed=0.00 satisfaction=0.00)
+[29/03 21:11:13.266] [DEBUG] [DealSpot] STOCK DISPO: hashish:310, weed:773
+[29/03 21:11:13.266] [INFO] [DealSpot] POOL MODE ACTIVE spot=dspot_14 district=crown_heights | segments=[0, 1, 2, 3, 4] total_allocated=0.5
+[29/03 21:11:13.266] [DEBUG] [DealSpot] VENTE h23 | Hall, Immeuble #18 | $11 | 1 clients | base=9.6 time=0.60 bg=0.92 weath=1.00 terr=1.00 qual=0.97 morale=1.00 alert=1.00 flow=1.30
+[29/03 21:11:13.267] [INFO] [DealSpot] Hall, Immeuble #18 — Vente h23: $11, 1 clients (bg_mult=0.92, weather=1.00, terr=1.00, qual=0.97)
+[29/03 21:11:13.267] [DEBUG] [DealSpot] HEAT DECAY Hall, Immeuble #18: 0.4 → 0.1 (-0.3)
+[29/03 21:11:13.267] [TRACE] [DealSpot] TICK h23 | AI Spot - ashfield | dealers:1 | produits:8 (137.6g) | cash:$0
+[29/03 21:11:13.267] [TRACE] [DealSpot] STOCK DISPO: crack:26, cocaine:225, mdma:220, weed:14
+[29/03 21:11:13.267] [TRACE] [DealSpot] LEGACY MODE spot=dspot_2 district=ashfield (no pool_allocated)
+[29/03 21:11:13.269] [DEBUG] [DealSpot] CLIENTS h23: regular:5, addict:2, bulk_dealer:1, tourist:1 (total=9)
+[29/03 21:11:13.269] [DEBUG] [DealSpot] VENTE h23 | AI Spot - ashfield | $257 | 9 clients | base=12.8 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.87 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:11:13.269] [DEBUG] [DealSpot] HEAT DECAY AI Spot - ashfield: 9.3 → 8.9 (-0.4)
+[29/03 21:11:13.269] [INFO] [DealSpot] HEAT AI Spot - ashfield: 8.9 → 10.0 (+1.14) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:11:13.269] [TRACE] [DealSpot] TICK h23 | AI Spot - shadow_lane | dealers:1 | produits:14 (601.0g) | cash:$0
+[29/03 21:11:13.269] [TRACE] [DealSpot] STOCK DISPO: crack:255, weed:369, cocaine:203
+[29/03 21:11:13.269] [TRACE] [DealSpot] LEGACY MODE spot=dspot_3 district=shadow_lane (no pool_allocated)
+[29/03 21:11:13.269] [DEBUG] [DealSpot] CLIENTS h23: regular:1, addict:1, bulk_dealer:1 (total=3)
+[29/03 21:11:13.269] [DEBUG] [DealSpot] VENTE h23 | AI Spot - shadow_lane | $186 | 3 clients | base=11.1 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:11:13.269] [DEBUG] [DealSpot] HEAT DECAY AI Spot - shadow_lane: 2.2 → 1.7 (-0.4)
+[29/03 21:11:13.269] [TRACE] [DealSpot] TICK h23 | AI Spot - golden_mile | dealers:1 | produits:3 (28.0g) | cash:$0
+[29/03 21:11:13.269] [TRACE] [DealSpot] STOCK DISPO: cocaine:11, hashish:21, heroin:12
+[29/03 21:11:13.269] [TRACE] [DealSpot] LEGACY MODE spot=dspot_4 district=golden_mile (no pool_allocated)
+[29/03 21:11:13.269] [TRACE] [DealSpot] MISSED: budget=$20, wanted=weed, none≤$20
+[29/03 21:11:13.269] [DEBUG] [DealSpot] CLIENTS h23: regular:2, addict:1, bulk_dealer:1, tourist:1 (total=5)
+[29/03 21:11:13.269] [WARN] [DealSpot] VENTES MANQUÉES h23: weed:1 (total=1 perdus)
+[29/03 21:11:13.269] [DEBUG] [DealSpot] VENTE h23 | AI Spot - golden_mile | $244 | 5 clients | base=15.8 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:11:13.269] [DEBUG] [DealSpot] HEAT DECAY AI Spot - golden_mile: 3.1 → 2.7 (-0.4)
+[29/03 21:11:13.269] [TRACE] [DealSpot] TICK h23 | AI Spot - central_plaza | dealers:1 | produits:13 (398.5g) | cash:$0
+[29/03 21:11:13.269] [TRACE] [DealSpot] STOCK DISPO: heroin:44, cocaine:232, weed:301, mdma:311
+[29/03 21:11:13.269] [TRACE] [DealSpot] LEGACY MODE spot=dspot_5 district=central_plaza (no pool_allocated)
+[29/03 21:11:13.270] [DEBUG] [DealSpot] CLIENTS h23: regular:3, addict:1, bulk_dealer:1, vip:1, tourist:1 (total=7)
+[29/03 21:11:13.270] [DEBUG] [DealSpot] VENTE h23 | AI Spot - central_plaza | $438 | 7 clients | base=15.2 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:11:13.270] [DEBUG] [DealSpot] HEAT DECAY AI Spot - central_plaza: 5.8 → 5.3 (-0.4)
+[29/03 21:11:13.270] [INFO] [DealSpot] HEAT AI Spot - central_plaza: 5.3 → 6.2 (+0.85) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:11:13.270] [TRACE] [DealSpot] TICK h23 | AI Spot - crown_heights | dealers:1 | produits:3 (73.1g) | cash:$0
+[29/03 21:11:13.270] [TRACE] [DealSpot] STOCK DISPO: cocaine:72, hashish:43, heroin:41
+[29/03 21:11:13.270] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=23 | demand_total=1.2 players=[1]
+[29/03 21:11:13.272] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.450 customers=0.2 → 1 spots
+[29/03 21:11:13.272] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.450 customers=0.1 → 1 spots
+[29/03 21:11:13.272] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.450 customers=0.0 → 1 spots
+[29/03 21:11:13.272] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.450 customers=0.1 → 1 spots
+[29/03 21:11:13.272] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.450 customers=0.1 → 1 spots
+[29/03 21:11:13.272] [TRACE] [DealSpot] LEGACY MODE spot=dspot_6 district=crown_heights (no pool_allocated)
+[29/03 21:11:13.272] [DEBUG] [DealSpot] VENTE h23 | AI Spot - crown_heights | $10 | 1 clients | base=10.0 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.73 morale=1.00 alert=1.00 flow=1.30
+[29/03 21:11:13.272] [DEBUG] [DealSpot] HEAT DECAY AI Spot - crown_heights: 0.1 → 0.0 (-0.4)
+[29/03 21:11:13.272] [TRACE] [DealSpot] TICK h23 | AI Spot - iron_docks | dealers:1 | produits:3 (59.7g) | cash:$0
+[29/03 21:11:13.272] [TRACE] [DealSpot] STOCK DISPO: cocaine:17, heroin:76, meth:33
+[29/03 21:11:13.273] [TRACE] [DealSpot] LEGACY MODE spot=dspot_7 district=iron_docks (no pool_allocated)
+[29/03 21:11:13.273] [TRACE] [DealSpot] MISSED: budget=$20, wanted=lsd, none≤$20
+[29/03 21:11:13.273] [DEBUG] [DealSpot] CLIENTS h23: regular:1, tourist:1 (total=2)
+[29/03 21:11:13.273] [WARN] [DealSpot] VENTES MANQUÉES h23: lsd:1 (total=1 perdus)
+[29/03 21:11:13.273] [DEBUG] [DealSpot] VENTE h23 | AI Spot - iron_docks | $50 | 2 clients | base=10.5 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:11:13.273] [DEBUG] [DealSpot] HEAT DECAY AI Spot - iron_docks: 0.8 → 0.4 (-0.4)
+[29/03 21:11:13.273] [TRACE] [DealSpot] TICK h23 | AI Spot - steamworks | dealers:1 | produits:3 (38.0g) | cash:$0
+[29/03 21:11:13.273] [TRACE] [DealSpot] STOCK DISPO: cocaine:30, heroin:43, meth:34
+[29/03 21:11:13.273] [TRACE] [DealSpot] LEGACY MODE spot=dspot_8 district=steamworks (no pool_allocated)
+[29/03 21:11:13.273] [DEBUG] [DealSpot] CLIENTS h23: regular:1, addict:1 (total=2)
+[29/03 21:11:13.273] [DEBUG] [DealSpot] VENTE h23 | AI Spot - steamworks | $95 | 2 clients | base=10.0 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:11:13.273] [DEBUG] [DealSpot] HEAT DECAY AI Spot - steamworks: 0.3 → 0.0 (-0.4)
+[29/03 21:11:13.273] [TRACE] [DealSpot] TICK h23 | AI Spot - neon_strip | dealers:1 | produits:11 (292.2g) | cash:$0
+[29/03 21:11:13.273] [TRACE] [DealSpot] STOCK DISPO: ketamine:312, mdma:307, weed:205
+[29/03 21:11:13.273] [TRACE] [DealSpot] LEGACY MODE spot=dspot_9 district=neon_strip (no pool_allocated)
+[29/03 21:11:13.273] [DEBUG] [DealSpot] CLIENTS h23: regular:5, addict:2, bulk_dealer:1, vip:1, tourist:1 (total=10)
+[29/03 21:11:13.273] [DEBUG] [DealSpot] VENTE h23 | AI Spot - neon_strip | $238 | 10 clients | base=15.8 time=0.60 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:11:13.273] [DEBUG] [DealSpot] HEAT DECAY AI Spot - neon_strip: 9.8 → 9.4 (-0.4)
+[29/03 21:11:13.275] [INFO] [DealSpot] HEAT AI Spot - neon_strip: 9.4 → 10.4 (+0.99) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:11:13.278] [INFO] [DealSpot] RESUPPLY PRODUIT: 3x Weed (11.2g/u, $100/u) → Hall, Immeuble #18 | stock=1994/2000 [TRONQUÉ 17→3]
+[29/03 21:11:13.278] [INFO] [GangApt] DISPATCH: 17x → dspot_14 from auto_bldg_167_F1_U0
+[29/03 21:11:13.282] [INFO] [DealSpot] RESUPPLY PRODUIT: 2x Weed (2.2g/u, $20/u) → Hall, Immeuble #18 | stock=1998/2000 [TRONQUÉ 354→2]
+[29/03 21:11:13.282] [INFO] [GangApt] DISPATCH: 354x → dspot_14 from auto_bldg_167_F1_U0
+[29/03 21:11:14.224] [INFO] [Gang] RECRUTEMENT: Julien Sidorov (id=pm_1050691_596725361) | coût=$600 | combat=0.68 stealth=0.34 charisme=0.62 | genre=Male | total=9 membres
+[29/03 21:11:14.226] [DEBUG] [Skill] XP +10 persuasion (practice_success) → 211/259 lvl5
+[29/03 21:11:28.046] [INFO] [Gang] RECRUTEMENT: Pablo Roussel (id=pm_1064511_3078463528) | coût=$600 | combat=0.44 stealth=0.44 charisme=0.58 | genre=Male | total=10 membres
+[29/03 21:11:28.046] [DEBUG] [Skill] XP +10 persuasion (practice_success) → 221/259 lvl5
+[29/03 21:11:53.257] [INFO] [Dispatch] CREATED: disp_3 type=intimidation → crown_heights (2 membres, 120s travel)
+[29/03 21:13:42.744] [INFO] [Gang] SALAIRES PAYÉS: $600/jour (6 membres hors spots/apt) | trésorerie=$3526
+[29/03 21:13:43.250] [DEBUG] [Trait] energie -2.0 (évolution naturelle): 52.0 → 50.0
+[29/03 21:13:43.250] [DEBUG] [Trait] faim +1.5 (évolution naturelle): 36.0 → 37.5
+[29/03 21:13:43.252] [DEBUG] [Trait] soif +2.0 (évolution naturelle): 48.0 → 50.0
+[29/03 21:13:43.252] [DEBUG] [Trait] sommeil +1.0 (évolution naturelle): 24.0 → 25.0
+[29/03 21:13:43.252] [DEBUG] [Survie] STATUS h0: faim=38 soif=50 santé=98.8 énergie=50
+[29/03 21:13:43.253] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=0 | demand_total=0.7 players=[1]
+[29/03 21:13:43.253] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.451 customers=0.1 → 1 spots
+[29/03 21:13:43.253] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.451 customers=0.1 → 1 spots
+[29/03 21:13:43.253] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.451 customers=0.0 → 1 spots
+[29/03 21:13:43.253] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.451 customers=0.0 → 1 spots
+[29/03 21:13:43.253] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.451 customers=0.0 → 1 spots
+[29/03 21:13:43.255] [INFO] [Economy] ╔══ SNAPSHOT ÉCONOMIE h0 (Jour 2) ══
+[29/03 21:13:43.255] [INFO] [Economy] ║ CASH=$5782 | COMPTE=$0 | TOTAL=$5782
+[29/03 21:13:43.255] [INFO] [Economy] ║ GANG: trésorerie=$3526 | membres=10 (actifs=5 repos=0 autres=5) | heat=0.00
+[29/03 21:13:43.255] [INFO] [Economy] ║ SPOTS: 1 actifs | rev_jour=$1256 | cash_non_collecté=$166 | stock=1998.3g
+[29/03 21:13:43.255] [INFO] [Economy] ║ INVENTAIRE: brut=[vide] | préparés=8 | en préparation=0
+[29/03 21:13:43.255] [INFO] [Economy] ║ RÉPUT: civilians:0, police:0, gang_norte:3, media:0, informants:0
+[29/03 21:13:43.255] [INFO] [Economy] ║ MÉTÉO: CLEAR | outdoor=1.00 | visibility=1.00
+[29/03 21:13:43.255] [INFO] [Economy] ║ RAM: 956 MB | spots: 1 joueur + 13 AI = 14 total
+[29/03 21:13:43.255] [INFO] [Economy] ║ AI TRÉSOR: cartel_m:$477741, diablos_:$230167, famiglia:$441715, triade_d:$382708, freres_s:$292814, confreri:$471008, gang_1:$3526
+[29/03 21:13:43.255] [INFO] [Economy] ╚══════════════════════════════════════
+[29/03 21:13:43.255] [DEBUG] [DealSpot] AI AUTO-COLLECT: 12 spots, $2568 total
+[29/03 21:13:43.256] [INFO] [Grossiste] ARRIVAGE JOUR 2: 22 brands, 115 lots total
+[29/03 21:13:43.256] [INFO] [Grossiste] VENTE: Charas Indien 2000g à $3/g ($6248 total) → ai_famiglia_moretti
+[29/03 21:13:43.256] [INFO] [DealSpot] AI MARKET BUY: AI Spot - golden_mile (famiglia_moretti) | Charas Indien 2000g($6248) | spent=$6248 treasury=$436169 | stock=[cocaine:9x$100, hashish:19x$22, heroin:12x$75, hashish:80x$11, hashish:80x$18, hashish:80x$26, hashish:80x$30]
+[29/03 21:13:43.256] [INFO] [DealSpot] AI UPGRADE: Table de presentation niv.1 at AI Spot - the_pit (diablos_norte) — $1500 (rev=$5407/day)
+[29/03 21:13:43.256] [TRACE] [DealSpot] TICK h0 | AI Spot - the_pit | dealers:1 | produits:10 (183.6g) | cash:$0
+[29/03 21:13:43.256] [DEBUG] [DealSpot] AI MOD h0 AI Spot - the_pit: base=18.0 time=0.20 heat=14.0 qual=0.86 city=0.98 sat=1.00 mono=1.25
+[29/03 21:13:43.256] [TRACE] [DealSpot] STOCK DISPO: crack:267, cocaine:147, weed:135
+[29/03 21:13:43.256] [TRACE] [DealSpot] LEGACY MODE spot=dspot_1 district=the_pit (no pool_allocated)
+[29/03 21:13:43.257] [DEBUG] [DealSpot] CLIENTS h0: regular:6, addict:3, bulk_dealer:1, vip:1, tourist:1 (total=12)
+[29/03 21:13:43.257] [DEBUG] [DealSpot] VENTE h0 | AI Spot - the_pit | $285 | 12 clients | base=10.0 time=0.20 bg=1.00 weath=1.00 terr=1.00 qual=0.86 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:13:43.257] [INFO] [DealSpot] AI Spot - the_pit — Vente h0: $285, 12 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.86)
+[29/03 21:13:43.257] [DEBUG] [DealSpot] HEAT DECAY AI Spot - the_pit: 14.0 → 13.6 (-0.4)
+[29/03 21:13:43.257] [INFO] [DealSpot] HEAT AI Spot - the_pit: 13.6 → 14.8 (+1.18) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:13:43.257] [TRACE] [DealSpot] TICK h0 | AI Spot - vice_alley | dealers:1 | produits:13 (187.5g) | cash:$0
+[29/03 21:13:43.259] [DEBUG] [DealSpot] AI MOD h0 AI Spot - vice_alley: base=18.0 time=0.20 heat=7.3 qual=0.72 city=0.98 sat=1.00 mono=1.25
+[29/03 21:13:43.259] [TRACE] [DealSpot] STOCK DISPO: ketamine:274, mdma:200, cocaine:197
+[29/03 21:13:43.259] [TRACE] [DealSpot] LEGACY MODE spot=dspot_10 district=vice_alley (no pool_allocated)
+[29/03 21:13:43.259] [DEBUG] [DealSpot] CLIENTS h0: regular:2, addict:1, tourist:1 (total=4)
+[29/03 21:13:43.259] [DEBUG] [DealSpot] VENTE h0 | AI Spot - vice_alley | $105 | 4 clients | base=10.0 time=0.20 bg=1.00 weath=1.00 terr=1.00 qual=0.72 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:13:43.259] [INFO] [DealSpot] AI Spot - vice_alley — Vente h0: $105, 4 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.72)
+[29/03 21:13:43.259] [DEBUG] [DealSpot] HEAT DECAY AI Spot - vice_alley: 7.3 → 6.8 (-0.4)
+[29/03 21:13:43.259] [TRACE] [DealSpot] TICK h0 | AI Spot - market_square | dealers:1 | produits:14 (316.7g) | cash:$0
+[29/03 21:13:43.259] [DEBUG] [DealSpot] AI MOD h0 AI Spot - market_square: base=18.0 time=0.20 heat=4.1 qual=0.71 city=0.98 sat=1.00 mono=1.25
+[29/03 21:13:43.259] [TRACE] [DealSpot] STOCK DISPO: ketamine:338, mdma:378, weed:137
+[29/03 21:13:43.259] [TRACE] [DealSpot] LEGACY MODE spot=dspot_11 district=market_square (no pool_allocated)
+[29/03 21:13:43.259] [DEBUG] [DealSpot] CLIENTS h0: regular:1, addict:1 (total=2)
+[29/03 21:13:43.259] [DEBUG] [DealSpot] VENTE h0 | AI Spot - market_square | $71 | 2 clients | base=10.0 time=0.20 bg=1.00 weath=1.00 terr=1.00 qual=0.71 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:13:43.259] [INFO] [DealSpot] AI Spot - market_square — Vente h0: $71, 2 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.71)
+[29/03 21:13:43.259] [DEBUG] [DealSpot] HEAT DECAY AI Spot - market_square: 4.1 → 3.7 (-0.4)
+[29/03 21:13:43.259] [TRACE] [DealSpot] TICK h0 | AI Spot - pearl_district | dealers:1 | produits:14 (429.4g) | cash:$0
+[29/03 21:13:43.259] [DEBUG] [DealSpot] AI MOD h0 AI Spot - pearl_district: base=18.0 time=0.20 heat=2.2 qual=0.83 city=0.98 sat=1.00 mono=1.25
+[29/03 21:13:43.259] [TRACE] [DealSpot] STOCK DISPO: crack:334, hashish:175, weed:142
+[29/03 21:13:43.259] [TRACE] [DealSpot] LEGACY MODE spot=dspot_12 district=pearl_district (no pool_allocated)
+[29/03 21:13:43.259] [DEBUG] [DealSpot] CLIENTS h0: regular:1, addict:1, bulk_dealer:1 (total=3)
+[29/03 21:13:43.259] [DEBUG] [DealSpot] VENTE h0 | AI Spot - pearl_district | $84 | 3 clients | base=10.0 time=0.20 bg=1.00 weath=1.00 terr=1.00 qual=0.83 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:13:43.259] [INFO] [DealSpot] AI Spot - pearl_district — Vente h0: $84, 3 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.83)
+[29/03 21:13:43.259] [DEBUG] [DealSpot] HEAT DECAY AI Spot - pearl_district: 2.2 → 1.8 (-0.4)
+[29/03 21:13:43.260] [TRACE] [DealSpot] TICK h0 | AI Spot - shadow_lane | dealers:0 | produits:12 (352.2g) | cash:$0
+[29/03 21:13:43.260] [DEBUG] [DealSpot] EQUIPE DIAG h0 AI Spot - shadow_lane: [A:en=false,members=0,h=0+24, B:en=false,members=0,h=0+12, C:en=false,members=0,h=0+8]
+[29/03 21:13:43.260] [DEBUG] [DealSpot] TICK h0 | Hall, Immeuble #18 | dealers:2 | produits:9 (1998.3g) | cash:$166 | playerPresent:false
+[29/03 21:13:43.260] [INFO] [DealSpot] === MODIFIERS h0 | Hall, Immeuble #18 ===
+[29/03 21:13:43.260] [INFO] [DealSpot]   traffic: base=18.00 time=0.20 loc_syn=1.30
+[29/03 21:13:43.260] [INFO] [DealSpot]   dealer: charisma=1.00 | guetteur=1.00 | markup=1.00
+[29/03 21:13:43.260] [INFO] [DealSpot]   heat: penalty=1.00 (heat=0.1/100)
+[29/03 21:13:43.260] [INFO] [DealSpot]   quality: 0.97 (base=1.0 event=0.00 network=1.00)
+[29/03 21:13:43.260] [INFO] [DealSpot]   economy: city=0.98 territory=1.00 saturation=0.56 rival=1.00 monopoly=1.00
+[29/03 21:13:43.260] [INFO] [DealSpot]   rep: demand=1.00 loyalty_vol=1.03 loyalty_bg=0.92 (ABSENT)
+[29/03 21:13:43.260] [INFO] [DealSpot]   staff: morale=1.00 alert=1.00 flow=1.30
+[29/03 21:13:43.260] [INFO] [DealSpot]   player: skill=1.00 trait=1.00
+[29/03 21:13:43.260] [INFO] [DealSpot]   weather: traffic=1.00 heat_mod=1.00
+[29/03 21:13:43.260] [INFO] [DealSpot]   law: price=1.00 event_rev=1.00
+[29/03 21:13:43.260] [INFO] [DealSpot]   upgrades: traffic=1.00 (sale_speed=0.00 txn_speed=0.00 satisfaction=0.00)
+[29/03 21:13:43.260] [DEBUG] [DealSpot] STOCK DISPO: hashish:309, weed:778
+[29/03 21:13:43.260] [INFO] [DealSpot] POOL MODE ACTIVE spot=dspot_14 district=crown_heights | segments=[0, 1, 2, 3, 4] total_allocated=0.3
+[29/03 21:13:43.262] [DEBUG] [DealSpot] VENTE h0 | Hall, Immeuble #18 | $11 | 1 clients | base=3.2 time=0.20 bg=0.92 weath=1.00 terr=1.00 qual=0.97 morale=1.00 alert=1.00 flow=1.30
+[29/03 21:13:43.262] [INFO] [DealSpot] Hall, Immeuble #18 — Vente h0: $11, 1 clients (bg_mult=0.92, weather=1.00, terr=1.00, qual=0.97)
+[29/03 21:13:43.262] [DEBUG] [DealSpot] HEAT DECAY Hall, Immeuble #18: 0.1 → 0.0 (-0.3)
+[29/03 21:13:43.262] [TRACE] [DealSpot] TICK h0 | AI Spot - ashfield | dealers:1 | produits:8 (132.7g) | cash:$0
+[29/03 21:13:43.262] [DEBUG] [DealSpot] AI MOD h0 AI Spot - ashfield: base=18.0 time=0.20 heat=10.0 qual=0.87 city=0.98 sat=1.00 mono=1.25
+[29/03 21:13:43.262] [TRACE] [DealSpot] STOCK DISPO: crack:26, cocaine:217, mdma:217, weed:12
+[29/03 21:13:43.262] [TRACE] [DealSpot] LEGACY MODE spot=dspot_2 district=ashfield (no pool_allocated)
+[29/03 21:13:43.263] [DEBUG] [DealSpot] CLIENTS h0: regular:4, addict:2, bulk_dealer:1, tourist:1 (total=8)
+[29/03 21:13:43.263] [DEBUG] [DealSpot] VENTE h0 | AI Spot - ashfield | $258 | 8 clients | base=10.0 time=0.20 bg=1.00 weath=1.00 terr=1.00 qual=0.87 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:13:43.263] [INFO] [DealSpot] AI Spot - ashfield — Vente h0: $258, 8 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.87)
+[29/03 21:13:43.263] [DEBUG] [DealSpot] HEAT DECAY AI Spot - ashfield: 10.0 → 9.6 (-0.4)
+[29/03 21:13:43.263] [INFO] [DealSpot] HEAT AI Spot - ashfield: 9.6 → 10.6 (+1.05) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:13:43.263] [TRACE] [DealSpot] TICK h0 | AI Spot - shadow_lane | dealers:1 | produits:14 (592.2g) | cash:$0
+[29/03 21:13:43.263] [DEBUG] [DealSpot] AI MOD h0 AI Spot - shadow_lane: base=18.0 time=0.20 heat=2.2 qual=0.77 city=0.98 sat=0.56 mono=1.00
+[29/03 21:13:43.263] [TRACE] [DealSpot] STOCK DISPO: crack:255, weed:364, cocaine:201
+[29/03 21:13:43.263] [TRACE] [DealSpot] LEGACY MODE spot=dspot_3 district=shadow_lane (no pool_allocated)
+[29/03 21:13:43.263] [DEBUG] [DealSpot] CLIENTS h0: regular:1, addict:1, tourist:1 (total=3)
+[29/03 21:13:43.263] [DEBUG] [DealSpot] VENTE h0 | AI Spot - shadow_lane | $55 | 3 clients | base=10.0 time=0.20 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:13:43.263] [INFO] [DealSpot] AI Spot - shadow_lane — Vente h0: $55, 3 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.77)
+[29/03 21:13:43.263] [DEBUG] [DealSpot] HEAT DECAY AI Spot - shadow_lane: 2.2 → 1.7 (-0.4)
+[29/03 21:13:43.263] [TRACE] [DealSpot] TICK h0 | AI Spot - golden_mile | dealers:1 | produits:7 (209.4g) | cash:$0
+[29/03 21:13:43.263] [DEBUG] [DealSpot] AI MOD h0 AI Spot - golden_mile: base=18.0 time=0.20 heat=3.1 qual=0.77 city=0.98 sat=1.00 mono=1.25
+[29/03 21:13:43.263] [TRACE] [DealSpot] STOCK DISPO: cocaine:9, hashish:339, heroin:12
+[29/03 21:13:43.263] [TRACE] [DealSpot] LEGACY MODE spot=dspot_4 district=golden_mile (no pool_allocated)
+[29/03 21:13:43.265] [DEBUG] [DealSpot] CLIENTS h0: regular:1 (total=1)
+[29/03 21:13:43.265] [DEBUG] [DealSpot] VENTE h0 | AI Spot - golden_mile | $30 | 1 clients | base=10.0 time=0.20 bg=1.00 weath=1.00 terr=1.00 qual=0.77 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:13:43.265] [INFO] [DealSpot] AI Spot - golden_mile — Vente h0: $30, 1 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.77)
+[29/03 21:13:43.265] [DEBUG] [DealSpot] HEAT DECAY AI Spot - golden_mile: 3.1 → 2.6 (-0.4)
+[29/03 21:13:43.265] [TRACE] [DealSpot] TICK h0 | AI Spot - central_plaza | dealers:1 | produits:13 (393.2g) | cash:$0
+[29/03 21:13:43.265] [DEBUG] [DealSpot] AI MOD h0 AI Spot - central_plaza: base=18.0 time=0.20 heat=6.2 qual=0.81 city=0.98 sat=1.00 mono=1.25
+[29/03 21:13:43.265] [TRACE] [DealSpot] STOCK DISPO: heroin:42, cocaine:226, weed:300, mdma:309
+[29/03 21:13:43.265] [TRACE] [DealSpot] LEGACY MODE spot=dspot_5 district=central_plaza (no pool_allocated)
+[29/03 21:13:43.266] [DEBUG] [DealSpot] CLIENTS h0: regular:1, addict:1, bulk_dealer:1, tourist:1 (total=4)
+[29/03 21:13:43.266] [DEBUG] [DealSpot] VENTE h0 | AI Spot - central_plaza | $307 | 4 clients | base=10.0 time=0.20 bg=1.00 weath=1.00 terr=1.00 qual=0.81 morale=1.00 alert=1.00 flow=1.25
+[29/03 21:13:43.266] [INFO] [DealSpot] AI Spot - central_plaza — Vente h0: $307, 4 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.81)
+[29/03 21:13:43.266] [DEBUG] [DealSpot] HEAT DECAY AI Spot - central_plaza: 6.2 → 5.7 (-0.4)
+[29/03 21:13:43.266] [INFO] [DealSpot] HEAT AI Spot - central_plaza: 5.7 → 6.3 (+0.64) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:13:43.266] [TRACE] [DealSpot] TICK h0 | AI Spot - crown_heights | dealers:1 | produits:3 (72.8g) | cash:$0
+[29/03 21:13:43.266] [DEBUG] [DealSpot] AI MOD h0 AI Spot - crown_heights: base=18.0 time=0.20 heat=0.0 qual=0.73 city=0.98 sat=0.56 mono=1.00
+[29/03 21:13:43.266] [TRACE] [DealSpot] STOCK DISPO: cocaine:71, hashish:43, heroin:41
+[29/03 21:13:43.266] [DEBUG] [MarketShare] DISTRIBUTE district=crown_heights h=0 | demand_total=0.7 players=[1]
+[29/03 21:13:43.266] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=0 | player=1 share=0.452 customers=0.1 → 1 spots
+[29/03 21:13:43.266] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=1 | player=1 share=0.452 customers=0.1 → 1 spots
+[29/03 21:13:43.266] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=2 | player=1 share=0.452 customers=0.0 → 1 spots
+[29/03 21:13:43.266] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=3 | player=1 share=0.452 customers=0.0 → 1 spots
+[29/03 21:13:43.266] [DEBUG] [MarketShare] ALLOCATED district=crown_heights seg=4 | player=1 share=0.452 customers=0.0 → 1 spots
+[29/03 21:13:43.266] [TRACE] [DealSpot] LEGACY MODE spot=dspot_6 district=crown_heights (no pool_allocated)
+[29/03 21:13:43.266] [DEBUG] [DealSpot] VENTE h0 | AI Spot - crown_heights | $10 | 1 clients | base=10.0 time=0.20 bg=1.00 weath=1.00 terr=1.00 qual=0.73 morale=1.00 alert=1.00 flow=1.30
+[29/03 21:13:43.266] [INFO] [DealSpot] AI Spot - crown_heights — Vente h0: $10, 1 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.73)
+[29/03 21:13:43.266] [TRACE] [DealSpot] TICK h0 | AI Spot - iron_docks | dealers:1 | produits:3 (59.2g) | cash:$0
+[29/03 21:13:43.266] [DEBUG] [DealSpot] AI MOD h0 AI Spot - iron_docks: base=18.0 time=0.20 heat=0.5 qual=0.89 city=0.98 sat=1.00 mono=1.25
+[29/03 21:13:43.267] [TRACE] [DealSpot] STOCK DISPO: cocaine:16, heroin:76, meth:33
+[29/03 21:13:43.267] [TRACE] [DealSpot] LEGACY MODE spot=dspot_7 district=iron_docks (no pool_allocated)
+[29/03 21:13:43.267] [DEBUG] [DealSpot] CLIENTS h0: regular:1 (total=1)
+[29/03 21:13:43.267] [DEBUG] [DealSpot] VENTE h0 | AI Spot - iron_docks | $50 | 1 clients | base=10.0 time=0.20 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:13:43.267] [INFO] [DealSpot] AI Spot - iron_docks — Vente h0: $50, 1 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.89)
+[29/03 21:13:43.267] [DEBUG] [DealSpot] HEAT DECAY AI Spot - iron_docks: 0.5 → 0.0 (-0.4)
+[29/03 21:13:43.267] [TRACE] [DealSpot] TICK h0 | AI Spot - steamworks | dealers:1 | produits:3 (37.1g) | cash:$0
+[29/03 21:13:43.267] [DEBUG] [DealSpot] AI MOD h0 AI Spot - steamworks: base=18.0 time=0.20 heat=0.2 qual=0.81 city=0.98 sat=1.00 mono=1.25
+[29/03 21:13:43.267] [TRACE] [DealSpot] STOCK DISPO: cocaine:29, heroin:43, meth:33
+[29/03 21:13:43.267] [TRACE] [DealSpot] LEGACY MODE spot=dspot_8 district=steamworks (no pool_allocated)
+[29/03 21:13:43.267] [TRACE] [DealSpot] MISSED: budget=$33, wanted=weed, none≤$33
+[29/03 21:13:43.267] [DEBUG] [DealSpot] CLIENTS h0: regular:1 (total=1)
+[29/03 21:13:43.267] [WARN] [DealSpot] VENTES MANQUÉES h0: weed:1 (total=1 perdus)
+[29/03 21:13:43.267] [TRACE] [DealSpot] TICK h0 | AI Spot - neon_strip | dealers:1 | produits:11 (284.9g) | cash:$0
+[29/03 21:13:43.267] [DEBUG] [DealSpot] AI MOD h0 AI Spot - neon_strip: base=18.0 time=0.20 heat=10.4 qual=0.89 city=0.98 sat=1.00 mono=1.25
+[29/03 21:13:43.267] [TRACE] [DealSpot] STOCK DISPO: ketamine:311, mdma:304, weed:199
+[29/03 21:13:43.269] [TRACE] [DealSpot] LEGACY MODE spot=dspot_9 district=neon_strip (no pool_allocated)
+[29/03 21:13:43.269] [DEBUG] [DealSpot] CLIENTS h0: regular:2, addict:1, vip:1 (total=4)
+[29/03 21:13:43.269] [DEBUG] [DealSpot] VENTE h0 | AI Spot - neon_strip | $99 | 4 clients | base=10.0 time=0.20 bg=1.00 weath=1.00 terr=1.00 qual=0.89 morale=1.00 alert=1.00 flow=1.15
+[29/03 21:13:43.269] [INFO] [DealSpot] AI Spot - neon_strip — Vente h0: $99, 4 clients (bg_mult=1.00, weather=1.00, terr=1.00, qual=0.89)
+[29/03 21:13:43.269] [DEBUG] [DealSpot] HEAT DECAY AI Spot - neon_strip: 10.4 → 9.9 (-0.4)
+[29/03 21:13:43.269] [INFO] [DealSpot] HEAT AI Spot - neon_strip: 9.9 → 10.3 (+0.35) | guett=-20% weath=1.00 alert=1.00
+[29/03 21:13:43.273] [INFO] [Time] Jour 2 — 0h00 (tick horaire: 25ms)
+[29/03 21:13:43.273] [INFO] [Time] === JOUR 2 ===
+[29/03 21:13:43.299] [INFO] [Store] Daily economy: 76 stores, $18841 revenue, $2148 racket
+[29/03 21:13:43.299] [INFO] [Store] RACKET AUTO-COLLECT: $240 from 5 stores
+[29/03 21:13:43.299] [INFO] [Store] AI RACKET COLLECT: { "famiglia_moretti": 875, "freres_sang": 427, "triade_dragon": 477, "diablos_norte": 534, "cartel_mendoza": 361, "confrerie": 82 }
+[29/03 21:13:43.299] [INFO] [Finance] === BILAN JOUR 2 === cash=$5782 banque=$0 | dettes=$12500 (2 actives) investissements=$0 (0 actifs) | net=$-6718
+[29/03 21:13:43.303] [INFO] [DealSpot] === BILAN JOUR 2 === spots:1 | rev=$1267 | clients=29 | non-collecté=$187
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - the_pit: rev=$5692 clients=197 heat=14.8 stock=9(176.6g) cash=$285 | tier=1(15.0) dealers=1 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - vice_alley: rev=$4938 clients=115 heat=7.3 stock=13(186.0g) cash=$105 | tier=1(13.4) dealers=1 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - market_square: rev=$4109 clients=81 heat=3.9 stock=14(315.2g) cash=$71 | tier=1(12.9) dealers=1 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - pearl_district: rev=$1346 clients=56 heat=2.0 stock=14(425.1g) cash=$84 | tier=1(12.4) dealers=1 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - shadow_lane: rev=$0 clients=0 heat=0.0 stock=12(352.2g) cash=$0 | tier=0(8.2) dealers=0 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   Hall, Immeuble #18: rev=$1267 clients=29 heat=0.0 stock=9(1996.6g) cash=$187 | tier=0(3.4) dealers=2 gérant=oui missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - ashfield: rev=$3566 clients=134 heat=10.6 stock=8(128.4g) cash=$258 | tier=1(15.6) dealers=1 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - shadow_lane: rev=$1928 clients=46 heat=2.1 stock=14(589.6g) cash=$55 | tier=1(15.4) dealers=1 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - golden_mile: rev=$4141 clients=63 heat=2.7 stock=7(208.4g) cash=$30 | tier=1(13.1) dealers=1 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - central_plaza: rev=$5185 clients=94 heat=6.3 stock=13(389.3g) cash=$307 | tier=1(14.9) dealers=1 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - crown_heights: rev=$900 clients=16 heat=0.0 stock=3(72.6g) cash=$20 | tier=1(13.4) dealers=1 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - iron_docks: rev=$2160 clients=37 heat=0.1 stock=3(58.7g) cash=$50 | tier=1(13.3) dealers=1 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - steamworks: rev=$695 clients=16 heat=0.2 stock=3(37.1g) cash=$0 | tier=1(13.1) dealers=1 gérant=non missed=1
+[29/03 21:13:43.305] [INFO] [DealSpot]   [AI] AI Spot - neon_strip: rev=$4441 clients=145 heat=10.3 stock=11(281.7g) cash=$99 | tier=1(13.1) dealers=1 gérant=non missed=0
+[29/03 21:13:43.305] [INFO] [DealSpot]   === AI TOTAL: 13 spots | rev=$39101 | clients=1000 ===
+[29/03 21:13:43.305] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - the_pit: rate=0.008 (table_lvl=1)
+[29/03 21:13:43.305] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - the_pit (diablos_norte) — $250 (2 staff)
+[29/03 21:13:43.305] [DEBUG] [DealSpot] REP DETAIL AI Spot - the_pit: prix=17.1 sec=16.9 qual=16.7 choix=7.4 | ventes=oui stock=oui heat=10 guards=1 types=3 missed=0%
+[29/03 21:13:43.305] [INFO] [DealSpot] AI Spot - the_pit REP: 15.5 (+0.47) [P:17 S:17 Q:17 C:7] tier 1
+[29/03 21:13:43.305] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - vice_alley: rate=0.010 (table_lvl=0)
+[29/03 21:13:43.305] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - vice_alley (triade_dragon) — $325 (3 staff)
+[29/03 21:13:43.305] [DEBUG] [DealSpot] REP DETAIL AI Spot - vice_alley: prix=13.4 sec=17.9 qual=16.3 choix=3.6 | ventes=oui stock=oui heat=2 guards=2 types=3 missed=0%
+[29/03 21:13:43.305] [INFO] [DealSpot] AI Spot - vice_alley REP: 13.9 (+0.47) [P:13 S:18 Q:16 C:4] tier 1
+[29/03 21:13:43.305] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - market_square: rate=0.010 (table_lvl=0)
+[29/03 21:13:43.305] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - market_square (triade_dragon) — $400 (4 staff)
+[29/03 21:13:43.305] [DEBUG] [DealSpot] REP DETAIL AI Spot - market_square: prix=10.0 sec=17.7 qual=17.4 choix=5.2 | ventes=oui stock=oui heat=0 guards=3 types=3 missed=0%
+[29/03 21:13:43.305] [INFO] [DealSpot] AI Spot - market_square REP: 13.4 (+0.48) [P:10 S:18 Q:17 C:5] tier 1
+[29/03 21:13:43.306] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - pearl_district: rate=0.010 (table_lvl=0)
+[29/03 21:13:43.306] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - pearl_district (freres_sang) — $250 (2 staff)
+[29/03 21:13:43.306] [DEBUG] [DealSpot] REP DETAIL AI Spot - pearl_district: prix=15.5 sec=13.1 qual=15.9 choix=0.2 | ventes=oui stock=oui heat=0 guards=1 types=3 missed=0%
+[29/03 21:13:43.306] [INFO] [DealSpot] AI Spot - pearl_district REP: 12.8 (+0.47) [P:15 S:13 Q:16 C:0] tier 1
+[29/03 21:13:43.306] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - shadow_lane: rate=0.010 (table_lvl=0)
+[29/03 21:13:43.306] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - shadow_lane (confrerie) — $100 (0 staff)
+[29/03 21:13:43.306] [DEBUG] [DealSpot] REP DETAIL AI Spot - shadow_lane: prix=8.0 sec=8.8 qual=8.7 choix=5.3 | ventes=non stock=oui heat=0 guards=0 types=3 missed=0%
+[29/03 21:13:43.306] [INFO] [DealSpot] AI Spot - shadow_lane REP: 8.0 (-0.24) [P:8 S:9 Q:9 C:5] tier 0
+[29/03 21:13:43.306] [DEBUG] [DealSpot] PURETÉ DECAY Hall, Immeuble #18: rate=0.010 (table_lvl=0)
+[29/03 21:13:43.306] [DEBUG] [DealSpot] SALARY: $29 payé depuis trésorerie gang (reste=$3737)
+[29/03 21:13:43.306] [INFO] [DealSpot] SALAIRES: Hall, Immeuble #18 — $216 pour 4 membre(s), heures: { "pm_229841_3801604840": 7, "pm_234777_2881678259": 7, "pm_227058_355057300": 1, "pm_232244_424885085": 1 }
+[29/03 21:13:43.306] [DEBUG] [DealSpot] FATIGUE RECOVERY: Chantal Gauthier -0.38 (base=0.04+off=0.34, worked=1h, now=0.00)
+[29/03 21:13:43.306] [DEBUG] [DealSpot] FATIGUE RECOVERY: Mathieu Thomas -0.29 (base=0.04+off=0.25, worked=7h, now=0.00)
+[29/03 21:13:43.306] [DEBUG] [DealSpot] FATIGUE RECOVERY: David Lange -0.38 (base=0.04+off=0.34, worked=1h, now=0.00)
+[29/03 21:13:43.306] [DEBUG] [DealSpot] FATIGUE RECOVERY: Ahmed Carvalho -0.29 (base=0.04+off=0.25, worked=7h, now=0.00)
+[29/03 21:13:43.309] [DEBUG] [DealSpot] REP DETAIL Hall, Immeuble #18: prix=9.2 sec=4.8 qual=3.4 choix=0.5 | ventes=oui stock=oui heat=0 guards=2 types=2 missed=0%
+[29/03 21:13:43.309] [INFO] [DealSpot] Hall, Immeuble #18 REP: 5.0 (+1.61) [P:9 S:5 Q:3 C:1] tier 0
+[29/03 21:13:43.309] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - ashfield: rate=0.010 (table_lvl=0)
+[29/03 21:13:43.309] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - ashfield (diablos_norte) — $325 (3 staff)
+[29/03 21:13:43.309] [DEBUG] [DealSpot] REP DETAIL AI Spot - ashfield: prix=14.9 sec=18.0 qual=20.6 choix=5.6 | ventes=oui stock=oui heat=6 guards=2 types=4 missed=0%
+[29/03 21:13:43.309] [INFO] [DealSpot] AI Spot - ashfield REP: 16.1 (+0.49) [P:15 S:18 Q:21 C:6] tier 1
+[29/03 21:13:43.309] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - shadow_lane: rate=0.010 (table_lvl=0)
+[29/03 21:13:43.309] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - shadow_lane (diablos_norte) — $400 (4 staff)
+[29/03 21:13:43.309] [DEBUG] [DealSpot] REP DETAIL AI Spot - shadow_lane: prix=23.4 sec=16.9 qual=16.8 choix=0.2 | ventes=oui stock=oui heat=0 guards=3 types=3 missed=0%
+[29/03 21:13:43.309] [INFO] [DealSpot] AI Spot - shadow_lane REP: 16.3 (+0.84) [P:23 S:17 Q:17 C:0] tier 1
+[29/03 21:13:43.309] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - golden_mile: rate=0.008 (table_lvl=1)
+[29/03 21:13:43.309] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - golden_mile (famiglia_moretti) — $250 (2 staff)
+[29/03 21:13:43.309] [DEBUG] [DealSpot] REP DETAIL AI Spot - golden_mile: prix=12.2 sec=13.3 qual=19.6 choix=0.2 | ventes=oui stock=oui heat=0 guards=1 types=3 missed=0%
+[29/03 21:13:43.309] [INFO] [DealSpot] AI Spot - golden_mile REP: 13.2 (+0.09) [P:12 S:13 Q:20 C:0] tier 1
+[29/03 21:13:43.309] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - central_plaza: rate=0.010 (table_lvl=0)
+[29/03 21:13:43.309] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - central_plaza (famiglia_moretti) — $325 (3 staff)
+[29/03 21:13:43.309] [DEBUG] [DealSpot] REP DETAIL AI Spot - central_plaza: prix=14.0 sec=16.5 qual=20.5 choix=4.9 | ventes=oui stock=oui heat=1 guards=2 types=4 missed=0%
+[29/03 21:13:43.309] [INFO] [DealSpot] AI Spot - central_plaza REP: 15.4 (+0.49) [P:14 S:17 Q:20 C:5] tier 1
+[29/03 21:13:43.311] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - crown_heights: rate=0.010 (table_lvl=0)
+[29/03 21:13:43.311] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - crown_heights (famiglia_moretti) — $400 (4 staff)
+[29/03 21:13:43.311] [DEBUG] [DealSpot] REP DETAIL AI Spot - crown_heights: prix=11.3 sec=15.8 qual=17.8 choix=5.8 | ventes=oui stock=oui heat=0 guards=3 types=3 missed=0%
+[29/03 21:13:43.311] [INFO] [DealSpot] AI Spot - crown_heights REP: 13.6 (+0.29) [P:11 S:16 Q:18 C:6] tier 1
+[29/03 21:13:43.311] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - iron_docks: rate=0.008 (table_lvl=1)
+[29/03 21:13:43.311] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - iron_docks (cartel_mendoza) — $250 (2 staff)
+[29/03 21:13:43.311] [DEBUG] [DealSpot] REP DETAIL AI Spot - iron_docks: prix=14.3 sec=16.3 qual=15.7 choix=0.2 | ventes=oui stock=oui heat=0 guards=1 types=3 missed=0%
+[29/03 21:13:43.311] [INFO] [DealSpot] AI Spot - iron_docks REP: 13.1 (-0.19) [P:14 S:16 Q:16 C:0] tier 1
+[29/03 21:13:43.311] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - steamworks: rate=0.010 (table_lvl=0)
+[29/03 21:13:43.311] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - steamworks (cartel_mendoza) — $325 (3 staff)
+[29/03 21:13:43.311] [DEBUG] [DealSpot] REP DETAIL AI Spot - steamworks: prix=16.7 sec=17.4 qual=14.4 choix=0.1 | ventes=oui stock=oui heat=0 guards=2 types=3 missed=6%
+[29/03 21:13:43.311] [INFO] [DealSpot] AI Spot - steamworks REP: 13.5 (+0.46) [P:17 S:17 Q:14 C:0] tier 1
+[29/03 21:13:43.311] [DEBUG] [DealSpot] PURETÉ DECAY AI Spot - neon_strip: rate=0.010 (table_lvl=0)
+[29/03 21:13:43.312] [DEBUG] [DealSpot] AI SALAIRES: AI Spot - neon_strip (triade_dragon) — $250 (2 staff)
+[29/03 21:13:43.312] [DEBUG] [DealSpot] REP DETAIL AI Spot - neon_strip: prix=12.9 sec=17.0 qual=17.2 choix=0.2 | ventes=oui stock=oui heat=5 guards=1 types=3 missed=0%
+[29/03 21:13:43.312] [INFO] [DealSpot] AI Spot - neon_strip REP: 13.3 (+0.19) [P:13 S:17 Q:17 C:0] tier 1
+[29/03 21:13:43.312] [DEBUG] [Economy] District avg: wealth=0.51 crime=0.75 (13 districts)
+[29/03 21:13:43.313] [INFO] [Grossiste] ARRIVAGE JOUR 2: 24 brands, 107 lots total
+[29/03 21:13:43.315] [INFO] [Gang] === BILAN MEMBRES JOUR 2 === total:10 actifs:5 repos:0 arrêtés:0 | morale_basse:0 fatigue_haute:0 risque_trahison:0 | loyalty_moy=51% trésorerie=$3725 revenus_totaux=$486
+[29/03 21:13:43.315] [DEBUG] [Banking] CASH +$200 → cash=$5982
+[29/03 21:13:56.066] [INFO] [Gang] SERIALIZE: 10 membres | trésorerie=$3719 | 0 territoires | 1 appts
+[29/03 21:13:56.072] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[29/03 21:14:14.913] [DEBUG] [BuildingPopup] CLOSE: forced visible=false IMMEDIATE
+[29/03 21:14:27.032] [INFO] [Gang] RECRUTEMENT: Liam Sokolov (id=pm_1243497_1498949202) | coût=$600 | combat=0.34 stealth=0.70 charisme=0.59 | genre=Male | total=11 membres
+[29/03 21:14:27.033] [DEBUG] [Skill] XP +10 persuasion (practice_success) → 231/259 lvl5
+[29/03 21:14:27.226] [INFO] [Memory] 📈 Mémoire: 957.91 MB (+53.87 MB)
+[29/03 21:14:27.240] [INFO] [DealSpotNPC] POOL STATS: created=25 reused=30 peak=9 available=0 reuse_rate=55%
+[29/03 21:14:27.305] [INFO] [GangAI] CONFLICT GRUDGE: atk=cartel_mendoza def=diablos_norte type=3 wins=true
+[29/03 21:14:27.308] [INFO] [OrgConflict] CONFLICT RESOLVED: ai_conf_1_1774811667 → VICTOIRE | atk=2.65 def=0.53 ratio=5.01
+[29/03 21:14:27.308] [INFO] [GangAI] AI CONFLICT: cartel_mendoza → dspot_1 (type=3, score=100.0, target_type=deal_spot)
+[29/03 21:14:27.312] [INFO] [GangAI] CONFLICT GRUDGE: atk=diablos_norte def=confrerie type=0 wins=true
+[29/03 21:14:27.312] [INFO] [GangAI] AI CONFLICT: diablos_norte → dspot_13 (type=0, score=150.0, target_type=deal_spot)
+[29/03 21:14:27.313] [INFO] [GangAI] CONFLICT GRUDGE: atk=famiglia_moretti def=freres_sang type=4 wins=true
+[29/03 21:14:27.313] [INFO] [OrgConflict] CONFLICT RESOLVED: ai_conf_3_1774811667 → VICTOIRE | atk=2.08 def=0.70 ratio=2.97
+[29/03 21:14:27.313] [INFO] [GangAI] AI CONFLICT: famiglia_moretti → dspot_12 (type=4, score=100.0, target_type=deal_spot)
+[29/03 21:14:27.315] [INFO] [GangAI] CONFLICT GRUDGE: atk=triade_dragon def=confrerie type=2 wins=true
+[29/03 21:14:27.315] [INFO] [OrgConflict] CONFLICT RESOLVED: ai_conf_4_1774811667 → VICTOIRE | atk=1.50 def=0.38 ratio=3.95
+[29/03 21:14:27.315] [INFO] [GangAI] AI CONFLICT: triade_dragon → dspot_13 (type=2, score=100.0, target_type=deal_spot)
+[29/03 21:14:27.319] [INFO] [GangAI] CONFLICT GRUDGE: atk=freres_sang def=famiglia_moretti type=0 wins=true
+[29/03 21:14:27.319] [INFO] [GangAI] AI CONFLICT: freres_sang → dspot_4 (type=0, score=100.0, target_type=deal_spot)
+[29/03 21:14:27.319] [INFO] [GangAI] CONFLICT GRUDGE: atk=confrerie def=famiglia_moretti type=4 wins=true
+[29/03 21:14:27.321] [INFO] [OrgConflict] CONFLICT RESOLVED: ai_conf_6_1774811667 → VICTOIRE | atk=0.97 def=0.70 ratio=1.39
+[29/03 21:14:27.321] [INFO] [GangAI] AI CONFLICT: confrerie → dspot_4 (type=4, score=100.0, target_type=deal_spot)
+[29/03 21:14:27.321] [INFO] [Wanted] HEAT +2 (Pillage après attaque): 0 → 2/5
+[29/03 21:14:27.323] [DEBUG] [Trait] agressivite +3.0 (chase_stress): -7.5 → -4.5
+[29/03 21:14:27.323] [DEBUG] [Trait] stabilite -2.0 (chase_stress): 0.0 → -2.0
+[29/03 21:14:33.226] [INFO] [Gang] SERIALIZE: 11 membres | trésorerie=$3103 | 0 territoires | 1 appts
+[29/03 21:14:33.233] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[29/03 21:14:39.198] [INFO] [OrgConflict] LOOTING COMPLETE: ai_conf_2_1774811667 — bonus $0
+[29/03 21:15:18.812] [INFO] [Bodyguard] SCENE READY: BuildingLobby | escorts_assigned=1
+[29/03 21:15:18.812] [DEBUG] [PNJPool] PURGE: 4 freed instances removed from pool
+[29/03 21:15:18.812] [INFO] [DealSpotNPC] on_scene_ready: type=lobby bldg=auto_bldg_167 floor=-1 apt= → spots=["dspot_14"]
+[29/03 21:15:18.812] [INFO] [DealSpotNPC] PRESENCE BONUS: +60% spawn speed (presence=50%, gerant=true +10%)
+[29/03 21:15:18.812] [INFO] [DealSpotNPC] PREWARM START: 1 spot(s), scene=BuildingLobby
+[29/03 21:15:18.812] [INFO] [DealSpot] PORTE AUTO-OUVERTE: spot actif dans ce lobby
+[29/03 21:15:18.898] [INFO] [DealSpotNPC] PREWARM COMPLETE → spawning staff for 1 spot(s): ["dspot_14"]
+[29/03 21:15:18.900] [INFO] [DealSpotNPC] STAFF SPAWN START: spot=dspot_14 | staff=[role0=["pm_227058_355057300", "pm_229841_3801604840"], role2=["pm_232244_424885085", "pm_234777_2881678259"], role4=player_self] | parent=BuildingLobby
+[29/03 21:15:18.900] [INFO] [DealSpotNPC] STAFF QUEUED: pm_227058_355057300 (Dealer) at pos (3.214386, 0.0, -3.355183) (spot=dspot_14)
+[29/03 21:15:18.946] [DEBUG] [DealSpotNPC] SKIP NPC pm_229841_3801604840 (Dealer) — not scheduled at h0
+[29/03 21:15:18.946] [INFO] [DealSpotNPC] STAFF QUEUED: pm_232244_424885085 (Protection) at pos (-2.922948, 0.0, 3.551001) (spot=dspot_14)
+[29/03 21:15:18.993] [DEBUG] [DealSpotNPC] SKIP NPC pm_234777_2881678259 (Protection) — not scheduled at h0
+[29/03 21:15:20.930] [DEBUG] [PNJ] BUBBLE SHOW: 'Business as usual, patron' on Chantal Gauthier
+[29/03 21:15:22.437] [DEBUG] [PNJ] BUBBLE SHOW: 'Zone securisee, chef' on David Lange
+[29/03 21:15:23.259] [INFO] [Gang] SERIALIZE: 11 membres | trésorerie=$3080 | 0 territoires | 1 appts
+[29/03 21:15:23.265] [INFO] [GangSystem] Game saved (v4, wars=0, events=0)
+[29/03 21:15:23.303] [INFO] [LogSystem] === FIN DE SESSION (via PauseMenu) ===
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ FIN DE SESSION                                                               ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ Terminé le: 2026-03-29 21:15:23                                             ║
+║ Durée: 21m 30s                                                              ║
+║ Total logs: 1707                                                            ║
+║ Erreurs: 0 | Warnings: 19                                                   ║
+║ Mémoire: 952 MB                                                              ║
+║ Cash: $5982 | Banque: $0                                                    ║
+║ Faim: 38 | Soif: 50 | Santé: 99 | Énergie: 50                               ║
+║ Wanted: 2/5                                                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
